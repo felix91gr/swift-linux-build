@@ -2,6 +2,7 @@ Usage:
 =====
 
 ### Linux
+(Tested with my Arch Linux)
 
 1. put the .swift-build-presets in you home:
 > cp .swift-build-presets ~/
