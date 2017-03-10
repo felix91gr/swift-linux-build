@@ -1,0 +1,42 @@
+{
+  "": {
+    "dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeprojTests.d",
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeprojTests.o",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/master.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/XcodeprojTests/PlistTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/PlistTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/PlistTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/PlistTests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/XcodeprojTests/XCTestManifests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XCTestManifests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/XcodeprojTests/XcodeProjectModelSerializationTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeProjectModelSerializationTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeProjectModelSerializationTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeProjectModelSerializationTests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/XcodeprojTests/GenerateXcodeprojTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/GenerateXcodeprojTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/GenerateXcodeprojTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/GenerateXcodeprojTests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/XcodeprojTests/FunctionalTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/FunctionalTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/FunctionalTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/FunctionalTests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/XcodeprojTests/XcodeProjectModelTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeProjectModelTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeProjectModelTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/XcodeProjectModelTests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/XcodeprojTests/PackageGraphTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/PackageGraphTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/PackageGraphTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/XcodeprojTests.build/PackageGraphTests.swiftdeps"
+  }
+}

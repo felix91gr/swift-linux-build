@@ -1,0 +1,27 @@
+{
+  "": {
+    "dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/PackageDescriptionTests.d",
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/PackageDescriptionTests.o",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/master.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/PackageDescriptionTests/PackageTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/PackageTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/PackageTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/PackageTests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/PackageDescriptionTests/XCTestManifests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/XCTestManifests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/PackageDescriptionTests/VersionTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/VersionTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/VersionTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/VersionTests.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/PackageDescriptionTests/JSONTests.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/JSONTests.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/JSONTests~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageDescriptionTests.build/JSONTests.swiftdeps"
+  }
+}

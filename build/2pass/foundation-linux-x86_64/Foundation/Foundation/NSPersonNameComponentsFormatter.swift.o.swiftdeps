@@ -1,0 +1,428 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PersonNameComponentsFormatter"
+- "NSPersonNameComponentKey"
+- "NSPersonNameComponentGivenName"
+- "NSPersonNameComponentFamilyName"
+- "NSPersonNameComponentMiddleName"
+- "NSPersonNameComponentPrefix"
+- "NSPersonNameComponentSuffix"
+- "NSPersonNameComponentNickname"
+- "NSPersonNameComponentDelimiter"
+provides-nominal:
+- "C10Foundation29PersonNameComponentsFormatter"
+- "OC10Foundation29PersonNameComponentsFormatter5Style"
+- "VC10Foundation29PersonNameComponentsFormatter7Options"
+provides-member:
+- ["C10Foundation29PersonNameComponentsFormatter", ""]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", ""]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", ""]
+- ["C10Foundation29PersonNameComponentsFormatter", "Style"]
+- ["C10Foundation29PersonNameComponentsFormatter", "Options"]
+depends-top-level:
+- "<<"
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "FloatLiteralType"
+- "Formatter"
+- "Int"
+- "IntegerLiteralType"
+- "NSAttributedString"
+- "NSCoder"
+- "NSPersonNameComponentDelimiter"
+- "NSPersonNameComponentFamilyName"
+- "NSPersonNameComponentGivenName"
+- "NSPersonNameComponentKey"
+- "NSPersonNameComponentMiddleName"
+- "NSPersonNameComponentNickname"
+- "NSPersonNameComponentPrefix"
+- "NSPersonNameComponentSuffix"
+- !private "NSUnimplemented"
+- "OptionSet"
+- "PersonNameComponents"
+- "PersonNameComponentsFormatter"
+- "String"
+- "StringLiteralType"
+- "UInt"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- ["Ps9AnyObject", "Options"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "Options"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "Options"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "Options"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "contains"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "Options"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C10Foundation9Formatter", "Bool"]
+- ["C10Foundation9Formatter", "Int"]
+- ["C10Foundation9Formatter", "NSAttributedString"]
+- ["C10Foundation9Formatter", "NSCoder"]
+- !private ["C10Foundation9Formatter", "NSUnimplemented"]
+- ["C10Foundation9Formatter", "OptionSet"]
+- ["C10Foundation9Formatter", "Options"]
+- ["C10Foundation9Formatter", "PersonNameComponents"]
+- ["C10Foundation9Formatter", "String"]
+- ["C10Foundation9Formatter", "Style"]
+- ["C10Foundation9Formatter", "UInt"]
+- ["C10Foundation9Formatter", "annotatedString"]
+- ["C10Foundation9Formatter", "init"]
+- ["C10Foundation9Formatter", "isPhonetic"]
+- ["C10Foundation9Formatter", "localizedString"]
+- ["C10Foundation9Formatter", "objectValue"]
+- ["C10Foundation9Formatter", "personNameComponents"]
+- ["C10Foundation9Formatter", "string"]
+- ["C10Foundation9Formatter", "style"]
+- ["C10Foundation9Formatter", ""]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "Options"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation8NSCoding", "NSUnimplemented"]
+- ["P10Foundation8NSCoding", "Options"]
+- !private ["P10Foundation8NSCoding", "init"]
+- ["P10Foundation8NSCoding", ""]
+- !private ["P10Foundation9NSCopying", "NSUnimplemented"]
+- ["P10Foundation9NSCopying", "Options"]
+- !private ["P10Foundation9NSCopying", "init"]
+- ["P10Foundation9NSCopying", ""]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "NSAttributedString"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "OptionSet"]
+- ["C10Foundation8NSObject", "Options"]
+- ["C10Foundation8NSObject", "PersonNameComponents"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "Style"]
+- ["C10Foundation8NSObject", "UInt"]
+- ["C10Foundation8NSObject", "annotatedString"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "isPhonetic"]
+- ["C10Foundation8NSObject", "localizedString"]
+- ["C10Foundation8NSObject", "objectValue"]
+- ["C10Foundation8NSObject", "personNameComponents"]
+- ["C10Foundation8NSObject", "string"]
+- ["C10Foundation8NSObject", "style"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- ["P10Foundation16NSObjectProtocol", "Options"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["Ps9OptionSet", "Options"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "Element"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "Options"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "RawValue"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "UInt"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "contains"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "deinit"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "formIntersection"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "formSymmetricDifference"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "formUnion"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "init"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "insert"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "intersection"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "isDisjoint"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "isEmpty"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "isSubset"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "isSuperset"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "phonetic"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "rawValue"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "remove"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "subtract"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "subtracting"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "symmetricDifference"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "union"]
+- ["VC10Foundation29PersonNameComponentsFormatter7Options", "update"]
+- ["C10Foundation29PersonNameComponentsFormatter", "Bool"]
+- ["C10Foundation29PersonNameComponentsFormatter", "Int"]
+- ["C10Foundation29PersonNameComponentsFormatter", "NSAttributedString"]
+- ["C10Foundation29PersonNameComponentsFormatter", "NSCoder"]
+- !private ["C10Foundation29PersonNameComponentsFormatter", "NSUnimplemented"]
+- ["C10Foundation29PersonNameComponentsFormatter", "OptionSet"]
+- ["C10Foundation29PersonNameComponentsFormatter", "Options"]
+- ["C10Foundation29PersonNameComponentsFormatter", "PersonNameComponents"]
+- ["C10Foundation29PersonNameComponentsFormatter", "String"]
+- ["C10Foundation29PersonNameComponentsFormatter", "Style"]
+- ["C10Foundation29PersonNameComponentsFormatter", "UInt"]
+- ["C10Foundation29PersonNameComponentsFormatter", "annotatedString"]
+- ["C10Foundation29PersonNameComponentsFormatter", "deinit"]
+- ["C10Foundation29PersonNameComponentsFormatter", "init"]
+- ["C10Foundation29PersonNameComponentsFormatter", "isPhonetic"]
+- ["C10Foundation29PersonNameComponentsFormatter", "localizedString"]
+- ["C10Foundation29PersonNameComponentsFormatter", "objectValue"]
+- ["C10Foundation29PersonNameComponentsFormatter", "personNameComponents"]
+- ["C10Foundation29PersonNameComponentsFormatter", "string"]
+- ["C10Foundation29PersonNameComponentsFormatter", "style"]
+- ["Ps16RawRepresentable", "Options"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- ["Ps10SetAlgebra", "Options"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "RawValue"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "_toAnyHashable"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "abbreviated"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "default"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "deinit"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "hashValue"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "init"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "long"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "medium"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "rawValue"]
+- ["OC10Foundation29PersonNameComponentsFormatter5Style", "short"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "Options"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C10Foundation9Formatter"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "Ps9OptionSet"
+- "VC10Foundation29PersonNameComponentsFormatter7Options"
+- "C10Foundation29PersonNameComponentsFormatter"
+- "Ps16RawRepresentable"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "OC10Foundation29PersonNameComponentsFormatter5Style"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "e405759b0604ec99cc30b35c6deaf1af"

@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Condition"
+provides-nominal:
+- "V5Basic9Condition"
+provides-member:
+- ["V5Basic9Condition", ""]
+depends-top-level:
+- "Bool"
+- "Condition"
+- "Date"
+- "NSCondition"
+depends-member:
+- !private ["Ps9AnyObject", "broadcast"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "signal"]
+- !private ["Ps9AnyObject", "unlock"]
+- !private ["Ps9AnyObject", "wait"]
+- ["V5Basic9Condition", "Bool"]
+- ["V5Basic9Condition", "Date"]
+- ["V5Basic9Condition", "NSCondition"]
+- !private ["V5Basic9Condition", "_condition"]
+- ["V5Basic9Condition", "broadcast"]
+- ["V5Basic9Condition", "init"]
+- ["V5Basic9Condition", "signal"]
+- ["V5Basic9Condition", "wait"]
+- ["V5Basic9Condition", "whileLocked"]
+- !private ["Ps28CustomDebugStringConvertible", "broadcast"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lock"]
+- !private ["Ps28CustomDebugStringConvertible", "signal"]
+- !private ["Ps28CustomDebugStringConvertible", "unlock"]
+- !private ["Ps28CustomDebugStringConvertible", "wait"]
+- !private ["Ps23CustomStringConvertible", "broadcast"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lock"]
+- !private ["Ps23CustomStringConvertible", "signal"]
+- !private ["Ps23CustomStringConvertible", "unlock"]
+- !private ["Ps23CustomStringConvertible", "wait"]
+- !private ["Ps9Equatable", "broadcast"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lock"]
+- !private ["Ps9Equatable", "signal"]
+- !private ["Ps9Equatable", "unlock"]
+- !private ["Ps9Equatable", "wait"]
+- !private ["Ps8Hashable", "broadcast"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lock"]
+- !private ["Ps8Hashable", "signal"]
+- !private ["Ps8Hashable", "unlock"]
+- !private ["Ps8Hashable", "wait"]
+- !private ["C10Foundation11NSCondition", "broadcast"]
+- ["C10Foundation11NSCondition", "init"]
+- !private ["C10Foundation11NSCondition", "lock"]
+- !private ["C10Foundation11NSCondition", "signal"]
+- !private ["C10Foundation11NSCondition", "unlock"]
+- !private ["C10Foundation11NSCondition", "wait"]
+- !private ["P10Foundation9NSLocking", "broadcast"]
+- ["P10Foundation9NSLocking", "init"]
+- !private ["P10Foundation9NSLocking", "lock"]
+- !private ["P10Foundation9NSLocking", "signal"]
+- !private ["P10Foundation9NSLocking", "unlock"]
+- !private ["P10Foundation9NSLocking", "wait"]
+- !private ["C10Foundation8NSObject", "broadcast"]
+- ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "lock"]
+- !private ["C10Foundation8NSObject", "signal"]
+- !private ["C10Foundation8NSObject", "unlock"]
+- !private ["C10Foundation8NSObject", "wait"]
+- !private ["P10Foundation16NSObjectProtocol", "broadcast"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "lock"]
+- !private ["P10Foundation16NSObjectProtocol", "signal"]
+- !private ["P10Foundation16NSObjectProtocol", "unlock"]
+- !private ["P10Foundation16NSObjectProtocol", "wait"]
+- !private ["Ps9_Hashable", "broadcast"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lock"]
+- !private ["Ps9_Hashable", "signal"]
+- !private ["Ps9_Hashable", "unlock"]
+- !private ["Ps9_Hashable", "wait"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V5Basic9Condition"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C10Foundation11NSCondition"
+- "P10Foundation9NSLocking"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+interface-hash: "e25c1015fa86f4e7362d8ad7554b8202"

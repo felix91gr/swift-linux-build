@@ -1,0 +1,27 @@
+{
+  "": {
+    "dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraph.d",
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraph.o",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/master.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageGraph/PackageGraph.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraph.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraph~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraph.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageGraph/DependencyResolver.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/DependencyResolver.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/DependencyResolver~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/DependencyResolver.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageGraph/RepositoryPackageContainerProvider.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/RepositoryPackageContainerProvider.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/RepositoryPackageContainerProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/RepositoryPackageContainerProvider.swiftdeps"
+  },
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageGraph/PackageGraphLoader.swift": {
+    "object": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraphLoader.swift.o",
+    "swiftmodule": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraphLoader~partial.swiftmodule",
+    "swift-dependencies": "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/release/PackageGraph.build/PackageGraphLoader.swiftdeps"
+  }
+}

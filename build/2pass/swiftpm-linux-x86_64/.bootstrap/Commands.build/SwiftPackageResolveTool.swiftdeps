@@ -1,0 +1,563 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "O12PackageGraph19VersionSetSpecifier"
+- "C12PackageGraph26RepositoryPackageContainer"
+provides-member:
+- ["C8Commands16SwiftPackageTool", ""]
+- ["V12PackageGraph26PackageContainerConstraint", ""]
+- ["O12PackageGraph19VersionSetSpecifier", ""]
+- ["C12PackageGraph26RepositoryPackageContainer", ""]
+- ["C8Commands16SwiftPackageTool", "executeResolve"]
+- ["V12PackageGraph26PackageContainerConstraint", "toJSON"]
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "=="
+- "AbsolutePath"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "DependencyResolver"
+- !private "DependencyResolverDelegate"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- !private "GitRepositoryProvider"
+- !private "IntegerLiteralType"
+- "JSON"
+- "JSONSerializable"
+- "PackageContainerConstraint"
+- "PackageToolOptions"
+- "RepositoryManager"
+- !private "RepositoryManagerDelegate"
+- !private "RepositoryPackageConstraint"
+- "RepositoryPackageContainer"
+- !private "RepositoryPackageContainerProvider"
+- "RepositorySpecifier"
+- !private "ResolverToolDelegate"
+- !private "String"
+- !private "StringLiteralType"
+- "SwiftPackageTool"
+- !private "Version"
+- "VersionSetSpecifier"
+- !private "print"
+depends-member:
+- !private ["V5Basic12AbsolutePath", "appending"]
+- !private ["V5Basic12AbsolutePath", "asString"]
+- !private ["Ps9AnyObject", "DependencyResolver"]
+- !private ["Ps9AnyObject", "Dictionary"]
+- !private ["Ps9AnyObject", "GitRepositoryProvider"]
+- ["Ps9AnyObject", "Identifier"]
+- !private ["Ps9AnyObject", "JSON"]
+- ["Ps9AnyObject", "RepositoryHandle"]
+- !private ["Ps9AnyObject", "RepositoryManager"]
+- !private ["Ps9AnyObject", "RepositoryPackageConstraint"]
+- !private ["Ps9AnyObject", "RepositoryPackageContainerProvider"]
+- !private ["Ps9AnyObject", "RepositorySpecifier"]
+- !private ["Ps9AnyObject", "ResolverToolDelegate"]
+- !private ["Ps9AnyObject", "added"]
+- !private ["Ps9AnyObject", "buildPath"]
+- !private ["Ps9AnyObject", "containers"]
+- !private ["Ps9AnyObject", "dependencies"]
+- !private ["Ps9AnyObject", "fetching"]
+- !private ["Ps9AnyObject", "getDependencies"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadRootManifest"]
+- !private ["Ps9AnyObject", "manifestLoader"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "repository"]
+- !private ["Ps9AnyObject", "resolve"]
+- !private ["Ps9AnyObject", "resolveToolMode"]
+- ["Ps9AnyObject", "toJSON"]
+- !private ["Ps9AnyObject", "url"]
+- !private ["Ps9AnyObject", "versionRange"]
+- !private ["Ps9AnyObject", "versions"]
+- !private ["Ps9AnyObject", ""]
+- !private ["Vs11AnySequence", "flatMap"]
+- !private ["P7Utility12ArgumentKind", "_getBuiltinLogicValue"]
+- !private ["P7Utility12ArgumentKind", "init"]
+- ["P7Utility12ArgumentKind", "json"]
+- !private ["P7Utility12ArgumentKind", "max"]
+- ["P7Utility12ArgumentKind", "text"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps17BitwiseOperations", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["O12PackageGraph12BoundVersion", "description"]
+- !private ["P5Basic14ByteStreamable", "array"]
+- !private ["P5Basic14ByteStreamable", "dictionary"]
+- !private ["P5Basic14ByteStreamable", "init"]
+- !private ["P5Basic14ByteStreamable", "string"]
+- !private ["P5Basic14ByteStreamable", "toString"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "values"]
+- !private ["Ps10Comparable", "appending"]
+- !private ["Ps10Comparable", "asString"]
+- !private ["Ps10Comparable", "description"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "major"]
+- !private ["Ps10Comparable", "max"]
+- !private ["Ps10Comparable", "minor"]
+- !private ["Ps10Comparable", "patch"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lowerBound"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "upperBound"]
+- !private ["Ps28CustomDebugStringConvertible", "values"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "max"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "lowerBound"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "max"]
+- !private ["Ps17CustomReflectable", "upperBound"]
+- !private ["Ps17CustomReflectable", "values"]
+- !private ["Ps23CustomStringConvertible", "Dictionary"]
+- ["Ps23CustomStringConvertible", "Identifier"]
+- !private ["Ps23CustomStringConvertible", "JSON"]
+- ["Ps23CustomStringConvertible", "RepositorySpecifier"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appending"]
+- !private ["Ps23CustomStringConvertible", "array"]
+- !private ["Ps23CustomStringConvertible", "asString"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "dictionary"]
+- !private ["Ps23CustomStringConvertible", "getDependencies"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lowerBound"]
+- !private ["Ps23CustomStringConvertible", "major"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "minor"]
+- !private ["Ps23CustomStringConvertible", "patch"]
+- !private ["Ps23CustomStringConvertible", "repository"]
+- !private ["Ps23CustomStringConvertible", "requirement"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- ["Ps23CustomStringConvertible", "toJSON"]
+- !private ["Ps23CustomStringConvertible", "toString"]
+- !private ["Ps23CustomStringConvertible", "upperBound"]
+- !private ["Ps23CustomStringConvertible", "url"]
+- !private ["Ps23CustomStringConvertible", "values"]
+- !private ["Ps23CustomStringConvertible", "versions"]
+- !private ["CC18PackageDescription7Package10Dependency", "url"]
+- !private ["CC18PackageDescription7Package10Dependency", "versionRange"]
+- !private ["C12PackageGraph18DependencyResolver", "containers"]
+- !private ["C12PackageGraph18DependencyResolver", "init"]
+- !private ["C12PackageGraph18DependencyResolver", "resolve"]
+- !private ["P12PackageGraph26DependencyResolverDelegate", "added"]
+- !private ["P12PackageGraph26DependencyResolverDelegate", "fetching"]
+- !private ["P12PackageGraph26DependencyResolverDelegate", "init"]
+- !private ["P12PackageGraph26DependencyResolverDelegate", "print"]
+- !private ["P12PackageGraph26DependencyResolverDelegate", ""]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "values"]
+- ["Ps9Equatable", "RepositorySpecifier"]
+- !private ["Ps9Equatable", "Version"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "any"]
+- !private ["Ps9Equatable", "appending"]
+- !private ["Ps9Equatable", "array"]
+- !private ["Ps9Equatable", "asString"]
+- !private ["Ps9Equatable", "dependencies"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "dictionary"]
+- ["Ps9Equatable", "empty"]
+- ["Ps9Equatable", "exact"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "json"]
+- !private ["Ps9Equatable", "lowerBound"]
+- !private ["Ps9Equatable", "major"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "minor"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "package"]
+- !private ["Ps9Equatable", "patch"]
+- ["Ps9Equatable", "range"]
+- !private ["Ps9Equatable", "requirement"]
+- !private ["Ps9Equatable", "string"]
+- ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "toJSON"]
+- !private ["Ps9Equatable", "toString"]
+- ["Ps9Equatable", "unversioned"]
+- !private ["Ps9Equatable", "upperBound"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "versionRange"]
+- ["Ps9Equatable", "versionSet"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "values"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "description"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "major"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "minor"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "patch"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "max"]
+- !private ["Ps26ExpressibleByStringLiteral", "description"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "major"]
+- !private ["Ps26ExpressibleByStringLiteral", "minor"]
+- !private ["Ps26ExpressibleByStringLiteral", "patch"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "description"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "major"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "minor"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "patch"]
+- !private ["P3Get9Fetchable", "name"]
+- !private ["P3Get9Fetchable", "package"]
+- !private ["C13SourceControl21GitRepositoryProvider", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "appending"]
+- !private ["Ps8Hashable", "asString"]
+- !private ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "json"]
+- !private ["Ps8Hashable", "major"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "minor"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "package"]
+- !private ["Ps8Hashable", "patch"]
+- ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "url"]
+- !private ["Si", "max"]
+- !private ["Ps7Integer", "max"]
+- !private ["Ps17IntegerArithmetic", "max"]
+- !private ["O5Basic4JSON", "array"]
+- !private ["O5Basic4JSON", "dictionary"]
+- !private ["O5Basic4JSON", "string"]
+- !private ["O5Basic4JSON", "toString"]
+- !private ["P5Basic16JSONSerializable", "Dictionary"]
+- ["P5Basic16JSONSerializable", "Identifier"]
+- !private ["P5Basic16JSONSerializable", "JSON"]
+- !private ["P5Basic16JSONSerializable", "Version"]
+- ["P5Basic16JSONSerializable", "any"]
+- ["P5Basic16JSONSerializable", "empty"]
+- ["P5Basic16JSONSerializable", "exact"]
+- !private ["P5Basic16JSONSerializable", "getDependencies"]
+- !private ["P5Basic16JSONSerializable", "identifier"]
+- ["P5Basic16JSONSerializable", "range"]
+- ["P5Basic16JSONSerializable", "toJSON"]
+- !private ["P5Basic16JSONSerializable", "versions"]
+- ["P5Basic16JSONSerializable", ""]
+- !private ["Ps22LazyCollectionProtocol", "map"]
+- !private ["Vs17LazyMapCollection", "map"]
+- !private ["Ps20LazySequenceProtocol", "map"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["V12PackageModel8Manifest", "name"]
+- !private ["V12PackageModel8Manifest", "package"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "max"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["C18PackageDescription7Package", "dependencies"]
+- !private ["P12PackageGraph16PackageContainer", "Dictionary"]
+- ["P12PackageGraph16PackageContainer", "Identifier"]
+- !private ["P12PackageGraph16PackageContainer", "JSON"]
+- !private ["P12PackageGraph16PackageContainer", "getDependencies"]
+- !private ["P12PackageGraph16PackageContainer", "identifier"]
+- ["P12PackageGraph16PackageContainer", "toJSON"]
+- !private ["P12PackageGraph16PackageContainer", "versions"]
+- ["V12PackageGraph26PackageContainerConstraint", "JSON"]
+- ["V12PackageGraph26PackageContainerConstraint", "RepositorySpecifier"]
+- !private ["V12PackageGraph26PackageContainerConstraint", "identifier"]
+- !private ["V12PackageGraph26PackageContainerConstraint", "init"]
+- !private ["V12PackageGraph26PackageContainerConstraint", "requirement"]
+- ["V12PackageGraph26PackageContainerConstraint", "toJSON"]
+- !private ["P12PackageGraph26PackageContainerIdentifier", "init"]
+- !private ["P12PackageGraph26PackageContainerIdentifier", "url"]
+- !private ["P12PackageGraph24PackageContainerProvider", "init"]
+- !private ["C8Commands18PackageToolOptions", "resolveToolMode"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Vs5Range", "lowerBound"]
+- !private ["Vs5Range", "upperBound"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- ["Ps16RawRepresentable", "json"]
+- ["Ps16RawRepresentable", "text"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "repository"]
+- ["C13SourceControl17RepositoryManager", "RepositoryHandle"]
+- !private ["C13SourceControl17RepositoryManager", "init"]
+- !private ["P13SourceControl25RepositoryManagerDelegate", "added"]
+- !private ["P13SourceControl25RepositoryManagerDelegate", "fetching"]
+- !private ["P13SourceControl25RepositoryManagerDelegate", "init"]
+- !private ["P13SourceControl25RepositoryManagerDelegate", "print"]
+- !private ["P13SourceControl25RepositoryManagerDelegate", ""]
+- !private ["C12PackageGraph26RepositoryPackageContainer", "Dictionary"]
+- ["C12PackageGraph26RepositoryPackageContainer", "Identifier"]
+- ["C12PackageGraph26RepositoryPackageContainer", "JSON"]
+- !private ["C12PackageGraph26RepositoryPackageContainer", "String"]
+- ["C12PackageGraph26RepositoryPackageContainer", "deinit"]
+- !private ["C12PackageGraph26RepositoryPackageContainer", "getDependencies"]
+- !private ["C12PackageGraph26RepositoryPackageContainer", "identifier"]
+- ["C12PackageGraph26RepositoryPackageContainer", "toJSON"]
+- !private ["C12PackageGraph26RepositoryPackageContainer", "versions"]
+- !private ["C12PackageGraph34RepositoryPackageContainerProvider", "init"]
+- !private ["P13SourceControl18RepositoryProvider", "init"]
+- !private ["V13SourceControl19RepositorySpecifier", "init"]
+- !private ["V13SourceControl19RepositorySpecifier", "url"]
+- ["OV12PackageGraph26PackageContainerConstraint11Requirement", "unversioned"]
+- ["OV12PackageGraph26PackageContainerConstraint11Requirement", "versionSet"]
+- ["OC8Commands18PackageToolOptions15ResolveToolMode", "json"]
+- ["OC8Commands18PackageToolOptions15ResolveToolMode", "text"]
+- !private ["Ps8Sequence", "flatMap"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "values"]
+- !private ["Ps13SignedInteger", "max"]
+- !private ["Ps12SignedNumber", "max"]
+- !private ["Ps10Strideable", "max"]
+- !private ["SS", "init"]
+- ["P7Utility18StringEnumArgument", "json"]
+- ["P7Utility18StringEnumArgument", "text"]
+- !private ["C8Commands16SwiftPackageTool", "DependencyResolver"]
+- !private ["C8Commands16SwiftPackageTool", "Dictionary"]
+- !private ["C8Commands16SwiftPackageTool", "GitRepositoryProvider"]
+- !private ["C8Commands16SwiftPackageTool", "JSON"]
+- ["C8Commands16SwiftPackageTool", "PackageToolOptions"]
+- !private ["C8Commands16SwiftPackageTool", "RepositoryManager"]
+- !private ["C8Commands16SwiftPackageTool", "RepositoryPackageConstraint"]
+- !private ["C8Commands16SwiftPackageTool", "RepositoryPackageContainerProvider"]
+- !private ["C8Commands16SwiftPackageTool", "RepositorySpecifier"]
+- !private ["C8Commands16SwiftPackageTool", "ResolverToolDelegate"]
+- !private ["C8Commands16SwiftPackageTool", "buildPath"]
+- ["C8Commands16SwiftPackageTool", "executeResolve"]
+- !private ["C8Commands16SwiftPackageTool", "loadRootManifest"]
+- !private ["C8Commands16SwiftPackageTool", "manifestLoader"]
+- !private ["C8Commands16SwiftPackageTool", "print"]
+- !private ["C8Commands9SwiftTool", "DependencyResolver"]
+- !private ["C8Commands9SwiftTool", "Dictionary"]
+- !private ["C8Commands9SwiftTool", "GitRepositoryProvider"]
+- !private ["C8Commands9SwiftTool", "JSON"]
+- ["C8Commands9SwiftTool", "PackageToolOptions"]
+- !private ["C8Commands9SwiftTool", "RepositoryManager"]
+- !private ["C8Commands9SwiftTool", "RepositoryPackageConstraint"]
+- !private ["C8Commands9SwiftTool", "RepositoryPackageContainerProvider"]
+- !private ["C8Commands9SwiftTool", "RepositorySpecifier"]
+- !private ["C8Commands9SwiftTool", "ResolverToolDelegate"]
+- !private ["C8Commands9SwiftTool", "buildPath"]
+- ["C8Commands9SwiftTool", "executeResolve"]
+- !private ["C8Commands9SwiftTool", "loadRootManifest"]
+- !private ["C8Commands9SwiftTool", "manifestLoader"]
+- !private ["C8Commands9SwiftTool", "print"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C8Commands11ToolOptions", "resolveToolMode"]
+- !private ["V18PackageDescription7Version", "description"]
+- !private ["V18PackageDescription7Version", "init"]
+- !private ["V18PackageDescription7Version", "major"]
+- !private ["V18PackageDescription7Version", "minor"]
+- !private ["V18PackageDescription7Version", "patch"]
+- ["O12PackageGraph19VersionSetSpecifier", "JSON"]
+- !private ["O12PackageGraph19VersionSetSpecifier", "Version"]
+- ["O12PackageGraph19VersionSetSpecifier", "any"]
+- ["O12PackageGraph19VersionSetSpecifier", "deinit"]
+- ["O12PackageGraph19VersionSetSpecifier", "empty"]
+- ["O12PackageGraph19VersionSetSpecifier", "exact"]
+- ["O12PackageGraph19VersionSetSpecifier", "range"]
+- ["O12PackageGraph19VersionSetSpecifier", "toJSON"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["P10Foundation13_BitShiftable", "max"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "values"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "max"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "appending"]
+- !private ["Ps9_Hashable", "asString"]
+- !private ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "json"]
+- !private ["Ps9_Hashable", "major"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "minor"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "package"]
+- !private ["Ps9_Hashable", "patch"]
+- ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "url"]
+- !private ["Ps14_Incrementable", "max"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "values"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "values"]
+- !private ["Ps8_Integer", "max"]
+- !private ["Ps18_IntegerArithmetic", "max"]
+- !private ["P10Foundation12_IntegerLike", "max"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "values"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "max"]
+- !private ["P10Foundation17_ObjectBridgeable", "values"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "max"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "values"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps14_SignedInteger", "max"]
+- !private ["Ps11_Strideable", "max"]
+depends-nominal:
+- !private "V5Basic12AbsolutePath"
+- "Ps9AnyObject"
+- !private "Vs11AnySequence"
+- "P7Utility12ArgumentKind"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "O12PackageGraph12BoundVersion"
+- !private "P5Basic14ByteStreamable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CC18PackageDescription7Package10Dependency"
+- !private "C12PackageGraph18DependencyResolver"
+- !private "P12PackageGraph26DependencyResolverDelegate"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P3Get9Fetchable"
+- !private "C13SourceControl21GitRepositoryProvider"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "O5Basic4JSON"
+- "P5Basic16JSONSerializable"
+- !private "Ps22LazyCollectionProtocol"
+- !private "Vs17LazyMapCollection"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "V12PackageModel8Manifest"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "C18PackageDescription7Package"
+- "P12PackageGraph16PackageContainer"
+- "V12PackageGraph26PackageContainerConstraint"
+- !private "P12PackageGraph26PackageContainerIdentifier"
+- !private "P12PackageGraph24PackageContainerProvider"
+- !private "C8Commands18PackageToolOptions"
+- !private "Ps22RandomAccessCollection"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "CC13SourceControl17RepositoryManager16RepositoryHandle"
+- "C13SourceControl17RepositoryManager"
+- !private "P13SourceControl25RepositoryManagerDelegate"
+- "C12PackageGraph26RepositoryPackageContainer"
+- !private "C12PackageGraph34RepositoryPackageContainerProvider"
+- !private "P13SourceControl18RepositoryProvider"
+- !private "V13SourceControl19RepositorySpecifier"
+- "OV12PackageGraph26PackageContainerConstraint11Requirement"
+- "OC8Commands18PackageToolOptions15ResolveToolMode"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- "P7Utility18StringEnumArgument"
+- "C8Commands16SwiftPackageTool"
+- "C8Commands9SwiftTool"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C8Commands11ToolOptions"
+- !private "V18PackageDescription7Version"
+- "O12PackageGraph19VersionSetSpecifier"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageModel.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Utility.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageLoading.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Workspace.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageGraph.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/SourceControl.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Build.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Xcodeproj.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Get.swiftmodule"
+interface-hash: "7f8324c3a184ad99609804e842108f10"

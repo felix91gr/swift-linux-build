@@ -1,0 +1,18 @@
+version: "Swift version 3.1-dev (LLVM a7c680da51, Clang 9772bf511a, Swift 493db43364)"
+options: "7768dbfd0211c48c9cbb55fe682f45ba"
+build_time: [542446177, 905809000]
+inputs:
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/SwiftPackageTool.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/UserToolchain.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/ToolsVersionWriter.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/build().swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/Error.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/SwiftPackageResolveTool.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/SwiftTool.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/SwiftBuildTool.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/SwiftTestTool.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/init.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/Options.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/ToolDefaults.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/Describe.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Commands/show-dependencies.swift": [9223372036854775807, 0]

@@ -1,0 +1,563 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSCoding"
+- "NSSecureCoding"
+- "NSCoder"
+provides-nominal:
+- "C10Foundation7NSCoder"
+- "OC10Foundation7NSCoder21DecodingFailurePolicy"
+- "P10Foundation8NSCoding"
+- "P10Foundation14NSSecureCoding"
+provides-member:
+- ["C10Foundation7NSCoder", ""]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", ""]
+- ["P10Foundation8NSCoding", ""]
+- ["P10Foundation14NSSecureCoding", ""]
+- ["C10Foundation7NSCoder", "DecodingFailurePolicy"]
+depends-top-level:
+- !private "!="
+- "=="
+- !private "??"
+- "AnyClass"
+- "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Data"
+- "Double"
+- "Error"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- "Int64"
+- "Int8"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- "NSCoder"
+- "NSCoding"
+- "NSObject"
+- !private "NSRequiresConcreteImplementation"
+- "NSSecureCoding"
+- !private "NSUnimplemented"
+- "String"
+- !private "StringLiteralType"
+- "UInt32"
+- "UInt8"
+- !private "UnicodeScalarType"
+- "UnsafeBufferPointer"
+- !private "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- !private "Void"
+- !private "withUnsafeMutablePointer"
+- !private "withUnsafePointer"
+- !private "~="
+depends-member:
+- ["Ps9AnyObject", "Array"]
+- ["Ps9AnyObject", "DecodingFailurePolicy"]
+- !private ["Ps9AnyObject", "MemoryLayout"]
+- !private ["Ps9AnyObject", "NSRequiresConcreteImplementation"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UInt32"]
+- !private ["Ps9AnyObject", "UnsafeMutableRawPointer"]
+- !private ["Ps9AnyObject", "UnsafeRawPointer"]
+- !private ["Ps9AnyObject", "_pendingBuffers"]
+- !private ["Ps9AnyObject", "decodeValue"]
+- !private ["Ps9AnyObject", "encode"]
+- !private ["Ps9AnyObject", "encodeArray"]
+- !private ["Ps9AnyObject", "encodeValue"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "withUnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "withUnsafePointer"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "deallocate"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Array"]
+- ["Ps28CustomDebugStringConvertible", "DecodingFailurePolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "MemoryLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "NSRequiresConcreteImplementation"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "UInt32"]
+- !private ["Ps28CustomDebugStringConvertible", "UnsafeMutableRawPointer"]
+- !private ["Ps28CustomDebugStringConvertible", "UnsafeRawPointer"]
+- !private ["Ps28CustomDebugStringConvertible", "_pendingBuffers"]
+- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "encode"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeArray"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutablePointer"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafePointer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "deallocate"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Array"]
+- ["Ps23CustomStringConvertible", "DecodingFailurePolicy"]
+- !private ["Ps23CustomStringConvertible", "MemoryLayout"]
+- !private ["Ps23CustomStringConvertible", "NSRequiresConcreteImplementation"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "UInt32"]
+- !private ["Ps23CustomStringConvertible", "UnsafeMutableRawPointer"]
+- !private ["Ps23CustomStringConvertible", "UnsafeRawPointer"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_pendingBuffers"]
+- !private ["Ps23CustomStringConvertible", "decodeValue"]
+- !private ["Ps23CustomStringConvertible", "encode"]
+- !private ["Ps23CustomStringConvertible", "encodeArray"]
+- !private ["Ps23CustomStringConvertible", "encodeValue"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutablePointer"]
+- !private ["Ps23CustomStringConvertible", "withUnsafePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", "RawValue"]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", "_toAnyHashable"]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", "deinit"]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", "hashValue"]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", "init"]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", "rawValue"]
+- ["OC10Foundation7NSCoder21DecodingFailurePolicy", "setErrorAndReturn"]
+- ["Ps9Equatable", "Array"]
+- ["Ps9Equatable", "DecodingFailurePolicy"]
+- !private ["Ps9Equatable", "MemoryLayout"]
+- !private ["Ps9Equatable", "NSRequiresConcreteImplementation"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UInt32"]
+- !private ["Ps9Equatable", "UnsafeMutableRawPointer"]
+- !private ["Ps9Equatable", "UnsafeRawPointer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_pendingBuffers"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "deallocate"]
+- !private ["Ps9Equatable", "decodeValue"]
+- !private ["Ps9Equatable", "encode"]
+- !private ["Ps9Equatable", "encodeArray"]
+- !private ["Ps9Equatable", "encodeValue"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "setErrorAndReturn"]
+- !private ["Ps9Equatable", "withUnsafeMutablePointer"]
+- !private ["Ps9Equatable", "withUnsafePointer"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "Array"]
+- ["Ps8Hashable", "DecodingFailurePolicy"]
+- !private ["Ps8Hashable", "MemoryLayout"]
+- !private ["Ps8Hashable", "NSRequiresConcreteImplementation"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UInt32"]
+- !private ["Ps8Hashable", "UnsafeMutableRawPointer"]
+- !private ["Ps8Hashable", "UnsafeRawPointer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_pendingBuffers"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "deallocate"]
+- !private ["Ps8Hashable", "decodeValue"]
+- !private ["Ps8Hashable", "encode"]
+- !private ["Ps8Hashable", "encodeArray"]
+- !private ["Ps8Hashable", "encodeValue"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "setErrorAndReturn"]
+- !private ["Ps8Hashable", "withUnsafeMutablePointer"]
+- !private ["Ps8Hashable", "withUnsafePointer"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Os12MemoryLayout", "alignment"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "init"]
+- ["C10Foundation7NSCoder", "AnyClass"]
+- ["C10Foundation7NSCoder", "Array"]
+- ["C10Foundation7NSCoder", "Bool"]
+- ["C10Foundation7NSCoder", "Data"]
+- ["C10Foundation7NSCoder", "DecodingFailurePolicy"]
+- ["C10Foundation7NSCoder", "Double"]
+- ["C10Foundation7NSCoder", "Error"]
+- ["C10Foundation7NSCoder", "Float"]
+- ["C10Foundation7NSCoder", "Int"]
+- ["C10Foundation7NSCoder", "Int32"]
+- ["C10Foundation7NSCoder", "Int64"]
+- ["C10Foundation7NSCoder", "Int8"]
+- !private ["C10Foundation7NSCoder", "MemoryLayout"]
+- ["C10Foundation7NSCoder", "NSCoder"]
+- ["C10Foundation7NSCoder", "NSCoding"]
+- ["C10Foundation7NSCoder", "NSObject"]
+- !private ["C10Foundation7NSCoder", "NSRequiresConcreteImplementation"]
+- !private ["C10Foundation7NSCoder", "NSUnimplemented"]
+- ["C10Foundation7NSCoder", "String"]
+- ["C10Foundation7NSCoder", "UInt32"]
+- ["C10Foundation7NSCoder", "UInt8"]
+- ["C10Foundation7NSCoder", "UnsafeBufferPointer"]
+- !private ["C10Foundation7NSCoder", "UnsafeMutablePointer"]
+- ["C10Foundation7NSCoder", "UnsafeMutableRawPointer"]
+- ["C10Foundation7NSCoder", "UnsafePointer"]
+- ["C10Foundation7NSCoder", "UnsafeRawPointer"]
+- !private ["C10Foundation7NSCoder", "Void"]
+- ["C10Foundation7NSCoder", "_decodeArrayOfObjectsForKey"]
+- ["C10Foundation7NSCoder", "_decodePropertyListForKey"]
+- ["C10Foundation7NSCoder", "_pendingBuffers"]
+- ["C10Foundation7NSCoder", "allowedClasses"]
+- ["C10Foundation7NSCoder", "allowsKeyedCoding"]
+- ["C10Foundation7NSCoder", "containsValue"]
+- ["C10Foundation7NSCoder", "decodeArray"]
+- ["C10Foundation7NSCoder", "decodeBool"]
+- ["C10Foundation7NSCoder", "decodeCInt"]
+- ["C10Foundation7NSCoder", "decodeData"]
+- ["C10Foundation7NSCoder", "decodeDouble"]
+- ["C10Foundation7NSCoder", "decodeFloat"]
+- ["C10Foundation7NSCoder", "decodeInt32"]
+- ["C10Foundation7NSCoder", "decodeInt64"]
+- ["C10Foundation7NSCoder", "decodeInteger"]
+- ["C10Foundation7NSCoder", "decodeObject"]
+- ["C10Foundation7NSCoder", "decodePropertyList"]
+- ["C10Foundation7NSCoder", "decodePropertyListForKey"]
+- ["C10Foundation7NSCoder", "decodeTopLevelObject"]
+- ["C10Foundation7NSCoder", "decodeValue"]
+- ["C10Foundation7NSCoder", "decodingFailurePolicy"]
+- ["C10Foundation7NSCoder", "deinit"]
+- ["C10Foundation7NSCoder", "encode"]
+- ["C10Foundation7NSCoder", "encodeArray"]
+- ["C10Foundation7NSCoder", "encodeBycopyObject"]
+- ["C10Foundation7NSCoder", "encodeByrefObject"]
+- ["C10Foundation7NSCoder", "encodeBytes"]
+- ["C10Foundation7NSCoder", "encodeConditionalObject"]
+- ["C10Foundation7NSCoder", "encodePropertyList"]
+- ["C10Foundation7NSCoder", "encodeRootObject"]
+- ["C10Foundation7NSCoder", "encodeValue"]
+- ["C10Foundation7NSCoder", "error"]
+- ["C10Foundation7NSCoder", "failWithError"]
+- ["C10Foundation7NSCoder", "init"]
+- ["C10Foundation7NSCoder", "requiresSecureCoding"]
+- ["C10Foundation7NSCoder", "systemVersion"]
+- ["C10Foundation7NSCoder", "version"]
+- ["C10Foundation7NSCoder", "withDecodedUnsafeBufferPointer"]
+- !private ["C10Foundation7NSCoder", "withUnsafeMutablePointer"]
+- !private ["C10Foundation7NSCoder", "withUnsafePointer"]
+- ["P10Foundation8NSCoding", "Bool"]
+- ["P10Foundation8NSCoding", "NSCoder"]
+- ["P10Foundation8NSCoding", "encode"]
+- ["P10Foundation8NSCoding", "init"]
+- ["P10Foundation8NSCoding", "supportsSecureCoding"]
+- ["P10Foundation8NSCoding", ""]
+- ["C10Foundation8NSObject", "AnyClass"]
+- ["C10Foundation8NSObject", "Array"]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "Data"]
+- ["C10Foundation8NSObject", "DecodingFailurePolicy"]
+- ["C10Foundation8NSObject", "Double"]
+- ["C10Foundation8NSObject", "Error"]
+- ["C10Foundation8NSObject", "Float"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "Int32"]
+- ["C10Foundation8NSObject", "Int64"]
+- ["C10Foundation8NSObject", "Int8"]
+- !private ["C10Foundation8NSObject", "MemoryLayout"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- ["C10Foundation8NSObject", "NSCoding"]
+- ["C10Foundation8NSObject", "NSObject"]
+- !private ["C10Foundation8NSObject", "NSRequiresConcreteImplementation"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "UInt32"]
+- ["C10Foundation8NSObject", "UInt8"]
+- ["C10Foundation8NSObject", "UnsafeBufferPointer"]
+- !private ["C10Foundation8NSObject", "UnsafeMutablePointer"]
+- ["C10Foundation8NSObject", "UnsafeMutableRawPointer"]
+- ["C10Foundation8NSObject", "UnsafePointer"]
+- ["C10Foundation8NSObject", "UnsafeRawPointer"]
+- !private ["C10Foundation8NSObject", "Void"]
+- ["C10Foundation8NSObject", "_decodeArrayOfObjectsForKey"]
+- ["C10Foundation8NSObject", "_decodePropertyListForKey"]
+- ["C10Foundation8NSObject", "_pendingBuffers"]
+- ["C10Foundation8NSObject", "allowedClasses"]
+- ["C10Foundation8NSObject", "allowsKeyedCoding"]
+- ["C10Foundation8NSObject", "containsValue"]
+- ["C10Foundation8NSObject", "decodeArray"]
+- ["C10Foundation8NSObject", "decodeBool"]
+- ["C10Foundation8NSObject", "decodeCInt"]
+- ["C10Foundation8NSObject", "decodeData"]
+- ["C10Foundation8NSObject", "decodeDouble"]
+- ["C10Foundation8NSObject", "decodeFloat"]
+- ["C10Foundation8NSObject", "decodeInt32"]
+- ["C10Foundation8NSObject", "decodeInt64"]
+- ["C10Foundation8NSObject", "decodeInteger"]
+- ["C10Foundation8NSObject", "decodeObject"]
+- ["C10Foundation8NSObject", "decodePropertyList"]
+- ["C10Foundation8NSObject", "decodePropertyListForKey"]
+- ["C10Foundation8NSObject", "decodeTopLevelObject"]
+- ["C10Foundation8NSObject", "decodeValue"]
+- ["C10Foundation8NSObject", "decodingFailurePolicy"]
+- ["C10Foundation8NSObject", "encode"]
+- ["C10Foundation8NSObject", "encodeArray"]
+- ["C10Foundation8NSObject", "encodeBycopyObject"]
+- ["C10Foundation8NSObject", "encodeByrefObject"]
+- ["C10Foundation8NSObject", "encodeBytes"]
+- ["C10Foundation8NSObject", "encodeConditionalObject"]
+- ["C10Foundation8NSObject", "encodePropertyList"]
+- ["C10Foundation8NSObject", "encodeRootObject"]
+- ["C10Foundation8NSObject", "encodeValue"]
+- ["C10Foundation8NSObject", "error"]
+- ["C10Foundation8NSObject", "failWithError"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "requiresSecureCoding"]
+- ["C10Foundation8NSObject", "systemVersion"]
+- ["C10Foundation8NSObject", "version"]
+- ["C10Foundation8NSObject", "withDecodedUnsafeBufferPointer"]
+- !private ["C10Foundation8NSObject", "withUnsafeMutablePointer"]
+- !private ["C10Foundation8NSObject", "withUnsafePointer"]
+- ["C10Foundation8NSObject", ""]
+- ["P10Foundation16NSObjectProtocol", "Array"]
+- ["P10Foundation16NSObjectProtocol", "DecodingFailurePolicy"]
+- !private ["P10Foundation16NSObjectProtocol", "MemoryLayout"]
+- !private ["P10Foundation16NSObjectProtocol", "NSRequiresConcreteImplementation"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- !private ["P10Foundation16NSObjectProtocol", "String"]
+- !private ["P10Foundation16NSObjectProtocol", "UInt32"]
+- !private ["P10Foundation16NSObjectProtocol", "UnsafeMutableRawPointer"]
+- !private ["P10Foundation16NSObjectProtocol", "UnsafeRawPointer"]
+- !private ["P10Foundation16NSObjectProtocol", "_pendingBuffers"]
+- !private ["P10Foundation16NSObjectProtocol", "decodeValue"]
+- !private ["P10Foundation16NSObjectProtocol", "encode"]
+- !private ["P10Foundation16NSObjectProtocol", "encodeArray"]
+- !private ["P10Foundation16NSObjectProtocol", "encodeValue"]
+- !private ["P10Foundation16NSObjectProtocol", "error"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafeMutablePointer"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafePointer"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["P10Foundation14NSSecureCoding", "Bool"]
+- ["P10Foundation14NSSecureCoding", "supportsSecureCoding"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "setErrorAndReturn"]
+- ["Ps16RawRepresentable", ""]
+- ["Ps8Sequence", "init"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "deallocate"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt32", "init"]
+- !private ["Sv", "deallocate"]
+- !private ["Sv", "init"]
+- !private ["SV", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- ["Ps14_ArrayProtocol", "init"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "Array"]
+- ["Ps9_Hashable", "DecodingFailurePolicy"]
+- !private ["Ps9_Hashable", "MemoryLayout"]
+- !private ["Ps9_Hashable", "NSRequiresConcreteImplementation"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "UInt32"]
+- !private ["Ps9_Hashable", "UnsafeMutableRawPointer"]
+- !private ["Ps9_Hashable", "UnsafeRawPointer"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_pendingBuffers"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "deallocate"]
+- !private ["Ps9_Hashable", "decodeValue"]
+- !private ["Ps9_Hashable", "encode"]
+- !private ["Ps9_Hashable", "encodeArray"]
+- !private ["Ps9_Hashable", "encodeValue"]
+- !private ["Ps9_Hashable", "error"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "setErrorAndReturn"]
+- !private ["Ps9_Hashable", "withUnsafeMutablePointer"]
+- !private ["Ps9_Hashable", "withUnsafePointer"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- ["Ps10_Indexable", "init"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- ["Ps17_MutableIndexable", "init"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps8_Pointer", "deallocate"]
+- !private ["Ps8_Pointer", "init"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "deallocate"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "OC10Foundation7NSCoder21DecodingFailurePolicy"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "C10Foundation7NSCoder"
+- "P10Foundation8NSCoding"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "P10Foundation14NSSecureCoding"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Vs6UInt32"
+- !private "Sv"
+- !private "SV"
+- !private "Ps15UnsignedInteger"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- "Ps17_MutableIndexable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps8_Pointer"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "f01f7e109270f58eaf8aeeabff5a688b"

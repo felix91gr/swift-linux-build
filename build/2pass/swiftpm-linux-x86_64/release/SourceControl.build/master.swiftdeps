@@ -1,0 +1,8 @@
+version: "Swift version 3.1-dev (LLVM a7c680da51, Clang 9772bf511a, Swift 493db43364)"
+options: "739736932f49c60ef96fa54b6ad513d4"
+build_time: [542445911, 35423000]
+inputs:
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/SourceControl/RepositoryManager.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/SourceControl/InMemoryGitRepository.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/SourceControl/Repository.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/SourceControl/GitRepository.swift": [9223372036854775807, 0]

@@ -1,0 +1,1527 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CGPoint"
+- "=="
+- "CGSize"
+- "=="
+- "CGRect"
+- "=="
+- "NSPoint"
+- "NSPointPointer"
+- "NSPointArray"
+- "NSSize"
+- "NSSizePointer"
+- "NSSizeArray"
+- "NSRect"
+- "NSRectPointer"
+- "NSRectArray"
+- "NSRectEdge"
+- "CGRectEdge"
+- "NSEdgeInsets"
+- "NSAlignmentOptions"
+- "NSZeroPoint"
+- "NSZeroSize"
+- "NSZeroRect"
+- "NSEdgeInsetsZero"
+- "NSMakePoint"
+- "NSMakeSize"
+- "NSMakeRect"
+- "NSMaxX"
+- "NSMaxY"
+- "NSMidX"
+- "NSMidY"
+- "NSMinX"
+- "NSMinY"
+- "NSWidth"
+- "NSHeight"
+- "NSRectFromCGRect"
+- "NSRectToCGRect"
+- "NSPointFromCGPoint"
+- "NSPointToCGPoint"
+- "NSSizeFromCGSize"
+- "NSSizeToCGSize"
+- "NSEdgeInsetsMake"
+- "NSEqualPoints"
+- "NSEqualSizes"
+- "NSEqualRects"
+- "NSIsEmptyRect"
+- "NSEdgeInsetsEqual"
+- "NSInsetRect"
+- "NSIntegralRect"
+- "NSIntegralRectWithOptions"
+- "NSUnionRect"
+- "NSIntersectionRect"
+- "NSOffsetRect"
+- "NSDivideRect"
+- "NSPointInRect"
+- "NSMouseInRect"
+- "NSContainsRect"
+- "NSIntersectsRect"
+- "NSStringFromPoint"
+- "NSStringFromSize"
+- "NSStringFromRect"
+- "NSPointFromString"
+- "NSSizeFromString"
+- "NSRectFromString"
+provides-nominal:
+- "V10Foundation7CGPoint"
+- "V10Foundation6CGSize"
+- "V10Foundation6CGRect"
+- "O10Foundation10NSRectEdge"
+- "O10Foundation10CGRectEdge"
+- "V10Foundation12NSEdgeInsets"
+- "V10Foundation18NSAlignmentOptions"
+provides-member:
+- ["V10Foundation7CGPoint", ""]
+- ["V10Foundation6CGSize", ""]
+- ["V10Foundation6CGRect", ""]
+- ["O10Foundation10NSRectEdge", ""]
+- ["O10Foundation10CGRectEdge", ""]
+- ["V10Foundation12NSEdgeInsets", ""]
+- ["V10Foundation18NSAlignmentOptions", ""]
+- ["C10Foundation7NSValue", ""]
+- ["C10Foundation7NSCoder", ""]
+- ["O10Foundation10NSRectEdge", "init"]
+- ["C10Foundation7NSValue", "init"]
+- ["C10Foundation7NSValue", "init"]
+- ["C10Foundation7NSValue", "init"]
+- ["C10Foundation7NSValue", "init"]
+- ["C10Foundation7NSValue", "pointValue"]
+- ["C10Foundation7NSValue", "sizeValue"]
+- ["C10Foundation7NSValue", "rectValue"]
+- ["C10Foundation7NSValue", "edgeInsetsValue"]
+- ["C10Foundation7NSCoder", "encodePoint"]
+- ["C10Foundation7NSCoder", "decodePoint"]
+- ["C10Foundation7NSCoder", "encodeSize"]
+- ["C10Foundation7NSCoder", "decodeSize"]
+- ["C10Foundation7NSCoder", "encodeRect"]
+- ["C10Foundation7NSCoder", "decodeRect"]
+- ["C10Foundation7NSCoder", "encodePoint"]
+- ["C10Foundation7NSCoder", "encodeSize"]
+- ["C10Foundation7NSCoder", "encodeRect"]
+- ["C10Foundation7NSCoder", "decodePointForKey"]
+- ["C10Foundation7NSCoder", "decodeSizeForKey"]
+- ["C10Foundation7NSCoder", "decodeRectForKey"]
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "&+"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "<"
+- "<<"
+- !private "<="
+- "=="
+- !private ">"
+- !private ">="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "CGRectEdge"
+- "CGSize"
+- "CastingPrecedence"
+- !private "CharacterSet"
+- !private "Double"
+- "Equatable"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- "NSAlignmentOptions"
+- "NSCoder"
+- "NSContainsRect"
+- "NSDivideRect"
+- "NSEdgeInsets"
+- "NSEdgeInsetsEqual"
+- "NSEdgeInsetsMake"
+- "NSEdgeInsetsZero"
+- "NSEqualPoints"
+- "NSEqualRects"
+- "NSEqualSizes"
+- "NSHeight"
+- "NSInsetRect"
+- "NSIntegralRect"
+- "NSIntegralRectWithOptions"
+- "NSIntersectionRect"
+- "NSIntersectsRect"
+- "NSIsEmptyRect"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- "NSMakePoint"
+- "NSMakeRect"
+- "NSMakeSize"
+- "NSMaxX"
+- "NSMaxY"
+- "NSMidX"
+- "NSMidY"
+- "NSMinX"
+- "NSMinY"
+- "NSMouseInRect"
+- !private "NSNumber"
+- "NSOffsetRect"
+- "NSPoint"
+- "NSPointArray"
+- "NSPointFromCGPoint"
+- "NSPointFromString"
+- "NSPointInRect"
+- "NSPointPointer"
+- "NSPointToCGPoint"
+- "NSRect"
+- "NSRectArray"
+- "NSRectEdge"
+- "NSRectFromCGRect"
+- "NSRectFromString"
+- "NSRectPointer"
+- "NSRectToCGRect"
+- "NSSize"
+- "NSSizeArray"
+- "NSSizeFromCGSize"
+- "NSSizeFromString"
+- "NSSizePointer"
+- "NSSizeToCGSize"
+- !private "NSSpecialValue"
+- "NSSpecialValueCoding"
+- !private "NSString"
+- "NSStringFromPoint"
+- "NSStringFromRect"
+- "NSStringFromSize"
+- !private "NSUnimplemented"
+- "NSUnionRect"
+- "NSValue"
+- "NSWidth"
+- "NSZeroPoint"
+- "NSZeroRect"
+- "NSZeroSize"
+- "OptionSet"
+- !private "Scanner"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt32"
+- "UInt64"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafeRawPointer"
+- !private "_scanDoublesFromString"
+- !private "ceil"
+- !private "fatalError"
+- !private "floor"
+- !private "max"
+- !private "min"
+- !private "preconditionFailure"
+- !private "round"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Ps16AbsoluteValuable", "NativeType"]
+- !private ["Ps16AbsoluteValuable", "hashValue"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "isNaN"]
+- !private ["Ps16AbsoluteValuable", "nan"]
+- !private ["Ps16AbsoluteValuable", "native"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "NSNumber"]
+- !private ["Ps9AnyObject", "NSPoint"]
+- !private ["Ps9AnyObject", "NSPointFromString"]
+- !private ["Ps9AnyObject", "NSRect"]
+- !private ["Ps9AnyObject", "NSRectFromString"]
+- !private ["Ps9AnyObject", "NSSize"]
+- !private ["Ps9AnyObject", "NSSizeFromString"]
+- !private ["Ps9AnyObject", "NSSpecialValue"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "NSStringFromPoint"]
+- !private ["Ps9AnyObject", "NSStringFromRect"]
+- !private ["Ps9AnyObject", "NSStringFromSize"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "_concreteValue"]
+- !private ["Ps9AnyObject", "_decodeCGFloat"]
+- !private ["Ps9AnyObject", "_decodeCGFloatForKey"]
+- !private ["Ps9AnyObject", "_decodeValue"]
+- !private ["Ps9AnyObject", "_encodeCGFloat"]
+- !private ["Ps9AnyObject", "_encodeValue"]
+- !private ["Ps9AnyObject", "_value"]
+- !private ["Ps9AnyObject", "allowsKeyedCoding"]
+- !private ["Ps9AnyObject", "atEnd"]
+- !private ["Ps9AnyObject", "decodeDouble"]
+- !private ["Ps9AnyObject", "decodeObject"]
+- !private ["Ps9AnyObject", "decodePoint"]
+- !private ["Ps9AnyObject", "decodePointForKey"]
+- !private ["Ps9AnyObject", "decodeRectForKey"]
+- !private ["Ps9AnyObject", "decodeSize"]
+- !private ["Ps9AnyObject", "decodeSizeForKey"]
+- !private ["Ps9AnyObject", "doubleValue"]
+- !private ["Ps9AnyObject", "encode"]
+- !private ["Ps9AnyObject", "encodePoint"]
+- !private ["Ps9AnyObject", "encodeRect"]
+- !private ["Ps9AnyObject", "encodeSize"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "preconditionFailure"]
+- !private ["Ps9AnyObject", "scanDouble"]
+- !private ["Ps9AnyObject", "scanUpToCharactersFromSet"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps19BinaryFloatingPoint", "NativeType"]
+- !private ["Ps19BinaryFloatingPoint", "hashValue"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "isNaN"]
+- !private ["Ps19BinaryFloatingPoint", "nan"]
+- !private ["Ps19BinaryFloatingPoint", "native"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["V10Foundation7CGFloat", "NativeType"]
+- !private ["V10Foundation7CGFloat", "deinit"]
+- !private ["V10Foundation7CGFloat", "hashValue"]
+- !private ["V10Foundation7CGFloat", "init"]
+- !private ["V10Foundation7CGFloat", "native"]
+- ["V10Foundation7CGPoint", "Bool"]
+- ["V10Foundation7CGPoint", "CGFloat"]
+- !private ["V10Foundation7CGPoint", "CGPoint"]
+- ["V10Foundation7CGPoint", "Int"]
+- !private ["V10Foundation7CGPoint", "MemoryLayout"]
+- ["V10Foundation7CGPoint", "NSCoder"]
+- !private ["V10Foundation7CGPoint", "NSStringFromPoint"]
+- ["V10Foundation7CGPoint", "String"]
+- ["V10Foundation7CGPoint", "UnsafeMutableRawPointer"]
+- ["V10Foundation7CGPoint", "UnsafeRawPointer"]
+- ["V10Foundation7CGPoint", "deinit"]
+- ["V10Foundation7CGPoint", "description"]
+- ["V10Foundation7CGPoint", "encodeWithCoder"]
+- ["V10Foundation7CGPoint", "getValue"]
+- ["V10Foundation7CGPoint", "hash"]
+- ["V10Foundation7CGPoint", "init"]
+- ["V10Foundation7CGPoint", "isEqual"]
+- ["V10Foundation7CGPoint", "objCType"]
+- !private ["V10Foundation7CGPoint", "preconditionFailure"]
+- ["V10Foundation7CGPoint", "x"]
+- ["V10Foundation7CGPoint", "y"]
+- ["V10Foundation6CGRect", "Bool"]
+- !private ["V10Foundation6CGRect", "CGFloat"]
+- ["V10Foundation6CGRect", "CGPoint"]
+- !private ["V10Foundation6CGRect", "CGRect"]
+- ["V10Foundation6CGRect", "CGSize"]
+- ["V10Foundation6CGRect", "Int"]
+- !private ["V10Foundation6CGRect", "MemoryLayout"]
+- ["V10Foundation6CGRect", "NSCoder"]
+- !private ["V10Foundation6CGRect", "NSStringFromRect"]
+- ["V10Foundation6CGRect", "String"]
+- ["V10Foundation6CGRect", "UnsafeMutableRawPointer"]
+- ["V10Foundation6CGRect", "UnsafeRawPointer"]
+- ["V10Foundation6CGRect", "deinit"]
+- ["V10Foundation6CGRect", "description"]
+- ["V10Foundation6CGRect", "encodeWithCoder"]
+- ["V10Foundation6CGRect", "getValue"]
+- ["V10Foundation6CGRect", "hash"]
+- ["V10Foundation6CGRect", "init"]
+- ["V10Foundation6CGRect", "isEqual"]
+- ["V10Foundation6CGRect", "objCType"]
+- ["V10Foundation6CGRect", "origin"]
+- !private ["V10Foundation6CGRect", "preconditionFailure"]
+- ["V10Foundation6CGRect", "size"]
+- ["O10Foundation10CGRectEdge", "RawValue"]
+- ["O10Foundation10CGRectEdge", "_toAnyHashable"]
+- ["O10Foundation10CGRectEdge", "deinit"]
+- ["O10Foundation10CGRectEdge", "hashValue"]
+- ["O10Foundation10CGRectEdge", "init"]
+- ["O10Foundation10CGRectEdge", "maxXEdge"]
+- ["O10Foundation10CGRectEdge", "maxYEdge"]
+- ["O10Foundation10CGRectEdge", "minXEdge"]
+- ["O10Foundation10CGRectEdge", "minYEdge"]
+- ["O10Foundation10CGRectEdge", "rawValue"]
+- ["V10Foundation6CGSize", "Bool"]
+- ["V10Foundation6CGSize", "CGFloat"]
+- !private ["V10Foundation6CGSize", "CGSize"]
+- ["V10Foundation6CGSize", "Int"]
+- !private ["V10Foundation6CGSize", "MemoryLayout"]
+- ["V10Foundation6CGSize", "NSCoder"]
+- !private ["V10Foundation6CGSize", "NSStringFromSize"]
+- ["V10Foundation6CGSize", "String"]
+- ["V10Foundation6CGSize", "UnsafeMutableRawPointer"]
+- ["V10Foundation6CGSize", "UnsafeRawPointer"]
+- ["V10Foundation6CGSize", "deinit"]
+- ["V10Foundation6CGSize", "description"]
+- ["V10Foundation6CGSize", "encodeWithCoder"]
+- ["V10Foundation6CGSize", "getValue"]
+- ["V10Foundation6CGSize", "hash"]
+- ["V10Foundation6CGSize", "height"]
+- ["V10Foundation6CGSize", "init"]
+- ["V10Foundation6CGSize", "isEqual"]
+- ["V10Foundation6CGSize", "objCType"]
+- !private ["V10Foundation6CGSize", "preconditionFailure"]
+- ["V10Foundation6CGSize", "width"]
+- !private ["Ps7CVarArg", "NativeType"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isNaN"]
+- !private ["Ps7CVarArg", "nan"]
+- !private ["Ps7CVarArg", "native"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["V10Foundation12CharacterSet", "decimalDigits"]
+- !private ["V10Foundation12CharacterSet", "deinit"]
+- !private ["V10Foundation12CharacterSet", "insert"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "NativeType"]
+- !private ["Ps10Comparable", "_bridgeToObjectiveC"]
+- !private ["Ps10Comparable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "initializeMemory"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "isNaN"]
+- !private ["Ps10Comparable", "load"]
+- !private ["Ps10Comparable", "nan"]
+- !private ["Ps10Comparable", "native"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "NSPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "NSPointFromString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSRect"]
+- !private ["Ps28CustomDebugStringConvertible", "NSRectFromString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSSize"]
+- !private ["Ps28CustomDebugStringConvertible", "NSSizeFromString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSSpecialValue"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSStringFromPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "NSStringFromRect"]
+- !private ["Ps28CustomDebugStringConvertible", "NSStringFromSize"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "_bridgeToObjectiveC"]
+- !private ["Ps28CustomDebugStringConvertible", "_concreteValue"]
+- !private ["Ps28CustomDebugStringConvertible", "_decodeCGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "_decodeCGFloatForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "_decodeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "_encodeCGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "_encodeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps28CustomDebugStringConvertible", "_value"]
+- !private ["Ps28CustomDebugStringConvertible", "allowsKeyedCoding"]
+- !private ["Ps28CustomDebugStringConvertible", "atEnd"]
+- !private ["Ps28CustomDebugStringConvertible", "decimalDigits"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeDouble"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeObject"]
+- !private ["Ps28CustomDebugStringConvertible", "decodePoint"]
+- !private ["Ps28CustomDebugStringConvertible", "decodePointForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeRectForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeSize"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeSizeForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "doubleValue"]
+- !private ["Ps28CustomDebugStringConvertible", "encode"]
+- !private ["Ps28CustomDebugStringConvertible", "encodePoint"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeRect"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeSize"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initializeMemory"]
+- !private ["Ps28CustomDebugStringConvertible", "insert"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "isNaN"]
+- !private ["Ps28CustomDebugStringConvertible", "load"]
+- !private ["Ps28CustomDebugStringConvertible", "nan"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "preconditionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "scanDouble"]
+- !private ["Ps28CustomDebugStringConvertible", "scanUpToCharactersFromSet"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_bridgeToObjectiveC"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "initializeMemory"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isNaN"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "load"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "nan"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps17CustomReflectable", "NativeType"]
+- !private ["Ps17CustomReflectable", "_bridgeToObjectiveC"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "initializeMemory"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "isNaN"]
+- !private ["Ps17CustomReflectable", "load"]
+- !private ["Ps17CustomReflectable", "nan"]
+- !private ["Ps17CustomReflectable", "native"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "NSNumber"]
+- !private ["Ps23CustomStringConvertible", "NSPoint"]
+- !private ["Ps23CustomStringConvertible", "NSPointFromString"]
+- !private ["Ps23CustomStringConvertible", "NSRect"]
+- !private ["Ps23CustomStringConvertible", "NSRectFromString"]
+- !private ["Ps23CustomStringConvertible", "NSSize"]
+- !private ["Ps23CustomStringConvertible", "NSSizeFromString"]
+- !private ["Ps23CustomStringConvertible", "NSSpecialValue"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "NSStringFromPoint"]
+- !private ["Ps23CustomStringConvertible", "NSStringFromRect"]
+- !private ["Ps23CustomStringConvertible", "NSStringFromSize"]
+- !private ["Ps23CustomStringConvertible", "NativeType"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_bridgeToObjectiveC"]
+- !private ["Ps23CustomStringConvertible", "_concreteValue"]
+- !private ["Ps23CustomStringConvertible", "_decodeCGFloat"]
+- !private ["Ps23CustomStringConvertible", "_decodeCGFloatForKey"]
+- !private ["Ps23CustomStringConvertible", "_decodeValue"]
+- !private ["Ps23CustomStringConvertible", "_encodeCGFloat"]
+- !private ["Ps23CustomStringConvertible", "_encodeValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps23CustomStringConvertible", "_value"]
+- !private ["Ps23CustomStringConvertible", "allowsKeyedCoding"]
+- !private ["Ps23CustomStringConvertible", "atEnd"]
+- !private ["Ps23CustomStringConvertible", "decimalDigits"]
+- !private ["Ps23CustomStringConvertible", "decodeDouble"]
+- !private ["Ps23CustomStringConvertible", "decodeObject"]
+- !private ["Ps23CustomStringConvertible", "decodePoint"]
+- !private ["Ps23CustomStringConvertible", "decodePointForKey"]
+- !private ["Ps23CustomStringConvertible", "decodeRectForKey"]
+- !private ["Ps23CustomStringConvertible", "decodeSize"]
+- !private ["Ps23CustomStringConvertible", "decodeSizeForKey"]
+- !private ["Ps23CustomStringConvertible", "doubleValue"]
+- !private ["Ps23CustomStringConvertible", "encode"]
+- !private ["Ps23CustomStringConvertible", "encodePoint"]
+- !private ["Ps23CustomStringConvertible", "encodeRect"]
+- !private ["Ps23CustomStringConvertible", "encodeSize"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insert"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "isNaN"]
+- !private ["Ps23CustomStringConvertible", "nan"]
+- !private ["Ps23CustomStringConvertible", "native"]
+- !private ["Ps23CustomStringConvertible", "preconditionFailure"]
+- !private ["Ps23CustomStringConvertible", "scanDouble"]
+- !private ["Ps23CustomStringConvertible", "scanUpToCharactersFromSet"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Sd", "isNaN"]
+- !private ["Sd", "nan"]
+- !private ["Ps9Equatable", "AlignHeightInward"]
+- !private ["Ps9Equatable", "AlignHeightNearest"]
+- !private ["Ps9Equatable", "AlignHeightOutward"]
+- ["Ps9Equatable", "AlignMaxXInward"]
+- ["Ps9Equatable", "AlignMaxXNearest"]
+- ["Ps9Equatable", "AlignMaxXOutward"]
+- ["Ps9Equatable", "AlignMaxYInward"]
+- ["Ps9Equatable", "AlignMaxYNearest"]
+- ["Ps9Equatable", "AlignMaxYOutward"]
+- ["Ps9Equatable", "AlignMinXInward"]
+- ["Ps9Equatable", "AlignMinXNearest"]
+- ["Ps9Equatable", "AlignMinXOutward"]
+- ["Ps9Equatable", "AlignMinYInward"]
+- ["Ps9Equatable", "AlignMinYNearest"]
+- ["Ps9Equatable", "AlignMinYOutward"]
+- !private ["Ps9Equatable", "AlignRectFlipped"]
+- !private ["Ps9Equatable", "AlignWidthInward"]
+- !private ["Ps9Equatable", "AlignWidthNearest"]
+- !private ["Ps9Equatable", "AlignWidthOutward"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "MemoryLayout"]
+- ["Ps9Equatable", "NSAlignmentOptions"]
+- !private ["Ps9Equatable", "NSNumber"]
+- !private ["Ps9Equatable", "NSPoint"]
+- !private ["Ps9Equatable", "NSPointFromString"]
+- !private ["Ps9Equatable", "NSRect"]
+- !private ["Ps9Equatable", "NSRectFromString"]
+- !private ["Ps9Equatable", "NSSize"]
+- !private ["Ps9Equatable", "NSSizeFromString"]
+- !private ["Ps9Equatable", "NSSpecialValue"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "NSStringFromPoint"]
+- !private ["Ps9Equatable", "NSStringFromRect"]
+- !private ["Ps9Equatable", "NSStringFromSize"]
+- !private ["Ps9Equatable", "NativeType"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_bridgeToObjectiveC"]
+- !private ["Ps9Equatable", "_concreteValue"]
+- !private ["Ps9Equatable", "_decodeCGFloat"]
+- !private ["Ps9Equatable", "_decodeCGFloatForKey"]
+- !private ["Ps9Equatable", "_decodeValue"]
+- !private ["Ps9Equatable", "_encodeCGFloat"]
+- !private ["Ps9Equatable", "_encodeValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps9Equatable", "_value"]
+- !private ["Ps9Equatable", "allowsKeyedCoding"]
+- !private ["Ps9Equatable", "atEnd"]
+- ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "decimalDigits"]
+- !private ["Ps9Equatable", "decodeDouble"]
+- !private ["Ps9Equatable", "decodeObject"]
+- !private ["Ps9Equatable", "decodePoint"]
+- !private ["Ps9Equatable", "decodePointForKey"]
+- !private ["Ps9Equatable", "decodeRectForKey"]
+- !private ["Ps9Equatable", "decodeSize"]
+- !private ["Ps9Equatable", "decodeSizeForKey"]
+- ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "doubleValue"]
+- !private ["Ps9Equatable", "encode"]
+- !private ["Ps9Equatable", "encodePoint"]
+- !private ["Ps9Equatable", "encodeRect"]
+- !private ["Ps9Equatable", "encodeSize"]
+- ["Ps9Equatable", "encodeWithCoder"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "getValue"]
+- ["Ps9Equatable", "hash"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initializeMemory"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isEqual"]
+- !private ["Ps9Equatable", "isNaN"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- !private ["Ps9Equatable", "load"]
+- ["Ps9Equatable", "maxX"]
+- ["Ps9Equatable", "maxXEdge"]
+- ["Ps9Equatable", "maxY"]
+- ["Ps9Equatable", "maxYEdge"]
+- ["Ps9Equatable", "minX"]
+- ["Ps9Equatable", "minXEdge"]
+- ["Ps9Equatable", "minY"]
+- ["Ps9Equatable", "minYEdge"]
+- !private ["Ps9Equatable", "nan"]
+- !private ["Ps9Equatable", "native"]
+- ["Ps9Equatable", "objCType"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "preconditionFailure"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "scanDouble"]
+- !private ["Ps9Equatable", "scanUpToCharactersFromSet"]
+- !private ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "AlignHeightInward"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AlignHeightNearest"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AlignHeightOutward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMaxXInward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMaxXNearest"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMaxXOutward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMaxYInward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMaxYNearest"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMaxYOutward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMinXInward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMinXNearest"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMinXOutward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMinYInward"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMinYNearest"]
+- ["Ps25ExpressibleByArrayLiteral", "AlignMinYOutward"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AlignRectFlipped"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AlignWidthInward"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AlignWidthNearest"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AlignWidthOutward"]
+- ["Ps25ExpressibleByArrayLiteral", "NSAlignmentOptions"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "decimalDigits"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "doubleValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_bridgeToObjectiveC"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByFloatLiteral", "NativeType"]
+- !private ["Ps25ExpressibleByFloatLiteral", "doubleValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "hashValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "isNaN"]
+- !private ["Ps25ExpressibleByFloatLiteral", "nan"]
+- !private ["Ps25ExpressibleByFloatLiteral", "native"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "NativeType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "doubleValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "isNaN"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "nan"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "native"]
+- !private ["Ps26ExpressibleByStringLiteral", "_bridgeToObjectiveC"]
+- !private ["Ps26ExpressibleByStringLiteral", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_bridgeToObjectiveC"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps13FloatingPoint", "NativeType"]
+- !private ["Ps13FloatingPoint", "hashValue"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "isNaN"]
+- !private ["Ps13FloatingPoint", "nan"]
+- !private ["Ps13FloatingPoint", "native"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "NSNumber"]
+- !private ["Ps8Hashable", "NSPoint"]
+- !private ["Ps8Hashable", "NSPointFromString"]
+- !private ["Ps8Hashable", "NSRect"]
+- !private ["Ps8Hashable", "NSRectFromString"]
+- !private ["Ps8Hashable", "NSSize"]
+- !private ["Ps8Hashable", "NSSizeFromString"]
+- !private ["Ps8Hashable", "NSSpecialValue"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "NSStringFromPoint"]
+- !private ["Ps8Hashable", "NSStringFromRect"]
+- !private ["Ps8Hashable", "NSStringFromSize"]
+- !private ["Ps8Hashable", "NativeType"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_bridgeToObjectiveC"]
+- !private ["Ps8Hashable", "_concreteValue"]
+- !private ["Ps8Hashable", "_decodeCGFloat"]
+- !private ["Ps8Hashable", "_decodeCGFloatForKey"]
+- !private ["Ps8Hashable", "_decodeValue"]
+- !private ["Ps8Hashable", "_encodeCGFloat"]
+- !private ["Ps8Hashable", "_encodeValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps8Hashable", "_value"]
+- !private ["Ps8Hashable", "allowsKeyedCoding"]
+- !private ["Ps8Hashable", "atEnd"]
+- !private ["Ps8Hashable", "decimalDigits"]
+- !private ["Ps8Hashable", "decodeDouble"]
+- !private ["Ps8Hashable", "decodeObject"]
+- !private ["Ps8Hashable", "decodePoint"]
+- !private ["Ps8Hashable", "decodePointForKey"]
+- !private ["Ps8Hashable", "decodeRectForKey"]
+- !private ["Ps8Hashable", "decodeSize"]
+- !private ["Ps8Hashable", "decodeSizeForKey"]
+- !private ["Ps8Hashable", "doubleValue"]
+- !private ["Ps8Hashable", "encode"]
+- !private ["Ps8Hashable", "encodePoint"]
+- !private ["Ps8Hashable", "encodeRect"]
+- !private ["Ps8Hashable", "encodeSize"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initializeMemory"]
+- !private ["Ps8Hashable", "insert"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "isNaN"]
+- !private ["Ps8Hashable", "load"]
+- ["Ps8Hashable", "maxX"]
+- ["Ps8Hashable", "maxXEdge"]
+- ["Ps8Hashable", "maxY"]
+- ["Ps8Hashable", "maxYEdge"]
+- ["Ps8Hashable", "minX"]
+- ["Ps8Hashable", "minXEdge"]
+- ["Ps8Hashable", "minY"]
+- ["Ps8Hashable", "minYEdge"]
+- !private ["Ps8Hashable", "nan"]
+- !private ["Ps8Hashable", "native"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "preconditionFailure"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "scanDouble"]
+- !private ["Ps8Hashable", "scanUpToCharactersFromSet"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_bridgeToObjectiveC"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps25LosslessStringConvertible", "isNaN"]
+- !private ["Ps25LosslessStringConvertible", "nan"]
+- !private ["Os12MemoryLayout", "stride"]
+- !private ["Ps10MirrorPath", "_bridgeToObjectiveC"]
+- !private ["Ps10MirrorPath", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- ["V10Foundation18NSAlignmentOptions", "AlignAllEdgesInward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignAllEdgesNearest"]
+- ["V10Foundation18NSAlignmentOptions", "AlignAllEdgesOutward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignHeightInward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignHeightNearest"]
+- ["V10Foundation18NSAlignmentOptions", "AlignHeightOutward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMaxXInward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMaxXNearest"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMaxXOutward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMaxYInward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMaxYNearest"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMaxYOutward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMinXInward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMinXNearest"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMinXOutward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMinYInward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMinYNearest"]
+- ["V10Foundation18NSAlignmentOptions", "AlignMinYOutward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignRectFlipped"]
+- ["V10Foundation18NSAlignmentOptions", "AlignWidthInward"]
+- ["V10Foundation18NSAlignmentOptions", "AlignWidthNearest"]
+- ["V10Foundation18NSAlignmentOptions", "AlignWidthOutward"]
+- ["V10Foundation18NSAlignmentOptions", "Element"]
+- ["V10Foundation18NSAlignmentOptions", "NSAlignmentOptions"]
+- ["V10Foundation18NSAlignmentOptions", "RawValue"]
+- ["V10Foundation18NSAlignmentOptions", "UInt64"]
+- ["V10Foundation18NSAlignmentOptions", "contains"]
+- ["V10Foundation18NSAlignmentOptions", "deinit"]
+- ["V10Foundation18NSAlignmentOptions", "formIntersection"]
+- ["V10Foundation18NSAlignmentOptions", "formSymmetricDifference"]
+- ["V10Foundation18NSAlignmentOptions", "formUnion"]
+- ["V10Foundation18NSAlignmentOptions", "init"]
+- ["V10Foundation18NSAlignmentOptions", "insert"]
+- ["V10Foundation18NSAlignmentOptions", "intersection"]
+- ["V10Foundation18NSAlignmentOptions", "isDisjoint"]
+- ["V10Foundation18NSAlignmentOptions", "isEmpty"]
+- ["V10Foundation18NSAlignmentOptions", "isSubset"]
+- ["V10Foundation18NSAlignmentOptions", "isSuperset"]
+- ["V10Foundation18NSAlignmentOptions", "rawValue"]
+- ["V10Foundation18NSAlignmentOptions", "remove"]
+- ["V10Foundation18NSAlignmentOptions", "subtract"]
+- ["V10Foundation18NSAlignmentOptions", "subtracting"]
+- ["V10Foundation18NSAlignmentOptions", "symmetricDifference"]
+- ["V10Foundation18NSAlignmentOptions", "union"]
+- ["V10Foundation18NSAlignmentOptions", "update"]
+- !private ["C10Foundation7NSCoder", "CGFloat"]
+- !private ["C10Foundation7NSCoder", "NSKeyedArchiver"]
+- !private ["C10Foundation7NSCoder", "NSKeyedUnarchiver"]
+- !private ["C10Foundation7NSCoder", "NSNumber"]
+- ["C10Foundation7NSCoder", "NSPoint"]
+- !private ["C10Foundation7NSCoder", "NSPointFromString"]
+- ["C10Foundation7NSCoder", "NSRect"]
+- !private ["C10Foundation7NSCoder", "NSRectFromString"]
+- ["C10Foundation7NSCoder", "NSSize"]
+- !private ["C10Foundation7NSCoder", "NSSizeFromString"]
+- !private ["C10Foundation7NSCoder", "NSString"]
+- !private ["C10Foundation7NSCoder", "NSStringFromPoint"]
+- !private ["C10Foundation7NSCoder", "NSStringFromRect"]
+- !private ["C10Foundation7NSCoder", "NSStringFromSize"]
+- ["C10Foundation7NSCoder", "String"]
+- !private ["C10Foundation7NSCoder", "_decodeCGFloat"]
+- !private ["C10Foundation7NSCoder", "_decodeCGFloatForKey"]
+- !private ["C10Foundation7NSCoder", "_decodeValue"]
+- !private ["C10Foundation7NSCoder", "_encodeCGFloat"]
+- !private ["C10Foundation7NSCoder", "_encodeValue"]
+- !private ["C10Foundation7NSCoder", "allowsKeyedCoding"]
+- !private ["C10Foundation7NSCoder", "decodeDouble"]
+- !private ["C10Foundation7NSCoder", "decodeObject"]
+- ["C10Foundation7NSCoder", "decodePoint"]
+- ["C10Foundation7NSCoder", "decodePointForKey"]
+- ["C10Foundation7NSCoder", "decodeRect"]
+- ["C10Foundation7NSCoder", "decodeRectForKey"]
+- ["C10Foundation7NSCoder", "decodeSize"]
+- ["C10Foundation7NSCoder", "decodeSizeForKey"]
+- !private ["C10Foundation7NSCoder", "encode"]
+- ["C10Foundation7NSCoder", "encodePoint"]
+- ["C10Foundation7NSCoder", "encodeRect"]
+- ["C10Foundation7NSCoder", "encodeSize"]
+- !private ["C10Foundation7NSCoder", "preconditionFailure"]
+- !private ["P10Foundation8NSCoding", "NSSpecialValue"]
+- !private ["P10Foundation8NSCoding", "_concreteValue"]
+- !private ["P10Foundation8NSCoding", "_value"]
+- !private ["P10Foundation8NSCoding", "doubleValue"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation9NSCopying", "NSSpecialValue"]
+- !private ["P10Foundation9NSCopying", "_concreteValue"]
+- !private ["P10Foundation9NSCopying", "_value"]
+- !private ["P10Foundation9NSCopying", "atEnd"]
+- !private ["P10Foundation9NSCopying", "doubleValue"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "scanDouble"]
+- !private ["P10Foundation9NSCopying", "scanUpToCharactersFromSet"]
+- ["V10Foundation12NSEdgeInsets", "Bool"]
+- ["V10Foundation12NSEdgeInsets", "CGFloat"]
+- ["V10Foundation12NSEdgeInsets", "Int"]
+- !private ["V10Foundation12NSEdgeInsets", "MemoryLayout"]
+- ["V10Foundation12NSEdgeInsets", "NSCoder"]
+- !private ["V10Foundation12NSEdgeInsets", "NSEdgeInsets"]
+- ["V10Foundation12NSEdgeInsets", "String"]
+- ["V10Foundation12NSEdgeInsets", "UnsafeMutableRawPointer"]
+- ["V10Foundation12NSEdgeInsets", "UnsafeRawPointer"]
+- ["V10Foundation12NSEdgeInsets", "bottom"]
+- ["V10Foundation12NSEdgeInsets", "deinit"]
+- ["V10Foundation12NSEdgeInsets", "description"]
+- ["V10Foundation12NSEdgeInsets", "encodeWithCoder"]
+- ["V10Foundation12NSEdgeInsets", "getValue"]
+- ["V10Foundation12NSEdgeInsets", "hash"]
+- ["V10Foundation12NSEdgeInsets", "init"]
+- ["V10Foundation12NSEdgeInsets", "isEqual"]
+- ["V10Foundation12NSEdgeInsets", "left"]
+- ["V10Foundation12NSEdgeInsets", "objCType"]
+- !private ["V10Foundation12NSEdgeInsets", "preconditionFailure"]
+- ["V10Foundation12NSEdgeInsets", "right"]
+- ["V10Foundation12NSEdgeInsets", "top"]
+- !private ["C10Foundation15NSKeyedArchiver", "_encodeValue"]
+- !private ["C10Foundation17NSKeyedUnarchiver", "_decodeValue"]
+- !private ["C10Foundation8NSNumber", "deinit"]
+- !private ["C10Foundation8NSNumber", "doubleValue"]
+- !private ["C10Foundation8NSNumber", "init"]
+- !private ["C10Foundation8NSObject", "CGFloat"]
+- ["C10Foundation8NSObject", "NSEdgeInsets"]
+- !private ["C10Foundation8NSObject", "NSKeyedArchiver"]
+- !private ["C10Foundation8NSObject", "NSKeyedUnarchiver"]
+- !private ["C10Foundation8NSObject", "NSNumber"]
+- ["C10Foundation8NSObject", "NSPoint"]
+- !private ["C10Foundation8NSObject", "NSPointFromString"]
+- ["C10Foundation8NSObject", "NSRect"]
+- !private ["C10Foundation8NSObject", "NSRectFromString"]
+- ["C10Foundation8NSObject", "NSSize"]
+- !private ["C10Foundation8NSObject", "NSSizeFromString"]
+- !private ["C10Foundation8NSObject", "NSSpecialValue"]
+- !private ["C10Foundation8NSObject", "NSString"]
+- !private ["C10Foundation8NSObject", "NSStringFromPoint"]
+- !private ["C10Foundation8NSObject", "NSStringFromRect"]
+- !private ["C10Foundation8NSObject", "NSStringFromSize"]
+- ["C10Foundation8NSObject", "String"]
+- !private ["C10Foundation8NSObject", "_concreteValue"]
+- !private ["C10Foundation8NSObject", "_decodeCGFloat"]
+- !private ["C10Foundation8NSObject", "_decodeCGFloatForKey"]
+- !private ["C10Foundation8NSObject", "_decodeValue"]
+- !private ["C10Foundation8NSObject", "_encodeCGFloat"]
+- !private ["C10Foundation8NSObject", "_encodeValue"]
+- !private ["C10Foundation8NSObject", "_value"]
+- !private ["C10Foundation8NSObject", "allowsKeyedCoding"]
+- !private ["C10Foundation8NSObject", "atEnd"]
+- !private ["C10Foundation8NSObject", "decodeDouble"]
+- !private ["C10Foundation8NSObject", "decodeObject"]
+- ["C10Foundation8NSObject", "decodePoint"]
+- ["C10Foundation8NSObject", "decodePointForKey"]
+- ["C10Foundation8NSObject", "decodeRect"]
+- ["C10Foundation8NSObject", "decodeRectForKey"]
+- ["C10Foundation8NSObject", "decodeSize"]
+- ["C10Foundation8NSObject", "decodeSizeForKey"]
+- !private ["C10Foundation8NSObject", "doubleValue"]
+- ["C10Foundation8NSObject", "edgeInsetsValue"]
+- !private ["C10Foundation8NSObject", "encode"]
+- ["C10Foundation8NSObject", "encodePoint"]
+- ["C10Foundation8NSObject", "encodeRect"]
+- ["C10Foundation8NSObject", "encodeSize"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "pointValue"]
+- !private ["C10Foundation8NSObject", "preconditionFailure"]
+- ["C10Foundation8NSObject", "rectValue"]
+- !private ["C10Foundation8NSObject", "scanDouble"]
+- !private ["C10Foundation8NSObject", "scanUpToCharactersFromSet"]
+- ["C10Foundation8NSObject", "sizeValue"]
+- !private ["P10Foundation16NSObjectProtocol", "CGFloat"]
+- !private ["P10Foundation16NSObjectProtocol", "NSNumber"]
+- !private ["P10Foundation16NSObjectProtocol", "NSPoint"]
+- !private ["P10Foundation16NSObjectProtocol", "NSPointFromString"]
+- !private ["P10Foundation16NSObjectProtocol", "NSRect"]
+- !private ["P10Foundation16NSObjectProtocol", "NSRectFromString"]
+- !private ["P10Foundation16NSObjectProtocol", "NSSize"]
+- !private ["P10Foundation16NSObjectProtocol", "NSSizeFromString"]
+- !private ["P10Foundation16NSObjectProtocol", "NSSpecialValue"]
+- !private ["P10Foundation16NSObjectProtocol", "NSString"]
+- !private ["P10Foundation16NSObjectProtocol", "NSStringFromPoint"]
+- !private ["P10Foundation16NSObjectProtocol", "NSStringFromRect"]
+- !private ["P10Foundation16NSObjectProtocol", "NSStringFromSize"]
+- !private ["P10Foundation16NSObjectProtocol", "String"]
+- !private ["P10Foundation16NSObjectProtocol", "_concreteValue"]
+- !private ["P10Foundation16NSObjectProtocol", "_decodeCGFloat"]
+- !private ["P10Foundation16NSObjectProtocol", "_decodeCGFloatForKey"]
+- !private ["P10Foundation16NSObjectProtocol", "_decodeValue"]
+- !private ["P10Foundation16NSObjectProtocol", "_encodeCGFloat"]
+- !private ["P10Foundation16NSObjectProtocol", "_encodeValue"]
+- !private ["P10Foundation16NSObjectProtocol", "_value"]
+- !private ["P10Foundation16NSObjectProtocol", "allowsKeyedCoding"]
+- !private ["P10Foundation16NSObjectProtocol", "atEnd"]
+- !private ["P10Foundation16NSObjectProtocol", "decodeDouble"]
+- !private ["P10Foundation16NSObjectProtocol", "decodeObject"]
+- !private ["P10Foundation16NSObjectProtocol", "decodePoint"]
+- !private ["P10Foundation16NSObjectProtocol", "decodePointForKey"]
+- !private ["P10Foundation16NSObjectProtocol", "decodeRectForKey"]
+- !private ["P10Foundation16NSObjectProtocol", "decodeSize"]
+- !private ["P10Foundation16NSObjectProtocol", "decodeSizeForKey"]
+- !private ["P10Foundation16NSObjectProtocol", "doubleValue"]
+- !private ["P10Foundation16NSObjectProtocol", "encode"]
+- !private ["P10Foundation16NSObjectProtocol", "encodePoint"]
+- !private ["P10Foundation16NSObjectProtocol", "encodeRect"]
+- !private ["P10Foundation16NSObjectProtocol", "encodeSize"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "preconditionFailure"]
+- !private ["P10Foundation16NSObjectProtocol", "scanDouble"]
+- !private ["P10Foundation16NSObjectProtocol", "scanUpToCharactersFromSet"]
+- ["O10Foundation10NSRectEdge", "CGRectEdge"]
+- ["O10Foundation10NSRectEdge", "RawValue"]
+- ["O10Foundation10NSRectEdge", "_toAnyHashable"]
+- ["O10Foundation10NSRectEdge", "deinit"]
+- ["O10Foundation10NSRectEdge", "hashValue"]
+- ["O10Foundation10NSRectEdge", "init"]
+- ["O10Foundation10NSRectEdge", "maxX"]
+- ["O10Foundation10NSRectEdge", "maxY"]
+- ["O10Foundation10NSRectEdge", "minX"]
+- ["O10Foundation10NSRectEdge", "minY"]
+- ["O10Foundation10NSRectEdge", "rawValue"]
+- !private ["P10Foundation14NSSecureCoding", "NSSpecialValue"]
+- !private ["P10Foundation14NSSecureCoding", "_concreteValue"]
+- !private ["P10Foundation14NSSecureCoding", "_value"]
+- !private ["P10Foundation14NSSecureCoding", "doubleValue"]
+- !private ["P10Foundation14NSSecureCoding", "init"]
+- !private ["C10Foundation14NSSpecialValue", "_value"]
+- !private ["C10Foundation14NSSpecialValue", "deinit"]
+- !private ["C10Foundation14NSSpecialValue", "init"]
+- !private ["P10Foundation20NSSpecialValueCoding", "CGFloat"]
+- !private ["P10Foundation20NSSpecialValueCoding", "CGPoint"]
+- !private ["P10Foundation20NSSpecialValueCoding", "CGRect"]
+- !private ["P10Foundation20NSSpecialValueCoding", "CGSize"]
+- !private ["P10Foundation20NSSpecialValueCoding", "MemoryLayout"]
+- !private ["P10Foundation20NSSpecialValueCoding", "NSEdgeInsets"]
+- !private ["P10Foundation20NSSpecialValueCoding", "NSStringFromPoint"]
+- !private ["P10Foundation20NSSpecialValueCoding", "NSStringFromRect"]
+- !private ["P10Foundation20NSSpecialValueCoding", "NSStringFromSize"]
+- !private ["P10Foundation20NSSpecialValueCoding", "bottom"]
+- ["P10Foundation20NSSpecialValueCoding", "description"]
+- ["P10Foundation20NSSpecialValueCoding", "encodeWithCoder"]
+- ["P10Foundation20NSSpecialValueCoding", "getValue"]
+- ["P10Foundation20NSSpecialValueCoding", "hash"]
+- !private ["P10Foundation20NSSpecialValueCoding", "height"]
+- ["P10Foundation20NSSpecialValueCoding", "init"]
+- ["P10Foundation20NSSpecialValueCoding", "isEqual"]
+- !private ["P10Foundation20NSSpecialValueCoding", "left"]
+- ["P10Foundation20NSSpecialValueCoding", "objCType"]
+- !private ["P10Foundation20NSSpecialValueCoding", "origin"]
+- !private ["P10Foundation20NSSpecialValueCoding", "preconditionFailure"]
+- !private ["P10Foundation20NSSpecialValueCoding", "right"]
+- !private ["P10Foundation20NSSpecialValueCoding", "size"]
+- !private ["P10Foundation20NSSpecialValueCoding", "top"]
+- !private ["P10Foundation20NSSpecialValueCoding", "width"]
+- !private ["P10Foundation20NSSpecialValueCoding", "x"]
+- !private ["P10Foundation20NSSpecialValueCoding", "y"]
+- ["P10Foundation20NSSpecialValueCoding", ""]
+- !private ["C10Foundation8NSString", "deinit"]
+- ["C10Foundation7NSValue", "NSEdgeInsets"]
+- ["C10Foundation7NSValue", "NSPoint"]
+- ["C10Foundation7NSValue", "NSRect"]
+- ["C10Foundation7NSValue", "NSSize"]
+- !private ["C10Foundation7NSValue", "NSSpecialValue"]
+- !private ["C10Foundation7NSValue", "_concreteValue"]
+- !private ["C10Foundation7NSValue", "_value"]
+- !private ["C10Foundation7NSValue", "doubleValue"]
+- ["C10Foundation7NSValue", "edgeInsetsValue"]
+- ["C10Foundation7NSValue", "init"]
+- ["C10Foundation7NSValue", "pointValue"]
+- ["C10Foundation7NSValue", "rectValue"]
+- ["C10Foundation7NSValue", "sizeValue"]
+- !private ["Ps9OptionSet", "AlignHeightInward"]
+- !private ["Ps9OptionSet", "AlignHeightNearest"]
+- !private ["Ps9OptionSet", "AlignHeightOutward"]
+- ["Ps9OptionSet", "AlignMaxXInward"]
+- ["Ps9OptionSet", "AlignMaxXNearest"]
+- ["Ps9OptionSet", "AlignMaxXOutward"]
+- ["Ps9OptionSet", "AlignMaxYInward"]
+- ["Ps9OptionSet", "AlignMaxYNearest"]
+- ["Ps9OptionSet", "AlignMaxYOutward"]
+- ["Ps9OptionSet", "AlignMinXInward"]
+- ["Ps9OptionSet", "AlignMinXNearest"]
+- ["Ps9OptionSet", "AlignMinXOutward"]
+- ["Ps9OptionSet", "AlignMinYInward"]
+- ["Ps9OptionSet", "AlignMinYNearest"]
+- ["Ps9OptionSet", "AlignMinYOutward"]
+- !private ["Ps9OptionSet", "AlignRectFlipped"]
+- !private ["Ps9OptionSet", "AlignWidthInward"]
+- !private ["Ps9OptionSet", "AlignWidthNearest"]
+- !private ["Ps9OptionSet", "AlignWidthOutward"]
+- ["Ps9OptionSet", "NSAlignmentOptions"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "AlignHeightInward"]
+- !private ["Ps16RawRepresentable", "AlignHeightNearest"]
+- !private ["Ps16RawRepresentable", "AlignHeightOutward"]
+- ["Ps16RawRepresentable", "AlignMaxXInward"]
+- ["Ps16RawRepresentable", "AlignMaxXNearest"]
+- ["Ps16RawRepresentable", "AlignMaxXOutward"]
+- ["Ps16RawRepresentable", "AlignMaxYInward"]
+- ["Ps16RawRepresentable", "AlignMaxYNearest"]
+- ["Ps16RawRepresentable", "AlignMaxYOutward"]
+- ["Ps16RawRepresentable", "AlignMinXInward"]
+- ["Ps16RawRepresentable", "AlignMinXNearest"]
+- ["Ps16RawRepresentable", "AlignMinXOutward"]
+- ["Ps16RawRepresentable", "AlignMinYInward"]
+- ["Ps16RawRepresentable", "AlignMinYNearest"]
+- ["Ps16RawRepresentable", "AlignMinYOutward"]
+- !private ["Ps16RawRepresentable", "AlignRectFlipped"]
+- !private ["Ps16RawRepresentable", "AlignWidthInward"]
+- !private ["Ps16RawRepresentable", "AlignWidthNearest"]
+- !private ["Ps16RawRepresentable", "AlignWidthOutward"]
+- ["Ps16RawRepresentable", "NSAlignmentOptions"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "maxX"]
+- ["Ps16RawRepresentable", "maxXEdge"]
+- ["Ps16RawRepresentable", "maxY"]
+- ["Ps16RawRepresentable", "maxYEdge"]
+- ["Ps16RawRepresentable", "minX"]
+- ["Ps16RawRepresentable", "minXEdge"]
+- ["Ps16RawRepresentable", "minY"]
+- ["Ps16RawRepresentable", "minYEdge"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- !private ["P10Foundation20ReferenceConvertible", "decimalDigits"]
+- !private ["P10Foundation20ReferenceConvertible", "insert"]
+- !private ["C10Foundation7Scanner", "atEnd"]
+- !private ["C10Foundation7Scanner", "init"]
+- !private ["C10Foundation7Scanner", "scanDouble"]
+- !private ["C10Foundation7Scanner", "scanUpToCharactersFromSet"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "AlignHeightInward"]
+- !private ["Ps10SetAlgebra", "AlignHeightNearest"]
+- !private ["Ps10SetAlgebra", "AlignHeightOutward"]
+- ["Ps10SetAlgebra", "AlignMaxXInward"]
+- ["Ps10SetAlgebra", "AlignMaxXNearest"]
+- ["Ps10SetAlgebra", "AlignMaxXOutward"]
+- ["Ps10SetAlgebra", "AlignMaxYInward"]
+- ["Ps10SetAlgebra", "AlignMaxYNearest"]
+- ["Ps10SetAlgebra", "AlignMaxYOutward"]
+- ["Ps10SetAlgebra", "AlignMinXInward"]
+- ["Ps10SetAlgebra", "AlignMinXNearest"]
+- ["Ps10SetAlgebra", "AlignMinXOutward"]
+- ["Ps10SetAlgebra", "AlignMinYInward"]
+- ["Ps10SetAlgebra", "AlignMinYNearest"]
+- ["Ps10SetAlgebra", "AlignMinYOutward"]
+- !private ["Ps10SetAlgebra", "AlignRectFlipped"]
+- !private ["Ps10SetAlgebra", "AlignWidthInward"]
+- !private ["Ps10SetAlgebra", "AlignWidthNearest"]
+- !private ["Ps10SetAlgebra", "AlignWidthOutward"]
+- ["Ps10SetAlgebra", "NSAlignmentOptions"]
+- ["Ps10SetAlgebra", "contains"]
+- !private ["Ps10SetAlgebra", "decimalDigits"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "NativeType"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "isNaN"]
+- !private ["Ps12SignedNumber", "nan"]
+- !private ["Ps12SignedNumber", "native"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "NativeType"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "initializeMemory"]
+- !private ["Ps10Strideable", "isNaN"]
+- !private ["Ps10Strideable", "load"]
+- !private ["Ps10Strideable", "nan"]
+- !private ["Ps10Strideable", "native"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["SS", "_bridgeToObjectiveC"]
+- !private ["SS", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Ps16TextOutputStream", "_bridgeToObjectiveC"]
+- !private ["Ps16TextOutputStream", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "_bridgeToObjectiveC"]
+- !private ["Ps20TextOutputStreamable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "initializeMemory"]
+- !private ["SV", "load"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_bridgeToObjectiveC"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation13_CFBridgeable", "decimalDigits"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "insert"]
+- !private ["P10Foundation13_CFBridgeable", "isEmpty"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps15_CVarArgAligned", "NativeType"]
+- !private ["Ps15_CVarArgAligned", "hashValue"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "isNaN"]
+- !private ["Ps15_CVarArgAligned", "nan"]
+- !private ["Ps15_CVarArgAligned", "native"]
+- !private ["Ps22_CVarArgPassedAsDouble", "NativeType"]
+- !private ["Ps22_CVarArgPassedAsDouble", "hashValue"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "isNaN"]
+- !private ["Ps22_CVarArgPassedAsDouble", "nan"]
+- !private ["Ps22_CVarArgPassedAsDouble", "native"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "_bridgeToObjectiveC"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "isNaN"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "nan"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "isNaN"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "nan"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "_bridgeToObjectiveC"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "_bridgeToObjectiveC"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "_bridgeToObjectiveC"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "_bridgeToObjectiveC"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "NSNumber"]
+- !private ["Ps9_Hashable", "NSPoint"]
+- !private ["Ps9_Hashable", "NSPointFromString"]
+- !private ["Ps9_Hashable", "NSRect"]
+- !private ["Ps9_Hashable", "NSRectFromString"]
+- !private ["Ps9_Hashable", "NSSize"]
+- !private ["Ps9_Hashable", "NSSizeFromString"]
+- !private ["Ps9_Hashable", "NSSpecialValue"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "NSStringFromPoint"]
+- !private ["Ps9_Hashable", "NSStringFromRect"]
+- !private ["Ps9_Hashable", "NSStringFromSize"]
+- !private ["Ps9_Hashable", "NativeType"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_bridgeToObjectiveC"]
+- !private ["Ps9_Hashable", "_concreteValue"]
+- !private ["Ps9_Hashable", "_decodeCGFloat"]
+- !private ["Ps9_Hashable", "_decodeCGFloatForKey"]
+- !private ["Ps9_Hashable", "_decodeValue"]
+- !private ["Ps9_Hashable", "_encodeCGFloat"]
+- !private ["Ps9_Hashable", "_encodeValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps9_Hashable", "_value"]
+- !private ["Ps9_Hashable", "allowsKeyedCoding"]
+- !private ["Ps9_Hashable", "atEnd"]
+- !private ["Ps9_Hashable", "decimalDigits"]
+- !private ["Ps9_Hashable", "decodeDouble"]
+- !private ["Ps9_Hashable", "decodeObject"]
+- !private ["Ps9_Hashable", "decodePoint"]
+- !private ["Ps9_Hashable", "decodePointForKey"]
+- !private ["Ps9_Hashable", "decodeRectForKey"]
+- !private ["Ps9_Hashable", "decodeSize"]
+- !private ["Ps9_Hashable", "decodeSizeForKey"]
+- !private ["Ps9_Hashable", "doubleValue"]
+- !private ["Ps9_Hashable", "encode"]
+- !private ["Ps9_Hashable", "encodePoint"]
+- !private ["Ps9_Hashable", "encodeRect"]
+- !private ["Ps9_Hashable", "encodeSize"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initializeMemory"]
+- !private ["Ps9_Hashable", "insert"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "isNaN"]
+- !private ["Ps9_Hashable", "load"]
+- ["Ps9_Hashable", "maxX"]
+- ["Ps9_Hashable", "maxXEdge"]
+- ["Ps9_Hashable", "maxY"]
+- ["Ps9_Hashable", "maxYEdge"]
+- ["Ps9_Hashable", "minX"]
+- ["Ps9_Hashable", "minXEdge"]
+- ["Ps9_Hashable", "minY"]
+- ["Ps9_Hashable", "minYEdge"]
+- !private ["Ps9_Hashable", "nan"]
+- !private ["Ps9_Hashable", "native"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "preconditionFailure"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "scanDouble"]
+- !private ["Ps9_Hashable", "scanUpToCharactersFromSet"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["P10Foundation18_MutablePairBoxing", "decimalDigits"]
+- !private ["P10Foundation18_MutablePairBoxing", "insert"]
+- !private ["P10Foundation13_NSBridgeable", "_bridgeToObjectiveC"]
+- !private ["P10Foundation13_NSBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation13_NSBridgeable", "decimalDigits"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "insert"]
+- !private ["P10Foundation13_NSBridgeable", "isEmpty"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_bridgeToObjectiveC"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation17_ObjectBridgeable", "decimalDigits"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "insert"]
+- !private ["P10Foundation17_ObjectBridgeable", "isEmpty"]
+- !private ["P10Foundation17_ObjectBridgeable", "isNaN"]
+- !private ["P10Foundation17_ObjectBridgeable", "nan"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_bridgeToObjectiveC"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "decimalDigits"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "insert"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "isEmpty"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "isNaN"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "nan"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps8_Pointer", "initializeMemory"]
+- !private ["Ps8_Pointer", "load"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "NativeType"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "initializeMemory"]
+- !private ["Ps11_Strideable", "isNaN"]
+- !private ["Ps11_Strideable", "load"]
+- !private ["Ps11_Strideable", "nan"]
+- !private ["Ps11_Strideable", "native"]
+- !private ["Ps11_Strideable", "pointee"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "V10Foundation7CGFloat"
+- "V10Foundation7CGPoint"
+- "V10Foundation6CGRect"
+- "O10Foundation10CGRectEdge"
+- "V10Foundation6CGSize"
+- !private "Ps7CVarArg"
+- !private "V10Foundation12CharacterSet"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "V10Foundation18NSAlignmentOptions"
+- "C10Foundation7NSCoder"
+- !private "P10Foundation8NSCoding"
+- !private "P10Foundation9NSCopying"
+- "V10Foundation12NSEdgeInsets"
+- !private "C10Foundation15NSKeyedArchiver"
+- !private "C10Foundation17NSKeyedUnarchiver"
+- !private "C10Foundation8NSNumber"
+- "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- "O10Foundation10NSRectEdge"
+- !private "P10Foundation14NSSecureCoding"
+- !private "C10Foundation14NSSpecialValue"
+- "P10Foundation20NSSpecialValueCoding"
+- !private "C10Foundation8NSString"
+- "C10Foundation7NSValue"
+- "Ps9OptionSet"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "C10Foundation7Scanner"
+- !private "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Sp"
+- !private "Sv"
+- !private "SV"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation18_MutablePairBoxing"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "5a7617777454e1da2d5d09df1d6ac3fe"

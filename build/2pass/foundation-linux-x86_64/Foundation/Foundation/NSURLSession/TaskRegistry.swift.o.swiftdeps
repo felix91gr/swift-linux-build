@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "CC10Foundation10URLSession13_TaskRegistry"
+- "OCC10Foundation10URLSession13_TaskRegistry10_Behaviour"
+provides-member:
+- ["C10Foundation10URLSession", ""]
+- ["CC10Foundation10URLSession13_TaskRegistry", ""]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", ""]
+- ["C10Foundation10URLSession", "_TaskRegistry"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "add"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "remove"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "notify"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "isEmpty"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "behaviour"]
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "==="
+- "AssignmentPrecedence"
+- "Bool"
+- "Data"
+- "Error"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- "URL"
+- "URLResponse"
+- "URLSession"
+- "URLSessionTask"
+- "Void"
+- !private "fatalError"
+depends-member:
+- !private ["Ps9AnyObject", "behaviours"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "taskIdentifier"]
+- !private ["Ps9AnyObject", "tasks"]
+- !private ["Ps9AnyObject", "tasksFinishedCallback"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "index"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "index"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "taskIdentifier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "index"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "remove"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "index"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "taskIdentifier"]
+- !private ["Vs10Dictionary", "count"]
+- !private ["Vs10Dictionary", "index"]
+- !private ["Vs10Dictionary", "remove"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "taskIdentifier"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "count"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "remove"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "taskIdentifier"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation9NSCopying", "taskIdentifier"]
+- ["C10Foundation8NSObject", "Data"]
+- ["C10Foundation8NSObject", "Error"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "URL"]
+- ["C10Foundation8NSObject", "URLResponse"]
+- ["C10Foundation8NSObject", "URLSessionTask"]
+- ["C10Foundation8NSObject", "Void"]
+- ["C10Foundation8NSObject", "_TaskRegistry"]
+- !private ["C10Foundation8NSObject", "taskIdentifier"]
+- !private ["P10Foundation16NSObjectProtocol", "taskIdentifier"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "index"]
+- !private ["Ps8Sequence", "remove"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["C10Foundation10URLSession", "Data"]
+- ["C10Foundation10URLSession", "Error"]
+- ["C10Foundation10URLSession", "Int"]
+- ["C10Foundation10URLSession", "URL"]
+- ["C10Foundation10URLSession", "URLResponse"]
+- ["C10Foundation10URLSession", "URLSessionTask"]
+- ["C10Foundation10URLSession", "Void"]
+- ["C10Foundation10URLSession", "_TaskRegistry"]
+- !private ["C10Foundation14URLSessionTask", "deinit"]
+- !private ["C10Foundation14URLSessionTask", "taskIdentifier"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "DataTaskCompletion"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "DownloadTaskCompletion"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "callDelegate"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "dataCompletionHandler"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "downloadCompletionHandler"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- !private ["P10Foundation13_CFBridgeable", "index"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "remove"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["P10Foundation19_EasyHandleDelegate", "taskIdentifier"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "taskIdentifier"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "index"]
+- !private ["Ps10_Indexable", "remove"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "index"]
+- !private ["Ps14_IndexableBase", "remove"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- !private ["P10Foundation13_NSBridgeable", "index"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "remove"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- !private ["P10Foundation17_ObjectBridgeable", "index"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "remove"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "index"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "remove"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "Bool"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "Data"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "DataTaskCompletion"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "DownloadTaskCompletion"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "Error"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "Int"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "URL"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "URLResponse"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "URLSessionTask"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "Void"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "_Behaviour"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "add"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "behaviour"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "behaviours"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "deinit"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "fatalError"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "init"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "isEmpty"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "notify"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "remove"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "tasks"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "tasksFinishedCallback"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P10Foundation9NSCopying"
+- "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- !private "Ps8Sequence"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C10Foundation10URLSession"
+- !private "C10Foundation14URLSessionTask"
+- "OCC10Foundation10URLSession13_TaskRegistry10_Behaviour"
+- !private "P10Foundation13_CFBridgeable"
+- !private "P10Foundation19_EasyHandleDelegate"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- "CC10Foundation10URLSession13_TaskRegistry"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "fc2bc20630e3a7c4c13f6be0b6e8cabc"

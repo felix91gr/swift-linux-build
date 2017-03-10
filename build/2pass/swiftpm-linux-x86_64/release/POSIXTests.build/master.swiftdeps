@@ -1,0 +1,8 @@
+version: "Swift version 3.1-dev (LLVM a7c680da51, Clang 9772bf511a, Swift 493db43364)"
+options: "9badc45b5fecce275ab8850fb2fd5643"
+build_time: [542446057, 609238000]
+inputs:
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/POSIXTests/XCTestManifests.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/POSIXTests/usleep.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/POSIXTests/EnvTests.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/POSIXTests/ReaddirTests.swift": [9223372036854775807, 0]

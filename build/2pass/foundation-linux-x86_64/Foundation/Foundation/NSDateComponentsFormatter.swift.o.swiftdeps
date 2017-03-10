@@ -1,0 +1,488 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateComponentsFormatter"
+provides-nominal:
+- "C10Foundation23DateComponentsFormatter"
+- "OC10Foundation23DateComponentsFormatter10UnitsStyle"
+- "VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior"
+provides-member:
+- ["C10Foundation23DateComponentsFormatter", ""]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", ""]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", ""]
+- ["C10Foundation23DateComponentsFormatter", "UnitsStyle"]
+- ["C10Foundation23DateComponentsFormatter", "ZeroFormattingBehavior"]
+depends-top-level:
+- "<<"
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "Calendar"
+- "Date"
+- "DateComponents"
+- "DateComponentsFormatter"
+- "FloatLiteralType"
+- "Formatter"
+- "Int"
+- "IntegerLiteralType"
+- "NSCalendar"
+- "NSCoder"
+- !private "NSUnimplemented"
+- "OptionSet"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "UInt"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- ["Ps9AnyObject", "Unit"]
+- ["Ps9AnyObject", "ZeroFormattingBehavior"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "Unit"]
+- ["Ps28CustomDebugStringConvertible", "ZeroFormattingBehavior"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "Unit"]
+- ["Ps23CustomStringConvertible", "ZeroFormattingBehavior"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C10Foundation23DateComponentsFormatter", "Bool"]
+- ["C10Foundation23DateComponentsFormatter", "Calendar"]
+- ["C10Foundation23DateComponentsFormatter", "Context"]
+- ["C10Foundation23DateComponentsFormatter", "Date"]
+- ["C10Foundation23DateComponentsFormatter", "DateComponents"]
+- ["C10Foundation23DateComponentsFormatter", "Int"]
+- ["C10Foundation23DateComponentsFormatter", "NSCalendar"]
+- ["C10Foundation23DateComponentsFormatter", "NSCoder"]
+- !private ["C10Foundation23DateComponentsFormatter", "NSUnimplemented"]
+- ["C10Foundation23DateComponentsFormatter", "OptionSet"]
+- ["C10Foundation23DateComponentsFormatter", "String"]
+- ["C10Foundation23DateComponentsFormatter", "TimeInterval"]
+- ["C10Foundation23DateComponentsFormatter", "UInt"]
+- ["C10Foundation23DateComponentsFormatter", "UnitsStyle"]
+- ["C10Foundation23DateComponentsFormatter", "ZeroFormattingBehavior"]
+- ["C10Foundation23DateComponentsFormatter", "allowedUnits"]
+- ["C10Foundation23DateComponentsFormatter", "allowsFractionalUnits"]
+- ["C10Foundation23DateComponentsFormatter", "calendar"]
+- ["C10Foundation23DateComponentsFormatter", "collapsesLargestUnit"]
+- ["C10Foundation23DateComponentsFormatter", "deinit"]
+- ["C10Foundation23DateComponentsFormatter", "formattingContext"]
+- ["C10Foundation23DateComponentsFormatter", "includesApproximationPhrase"]
+- ["C10Foundation23DateComponentsFormatter", "includesTimeRemainingPhrase"]
+- ["C10Foundation23DateComponentsFormatter", "init"]
+- ["C10Foundation23DateComponentsFormatter", "localizedString"]
+- ["C10Foundation23DateComponentsFormatter", "maximumUnitCount"]
+- ["C10Foundation23DateComponentsFormatter", "objectValue"]
+- ["C10Foundation23DateComponentsFormatter", "string"]
+- ["C10Foundation23DateComponentsFormatter", "unitsStyle"]
+- ["C10Foundation23DateComponentsFormatter", "zeroFormattingBehavior"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "Unit"]
+- ["Ps9Equatable", "ZeroFormattingBehavior"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "contains"]
+- ["Ps9Equatable", "dropLeading"]
+- ["Ps9Equatable", "dropMiddle"]
+- ["Ps9Equatable", "dropTrailing"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "ZeroFormattingBehavior"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- ["Ps25ExpressibleByArrayLiteral", "dropLeading"]
+- ["Ps25ExpressibleByArrayLiteral", "dropMiddle"]
+- ["Ps25ExpressibleByArrayLiteral", "dropTrailing"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C10Foundation9Formatter", "Bool"]
+- ["C10Foundation9Formatter", "Calendar"]
+- ["C10Foundation9Formatter", "Context"]
+- ["C10Foundation9Formatter", "Date"]
+- ["C10Foundation9Formatter", "DateComponents"]
+- ["C10Foundation9Formatter", "Int"]
+- ["C10Foundation9Formatter", "NSCalendar"]
+- ["C10Foundation9Formatter", "NSCoder"]
+- !private ["C10Foundation9Formatter", "NSUnimplemented"]
+- ["C10Foundation9Formatter", "OptionSet"]
+- ["C10Foundation9Formatter", "String"]
+- ["C10Foundation9Formatter", "TimeInterval"]
+- ["C10Foundation9Formatter", "UInt"]
+- ["C10Foundation9Formatter", "UnitsStyle"]
+- ["C10Foundation9Formatter", "ZeroFormattingBehavior"]
+- ["C10Foundation9Formatter", "allowedUnits"]
+- ["C10Foundation9Formatter", "allowsFractionalUnits"]
+- ["C10Foundation9Formatter", "calendar"]
+- ["C10Foundation9Formatter", "collapsesLargestUnit"]
+- ["C10Foundation9Formatter", "formattingContext"]
+- ["C10Foundation9Formatter", "includesApproximationPhrase"]
+- ["C10Foundation9Formatter", "includesTimeRemainingPhrase"]
+- ["C10Foundation9Formatter", "init"]
+- ["C10Foundation9Formatter", "localizedString"]
+- ["C10Foundation9Formatter", "maximumUnitCount"]
+- ["C10Foundation9Formatter", "objectValue"]
+- ["C10Foundation9Formatter", "string"]
+- ["C10Foundation9Formatter", "unitsStyle"]
+- ["C10Foundation9Formatter", "zeroFormattingBehavior"]
+- ["C10Foundation9Formatter", ""]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "Unit"]
+- ["Ps8Hashable", "ZeroFormattingBehavior"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- ["C10Foundation10NSCalendar", "Unit"]
+- !private ["P10Foundation8NSCoding", "NSUnimplemented"]
+- ["P10Foundation8NSCoding", "Unit"]
+- ["P10Foundation8NSCoding", "ZeroFormattingBehavior"]
+- !private ["P10Foundation8NSCoding", "init"]
+- ["P10Foundation8NSCoding", ""]
+- !private ["P10Foundation9NSCopying", "NSUnimplemented"]
+- ["P10Foundation9NSCopying", "Unit"]
+- ["P10Foundation9NSCopying", "ZeroFormattingBehavior"]
+- !private ["P10Foundation9NSCopying", "init"]
+- ["P10Foundation9NSCopying", ""]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "Calendar"]
+- ["C10Foundation8NSObject", "Context"]
+- ["C10Foundation8NSObject", "Date"]
+- ["C10Foundation8NSObject", "DateComponents"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "NSCalendar"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "OptionSet"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "TimeInterval"]
+- ["C10Foundation8NSObject", "UInt"]
+- ["C10Foundation8NSObject", "Unit"]
+- ["C10Foundation8NSObject", "UnitsStyle"]
+- ["C10Foundation8NSObject", "ZeroFormattingBehavior"]
+- ["C10Foundation8NSObject", "allowedUnits"]
+- ["C10Foundation8NSObject", "allowsFractionalUnits"]
+- ["C10Foundation8NSObject", "calendar"]
+- ["C10Foundation8NSObject", "collapsesLargestUnit"]
+- ["C10Foundation8NSObject", "formattingContext"]
+- ["C10Foundation8NSObject", "includesApproximationPhrase"]
+- ["C10Foundation8NSObject", "includesTimeRemainingPhrase"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "localizedString"]
+- ["C10Foundation8NSObject", "maximumUnitCount"]
+- ["C10Foundation8NSObject", "objectValue"]
+- ["C10Foundation8NSObject", "string"]
+- ["C10Foundation8NSObject", "unitsStyle"]
+- ["C10Foundation8NSObject", "zeroFormattingBehavior"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- ["P10Foundation16NSObjectProtocol", "Unit"]
+- ["P10Foundation16NSObjectProtocol", "ZeroFormattingBehavior"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["P10Foundation14NSSecureCoding", "Unit"]
+- ["Ps9OptionSet", "ZeroFormattingBehavior"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "dropLeading"]
+- ["Ps9OptionSet", "dropMiddle"]
+- ["Ps9OptionSet", "dropTrailing"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- ["Ps16RawRepresentable", "ZeroFormattingBehavior"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "dropLeading"]
+- ["Ps16RawRepresentable", "dropMiddle"]
+- ["Ps16RawRepresentable", "dropTrailing"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- ["Ps10SetAlgebra", "ZeroFormattingBehavior"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "dropLeading"]
+- ["Ps10SetAlgebra", "dropMiddle"]
+- ["Ps10SetAlgebra", "dropTrailing"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "RawValue"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "_toAnyHashable"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "abbreviated"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "brief"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "deinit"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "full"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "hashValue"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "init"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "positional"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "rawValue"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "short"]
+- ["OC10Foundation23DateComponentsFormatter10UnitsStyle", "spellOut"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "Element"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "RawValue"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "UInt"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "ZeroFormattingBehavior"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "contains"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "default"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "deinit"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "dropAll"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "dropLeading"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "dropMiddle"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "dropTrailing"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "formIntersection"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "formSymmetricDifference"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "formUnion"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "init"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "insert"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "intersection"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "isDisjoint"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "isEmpty"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "isSubset"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "isSuperset"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "none"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "pad"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "rawValue"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "remove"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "subtract"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "subtracting"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "symmetricDifference"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "union"]
+- ["VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior", "update"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- ["P10Foundation13_CFBridgeable", "Unit"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "Unit"]
+- ["Ps9_Hashable", "ZeroFormattingBehavior"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["P10Foundation17_StructBridgeable", "Unit"]
+- ["P10Foundation21_StructTypeBridgeable", "Unit"]
+- ["P10Foundation16_SwiftBridgeable", "Unit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C10Foundation23DateComponentsFormatter"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C10Foundation9Formatter"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C10Foundation10NSCalendar"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "P10Foundation14NSSecureCoding"
+- "Ps9OptionSet"
+- "Ps16RawRepresentable"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "OC10Foundation23DateComponentsFormatter10UnitsStyle"
+- "VC10Foundation23DateComponentsFormatter22ZeroFormattingBehavior"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "P10Foundation17_StructBridgeable"
+- "P10Foundation21_StructTypeBridgeable"
+- "P10Foundation16_SwiftBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "af0f6464249ac7de05eac71d49ba9273"

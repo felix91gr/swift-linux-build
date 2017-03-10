@@ -1,0 +1,820 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSThreadSpecific"
+- "_NSThreadStatus"
+- "Thread"
+- "=="
+provides-nominal:
+- "C10Foundation16NSThreadSpecific"
+- "O10Foundation15_NSThreadStatus"
+- "C10Foundation6Thread"
+provides-member:
+- ["C10Foundation16NSThreadSpecific", ""]
+- ["O10Foundation15_NSThreadStatus", ""]
+- ["C10Foundation6Thread", ""]
+- ["VC10Foundation14NSNotification4Name", ""]
+- ["VC10Foundation14NSNotification4Name", "NSWillBecomeMultiThreaded"]
+- ["VC10Foundation14NSNotification4Name", "NSDidBecomeSingleThreaded"]
+- ["VC10Foundation14NSNotification4Name", "NSThreadWillExit"]
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "<"
+- !private "<<"
+- "=="
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "CFGetSystemUptime"
+- "CastingPrecedence"
+- "Date"
+- !private "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- !private "LONG_MAX"
+- "NSNotification"
+- "NSNumber"
+- "NSObject"
+- "NSThreadSpecific"
+- !private "NSThreadStart"
+- !private "NSUnimplemented"
+- !private "PTHREAD_CREATE_DETACHED"
+- !private "PTHREAD_SCOPE_SYSTEM"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "Thread"
+- "TimeInterval"
+- !private "UnsafeMutableRawPointer"
+- "Void"
+- !private "_CFThreadCreate"
+- !private "_CFThreadSpecificGet"
+- !private "_CFThreadSpecificKey"
+- "_CFThreadSpecificKeyCreate"
+- !private "_CThreadSpecificSet"
+- "_NSThreadStatus"
+- !private "_compiler_crash_fix"
+- !private "modf"
+- !private "nanosleep"
+- !private "precondition"
+- !private "pthread_attr_getstacksize"
+- !private "pthread_attr_init"
+- !private "pthread_attr_setdetachstate"
+- !private "pthread_attr_setscope"
+- !private "pthread_attr_setstacksize"
+- "pthread_attr_t"
+- !private "pthread_exit"
+- !private "pthread_self"
+- "pthread_t"
+- !private "timespec"
+- !private "withUnsafeMutablePointer"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9AnyObject", "CFGetSystemUptime"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "LONG_MAX"]
+- ["Ps9AnyObject", "NSThreadSpecific"]
+- !private ["Ps9AnyObject", "NSThreadStart"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "PTHREAD_CREATE_DETACHED"]
+- !private ["Ps9AnyObject", "PTHREAD_SCOPE_SYSTEM"]
+- ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "Thread"]
+- !private ["Ps9AnyObject", "_CFThreadCreate"]
+- !private ["Ps9AnyObject", "_CFThreadSpecificGet"]
+- ["Ps9AnyObject", "_CFThreadSpecificKeyCreate"]
+- ["Ps9AnyObject", "_NSThreadStatus"]
+- !private ["Ps9AnyObject", "_attr"]
+- !private ["Ps9AnyObject", "_cancelled"]
+- !private ["Ps9AnyObject", "_compiler_crash_fix"]
+- !private ["Ps9AnyObject", "_currentThread"]
+- !private ["Ps9AnyObject", "_main"]
+- !private ["Ps9AnyObject", "_status"]
+- !private ["Ps9AnyObject", "_thread"]
+- !private ["Ps9AnyObject", "get"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "key"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "modf"]
+- !private ["Ps9AnyObject", "nanosleep"]
+- !private ["Ps9AnyObject", "precondition"]
+- !private ["Ps9AnyObject", "pthread_attr_getstacksize"]
+- !private ["Ps9AnyObject", "pthread_attr_init"]
+- !private ["Ps9AnyObject", "pthread_attr_setdetachstate"]
+- !private ["Ps9AnyObject", "pthread_attr_setscope"]
+- !private ["Ps9AnyObject", "pthread_attr_setstacksize"]
+- ["Ps9AnyObject", "pthread_attr_t"]
+- !private ["Ps9AnyObject", "pthread_exit"]
+- !private ["Ps9AnyObject", "pthread_self"]
+- ["Ps9AnyObject", "pthread_t"]
+- !private ["Ps9AnyObject", "releaseReference"]
+- !private ["Ps9AnyObject", "set"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "timespec"]
+- !private ["Ps9AnyObject", "unretainedReference"]
+- !private ["Ps9AnyObject", "withRetainedReference"]
+- !private ["Ps9AnyObject", "withUnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "withUnsafePointer"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointee"]
+- ["Ps10Collection", "init"]
+- ["Ps10Comparable", "NSNotification"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps10Comparable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps28CustomDebugStringConvertible", "CFGetSystemUptime"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "Int32"]
+- !private ["Ps28CustomDebugStringConvertible", "LONG_MAX"]
+- ["Ps28CustomDebugStringConvertible", "NSThreadSpecific"]
+- !private ["Ps28CustomDebugStringConvertible", "NSThreadStart"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "PTHREAD_CREATE_DETACHED"]
+- !private ["Ps28CustomDebugStringConvertible", "PTHREAD_SCOPE_SYSTEM"]
+- ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "Thread"]
+- !private ["Ps28CustomDebugStringConvertible", "_CFThreadCreate"]
+- ["Ps28CustomDebugStringConvertible", "_NSThreadStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "_attr"]
+- !private ["Ps28CustomDebugStringConvertible", "_cancelled"]
+- !private ["Ps28CustomDebugStringConvertible", "_currentThread"]
+- !private ["Ps28CustomDebugStringConvertible", "_main"]
+- !private ["Ps28CustomDebugStringConvertible", "_status"]
+- !private ["Ps28CustomDebugStringConvertible", "_thread"]
+- !private ["Ps28CustomDebugStringConvertible", "executing"]
+- !private ["Ps28CustomDebugStringConvertible", "finished"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialized"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "modf"]
+- !private ["Ps28CustomDebugStringConvertible", "nanosleep"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "precondition"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_attr_getstacksize"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_attr_init"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_attr_setdetachstate"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_attr_setscope"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_attr_setstacksize"]
+- ["Ps28CustomDebugStringConvertible", "pthread_attr_t"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_exit"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_self"]
+- ["Ps28CustomDebugStringConvertible", "pthread_t"]
+- !private ["Ps28CustomDebugStringConvertible", "releaseReference"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "timespec"]
+- !private ["Ps28CustomDebugStringConvertible", "unretainedReference"]
+- !private ["Ps28CustomDebugStringConvertible", "withRetainedReference"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutablePointer"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafePointer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "executing"]
+- !private ["Ps17CustomReflectable", "finished"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "initialized"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps23CustomStringConvertible", "CFGetSystemUptime"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "Int32"]
+- !private ["Ps23CustomStringConvertible", "LONG_MAX"]
+- ["Ps23CustomStringConvertible", "NSThreadSpecific"]
+- !private ["Ps23CustomStringConvertible", "NSThreadStart"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "PTHREAD_CREATE_DETACHED"]
+- !private ["Ps23CustomStringConvertible", "PTHREAD_SCOPE_SYSTEM"]
+- ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "Thread"]
+- !private ["Ps23CustomStringConvertible", "_CFThreadCreate"]
+- ["Ps23CustomStringConvertible", "_NSThreadStatus"]
+- !private ["Ps23CustomStringConvertible", "_attr"]
+- !private ["Ps23CustomStringConvertible", "_cancelled"]
+- !private ["Ps23CustomStringConvertible", "_currentThread"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_main"]
+- !private ["Ps23CustomStringConvertible", "_status"]
+- !private ["Ps23CustomStringConvertible", "_thread"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "modf"]
+- !private ["Ps23CustomStringConvertible", "nanosleep"]
+- !private ["Ps23CustomStringConvertible", "precondition"]
+- !private ["Ps23CustomStringConvertible", "pthread_attr_getstacksize"]
+- !private ["Ps23CustomStringConvertible", "pthread_attr_init"]
+- !private ["Ps23CustomStringConvertible", "pthread_attr_setdetachstate"]
+- !private ["Ps23CustomStringConvertible", "pthread_attr_setscope"]
+- !private ["Ps23CustomStringConvertible", "pthread_attr_setstacksize"]
+- ["Ps23CustomStringConvertible", "pthread_attr_t"]
+- !private ["Ps23CustomStringConvertible", "pthread_exit"]
+- !private ["Ps23CustomStringConvertible", "pthread_self"]
+- ["Ps23CustomStringConvertible", "pthread_t"]
+- !private ["Ps23CustomStringConvertible", "releaseReference"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "timespec"]
+- !private ["Ps23CustomStringConvertible", "unretainedReference"]
+- !private ["Ps23CustomStringConvertible", "withRetainedReference"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutablePointer"]
+- !private ["Ps23CustomStringConvertible", "withUnsafePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "timeIntervalSinceReferenceDate"]
+- ["Vs10Dictionary", "init"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9Equatable", "CFGetSystemUptime"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "Int32"]
+- !private ["Ps9Equatable", "LONG_MAX"]
+- ["Ps9Equatable", "NSNotification"]
+- ["Ps9Equatable", "NSThreadSpecific"]
+- !private ["Ps9Equatable", "NSThreadStart"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "PTHREAD_CREATE_DETACHED"]
+- !private ["Ps9Equatable", "PTHREAD_SCOPE_SYSTEM"]
+- ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "Thread"]
+- !private ["Ps9Equatable", "_CFThreadCreate"]
+- ["Ps9Equatable", "_NSThreadStatus"]
+- !private ["Ps9Equatable", "_attr"]
+- !private ["Ps9Equatable", "_cancelled"]
+- !private ["Ps9Equatable", "_currentThread"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_main"]
+- !private ["Ps9Equatable", "_status"]
+- !private ["Ps9Equatable", "_thread"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "executing"]
+- !private ["Ps9Equatable", "finished"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "initialized"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "modf"]
+- !private ["Ps9Equatable", "nanosleep"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "precondition"]
+- !private ["Ps9Equatable", "pthread_attr_getstacksize"]
+- !private ["Ps9Equatable", "pthread_attr_init"]
+- !private ["Ps9Equatable", "pthread_attr_setdetachstate"]
+- !private ["Ps9Equatable", "pthread_attr_setscope"]
+- !private ["Ps9Equatable", "pthread_attr_setstacksize"]
+- ["Ps9Equatable", "pthread_attr_t"]
+- !private ["Ps9Equatable", "pthread_exit"]
+- !private ["Ps9Equatable", "pthread_self"]
+- ["Ps9Equatable", "pthread_t"]
+- !private ["Ps9Equatable", "releaseReference"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "starting"]
+- !private ["Ps9Equatable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9Equatable", "timespec"]
+- !private ["Ps9Equatable", "unretainedReference"]
+- !private ["Ps9Equatable", "withRetainedReference"]
+- !private ["Ps9Equatable", "withUnsafeMutablePointer"]
+- !private ["Ps9Equatable", "withUnsafePointer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "executing"]
+- !private ["Ps23ExpressibleByNilLiteral", "finished"]
+- !private ["Ps23ExpressibleByNilLiteral", "initialized"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps8Hashable", "CFGetSystemUptime"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "Int32"]
+- !private ["Ps8Hashable", "LONG_MAX"]
+- ["Ps8Hashable", "NSNotification"]
+- ["Ps8Hashable", "NSThreadSpecific"]
+- !private ["Ps8Hashable", "NSThreadStart"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "PTHREAD_CREATE_DETACHED"]
+- !private ["Ps8Hashable", "PTHREAD_SCOPE_SYSTEM"]
+- ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "Thread"]
+- !private ["Ps8Hashable", "_CFThreadCreate"]
+- ["Ps8Hashable", "_NSThreadStatus"]
+- !private ["Ps8Hashable", "_attr"]
+- !private ["Ps8Hashable", "_cancelled"]
+- !private ["Ps8Hashable", "_currentThread"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_main"]
+- !private ["Ps8Hashable", "_status"]
+- !private ["Ps8Hashable", "_thread"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "executing"]
+- !private ["Ps8Hashable", "finished"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "initialized"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "modf"]
+- !private ["Ps8Hashable", "nanosleep"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "precondition"]
+- !private ["Ps8Hashable", "pthread_attr_getstacksize"]
+- !private ["Ps8Hashable", "pthread_attr_init"]
+- !private ["Ps8Hashable", "pthread_attr_setdetachstate"]
+- !private ["Ps8Hashable", "pthread_attr_setscope"]
+- !private ["Ps8Hashable", "pthread_attr_setstacksize"]
+- ["Ps8Hashable", "pthread_attr_t"]
+- !private ["Ps8Hashable", "pthread_exit"]
+- !private ["Ps8Hashable", "pthread_self"]
+- ["Ps8Hashable", "pthread_t"]
+- !private ["Ps8Hashable", "releaseReference"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "starting"]
+- !private ["Ps8Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps8Hashable", "timespec"]
+- !private ["Ps8Hashable", "unretainedReference"]
+- !private ["Ps8Hashable", "withRetainedReference"]
+- !private ["Ps8Hashable", "withUnsafeMutablePointer"]
+- !private ["Ps8Hashable", "withUnsafePointer"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["P10Foundation8NSCoding", "Name"]
+- ["P10Foundation9NSCopying", "Name"]
+- ["C10Foundation14NSNotification", "Name"]
+- ["C10Foundation8NSObject", "Bool"]
+- !private ["C10Foundation8NSObject", "CFAbsoluteTimeGetCurrent"]
+- !private ["C10Foundation8NSObject", "CFGetSystemUptime"]
+- ["C10Foundation8NSObject", "Date"]
+- !private ["C10Foundation8NSObject", "Double"]
+- ["C10Foundation8NSObject", "Int"]
+- !private ["C10Foundation8NSObject", "Int32"]
+- !private ["C10Foundation8NSObject", "LONG_MAX"]
+- ["C10Foundation8NSObject", "NSNumber"]
+- ["C10Foundation8NSObject", "NSThreadSpecific"]
+- !private ["C10Foundation8NSObject", "NSThreadStart"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "Name"]
+- !private ["C10Foundation8NSObject", "PTHREAD_CREATE_DETACHED"]
+- !private ["C10Foundation8NSObject", "PTHREAD_SCOPE_SYSTEM"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "Swift"]
+- ["C10Foundation8NSObject", "Thread"]
+- ["C10Foundation8NSObject", "TimeInterval"]
+- ["C10Foundation8NSObject", "Void"]
+- !private ["C10Foundation8NSObject", "_CFThreadCreate"]
+- ["C10Foundation8NSObject", "_NSThreadStatus"]
+- ["C10Foundation8NSObject", "_attr"]
+- ["C10Foundation8NSObject", "_cancelled"]
+- ["C10Foundation8NSObject", "_currentThread"]
+- ["C10Foundation8NSObject", "_main"]
+- ["C10Foundation8NSObject", "_status"]
+- ["C10Foundation8NSObject", "_thread"]
+- ["C10Foundation8NSObject", "callStackReturnAddresses"]
+- ["C10Foundation8NSObject", "callStackSymbols"]
+- ["C10Foundation8NSObject", "cancel"]
+- ["C10Foundation8NSObject", "current"]
+- ["C10Foundation8NSObject", "detachNewThread"]
+- ["C10Foundation8NSObject", "exit"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "isCancelled"]
+- ["C10Foundation8NSObject", "isExecuting"]
+- ["C10Foundation8NSObject", "isFinished"]
+- ["C10Foundation8NSObject", "isMainThread"]
+- ["C10Foundation8NSObject", "isMultiThreaded"]
+- ["C10Foundation8NSObject", "main"]
+- ["C10Foundation8NSObject", "mainThread"]
+- !private ["C10Foundation8NSObject", "modf"]
+- ["C10Foundation8NSObject", "name"]
+- !private ["C10Foundation8NSObject", "nanosleep"]
+- !private ["C10Foundation8NSObject", "precondition"]
+- !private ["C10Foundation8NSObject", "pthread_attr_getstacksize"]
+- !private ["C10Foundation8NSObject", "pthread_attr_init"]
+- !private ["C10Foundation8NSObject", "pthread_attr_setdetachstate"]
+- !private ["C10Foundation8NSObject", "pthread_attr_setscope"]
+- !private ["C10Foundation8NSObject", "pthread_attr_setstacksize"]
+- ["C10Foundation8NSObject", "pthread_attr_t"]
+- !private ["C10Foundation8NSObject", "pthread_exit"]
+- !private ["C10Foundation8NSObject", "pthread_self"]
+- ["C10Foundation8NSObject", "pthread_t"]
+- !private ["C10Foundation8NSObject", "releaseReference"]
+- ["C10Foundation8NSObject", "sleep"]
+- ["C10Foundation8NSObject", "stackSize"]
+- ["C10Foundation8NSObject", "start"]
+- ["C10Foundation8NSObject", "threadDictionary"]
+- !private ["C10Foundation8NSObject", "timespec"]
+- !private ["C10Foundation8NSObject", "unretainedReference"]
+- !private ["C10Foundation8NSObject", "withRetainedReference"]
+- !private ["C10Foundation8NSObject", "withUnsafeMutablePointer"]
+- !private ["C10Foundation8NSObject", "withUnsafePointer"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "CFAbsoluteTimeGetCurrent"]
+- !private ["P10Foundation16NSObjectProtocol", "CFGetSystemUptime"]
+- !private ["P10Foundation16NSObjectProtocol", "Double"]
+- !private ["P10Foundation16NSObjectProtocol", "Int"]
+- !private ["P10Foundation16NSObjectProtocol", "Int32"]
+- !private ["P10Foundation16NSObjectProtocol", "LONG_MAX"]
+- ["P10Foundation16NSObjectProtocol", "NSThreadSpecific"]
+- !private ["P10Foundation16NSObjectProtocol", "NSThreadStart"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- ["P10Foundation16NSObjectProtocol", "Name"]
+- !private ["P10Foundation16NSObjectProtocol", "PTHREAD_CREATE_DETACHED"]
+- !private ["P10Foundation16NSObjectProtocol", "PTHREAD_SCOPE_SYSTEM"]
+- ["P10Foundation16NSObjectProtocol", "String"]
+- !private ["P10Foundation16NSObjectProtocol", "Thread"]
+- !private ["P10Foundation16NSObjectProtocol", "_CFThreadCreate"]
+- ["P10Foundation16NSObjectProtocol", "_NSThreadStatus"]
+- !private ["P10Foundation16NSObjectProtocol", "_attr"]
+- !private ["P10Foundation16NSObjectProtocol", "_cancelled"]
+- !private ["P10Foundation16NSObjectProtocol", "_currentThread"]
+- !private ["P10Foundation16NSObjectProtocol", "_main"]
+- !private ["P10Foundation16NSObjectProtocol", "_status"]
+- !private ["P10Foundation16NSObjectProtocol", "_thread"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "main"]
+- !private ["P10Foundation16NSObjectProtocol", "modf"]
+- !private ["P10Foundation16NSObjectProtocol", "nanosleep"]
+- !private ["P10Foundation16NSObjectProtocol", "precondition"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_attr_getstacksize"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_attr_init"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_attr_setdetachstate"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_attr_setscope"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_attr_setstacksize"]
+- ["P10Foundation16NSObjectProtocol", "pthread_attr_t"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_exit"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_self"]
+- ["P10Foundation16NSObjectProtocol", "pthread_t"]
+- !private ["P10Foundation16NSObjectProtocol", "releaseReference"]
+- !private ["P10Foundation16NSObjectProtocol", "start"]
+- !private ["P10Foundation16NSObjectProtocol", "timespec"]
+- !private ["P10Foundation16NSObjectProtocol", "unretainedReference"]
+- !private ["P10Foundation16NSObjectProtocol", "withRetainedReference"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafeMutablePointer"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafePointer"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["C10Foundation16NSThreadSpecific", "T"]
+- ["C10Foundation16NSThreadSpecific", "Void"]
+- !private ["C10Foundation16NSThreadSpecific", "_CFThreadSpecificGet"]
+- ["C10Foundation16NSThreadSpecific", "_CFThreadSpecificKeyCreate"]
+- !private ["C10Foundation16NSThreadSpecific", "_compiler_crash_fix"]
+- ["C10Foundation16NSThreadSpecific", "deinit"]
+- ["C10Foundation16NSThreadSpecific", "get"]
+- ["C10Foundation16NSThreadSpecific", "init"]
+- !private ["C10Foundation16NSThreadSpecific", "key"]
+- ["C10Foundation16NSThreadSpecific", "set"]
+- ["VC10Foundation14NSNotification4Name", "NSDidBecomeSingleThreaded"]
+- ["VC10Foundation14NSNotification4Name", "NSNotification"]
+- ["VC10Foundation14NSNotification4Name", "NSThreadWillExit"]
+- ["VC10Foundation14NSNotification4Name", "NSWillBecomeMultiThreaded"]
+- ["VC10Foundation14NSNotification4Name", "deinit"]
+- ["VC10Foundation14NSNotification4Name", "init"]
+- !private ["Sq", "executing"]
+- !private ["Sq", "finished"]
+- !private ["Sq", "initialized"]
+- ["Ps16RawRepresentable", "NSNotification"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSinceReferenceDate"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["C10Foundation6Thread", "Bool"]
+- !private ["C10Foundation6Thread", "CFAbsoluteTimeGetCurrent"]
+- !private ["C10Foundation6Thread", "CFGetSystemUptime"]
+- ["C10Foundation6Thread", "Date"]
+- !private ["C10Foundation6Thread", "Double"]
+- ["C10Foundation6Thread", "Int"]
+- !private ["C10Foundation6Thread", "Int32"]
+- !private ["C10Foundation6Thread", "LONG_MAX"]
+- ["C10Foundation6Thread", "NSNumber"]
+- ["C10Foundation6Thread", "NSThreadSpecific"]
+- !private ["C10Foundation6Thread", "NSThreadStart"]
+- !private ["C10Foundation6Thread", "NSUnimplemented"]
+- !private ["C10Foundation6Thread", "PTHREAD_CREATE_DETACHED"]
+- !private ["C10Foundation6Thread", "PTHREAD_SCOPE_SYSTEM"]
+- ["C10Foundation6Thread", "String"]
+- ["C10Foundation6Thread", "Swift"]
+- ["C10Foundation6Thread", "Thread"]
+- ["C10Foundation6Thread", "TimeInterval"]
+- ["C10Foundation6Thread", "Void"]
+- !private ["C10Foundation6Thread", "_CFThreadCreate"]
+- ["C10Foundation6Thread", "_NSThreadStatus"]
+- ["C10Foundation6Thread", "_attr"]
+- ["C10Foundation6Thread", "_cancelled"]
+- ["C10Foundation6Thread", "_currentThread"]
+- ["C10Foundation6Thread", "_main"]
+- ["C10Foundation6Thread", "_status"]
+- !private ["C10Foundation6Thread", "_thread"]
+- ["C10Foundation6Thread", "callStackReturnAddresses"]
+- ["C10Foundation6Thread", "callStackSymbols"]
+- ["C10Foundation6Thread", "cancel"]
+- ["C10Foundation6Thread", "current"]
+- ["C10Foundation6Thread", "deinit"]
+- ["C10Foundation6Thread", "detachNewThread"]
+- ["C10Foundation6Thread", "exit"]
+- ["C10Foundation6Thread", "init"]
+- ["C10Foundation6Thread", "isCancelled"]
+- ["C10Foundation6Thread", "isExecuting"]
+- ["C10Foundation6Thread", "isFinished"]
+- ["C10Foundation6Thread", "isMainThread"]
+- ["C10Foundation6Thread", "isMultiThreaded"]
+- ["C10Foundation6Thread", "main"]
+- ["C10Foundation6Thread", "mainThread"]
+- !private ["C10Foundation6Thread", "modf"]
+- ["C10Foundation6Thread", "name"]
+- !private ["C10Foundation6Thread", "nanosleep"]
+- !private ["C10Foundation6Thread", "precondition"]
+- !private ["C10Foundation6Thread", "pthread_attr_getstacksize"]
+- !private ["C10Foundation6Thread", "pthread_attr_init"]
+- !private ["C10Foundation6Thread", "pthread_attr_setdetachstate"]
+- !private ["C10Foundation6Thread", "pthread_attr_setscope"]
+- !private ["C10Foundation6Thread", "pthread_attr_setstacksize"]
+- ["C10Foundation6Thread", "pthread_attr_t"]
+- !private ["C10Foundation6Thread", "pthread_exit"]
+- !private ["C10Foundation6Thread", "pthread_self"]
+- ["C10Foundation6Thread", "pthread_t"]
+- !private ["C10Foundation6Thread", "releaseReference"]
+- ["C10Foundation6Thread", "sleep"]
+- ["C10Foundation6Thread", "stackSize"]
+- ["C10Foundation6Thread", "start"]
+- ["C10Foundation6Thread", "threadDictionary"]
+- !private ["C10Foundation6Thread", "timespec"]
+- !private ["C10Foundation6Thread", "withRetainedReference"]
+- !private ["C10Foundation6Thread", "withUnsafeMutablePointer"]
+- !private ["C10Foundation6Thread", "withUnsafePointer"]
+- ["Su", "init"]
+- !private ["Sp", "pointee"]
+- ["Ps15UnsignedInteger", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9_Hashable", "CFGetSystemUptime"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "Int32"]
+- !private ["Ps9_Hashable", "LONG_MAX"]
+- ["Ps9_Hashable", "NSNotification"]
+- ["Ps9_Hashable", "NSThreadSpecific"]
+- !private ["Ps9_Hashable", "NSThreadStart"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "PTHREAD_CREATE_DETACHED"]
+- !private ["Ps9_Hashable", "PTHREAD_SCOPE_SYSTEM"]
+- ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "Thread"]
+- !private ["Ps9_Hashable", "_CFThreadCreate"]
+- ["Ps9_Hashable", "_NSThreadStatus"]
+- !private ["Ps9_Hashable", "_attr"]
+- !private ["Ps9_Hashable", "_cancelled"]
+- !private ["Ps9_Hashable", "_currentThread"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_main"]
+- !private ["Ps9_Hashable", "_status"]
+- !private ["Ps9_Hashable", "_thread"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "executing"]
+- !private ["Ps9_Hashable", "finished"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "initialized"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "modf"]
+- !private ["Ps9_Hashable", "nanosleep"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "precondition"]
+- !private ["Ps9_Hashable", "pthread_attr_getstacksize"]
+- !private ["Ps9_Hashable", "pthread_attr_init"]
+- !private ["Ps9_Hashable", "pthread_attr_setdetachstate"]
+- !private ["Ps9_Hashable", "pthread_attr_setscope"]
+- !private ["Ps9_Hashable", "pthread_attr_setstacksize"]
+- ["Ps9_Hashable", "pthread_attr_t"]
+- !private ["Ps9_Hashable", "pthread_exit"]
+- !private ["Ps9_Hashable", "pthread_self"]
+- ["Ps9_Hashable", "pthread_t"]
+- !private ["Ps9_Hashable", "releaseReference"]
+- !private ["Ps9_Hashable", "start"]
+- !private ["Ps9_Hashable", "starting"]
+- !private ["Ps9_Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9_Hashable", "timespec"]
+- !private ["Ps9_Hashable", "unretainedReference"]
+- !private ["Ps9_Hashable", "withRetainedReference"]
+- !private ["Ps9_Hashable", "withUnsafeMutablePointer"]
+- !private ["Ps9_Hashable", "withUnsafePointer"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps10_Indexable", "init"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps8_Integer", "hashValue"]
+- ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "timeIntervalSinceReferenceDate"]
+- ["O10Foundation15_NSThreadStatus", "=="]
+- ["O10Foundation15_NSThreadStatus", "_toAnyHashable"]
+- ["O10Foundation15_NSThreadStatus", "deinit"]
+- ["O10Foundation15_NSThreadStatus", "executing"]
+- ["O10Foundation15_NSThreadStatus", "finished"]
+- ["O10Foundation15_NSThreadStatus", "hashValue"]
+- ["O10Foundation15_NSThreadStatus", "initialized"]
+- ["O10Foundation15_NSThreadStatus", "starting"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Vs26_OptionalNilComparisonType", "executing"]
+- !private ["Vs26_OptionalNilComparisonType", "finished"]
+- !private ["Vs26_OptionalNilComparisonType", "initialized"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- ["VSC14pthread_attr_t", "init"]
+- !private ["VSC8timespec", "init"]
+- !private ["VSC8timespec", "tv_nsec"]
+- !private ["VSC8timespec", "tv_sec"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- "Vs10Dictionary"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int32"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation14NSNotification"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "C10Foundation16NSThreadSpecific"
+- "VC10Foundation14NSNotification4Name"
+- !private "Sq"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C10Foundation6Thread"
+- "Su"
+- !private "Sp"
+- "Ps15UnsignedInteger"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- "P10Foundation13_NSBridgeable"
+- "O10Foundation15_NSThreadStatus"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps8_Pointer"
+- !private "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "VSC14pthread_attr_t"
+- !private "VSC8timespec"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "abfd7cab74bdeb7b7cd3b772888e3c3b"

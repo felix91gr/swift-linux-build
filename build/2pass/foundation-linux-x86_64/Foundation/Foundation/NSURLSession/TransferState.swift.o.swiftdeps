@@ -1,0 +1,319 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "VC10Foundation14URLSessionTask14_TransferState"
+- "OVC10Foundation14URLSessionTask14_TransferState10_DataDrain"
+- "OVC10Foundation14URLSessionTask14_TransferState6_Error"
+provides-member:
+- ["C10Foundation14URLSessionTask", ""]
+- ["VC10Foundation14URLSessionTask14_TransferState", ""]
+- ["OVC10Foundation14URLSessionTask14_TransferState10_DataDrain", ""]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", ""]
+- ["C10Foundation14URLSessionTask", "_TransferState"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "init"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "init"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "_Error"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "byAppending"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "isHeaderComplete"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "byAppending"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "bySetting"]
+depends-top-level:
+- !private "!="
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "Data"
+- "Error"
+- "FileHandle"
+- !private "FloatLiteralType"
+- "HTTPURLResponse"
+- !private "IntegerLiteralType"
+- "NSMutableData"
+- "URL"
+- "URLSessionTask"
+- "_HTTPBodySource"
+depends-member:
+- !private ["Ps9AnyObject", "_ParsedResponseHeader"]
+- ["Ps9AnyObject", "_TransferState"]
+- !private ["Ps9AnyObject", "append"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "seekToEndOfFile"]
+- !private ["Ps9AnyObject", "write"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "_ParsedResponseHeader"]
+- ["Ps28CustomDebugStringConvertible", "_TransferState"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "seekToEndOfFile"]
+- !private ["Ps28CustomDebugStringConvertible", "write"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_ParsedResponseHeader"]
+- ["Ps23CustomStringConvertible", "_TransferState"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "seekToEndOfFile"]
+- !private ["Ps23CustomStringConvertible", "write"]
+- !private ["Ps9Equatable", "_ParsedResponseHeader"]
+- ["Ps9Equatable", "_TransferState"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "append"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "parseCompleteHeaderError"]
+- !private ["Ps9Equatable", "parseSingleLineError"]
+- !private ["Ps9Equatable", "seekToEndOfFile"]
+- !private ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "parseCompleteHeaderError"]
+- !private ["Ps5Error", "parseSingleLineError"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["C10Foundation10FileHandle", "seekToEndOfFile"]
+- !private ["C10Foundation10FileHandle", "write"]
+- !private ["C10Foundation15HTTPURLResponse", "deinit"]
+- !private ["Ps8Hashable", "_ParsedResponseHeader"]
+- ["Ps8Hashable", "_TransferState"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "append"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "parseCompleteHeaderError"]
+- !private ["Ps8Hashable", "parseSingleLineError"]
+- !private ["Ps8Hashable", "seekToEndOfFile"]
+- !private ["Ps8Hashable", "write"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["P10Foundation8NSCoding", "append"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation8NSCoding", "seekToEndOfFile"]
+- !private ["P10Foundation8NSCoding", "write"]
+- !private ["P10Foundation9NSCopying", "_ParsedResponseHeader"]
+- ["P10Foundation9NSCopying", "_TransferState"]
+- !private ["P10Foundation9NSCopying", "append"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["C10Foundation6NSData", "append"]
+- !private ["C10Foundation6NSData", "init"]
+- !private ["P10Foundation16NSMutableCopying", "append"]
+- !private ["P10Foundation16NSMutableCopying", "init"]
+- !private ["C10Foundation13NSMutableData", "append"]
+- !private ["C10Foundation13NSMutableData", "init"]
+- ["C10Foundation8NSObject", "FileHandle"]
+- ["C10Foundation8NSObject", "HTTPURLResponse"]
+- ["C10Foundation8NSObject", "NSMutableData"]
+- ["C10Foundation8NSObject", "URL"]
+- ["C10Foundation8NSObject", "_HTTPBodySource"]
+- ["C10Foundation8NSObject", "_ParsedResponseHeader"]
+- ["C10Foundation8NSObject", "_TransferState"]
+- !private ["C10Foundation8NSObject", "append"]
+- !private ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "seekToEndOfFile"]
+- !private ["C10Foundation8NSObject", "write"]
+- !private ["P10Foundation16NSObjectProtocol", "_ParsedResponseHeader"]
+- ["P10Foundation16NSObjectProtocol", "_TransferState"]
+- !private ["P10Foundation16NSObjectProtocol", "append"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "seekToEndOfFile"]
+- !private ["P10Foundation16NSObjectProtocol", "write"]
+- !private ["P10Foundation14NSSecureCoding", "append"]
+- !private ["P10Foundation14NSSecureCoding", "init"]
+- !private ["P10Foundation14NSSecureCoding", "seekToEndOfFile"]
+- !private ["P10Foundation14NSSecureCoding", "write"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["C10Foundation14URLSessionTask", "FileHandle"]
+- ["C10Foundation14URLSessionTask", "HTTPURLResponse"]
+- ["C10Foundation14URLSessionTask", "NSMutableData"]
+- ["C10Foundation14URLSessionTask", "URL"]
+- ["C10Foundation14URLSessionTask", "_HTTPBodySource"]
+- ["C10Foundation14URLSessionTask", "_ParsedResponseHeader"]
+- ["C10Foundation14URLSessionTask", "_TransferState"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "append"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- ["OVC10Foundation14URLSessionTask14_TransferState10_DataDrain", "FileHandle"]
+- ["OVC10Foundation14URLSessionTask14_TransferState10_DataDrain", "NSMutableData"]
+- ["OVC10Foundation14URLSessionTask14_TransferState10_DataDrain", "URL"]
+- ["OVC10Foundation14URLSessionTask14_TransferState10_DataDrain", "ignore"]
+- ["OVC10Foundation14URLSessionTask14_TransferState10_DataDrain", "inMemory"]
+- ["OVC10Foundation14URLSessionTask14_TransferState10_DataDrain", "toFile"]
+- !private ["P10Foundation19_EasyHandleDelegate", "_ParsedResponseHeader"]
+- ["P10Foundation19_EasyHandleDelegate", "_TransferState"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "=="]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "_code"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "_domain"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "_toAnyHashable"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "_userInfo"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "deinit"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "hashValue"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "parseCompleteHeaderError"]
+- ["OVC10Foundation14URLSessionTask14_TransferState6_Error", "parseSingleLineError"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "append"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_ParsedResponseHeader"]
+- ["Ps9_Hashable", "_TransferState"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "append"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "parseCompleteHeaderError"]
+- !private ["Ps9_Hashable", "parseSingleLineError"]
+- !private ["Ps9_Hashable", "seekToEndOfFile"]
+- !private ["Ps9_Hashable", "write"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["OC10Foundation14URLSessionTask21_ParsedResponseHeader", "byAppending"]
+- ["OC10Foundation14URLSessionTask21_ParsedResponseHeader", "complete"]
+- !private ["OC10Foundation14URLSessionTask21_ParsedResponseHeader", "init"]
+- !private ["VC10Foundation14URLSessionTask20_ResponseHeaderLines", "createHTTPURLResponse"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["P10Foundation17_StructBridgeable", "append"]
+- !private ["P10Foundation17_StructBridgeable", "init"]
+- !private ["P10Foundation21_StructTypeBridgeable", "append"]
+- !private ["P10Foundation21_StructTypeBridgeable", "init"]
+- !private ["P10Foundation16_SwiftBridgeable", "append"]
+- !private ["P10Foundation16_SwiftBridgeable", "init"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "Bool"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "Data"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "Error"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "FileHandle"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "HTTPURLResponse"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "NSMutableData"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "URL"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "URLSessionTask"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "_DataDrain"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "_Error"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "_HTTPBodySource"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "_ParsedResponseHeader"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "bodyDataDrain"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "byAppending"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "bySetting"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "init"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "isHeaderComplete"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "parsedResponseHeader"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "requestBodySource"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "response"]
+- ["VC10Foundation14URLSessionTask14_TransferState", "url"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "C10Foundation10FileHandle"
+- !private "C10Foundation15HTTPURLResponse"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- !private "C10Foundation6NSData"
+- !private "P10Foundation16NSMutableCopying"
+- !private "C10Foundation13NSMutableData"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation14NSSecureCoding"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "C10Foundation14URLSessionTask"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- "OVC10Foundation14URLSessionTask14_TransferState10_DataDrain"
+- "P10Foundation19_EasyHandleDelegate"
+- "OVC10Foundation14URLSessionTask14_TransferState6_Error"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- "OC10Foundation14URLSessionTask21_ParsedResponseHeader"
+- !private "VC10Foundation14URLSessionTask20_ResponseHeaderLines"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "P10Foundation17_StructBridgeable"
+- !private "P10Foundation21_StructTypeBridgeable"
+- !private "P10Foundation16_SwiftBridgeable"
+- "VC10Foundation14URLSessionTask14_TransferState"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "62e8b9a64009aa981cea39dba3382e3d"

@@ -1,0 +1,578 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RunLoopMode"
+- "=="
+- "<"
+- "_NSRunLoopNew"
+- "RunLoop"
+provides-nominal:
+- "V10Foundation11RunLoopMode"
+- "C10Foundation7RunLoop"
+provides-member:
+- ["V10Foundation11RunLoopMode", ""]
+- ["C10Foundation7RunLoop", ""]
+- ["V10Foundation11RunLoopMode", "defaultRunLoopMode"]
+- ["V10Foundation11RunLoopMode", "commonModes"]
+- ["C10Foundation7RunLoop", "run"]
+- ["C10Foundation7RunLoop", "run"]
+- ["C10Foundation7RunLoop", "run"]
+- ["C10Foundation7RunLoop", "perform"]
+- ["C10Foundation7RunLoop", "perform"]
+depends-top-level:
+- !private "!=="
+- !private "&&"
+- !private "-"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CFAbsoluteTimeGetCurrent"
+- "CFRunLoop"
+- !private "CFRunLoopAddTimer"
+- !private "CFRunLoopCopyCurrentMode"
+- !private "CFRunLoopGetCurrent"
+- "CFRunLoopGetMain"
+- !private "CFRunLoopGetNextTimerFireDate"
+- !private "CFRunLoopPerformBlock"
+- !private "CFRunLoopRunInMode"
+- "CastingPrecedence"
+- "Comparable"
+- "Date"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSObject"
+- !private "NSUnimplemented"
+- "Port"
+- "RawRepresentable"
+- "RunLoop"
+- "RunLoopMode"
+- "String"
+- "StringLiteralType"
+- "Timer"
+- "Unmanaged"
+- "Void"
+- !private "_CFRunLoopFinished"
+- !private "_CFRunLoopGet2"
+- "_NSRunLoopNew"
+- !private "unsafeBitCast"
+depends-member:
+- !private ["Ps9AnyObject", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9AnyObject", "CFRunLoopAddTimer"]
+- !private ["Ps9AnyObject", "CFRunLoopCopyCurrentMode"]
+- !private ["Ps9AnyObject", "CFRunLoopGetCurrent"]
+- ["Ps9AnyObject", "CFRunLoopGetMain"]
+- !private ["Ps9AnyObject", "CFRunLoopGetNextTimerFireDate"]
+- !private ["Ps9AnyObject", "CFRunLoopPerformBlock"]
+- !private ["Ps9AnyObject", "CFRunLoopRunInMode"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- ["Ps9AnyObject", "RunLoop"]
+- !private ["Ps9AnyObject", "RunLoopMode"]
+- !private ["Ps9AnyObject", "_CFRunLoopFinished"]
+- !private ["Ps9AnyObject", "_CFRunLoopGet2"]
+- !private ["Ps9AnyObject", "_cfObject"]
+- !private ["Ps9AnyObject", "_cfRunLoop"]
+- !private ["Ps9AnyObject", "_swiftObject"]
+- !private ["Ps9AnyObject", "getCFRunLoop"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "perform"]
+- !private ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "_cfObject"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "_cfObject"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo8CFString", "_swiftObject"]
+- !private ["CSo8CFString", "deinit"]
+- !private ["Ps10Collection", "_cfObject"]
+- !private ["Ps10Collection", "map"]
+- ["Ps10Comparable", "RunLoopMode"]
+- !private ["Ps10Comparable", "_cfObject"]
+- !private ["Ps10Comparable", "_nsObject"]
+- ["Ps10Comparable", "_toAnyHashable"]
+- !private ["Ps10Comparable", "defaultRunLoopMode"]
+- !private ["Ps10Comparable", "distantFuture"]
+- ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "rawValue"]
+- !private ["Ps10Comparable", "timeIntervalSinceReferenceDate"]
+- ["Ps10Comparable", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopAddTimer"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopCopyCurrentMode"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopGetCurrent"]
+- ["Ps28CustomDebugStringConvertible", "CFRunLoopGetMain"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopGetNextTimerFireDate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopPerformBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopRunInMode"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "RunLoop"]
+- !private ["Ps28CustomDebugStringConvertible", "RunLoopMode"]
+- !private ["Ps28CustomDebugStringConvertible", "_CFRunLoopFinished"]
+- !private ["Ps28CustomDebugStringConvertible", "_CFRunLoopGet2"]
+- !private ["Ps28CustomDebugStringConvertible", "_cfObject"]
+- !private ["Ps28CustomDebugStringConvertible", "_cfRunLoop"]
+- !private ["Ps28CustomDebugStringConvertible", "_nsObject"]
+- !private ["Ps28CustomDebugStringConvertible", "distantFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "getCFRunLoop"]
+- !private ["Ps28CustomDebugStringConvertible", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "perform"]
+- !private ["Ps28CustomDebugStringConvertible", "run"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceReferenceDate"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_cfObject"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_nsObject"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "distantFuture"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps17CustomReflectable", "_cfObject"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_nsObject"]
+- !private ["Ps17CustomReflectable", "distantFuture"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopAddTimer"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopCopyCurrentMode"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopGetCurrent"]
+- ["Ps23CustomStringConvertible", "CFRunLoopGetMain"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopGetNextTimerFireDate"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopPerformBlock"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopRunInMode"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "RunLoop"]
+- !private ["Ps23CustomStringConvertible", "RunLoopMode"]
+- !private ["Ps23CustomStringConvertible", "_CFRunLoopFinished"]
+- !private ["Ps23CustomStringConvertible", "_CFRunLoopGet2"]
+- !private ["Ps23CustomStringConvertible", "_cfObject"]
+- !private ["Ps23CustomStringConvertible", "_cfRunLoop"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_nsObject"]
+- !private ["Ps23CustomStringConvertible", "distantFuture"]
+- !private ["Ps23CustomStringConvertible", "getCFRunLoop"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "perform"]
+- !private ["Ps23CustomStringConvertible", "run"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "distantFuture"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation4Date", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9Equatable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9Equatable", "CFRunLoopAddTimer"]
+- !private ["Ps9Equatable", "CFRunLoopCopyCurrentMode"]
+- !private ["Ps9Equatable", "CFRunLoopGetCurrent"]
+- ["Ps9Equatable", "CFRunLoopGetMain"]
+- !private ["Ps9Equatable", "CFRunLoopGetNextTimerFireDate"]
+- !private ["Ps9Equatable", "CFRunLoopPerformBlock"]
+- !private ["Ps9Equatable", "CFRunLoopRunInMode"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "RunLoop"]
+- ["Ps9Equatable", "RunLoopMode"]
+- !private ["Ps9Equatable", "_CFRunLoopFinished"]
+- !private ["Ps9Equatable", "_CFRunLoopGet2"]
+- !private ["Ps9Equatable", "_cfObject"]
+- !private ["Ps9Equatable", "_cfRunLoop"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_nsObject"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "defaultRunLoopMode"]
+- !private ["Ps9Equatable", "distantFuture"]
+- !private ["Ps9Equatable", "getCFRunLoop"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "perform"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "run"]
+- !private ["Ps9Equatable", "timeIntervalSinceReferenceDate"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "_cfObject"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_cfObject"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_nsObject"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hashValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "_cfObject"]
+- !private ["Ps26ExpressibleByStringLiteral", "_nsObject"]
+- !private ["Ps26ExpressibleByStringLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_cfObject"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_nsObject"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hashValue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps8Hashable", "CFRunLoopAddTimer"]
+- !private ["Ps8Hashable", "CFRunLoopCopyCurrentMode"]
+- !private ["Ps8Hashable", "CFRunLoopGetCurrent"]
+- ["Ps8Hashable", "CFRunLoopGetMain"]
+- !private ["Ps8Hashable", "CFRunLoopGetNextTimerFireDate"]
+- !private ["Ps8Hashable", "CFRunLoopPerformBlock"]
+- !private ["Ps8Hashable", "CFRunLoopRunInMode"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "RunLoop"]
+- ["Ps8Hashable", "RunLoopMode"]
+- !private ["Ps8Hashable", "_CFRunLoopFinished"]
+- !private ["Ps8Hashable", "_CFRunLoopGet2"]
+- !private ["Ps8Hashable", "_cfObject"]
+- !private ["Ps8Hashable", "_cfRunLoop"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_nsObject"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "defaultRunLoopMode"]
+- !private ["Ps8Hashable", "distantFuture"]
+- !private ["Ps8Hashable", "getCFRunLoop"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "perform"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "run"]
+- !private ["Ps8Hashable", "timeIntervalSinceReferenceDate"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_cfObject"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_nsObject"]
+- !private ["Ps25LosslessStringConvertible", "hashValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "_cfObject"]
+- !private ["Ps10MirrorPath", "_nsObject"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "_cfObject"]
+- !private ["Ps17MutableCollection", "map"]
+- ["C10Foundation8NSObject", "Bool"]
+- !private ["C10Foundation8NSObject", "CFAbsoluteTimeGetCurrent"]
+- ["C10Foundation8NSObject", "CFRunLoop"]
+- !private ["C10Foundation8NSObject", "CFRunLoopAddTimer"]
+- !private ["C10Foundation8NSObject", "CFRunLoopCopyCurrentMode"]
+- !private ["C10Foundation8NSObject", "CFRunLoopGetCurrent"]
+- ["C10Foundation8NSObject", "CFRunLoopGetMain"]
+- !private ["C10Foundation8NSObject", "CFRunLoopGetNextTimerFireDate"]
+- !private ["C10Foundation8NSObject", "CFRunLoopPerformBlock"]
+- !private ["C10Foundation8NSObject", "CFRunLoopRunInMode"]
+- ["C10Foundation8NSObject", "Date"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "Port"]
+- ["C10Foundation8NSObject", "RunLoop"]
+- ["C10Foundation8NSObject", "RunLoopMode"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "Timer"]
+- ["C10Foundation8NSObject", "Void"]
+- !private ["C10Foundation8NSObject", "_CFRunLoopFinished"]
+- !private ["C10Foundation8NSObject", "_CFRunLoopGet2"]
+- !private ["C10Foundation8NSObject", "_cfObject"]
+- ["C10Foundation8NSObject", "_cfRunLoop"]
+- ["C10Foundation8NSObject", "_mainRunLoop"]
+- ["C10Foundation8NSObject", "acceptInput"]
+- ["C10Foundation8NSObject", "add"]
+- ["C10Foundation8NSObject", "current"]
+- ["C10Foundation8NSObject", "currentMode"]
+- ["C10Foundation8NSObject", "getCFRunLoop"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "limitDate"]
+- ["C10Foundation8NSObject", "main"]
+- ["C10Foundation8NSObject", "perform"]
+- ["C10Foundation8NSObject", "remove"]
+- ["C10Foundation8NSObject", "run"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "CFAbsoluteTimeGetCurrent"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopAddTimer"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopCopyCurrentMode"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopGetCurrent"]
+- ["P10Foundation16NSObjectProtocol", "CFRunLoopGetMain"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopGetNextTimerFireDate"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopPerformBlock"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopRunInMode"]
+- !private ["P10Foundation16NSObjectProtocol", "Date"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- ["P10Foundation16NSObjectProtocol", "RunLoop"]
+- !private ["P10Foundation16NSObjectProtocol", "RunLoopMode"]
+- !private ["P10Foundation16NSObjectProtocol", "_CFRunLoopFinished"]
+- !private ["P10Foundation16NSObjectProtocol", "_CFRunLoopGet2"]
+- !private ["P10Foundation16NSObjectProtocol", "_cfObject"]
+- !private ["P10Foundation16NSObjectProtocol", "_cfRunLoop"]
+- !private ["P10Foundation16NSObjectProtocol", "getCFRunLoop"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "perform"]
+- !private ["P10Foundation16NSObjectProtocol", "run"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["Ps22RandomAccessCollection", "_cfObject"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "_cfObject"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- ["Ps16RawRepresentable", "RunLoopMode"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "defaultRunLoopMode"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["P10Foundation20ReferenceConvertible", "distantFuture"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSinceReferenceDate"]
+- ["C10Foundation7RunLoop", "Bool"]
+- !private ["C10Foundation7RunLoop", "CFAbsoluteTimeGetCurrent"]
+- ["C10Foundation7RunLoop", "CFRunLoop"]
+- !private ["C10Foundation7RunLoop", "CFRunLoopAddTimer"]
+- !private ["C10Foundation7RunLoop", "CFRunLoopCopyCurrentMode"]
+- !private ["C10Foundation7RunLoop", "CFRunLoopGetCurrent"]
+- ["C10Foundation7RunLoop", "CFRunLoopGetMain"]
+- !private ["C10Foundation7RunLoop", "CFRunLoopGetNextTimerFireDate"]
+- !private ["C10Foundation7RunLoop", "CFRunLoopPerformBlock"]
+- !private ["C10Foundation7RunLoop", "CFRunLoopRunInMode"]
+- ["C10Foundation7RunLoop", "Date"]
+- !private ["C10Foundation7RunLoop", "NSUnimplemented"]
+- ["C10Foundation7RunLoop", "Port"]
+- ["C10Foundation7RunLoop", "RunLoop"]
+- ["C10Foundation7RunLoop", "RunLoopMode"]
+- ["C10Foundation7RunLoop", "String"]
+- ["C10Foundation7RunLoop", "Timer"]
+- ["C10Foundation7RunLoop", "Void"]
+- !private ["C10Foundation7RunLoop", "_CFRunLoopFinished"]
+- !private ["C10Foundation7RunLoop", "_CFRunLoopGet2"]
+- ["C10Foundation7RunLoop", "_cfRunLoop"]
+- ["C10Foundation7RunLoop", "_mainRunLoop"]
+- ["C10Foundation7RunLoop", "acceptInput"]
+- ["C10Foundation7RunLoop", "add"]
+- ["C10Foundation7RunLoop", "current"]
+- ["C10Foundation7RunLoop", "currentMode"]
+- ["C10Foundation7RunLoop", "deinit"]
+- ["C10Foundation7RunLoop", "getCFRunLoop"]
+- ["C10Foundation7RunLoop", "init"]
+- ["C10Foundation7RunLoop", "limitDate"]
+- ["C10Foundation7RunLoop", "main"]
+- ["C10Foundation7RunLoop", "perform"]
+- ["C10Foundation7RunLoop", "remove"]
+- ["C10Foundation7RunLoop", "run"]
+- ["V10Foundation11RunLoopMode", "Int"]
+- ["V10Foundation11RunLoopMode", "RawValue"]
+- ["V10Foundation11RunLoopMode", "RunLoopMode"]
+- ["V10Foundation11RunLoopMode", "String"]
+- ["V10Foundation11RunLoopMode", "_toAnyHashable"]
+- ["V10Foundation11RunLoopMode", "commonModes"]
+- ["V10Foundation11RunLoopMode", "defaultRunLoopMode"]
+- ["V10Foundation11RunLoopMode", "deinit"]
+- ["V10Foundation11RunLoopMode", "hashValue"]
+- ["V10Foundation11RunLoopMode", "init"]
+- ["V10Foundation11RunLoopMode", "rawValue"]
+- !private ["Ps8Sequence", "_cfObject"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "_cfObject"]
+- !private ["SS", "_nsObject"]
+- !private ["SS", "deinit"]
+- !private ["SS", "hashValue"]
+- ["SS", "init"]
+- !private ["Ps16TextOutputStream", "_cfObject"]
+- !private ["Ps16TextOutputStream", "_nsObject"]
+- !private ["Ps16TextOutputStream", "hashValue"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "_cfObject"]
+- !private ["Ps20TextOutputStreamable", "_nsObject"]
+- !private ["Ps20TextOutputStreamable", "hashValue"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["C10Foundation5Timer", "_cfObject"]
+- !private ["Vs9Unmanaged", "passRetained"]
+- !private ["Ps14_ArrayProtocol", "_cfObject"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "_cfObject"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "_cfObject"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "_nsObject"]
+- !private ["P10Foundation13_CFBridgeable", "distantFuture"]
+- !private ["P10Foundation13_CFBridgeable", "hashValue"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps24_DestructorSafeContainer", "_cfObject"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "_cfObject"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "_nsObject"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hashValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "_cfObject"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "_nsObject"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "_cfObject"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "_nsObject"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hashValue"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "_cfObject"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "_nsObject"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hashValue"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "_cfObject"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "_nsObject"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "hashValue"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9_Hashable", "CFRunLoopAddTimer"]
+- !private ["Ps9_Hashable", "CFRunLoopCopyCurrentMode"]
+- !private ["Ps9_Hashable", "CFRunLoopGetCurrent"]
+- ["Ps9_Hashable", "CFRunLoopGetMain"]
+- !private ["Ps9_Hashable", "CFRunLoopGetNextTimerFireDate"]
+- !private ["Ps9_Hashable", "CFRunLoopPerformBlock"]
+- !private ["Ps9_Hashable", "CFRunLoopRunInMode"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "RunLoop"]
+- ["Ps9_Hashable", "RunLoopMode"]
+- !private ["Ps9_Hashable", "_CFRunLoopFinished"]
+- !private ["Ps9_Hashable", "_CFRunLoopGet2"]
+- !private ["Ps9_Hashable", "_cfObject"]
+- !private ["Ps9_Hashable", "_cfRunLoop"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_nsObject"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "defaultRunLoopMode"]
+- !private ["Ps9_Hashable", "distantFuture"]
+- !private ["Ps9_Hashable", "getCFRunLoop"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "perform"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "run"]
+- !private ["Ps9_Hashable", "timeIntervalSinceReferenceDate"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "_cfObject"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps14_IndexableBase", "_cfObject"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps17_MutableIndexable", "_cfObject"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "_cfObject"]
+- !private ["P10Foundation13_NSBridgeable", "_nsObject"]
+- !private ["P10Foundation13_NSBridgeable", "_swiftObject"]
+- !private ["P10Foundation13_NSBridgeable", "distantFuture"]
+- !private ["P10Foundation13_NSBridgeable", "hashValue"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation17_ObjectBridgeable", "_cfObject"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "_nsObject"]
+- !private ["P10Foundation17_ObjectBridgeable", "distantFuture"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_cfObject"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_nsObject"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "distantFuture"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps22_RandomAccessIndexable", "_cfObject"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "_cfObject"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["P10Foundation16_SwiftBridgeable", "_swiftObject"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "CSo8CFString"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "C10Foundation7RunLoop"
+- "V10Foundation11RunLoopMode"
+- !private "Ps8Sequence"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "C10Foundation5Timer"
+- !private "Vs9Unmanaged"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "P10Foundation16_SwiftBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "792f88313e7be171f9cfee03f8aa23a4"

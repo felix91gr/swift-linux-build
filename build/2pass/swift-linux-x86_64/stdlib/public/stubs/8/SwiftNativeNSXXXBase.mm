@@ -1,0 +1,549 @@
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 1)
+//===--- SwiftNativeNSXXXBase.mm.gyb - Cocoa classes with fast refcounts --===//
+//
+// This source file is part of the Swift.org open source project
+//
+// Copyright (c) 2014 - 2017 Apple Inc. and the Swift project authors
+// Licensed under Apache License v2.0 with Runtime Library Exception
+//
+// See https://swift.org/LICENSE.txt for license information
+// See https://swift.org/CONTRIBUTORS.txt for the list of Swift project authors
+//
+//===----------------------------------------------------------------------===//
+//
+// Classes derived from ObjC bases but that use native swift reference
+// counting, layout, and allocation.
+//
+// These classes declare a native Swift object header and override the
+// NSObject methods that do reference counting to use it accordingly.
+// We can only do this trick with objc classes that are known not to
+// use the storage where Swift places its native object header.  This
+// takes care of how the classes are handled from Objective-C code.
+//    _NSSwiftArrayBase, _NSSwiftDictionaryBase, _NSSwiftSetBase
+//    _NSSwiftSetBase, _NSSwiftStringBase
+//
+// To trick Swift into using its fast refcounting and allocation
+// directly (rather than going through objc_msgSend to arrive at the
+// implementations defined here), we define subclasses on the Swift
+// side but hide the inheritance relationship from the Swift compiler
+// and only establish it dynamically, in the '+ load' method of each
+// class defined here.
+//
+//===----------------------------------------------------------------------===//
+
+#include "swift/Runtime/Config.h"
+
+#if SWIFT_OBJC_INTEROP
+#import <Foundation/Foundation.h>
+#import <CoreFoundation/CoreFoundation.h>
+#include <objc/NSObject.h>
+#include <objc/runtime.h>
+#include <objc/objc.h>
+#include "swift/Runtime/HeapObject.h"
+#include "swift/Runtime/Metadata.h"
+#include "swift/Runtime/ObjCBridge.h"
+#include "llvm/ADT/DenseMap.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+using namespace swift;
+
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSArrayBase : NSArray
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSArrayBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSDictionaryBase : NSDictionary
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSDictionaryBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSSetBase : NSSet
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSSetBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSStringBase : NSString
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSStringBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSEnumeratorBase : NSEnumerator
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSEnumeratorBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSDataBase : NSData
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSDataBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSCharacterSetBase : NSCharacterSet
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSCharacterSetBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 51)
+SWIFT_RUNTIME_STDLIB_INTERFACE
+@interface _SwiftNativeNSIndexSetBase : NSIndexSet
+{
+  SWIFT_HEAPOBJECT_NON_OBJC_MEMBERS;
+}
+@end
+
+
+@implementation _SwiftNativeNSIndexSetBase
+
+- (id)retain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_retain(SELF);
+  return self;
+}
+- (oneway void)release {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  swift_release(SELF);
+}
+- (id)autorelease {
+  return _objc_rootAutorelease(self);
+}
+
+- (BOOL)_tryRetain {
+  auto SELF = reinterpret_cast<HeapObject *>(self);
+  return (bool)swift_tryRetain(SELF);
+}
+- (BOOL)_isDeallocating {
+  return swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)allowsWeakReference {
+  return !swift_isDeallocating(reinterpret_cast<HeapObject *>(self));
+}
+- (BOOL)retainWeakReference {
+  return swift_tryRetain(reinterpret_cast<HeapObject*>(self)) != nullptr;
+}
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-missing-super-calls"
+- (void)dealloc {
+  swift_rootObjCDealloc(reinterpret_cast<HeapObject *>(self));
+}
+#pragma clang diagnostic pop
+
+@end
+// ###sourceLocation(file: "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift/stdlib/public/stubs/SwiftNativeNSXXXBase.mm.gyb", line: 97)
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" bool
+swift_stdlib_NSObject_isEqual(NSObject *NS_RELEASES_ARGUMENT lhs,
+                              NSObject *NS_RELEASES_ARGUMENT rhs) {
+  bool Result = (lhs == rhs) || [lhs isEqual:rhs];
+  swift_unknownRelease(lhs);
+  swift_unknownRelease(rhs);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" int32_t swift_stdlib_compareNSStringDeterministicUnicodeCollation(
+    NSString *NS_RELEASES_ARGUMENT lhs, NSString *NS_RELEASES_ARGUMENT rhs) {
+  // 'kCFCompareNonliteral' actually means "normalize to NFD".
+  int Result = CFStringCompare((__bridge CFStringRef)lhs,
+                               (__bridge CFStringRef)rhs, kCFCompareNonliteral);
+  swift_unknownRelease(lhs);
+  swift_unknownRelease(rhs);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" int32_t
+swift_stdlib_compareNSStringDeterministicUnicodeCollationPtr(void *Lhs,
+                                                             void *Rhs) {
+  NSString *lhs = (NSString *)Lhs;
+  NSString *rhs = (NSString *)Rhs;
+
+  // 'kCFCompareNonliteral' actually means "normalize to NFD".
+  int Result = CFStringCompare((__bridge CFStringRef)lhs,
+                               (__bridge CFStringRef)rhs, kCFCompareNonliteral);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" size_t
+swift_stdlib_NSStringHashValue(NSString *NS_RELEASES_ARGUMENT str,
+                               bool isASCII) {
+  size_t Result =
+      isASCII ? str.hash : str.decomposedStringWithCanonicalMapping.hash;
+
+  swift_unknownRelease(str);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" size_t
+swift_stdlib_NSStringHashValuePointer(void *opaque, bool isASCII) {
+  NSString *str = (NSString *)opaque;
+  return isASCII ? str.hash : str.decomposedStringWithCanonicalMapping.hash;
+}
+
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" bool swift_stdlib_NSStringHasPrefixNFD(NSString *theString,
+                                                  NSString *prefix) {
+  auto Length = CFStringGetLength((__bridge CFStringRef)theString);
+  int Result = CFStringFindWithOptions(
+      (__bridge CFStringRef)theString, (__bridge CFStringRef)prefix,
+      CFRangeMake(0, Length), kCFCompareAnchored | kCFCompareNonliteral,
+      nullptr);
+  swift_unknownRelease(theString);
+  swift_unknownRelease(prefix);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" bool swift_stdlib_NSStringHasPrefixNFDPointer(void *theString,
+                                                         void *prefix) {
+  auto Length = CFStringGetLength((__bridge CFStringRef)theString);
+  int Result = CFStringFindWithOptions(
+      (__bridge CFStringRef)theString, (__bridge CFStringRef)prefix,
+      CFRangeMake(0, Length), kCFCompareAnchored | kCFCompareNonliteral,
+      nullptr);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" bool
+swift_stdlib_NSStringHasSuffixNFD(NSString *NS_RELEASES_ARGUMENT theString,
+                                  NSString *NS_RELEASES_ARGUMENT suffix) {
+  auto Length = CFStringGetLength((__bridge CFStringRef)theString);
+  int Result = CFStringFindWithOptions(
+      (__bridge CFStringRef)theString, (__bridge CFStringRef)suffix,
+      CFRangeMake(0, Length),
+      kCFCompareAnchored | kCFCompareBackwards | kCFCompareNonliteral, nullptr);
+  swift_unknownRelease(theString);
+  swift_unknownRelease(suffix);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" bool swift_stdlib_NSStringHasSuffixNFDPointer(void *theString,
+                                                         void *suffix) {
+  auto Length = CFStringGetLength((__bridge CFStringRef)theString);
+  int Result = CFStringFindWithOptions(
+      (__bridge CFStringRef)theString, (__bridge CFStringRef)suffix,
+      CFRangeMake(0, Length),
+      kCFCompareAnchored | kCFCompareBackwards | kCFCompareNonliteral, nullptr);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" NS_RETURNS_RETAINED NSString *
+swift_stdlib_NSStringLowercaseString(NSString *NS_RELEASES_ARGUMENT str) {
+  NSString *Result = objc_retain(str.lowercaseString);
+  swift_unknownRelease(str);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" NS_RETURNS_RETAINED NSString *
+swift_stdlib_NSStringUppercaseString(NSString *NS_RELEASES_ARGUMENT str) {
+  NSString *Result = objc_retain(str.uppercaseString);
+  swift_unknownRelease(str);
+  return Result;
+}
+
+SWIFT_CC(swift) SWIFT_RUNTIME_STDLIB_INTERFACE
+extern "C" void swift_stdlib_CFSetGetValues(NSSet *NS_RELEASES_ARGUMENT set,
+                                            const void **values) {
+  CFSetGetValues((__bridge CFSetRef)set, values);
+  swift_unknownRelease(set);
+}
+#endif
+
+// Local Variables:
+// eval: (read-only-mode 1)
+// End:

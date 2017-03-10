@@ -1,0 +1,881 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProcessResult"
+- "Process"
+- "=="
+- "=="
+provides-nominal:
+- "V7Utility13ProcessResult"
+- "OV7Utility13ProcessResult5Error"
+- "OV7Utility13ProcessResult10ExitStatus"
+- "C7Utility7Process"
+provides-member:
+- ["V7Utility13ProcessResult", ""]
+- ["OV7Utility13ProcessResult5Error", ""]
+- ["OV7Utility13ProcessResult10ExitStatus", ""]
+- ["C7Utility7Process", ""]
+- ["C7Utility7Process", "popen"]
+- ["C7Utility7Process", "popen"]
+- ["C7Utility7Process", "init"]
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- "=="
+- !private ">>"
+- !private "??"
+- "AnyError"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CChar"
+- !private "EINTR"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "Int16"
+- "Int32"
+- "Int8"
+- !private "IntegerLiteralType"
+- !private "O_RDONLY"
+- "ObjectIdentifierProtocol"
+- !private "POSIX_SPAWN_SETPGROUP"
+- !private "POSIX_SPAWN_SETSIGDEF"
+- !private "POSIX_SPAWN_SETSIGMASK"
+- "Process"
+- !private "ProcessInfo"
+- "ProcessResult"
+- "Result"
+- !private "SIGKILL"
+- !private "SIGSTOP"
+- !private "SIGUNUSED"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- !private "SystemError"
+- "Thread"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- !private "WEXITSTATUS"
+- !private "WIFEXITED"
+- !private "WIFSIGNALED"
+- !private "WTERMSIG"
+- !private "_WSTATUS"
+- !private "assert"
+- !private "close"
+- !private "env"
+- !private "errno"
+- !private "free"
+- !private "libc"
+- "pid_t"
+- !private "posix_spawn_file_actions_addclose"
+- !private "posix_spawn_file_actions_adddup2"
+- !private "posix_spawn_file_actions_addopen"
+- !private "posix_spawn_file_actions_destroy"
+- !private "posix_spawn_file_actions_init"
+- !private "posix_spawn_file_actions_t"
+- !private "posix_spawnattr_destroy"
+- !private "posix_spawnattr_init"
+- !private "posix_spawnattr_setflags"
+- !private "posix_spawnattr_setpgroup"
+- !private "posix_spawnattr_setsigdefault"
+- !private "posix_spawnattr_setsigmask"
+- !private "posix_spawnattr_t"
+- !private "posix_spawnp"
+- !private "precondition"
+- !private "read"
+- !private "sigaddset"
+- !private "sigemptyset"
+- !private "sigset_t"
+- !private "strdup"
+- !private "swiftpm_posix_spawn_file_actions_t"
+- !private "waitpid"
+- !private "|"
+- !private "|="
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "EINTR"]
+- !private ["Ps9AnyObject", "Int16"]
+- !private ["Ps9AnyObject", "Int8"]
+- !private ["Ps9AnyObject", "O_RDONLY"]
+- !private ["Ps9AnyObject", "POSIX_SPAWN_SETPGROUP"]
+- !private ["Ps9AnyObject", "POSIX_SPAWN_SETSIGDEF"]
+- !private ["Ps9AnyObject", "POSIX_SPAWN_SETSIGMASK"]
+- !private ["Ps9AnyObject", "Process"]
+- ["Ps9AnyObject", "ProcessID"]
+- !private ["Ps9AnyObject", "ProcessResult"]
+- !private ["Ps9AnyObject", "Result"]
+- !private ["Ps9AnyObject", "SIGKILL"]
+- !private ["Ps9AnyObject", "SIGSTOP"]
+- !private ["Ps9AnyObject", "SIGUNUSED"]
+- !private ["Ps9AnyObject", "SystemError"]
+- !private ["Ps9AnyObject", "Thread"]
+- ["Ps9AnyObject", "_toAnyHashable"]
+- !private ["Ps9AnyObject", "arguments"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "env"]
+- !private ["Ps9AnyObject", "environment"]
+- !private ["Ps9AnyObject", "errno"]
+- !private ["Ps9AnyObject", "free"]
+- ["Ps9AnyObject", "hashValue"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "join"]
+- !private ["Ps9AnyObject", "launch"]
+- !private ["Ps9AnyObject", "launched"]
+- !private ["Ps9AnyObject", "libc"]
+- !private ["Ps9AnyObject", "output"]
+- !private ["Ps9AnyObject", "popen"]
+- !private ["Ps9AnyObject", "posix_spawn_file_actions_addclose"]
+- !private ["Ps9AnyObject", "posix_spawn_file_actions_adddup2"]
+- !private ["Ps9AnyObject", "posix_spawn_file_actions_addopen"]
+- !private ["Ps9AnyObject", "posix_spawn_file_actions_destroy"]
+- !private ["Ps9AnyObject", "posix_spawn_file_actions_init"]
+- !private ["Ps9AnyObject", "posix_spawn_file_actions_t"]
+- !private ["Ps9AnyObject", "posix_spawnattr_destroy"]
+- !private ["Ps9AnyObject", "posix_spawnattr_init"]
+- !private ["Ps9AnyObject", "posix_spawnattr_setflags"]
+- !private ["Ps9AnyObject", "posix_spawnattr_setpgroup"]
+- !private ["Ps9AnyObject", "posix_spawnattr_setsigdefault"]
+- !private ["Ps9AnyObject", "posix_spawnattr_setsigmask"]
+- !private ["Ps9AnyObject", "posix_spawnattr_t"]
+- !private ["Ps9AnyObject", "posix_spawnp"]
+- !private ["Ps9AnyObject", "precondition"]
+- !private ["Ps9AnyObject", "processID"]
+- !private ["Ps9AnyObject", "processInfo"]
+- !private ["Ps9AnyObject", "read"]
+- !private ["Ps9AnyObject", "readOutput"]
+- !private ["Ps9AnyObject", "readOutputError"]
+- !private ["Ps9AnyObject", "readOutputThread"]
+- !private ["Ps9AnyObject", "redirectOutput"]
+- !private ["Ps9AnyObject", "result"]
+- !private ["Ps9AnyObject", "sigaddset"]
+- !private ["Ps9AnyObject", "sigemptyset"]
+- !private ["Ps9AnyObject", "sigset_t"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "strdup"]
+- !private ["Ps9AnyObject", "waitUntilExit"]
+- !private ["Ps9AnyObject", "waitpid"]
+- ["Ps9AnyObject", ""]
+- !private ["P7Utility12ArgumentKind", "_getBuiltinLogicValue"]
+- !private ["P7Utility12ArgumentKind", "hashValue"]
+- !private ["P7Utility12ArgumentKind", "init"]
+- !private ["P7Utility12ArgumentKind", "withCString"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P5Basic14ByteStreamable", "init"]
+- !private ["P5Basic14ByteStreamable", "withCString"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "withCString"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "environment"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "processInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "withCString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "withCString"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "debugDescription"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "withCString"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "close"]
+- !private ["Ps23CustomStringConvertible", "dematerialize"]
+- !private ["Ps23CustomStringConvertible", "environment"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "pipe"]
+- !private ["Ps23CustomStringConvertible", "posix_spawn"]
+- !private ["Ps23CustomStringConvertible", "processInfo"]
+- !private ["Ps23CustomStringConvertible", "read"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "waitpid"]
+- !private ["Ps23CustomStringConvertible", "withCString"]
+- !private ["Vs10Dictionary", "map"]
+- !private ["Ps9Equatable", "EINTR"]
+- !private ["Ps9Equatable", "Int16"]
+- !private ["Ps9Equatable", "Int8"]
+- !private ["Ps9Equatable", "O_RDONLY"]
+- !private ["Ps9Equatable", "POSIX_SPAWN_SETPGROUP"]
+- !private ["Ps9Equatable", "POSIX_SPAWN_SETSIGDEF"]
+- !private ["Ps9Equatable", "POSIX_SPAWN_SETSIGMASK"]
+- !private ["Ps9Equatable", "Process"]
+- ["Ps9Equatable", "ProcessID"]
+- !private ["Ps9Equatable", "ProcessResult"]
+- !private ["Ps9Equatable", "Result"]
+- !private ["Ps9Equatable", "SIGKILL"]
+- !private ["Ps9Equatable", "SIGSTOP"]
+- !private ["Ps9Equatable", "SIGUNUSED"]
+- !private ["Ps9Equatable", "SystemError"]
+- !private ["Ps9Equatable", "Thread"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "arguments"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "close"]
+- !private ["Ps9Equatable", "env"]
+- !private ["Ps9Equatable", "environment"]
+- !private ["Ps9Equatable", "errno"]
+- !private ["Ps9Equatable", "free"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "illegalUTF8Sequence"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "launch"]
+- !private ["Ps9Equatable", "launched"]
+- !private ["Ps9Equatable", "libc"]
+- !private ["Ps9Equatable", "output"]
+- !private ["Ps9Equatable", "popen"]
+- !private ["Ps9Equatable", "posix_spawn_file_actions_addclose"]
+- !private ["Ps9Equatable", "posix_spawn_file_actions_adddup2"]
+- !private ["Ps9Equatable", "posix_spawn_file_actions_addopen"]
+- !private ["Ps9Equatable", "posix_spawn_file_actions_destroy"]
+- !private ["Ps9Equatable", "posix_spawn_file_actions_init"]
+- !private ["Ps9Equatable", "posix_spawn_file_actions_t"]
+- !private ["Ps9Equatable", "posix_spawnattr_destroy"]
+- !private ["Ps9Equatable", "posix_spawnattr_init"]
+- !private ["Ps9Equatable", "posix_spawnattr_setflags"]
+- !private ["Ps9Equatable", "posix_spawnattr_setpgroup"]
+- !private ["Ps9Equatable", "posix_spawnattr_setsigdefault"]
+- !private ["Ps9Equatable", "posix_spawnattr_setsigmask"]
+- !private ["Ps9Equatable", "posix_spawnattr_t"]
+- !private ["Ps9Equatable", "posix_spawnp"]
+- !private ["Ps9Equatable", "precondition"]
+- !private ["Ps9Equatable", "processID"]
+- !private ["Ps9Equatable", "processInfo"]
+- !private ["Ps9Equatable", "read"]
+- !private ["Ps9Equatable", "readOutput"]
+- !private ["Ps9Equatable", "readOutputError"]
+- !private ["Ps9Equatable", "readOutputThread"]
+- !private ["Ps9Equatable", "redirectOutput"]
+- !private ["Ps9Equatable", "result"]
+- !private ["Ps9Equatable", "sigaddset"]
+- !private ["Ps9Equatable", "sigemptyset"]
+- ["Ps9Equatable", "signalled"]
+- !private ["Ps9Equatable", "sigset_t"]
+- !private ["Ps9Equatable", "strdup"]
+- ["Ps9Equatable", "terminated"]
+- !private ["Ps9Equatable", "waitUntilExit"]
+- !private ["Ps9Equatable", "waitpid"]
+- !private ["Ps9Equatable", "withCString"]
+- ["Ps9Equatable", ""]
+- ["OV7Utility13ProcessResult5Error", "=="]
+- ["OV7Utility13ProcessResult5Error", "_code"]
+- ["OV7Utility13ProcessResult5Error", "_domain"]
+- ["OV7Utility13ProcessResult5Error", "_toAnyHashable"]
+- ["OV7Utility13ProcessResult5Error", "_userInfo"]
+- ["OV7Utility13ProcessResult5Error", "deinit"]
+- ["OV7Utility13ProcessResult5Error", "hashValue"]
+- ["OV7Utility13ProcessResult5Error", "illegalUTF8Sequence"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "close"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "illegalUTF8Sequence"]
+- !private ["Ps5Error", "pipe"]
+- !private ["Ps5Error", "posix_spawn"]
+- !private ["Ps5Error", "read"]
+- !private ["Ps5Error", "waitpid"]
+- ["Ps5Error", ""]
+- ["OV7Utility13ProcessResult10ExitStatus", "=="]
+- ["OV7Utility13ProcessResult10ExitStatus", "Bool"]
+- ["OV7Utility13ProcessResult10ExitStatus", "Int32"]
+- ["OV7Utility13ProcessResult10ExitStatus", "ProcessResult"]
+- ["OV7Utility13ProcessResult10ExitStatus", "deinit"]
+- ["OV7Utility13ProcessResult10ExitStatus", "signalled"]
+- ["OV7Utility13ProcessResult10ExitStatus", "terminated"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "map"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "withCString"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "debugDescription"]
+- !private ["Ps23ExpressibleByNilLiteral", "map"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "withCString"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "withCString"]
+- !private ["Ps8Hashable", "EINTR"]
+- !private ["Ps8Hashable", "Int16"]
+- !private ["Ps8Hashable", "Int8"]
+- !private ["Ps8Hashable", "O_RDONLY"]
+- !private ["Ps8Hashable", "POSIX_SPAWN_SETPGROUP"]
+- !private ["Ps8Hashable", "POSIX_SPAWN_SETSIGDEF"]
+- !private ["Ps8Hashable", "POSIX_SPAWN_SETSIGMASK"]
+- !private ["Ps8Hashable", "Process"]
+- ["Ps8Hashable", "ProcessID"]
+- !private ["Ps8Hashable", "ProcessResult"]
+- !private ["Ps8Hashable", "Result"]
+- !private ["Ps8Hashable", "SIGKILL"]
+- !private ["Ps8Hashable", "SIGSTOP"]
+- !private ["Ps8Hashable", "SIGUNUSED"]
+- !private ["Ps8Hashable", "SystemError"]
+- !private ["Ps8Hashable", "Thread"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "arguments"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "close"]
+- !private ["Ps8Hashable", "env"]
+- !private ["Ps8Hashable", "environment"]
+- !private ["Ps8Hashable", "errno"]
+- !private ["Ps8Hashable", "free"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "illegalUTF8Sequence"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "launch"]
+- !private ["Ps8Hashable", "launched"]
+- !private ["Ps8Hashable", "libc"]
+- !private ["Ps8Hashable", "output"]
+- !private ["Ps8Hashable", "popen"]
+- !private ["Ps8Hashable", "posix_spawn_file_actions_addclose"]
+- !private ["Ps8Hashable", "posix_spawn_file_actions_adddup2"]
+- !private ["Ps8Hashable", "posix_spawn_file_actions_addopen"]
+- !private ["Ps8Hashable", "posix_spawn_file_actions_destroy"]
+- !private ["Ps8Hashable", "posix_spawn_file_actions_init"]
+- !private ["Ps8Hashable", "posix_spawn_file_actions_t"]
+- !private ["Ps8Hashable", "posix_spawnattr_destroy"]
+- !private ["Ps8Hashable", "posix_spawnattr_init"]
+- !private ["Ps8Hashable", "posix_spawnattr_setflags"]
+- !private ["Ps8Hashable", "posix_spawnattr_setpgroup"]
+- !private ["Ps8Hashable", "posix_spawnattr_setsigdefault"]
+- !private ["Ps8Hashable", "posix_spawnattr_setsigmask"]
+- !private ["Ps8Hashable", "posix_spawnattr_t"]
+- !private ["Ps8Hashable", "posix_spawnp"]
+- !private ["Ps8Hashable", "precondition"]
+- !private ["Ps8Hashable", "processID"]
+- !private ["Ps8Hashable", "processInfo"]
+- !private ["Ps8Hashable", "read"]
+- !private ["Ps8Hashable", "readOutput"]
+- !private ["Ps8Hashable", "readOutputError"]
+- !private ["Ps8Hashable", "readOutputThread"]
+- !private ["Ps8Hashable", "redirectOutput"]
+- !private ["Ps8Hashable", "result"]
+- !private ["Ps8Hashable", "sigaddset"]
+- !private ["Ps8Hashable", "sigemptyset"]
+- !private ["Ps8Hashable", "sigset_t"]
+- !private ["Ps8Hashable", "strdup"]
+- !private ["Ps8Hashable", "waitUntilExit"]
+- !private ["Ps8Hashable", "waitpid"]
+- !private ["Ps8Hashable", "withCString"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int16", "init"]
+- ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "withCString"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "withCString"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["C10Foundation8NSObject", "environment"]
+- !private ["C10Foundation8NSObject", "processInfo"]
+- !private ["P10Foundation16NSObjectProtocol", "environment"]
+- !private ["P10Foundation16NSObjectProtocol", "processInfo"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "EINTR"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "Int16"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "Int8"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "O_RDONLY"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "POSIX_SPAWN_SETPGROUP"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "POSIX_SPAWN_SETSIGDEF"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "POSIX_SPAWN_SETSIGMASK"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "Process"]
+- ["P5Basic24ObjectIdentifierProtocol", "ProcessID"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "ProcessResult"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "Result"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "SIGKILL"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "SIGSTOP"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "SIGUNUSED"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "SystemError"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "Thread"]
+- ["P5Basic24ObjectIdentifierProtocol", "_toAnyHashable"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "arguments"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "assert"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "close"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "env"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "environment"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "errno"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "free"]
+- ["P5Basic24ObjectIdentifierProtocol", "hashValue"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "init"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "launch"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "launched"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "libc"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "output"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "popen"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawn_file_actions_addclose"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawn_file_actions_adddup2"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawn_file_actions_addopen"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawn_file_actions_destroy"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawn_file_actions_init"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawn_file_actions_t"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnattr_destroy"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnattr_init"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnattr_setflags"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnattr_setpgroup"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnattr_setsigdefault"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnattr_setsigmask"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnattr_t"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "posix_spawnp"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "precondition"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "processID"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "read"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "readOutput"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "readOutputError"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "readOutputThread"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "redirectOutput"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "result"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "sigaddset"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "sigemptyset"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "sigset_t"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "strdup"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "waitUntilExit"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "waitpid"]
+- ["P5Basic24ObjectIdentifierProtocol", ""]
+- !private ["Sq", "debugDescription"]
+- !private ["Sq", "map"]
+- ["C7Utility7Process", "Bool"]
+- !private ["C7Utility7Process", "CChar"]
+- !private ["C7Utility7Process", "EINTR"]
+- !private ["C7Utility7Process", "Int16"]
+- ["C7Utility7Process", "Int32"]
+- ["C7Utility7Process", "Int8"]
+- !private ["C7Utility7Process", "O_RDONLY"]
+- !private ["C7Utility7Process", "POSIX_SPAWN_SETPGROUP"]
+- !private ["C7Utility7Process", "POSIX_SPAWN_SETSIGDEF"]
+- !private ["C7Utility7Process", "POSIX_SPAWN_SETSIGMASK"]
+- !private ["C7Utility7Process", "Process"]
+- ["C7Utility7Process", "ProcessID"]
+- ["C7Utility7Process", "ProcessResult"]
+- !private ["C7Utility7Process", "Result"]
+- !private ["C7Utility7Process", "SIGKILL"]
+- !private ["C7Utility7Process", "SIGSTOP"]
+- !private ["C7Utility7Process", "SIGUNUSED"]
+- ["C7Utility7Process", "String"]
+- ["C7Utility7Process", "Swift"]
+- !private ["C7Utility7Process", "SystemError"]
+- ["C7Utility7Process", "Thread"]
+- !private ["C7Utility7Process", "UnsafeMutablePointer"]
+- ["C7Utility7Process", "_toAnyHashable"]
+- ["C7Utility7Process", "arguments"]
+- !private ["C7Utility7Process", "assert"]
+- !private ["C7Utility7Process", "close"]
+- ["C7Utility7Process", "deinit"]
+- !private ["C7Utility7Process", "env"]
+- ["C7Utility7Process", "environment"]
+- !private ["C7Utility7Process", "errno"]
+- !private ["C7Utility7Process", "free"]
+- ["C7Utility7Process", "hashValue"]
+- ["C7Utility7Process", "init"]
+- ["C7Utility7Process", "launch"]
+- ["C7Utility7Process", "launched"]
+- !private ["C7Utility7Process", "libc"]
+- !private ["C7Utility7Process", "output"]
+- ["C7Utility7Process", "pid_t"]
+- ["C7Utility7Process", "popen"]
+- !private ["C7Utility7Process", "posix_spawn_file_actions_addclose"]
+- !private ["C7Utility7Process", "posix_spawn_file_actions_adddup2"]
+- !private ["C7Utility7Process", "posix_spawn_file_actions_addopen"]
+- !private ["C7Utility7Process", "posix_spawn_file_actions_destroy"]
+- !private ["C7Utility7Process", "posix_spawn_file_actions_init"]
+- !private ["C7Utility7Process", "posix_spawn_file_actions_t"]
+- !private ["C7Utility7Process", "posix_spawnattr_destroy"]
+- !private ["C7Utility7Process", "posix_spawnattr_init"]
+- !private ["C7Utility7Process", "posix_spawnattr_setflags"]
+- !private ["C7Utility7Process", "posix_spawnattr_setpgroup"]
+- !private ["C7Utility7Process", "posix_spawnattr_setsigdefault"]
+- !private ["C7Utility7Process", "posix_spawnattr_setsigmask"]
+- !private ["C7Utility7Process", "posix_spawnattr_t"]
+- !private ["C7Utility7Process", "posix_spawnp"]
+- !private ["C7Utility7Process", "precondition"]
+- ["C7Utility7Process", "processID"]
+- !private ["C7Utility7Process", "read"]
+- !private ["C7Utility7Process", "readOutput"]
+- !private ["C7Utility7Process", "readOutputError"]
+- !private ["C7Utility7Process", "readOutputThread"]
+- ["C7Utility7Process", "redirectOutput"]
+- ["C7Utility7Process", "result"]
+- !private ["C7Utility7Process", "sigaddset"]
+- !private ["C7Utility7Process", "sigemptyset"]
+- ["C7Utility7Process", "signal"]
+- !private ["C7Utility7Process", "sigset_t"]
+- !private ["C7Utility7Process", "strdup"]
+- ["C7Utility7Process", "waitUntilExit"]
+- !private ["C7Utility7Process", "waitpid"]
+- !private ["C10Foundation11ProcessInfo", "environment"]
+- !private ["C10Foundation11ProcessInfo", "processInfo"]
+- ["V7Utility13ProcessResult", "AnyError"]
+- ["V7Utility13ProcessResult", "Error"]
+- ["V7Utility13ProcessResult", "ExitStatus"]
+- ["V7Utility13ProcessResult", "Int32"]
+- ["V7Utility13ProcessResult", "Int8"]
+- ["V7Utility13ProcessResult", "Result"]
+- ["V7Utility13ProcessResult", "String"]
+- ["V7Utility13ProcessResult", "Swift"]
+- !private ["V7Utility13ProcessResult", "WEXITSTATUS"]
+- !private ["V7Utility13ProcessResult", "WIFEXITED"]
+- !private ["V7Utility13ProcessResult", "WIFSIGNALED"]
+- !private ["V7Utility13ProcessResult", "WTERMSIG"]
+- ["V7Utility13ProcessResult", "exitStatus"]
+- !private ["V7Utility13ProcessResult", "init"]
+- ["V7Utility13ProcessResult", "output"]
+- !private ["V7Utility13ProcessResult", "precondition"]
+- ["V7Utility13ProcessResult", "utf8Output"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["O5Basic6Result", "dematerialize"]
+- !private ["O5Basic6Result", "init"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "withCString"]
+- !private ["O5POSIX11SystemError", "close"]
+- !private ["O5POSIX11SystemError", "pipe"]
+- !private ["O5POSIX11SystemError", "posix_spawn"]
+- !private ["O5POSIX11SystemError", "read"]
+- !private ["O5POSIX11SystemError", "waitpid"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "withCString"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "withCString"]
+- !private ["C5Basic6Thread", "init"]
+- !private ["C5Basic6Thread", "join"]
+- !private ["C5Basic6Thread", "start"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "append"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["P10Foundation13_CFBridgeable", "withCString"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "withCString"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "withCString"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "withCString"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "withCString"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "withCString"]
+- !private ["Ps9_Hashable", "EINTR"]
+- !private ["Ps9_Hashable", "Int16"]
+- !private ["Ps9_Hashable", "Int8"]
+- !private ["Ps9_Hashable", "O_RDONLY"]
+- !private ["Ps9_Hashable", "POSIX_SPAWN_SETPGROUP"]
+- !private ["Ps9_Hashable", "POSIX_SPAWN_SETSIGDEF"]
+- !private ["Ps9_Hashable", "POSIX_SPAWN_SETSIGMASK"]
+- !private ["Ps9_Hashable", "Process"]
+- ["Ps9_Hashable", "ProcessID"]
+- !private ["Ps9_Hashable", "ProcessResult"]
+- !private ["Ps9_Hashable", "Result"]
+- !private ["Ps9_Hashable", "SIGKILL"]
+- !private ["Ps9_Hashable", "SIGSTOP"]
+- !private ["Ps9_Hashable", "SIGUNUSED"]
+- !private ["Ps9_Hashable", "SystemError"]
+- !private ["Ps9_Hashable", "Thread"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "arguments"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "close"]
+- !private ["Ps9_Hashable", "env"]
+- !private ["Ps9_Hashable", "environment"]
+- !private ["Ps9_Hashable", "errno"]
+- !private ["Ps9_Hashable", "free"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "illegalUTF8Sequence"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "launch"]
+- !private ["Ps9_Hashable", "launched"]
+- !private ["Ps9_Hashable", "libc"]
+- !private ["Ps9_Hashable", "output"]
+- !private ["Ps9_Hashable", "popen"]
+- !private ["Ps9_Hashable", "posix_spawn_file_actions_addclose"]
+- !private ["Ps9_Hashable", "posix_spawn_file_actions_adddup2"]
+- !private ["Ps9_Hashable", "posix_spawn_file_actions_addopen"]
+- !private ["Ps9_Hashable", "posix_spawn_file_actions_destroy"]
+- !private ["Ps9_Hashable", "posix_spawn_file_actions_init"]
+- !private ["Ps9_Hashable", "posix_spawn_file_actions_t"]
+- !private ["Ps9_Hashable", "posix_spawnattr_destroy"]
+- !private ["Ps9_Hashable", "posix_spawnattr_init"]
+- !private ["Ps9_Hashable", "posix_spawnattr_setflags"]
+- !private ["Ps9_Hashable", "posix_spawnattr_setpgroup"]
+- !private ["Ps9_Hashable", "posix_spawnattr_setsigdefault"]
+- !private ["Ps9_Hashable", "posix_spawnattr_setsigmask"]
+- !private ["Ps9_Hashable", "posix_spawnattr_t"]
+- !private ["Ps9_Hashable", "posix_spawnp"]
+- !private ["Ps9_Hashable", "precondition"]
+- !private ["Ps9_Hashable", "processID"]
+- !private ["Ps9_Hashable", "processInfo"]
+- !private ["Ps9_Hashable", "read"]
+- !private ["Ps9_Hashable", "readOutput"]
+- !private ["Ps9_Hashable", "readOutputError"]
+- !private ["Ps9_Hashable", "readOutputThread"]
+- !private ["Ps9_Hashable", "redirectOutput"]
+- !private ["Ps9_Hashable", "result"]
+- !private ["Ps9_Hashable", "sigaddset"]
+- !private ["Ps9_Hashable", "sigemptyset"]
+- !private ["Ps9_Hashable", "sigset_t"]
+- !private ["Ps9_Hashable", "strdup"]
+- !private ["Ps9_Hashable", "waitUntilExit"]
+- !private ["Ps9_Hashable", "waitpid"]
+- !private ["Ps9_Hashable", "withCString"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- ["P10Foundation12_IntegerLike", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "append"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "withCString"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "append"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "withCString"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "append"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "withCString"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["Ps11_Strideable", "init"]
+- !private ["VSC10__sigset_t", "init"]
+- !private ["VSC26posix_spawn_file_actions_t", "init"]
+- !private ["VSC17posix_spawnattr_t", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P7Utility12ArgumentKind"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "P5Basic14ByteStreamable"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- "OV7Utility13ProcessResult5Error"
+- "Ps5Error"
+- "OV7Utility13ProcessResult10ExitStatus"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- "Vs5Int32"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- "P5Basic24ObjectIdentifierProtocol"
+- !private "Sq"
+- "C7Utility7Process"
+- !private "C10Foundation11ProcessInfo"
+- "V7Utility13ProcessResult"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "O5Basic6Result"
+- !private "Ps8Sequence"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- !private "SS"
+- !private "O5POSIX11SystemError"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C5Basic6Thread"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- !private "VSC10__sigset_t"
+- !private "VSC26posix_spawn_file_actions_t"
+- !private "VSC17posix_spawnattr_t"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+interface-hash: "6a2346091f9cad2dfee2e8857d3c9e36"

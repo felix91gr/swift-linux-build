@@ -1,0 +1,9 @@
+version: "Swift version 3.1-dev (LLVM a7c680da51, Clang 9772bf511a, Swift 493db43364)"
+options: "dad08f111f3ea6eb68d73cf468487a10"
+build_time: [542445922, 859094000]
+inputs:
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageLoading/ModuleMapGenerator.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageLoading/Module+PkgConfig.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageLoading/PackageBuilder.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageLoading/ManifestLoader.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/PackageLoading/ToolsVersionLoader.swift": [9223372036854775807, 0]

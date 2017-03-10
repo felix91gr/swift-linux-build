@@ -1,0 +1,797 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSLocking"
+- "NSLock"
+- "NSConditionLock"
+- "NSRecursiveLock"
+- "NSCondition"
+provides-nominal:
+- "P10Foundation9NSLocking"
+- "C10Foundation6NSLock"
+- "C10Foundation15NSConditionLock"
+- "C10Foundation15NSRecursiveLock"
+- "C10Foundation11NSCondition"
+provides-member:
+- ["P10Foundation9NSLocking", ""]
+- ["C10Foundation6NSLock", ""]
+- ["C10Foundation15NSConditionLock", ""]
+- ["C10Foundation15NSRecursiveLock", ""]
+- ["C10Foundation11NSCondition", ""]
+- ["C10Foundation6NSLock", "synchronized"]
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CFAbsoluteTimeGetCurrent"
+- "Date"
+- !private "Double"
+- "FloatLiteralType"
+- "Int"
+- !private "Int32"
+- "IntegerLiteralType"
+- "NSCondition"
+- "NSConditionLock"
+- "NSLock"
+- "NSLocking"
+- "NSObject"
+- "NSRecursiveLock"
+- !private "NSUnimplemented"
+- !private "PTHREAD_MUTEX_RECURSIVE"
+- "String"
+- !private "StringLiteralType"
+- "UnsafeMutablePointer"
+- !private "floor"
+- !private "gettimeofday"
+- !private "pthread_cond_broadcast"
+- !private "pthread_cond_destroy"
+- !private "pthread_cond_init"
+- !private "pthread_cond_signal"
+- "pthread_cond_t"
+- !private "pthread_cond_timedwait"
+- !private "pthread_cond_wait"
+- !private "pthread_mutex_destroy"
+- !private "pthread_mutex_init"
+- !private "pthread_mutex_lock"
+- "pthread_mutex_t"
+- !private "pthread_mutex_trylock"
+- !private "pthread_mutex_unlock"
+- !private "pthread_mutexattr_settype"
+- !private "pthread_mutexattr_t"
+- !private "pthread_self"
+- "pthread_t"
+- !private "timespec"
+- !private "timeval"
+- !private "withUnsafeMutablePointer"
+- !private "withUnsafePointer"
+- !private "||"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Int32"]
+- ["Ps9AnyObject", "NSCondition"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- !private ["Ps9AnyObject", "PTHREAD_MUTEX_RECURSIVE"]
+- ["Ps9AnyObject", "UnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "_cond"]
+- !private ["Ps9AnyObject", "_thread"]
+- !private ["Ps9AnyObject", "_value"]
+- !private ["Ps9AnyObject", "broadcast"]
+- !private ["Ps9AnyObject", "cond"]
+- !private ["Ps9AnyObject", "floor"]
+- !private ["Ps9AnyObject", "gettimeofday"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "mutex"]
+- !private ["Ps9AnyObject", "pthread_cond_broadcast"]
+- !private ["Ps9AnyObject", "pthread_cond_destroy"]
+- !private ["Ps9AnyObject", "pthread_cond_init"]
+- !private ["Ps9AnyObject", "pthread_cond_signal"]
+- !private ["Ps9AnyObject", "pthread_cond_timedwait"]
+- !private ["Ps9AnyObject", "pthread_cond_wait"]
+- !private ["Ps9AnyObject", "pthread_mutex_destroy"]
+- !private ["Ps9AnyObject", "pthread_mutex_init"]
+- !private ["Ps9AnyObject", "pthread_mutex_lock"]
+- !private ["Ps9AnyObject", "pthread_mutex_trylock"]
+- !private ["Ps9AnyObject", "pthread_mutex_unlock"]
+- !private ["Ps9AnyObject", "pthread_mutexattr_settype"]
+- !private ["Ps9AnyObject", "pthread_mutexattr_t"]
+- !private ["Ps9AnyObject", "pthread_self"]
+- !private ["Ps9AnyObject", "timespec"]
+- !private ["Ps9AnyObject", "timeval"]
+- ["Ps9AnyObject", "unlock"]
+- !private ["Ps9AnyObject", "wait"]
+- !private ["Ps9AnyObject", "withUnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "withUnsafePointer"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["V10Foundation7CGFloat", "deinit"]
+- ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "deallocate"]
+- !private ["Ps7CVarArg", "deinitialize"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointee"]
+- ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "deallocate"]
+- !private ["Ps10Comparable", "deinitialize"]
+- !private ["Ps10Comparable", "distantFuture"]
+- !private ["Ps10Comparable", "distantPast"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps10Comparable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "Int32"]
+- ["Ps28CustomDebugStringConvertible", "NSCondition"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- !private ["Ps28CustomDebugStringConvertible", "PTHREAD_MUTEX_RECURSIVE"]
+- ["Ps28CustomDebugStringConvertible", "UnsafeMutablePointer"]
+- !private ["Ps28CustomDebugStringConvertible", "_cond"]
+- !private ["Ps28CustomDebugStringConvertible", "_thread"]
+- !private ["Ps28CustomDebugStringConvertible", "_value"]
+- ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "broadcast"]
+- !private ["Ps28CustomDebugStringConvertible", "cond"]
+- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
+- !private ["Ps28CustomDebugStringConvertible", "deinitialize"]
+- !private ["Ps28CustomDebugStringConvertible", "distantFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "distantPast"]
+- !private ["Ps28CustomDebugStringConvertible", "floor"]
+- !private ["Ps28CustomDebugStringConvertible", "gettimeofday"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lock"]
+- !private ["Ps28CustomDebugStringConvertible", "mutex"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_cond_broadcast"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_cond_destroy"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_cond_init"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_cond_signal"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_cond_timedwait"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_cond_wait"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_mutex_destroy"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_mutex_init"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_mutex_lock"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_mutex_trylock"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_mutex_unlock"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_mutexattr_settype"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_mutexattr_t"]
+- !private ["Ps28CustomDebugStringConvertible", "pthread_self"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "timespec"]
+- !private ["Ps28CustomDebugStringConvertible", "timeval"]
+- ["Ps28CustomDebugStringConvertible", "unlock"]
+- !private ["Ps28CustomDebugStringConvertible", "wait"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutablePointer"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafePointer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deinitialize"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "distantFuture"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "distantPast"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "deallocate"]
+- !private ["Ps17CustomReflectable", "deinitialize"]
+- !private ["Ps17CustomReflectable", "distantFuture"]
+- !private ["Ps17CustomReflectable", "distantPast"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "Int32"]
+- ["Ps23CustomStringConvertible", "NSCondition"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- !private ["Ps23CustomStringConvertible", "PTHREAD_MUTEX_RECURSIVE"]
+- ["Ps23CustomStringConvertible", "UnsafeMutablePointer"]
+- !private ["Ps23CustomStringConvertible", "_cond"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_thread"]
+- !private ["Ps23CustomStringConvertible", "_value"]
+- !private ["Ps23CustomStringConvertible", "broadcast"]
+- !private ["Ps23CustomStringConvertible", "cond"]
+- !private ["Ps23CustomStringConvertible", "distantFuture"]
+- !private ["Ps23CustomStringConvertible", "distantPast"]
+- !private ["Ps23CustomStringConvertible", "floor"]
+- !private ["Ps23CustomStringConvertible", "gettimeofday"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lock"]
+- !private ["Ps23CustomStringConvertible", "mutex"]
+- !private ["Ps23CustomStringConvertible", "pthread_cond_broadcast"]
+- !private ["Ps23CustomStringConvertible", "pthread_cond_destroy"]
+- !private ["Ps23CustomStringConvertible", "pthread_cond_init"]
+- !private ["Ps23CustomStringConvertible", "pthread_cond_signal"]
+- !private ["Ps23CustomStringConvertible", "pthread_cond_timedwait"]
+- !private ["Ps23CustomStringConvertible", "pthread_cond_wait"]
+- !private ["Ps23CustomStringConvertible", "pthread_mutex_destroy"]
+- !private ["Ps23CustomStringConvertible", "pthread_mutex_init"]
+- !private ["Ps23CustomStringConvertible", "pthread_mutex_lock"]
+- !private ["Ps23CustomStringConvertible", "pthread_mutex_trylock"]
+- !private ["Ps23CustomStringConvertible", "pthread_mutex_unlock"]
+- !private ["Ps23CustomStringConvertible", "pthread_mutexattr_settype"]
+- !private ["Ps23CustomStringConvertible", "pthread_mutexattr_t"]
+- !private ["Ps23CustomStringConvertible", "pthread_self"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "timespec"]
+- !private ["Ps23CustomStringConvertible", "timeval"]
+- ["Ps23CustomStringConvertible", "unlock"]
+- !private ["Ps23CustomStringConvertible", "wait"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutablePointer"]
+- !private ["Ps23CustomStringConvertible", "withUnsafePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "distantFuture"]
+- !private ["V10Foundation4Date", "distantPast"]
+- !private ["V10Foundation4Date", "timeIntervalSinceReferenceDate"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "Int32"]
+- ["Ps9Equatable", "NSCondition"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- !private ["Ps9Equatable", "PTHREAD_MUTEX_RECURSIVE"]
+- ["Ps9Equatable", "UnsafeMutablePointer"]
+- !private ["Ps9Equatable", "_cond"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_thread"]
+- !private ["Ps9Equatable", "_value"]
+- ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "broadcast"]
+- !private ["Ps9Equatable", "cond"]
+- !private ["Ps9Equatable", "deallocate"]
+- !private ["Ps9Equatable", "deinitialize"]
+- !private ["Ps9Equatable", "distantFuture"]
+- !private ["Ps9Equatable", "distantPast"]
+- !private ["Ps9Equatable", "floor"]
+- !private ["Ps9Equatable", "gettimeofday"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lock"]
+- !private ["Ps9Equatable", "mutex"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "pthread_cond_broadcast"]
+- !private ["Ps9Equatable", "pthread_cond_destroy"]
+- !private ["Ps9Equatable", "pthread_cond_init"]
+- !private ["Ps9Equatable", "pthread_cond_signal"]
+- !private ["Ps9Equatable", "pthread_cond_timedwait"]
+- !private ["Ps9Equatable", "pthread_cond_wait"]
+- !private ["Ps9Equatable", "pthread_mutex_destroy"]
+- !private ["Ps9Equatable", "pthread_mutex_init"]
+- !private ["Ps9Equatable", "pthread_mutex_lock"]
+- !private ["Ps9Equatable", "pthread_mutex_trylock"]
+- !private ["Ps9Equatable", "pthread_mutex_unlock"]
+- !private ["Ps9Equatable", "pthread_mutexattr_settype"]
+- !private ["Ps9Equatable", "pthread_mutexattr_t"]
+- !private ["Ps9Equatable", "pthread_self"]
+- !private ["Ps9Equatable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9Equatable", "timespec"]
+- !private ["Ps9Equatable", "timeval"]
+- ["Ps9Equatable", "unlock"]
+- !private ["Ps9Equatable", "wait"]
+- !private ["Ps9Equatable", "withUnsafeMutablePointer"]
+- !private ["Ps9Equatable", "withUnsafePointer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "Int32"]
+- ["Ps8Hashable", "NSCondition"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- !private ["Ps8Hashable", "PTHREAD_MUTEX_RECURSIVE"]
+- ["Ps8Hashable", "UnsafeMutablePointer"]
+- !private ["Ps8Hashable", "_cond"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_thread"]
+- !private ["Ps8Hashable", "_value"]
+- ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "broadcast"]
+- !private ["Ps8Hashable", "cond"]
+- !private ["Ps8Hashable", "deallocate"]
+- !private ["Ps8Hashable", "deinitialize"]
+- !private ["Ps8Hashable", "distantFuture"]
+- !private ["Ps8Hashable", "distantPast"]
+- !private ["Ps8Hashable", "floor"]
+- !private ["Ps8Hashable", "gettimeofday"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lock"]
+- !private ["Ps8Hashable", "mutex"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "pthread_cond_broadcast"]
+- !private ["Ps8Hashable", "pthread_cond_destroy"]
+- !private ["Ps8Hashable", "pthread_cond_init"]
+- !private ["Ps8Hashable", "pthread_cond_signal"]
+- !private ["Ps8Hashable", "pthread_cond_timedwait"]
+- !private ["Ps8Hashable", "pthread_cond_wait"]
+- !private ["Ps8Hashable", "pthread_mutex_destroy"]
+- !private ["Ps8Hashable", "pthread_mutex_init"]
+- !private ["Ps8Hashable", "pthread_mutex_lock"]
+- !private ["Ps8Hashable", "pthread_mutex_trylock"]
+- !private ["Ps8Hashable", "pthread_mutex_unlock"]
+- !private ["Ps8Hashable", "pthread_mutexattr_settype"]
+- !private ["Ps8Hashable", "pthread_mutexattr_t"]
+- !private ["Ps8Hashable", "pthread_self"]
+- !private ["Ps8Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps8Hashable", "timespec"]
+- !private ["Ps8Hashable", "timeval"]
+- ["Ps8Hashable", "unlock"]
+- !private ["Ps8Hashable", "wait"]
+- !private ["Ps8Hashable", "withUnsafeMutablePointer"]
+- !private ["Ps8Hashable", "withUnsafePointer"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["C10Foundation11NSCondition", "Bool"]
+- !private ["C10Foundation11NSCondition", "CFAbsoluteTimeGetCurrent"]
+- ["C10Foundation11NSCondition", "Date"]
+- !private ["C10Foundation11NSCondition", "Double"]
+- !private ["C10Foundation11NSCondition", "Int"]
+- !private ["C10Foundation11NSCondition", "Int32"]
+- ["C10Foundation11NSCondition", "String"]
+- ["C10Foundation11NSCondition", "UnsafeMutablePointer"]
+- ["C10Foundation11NSCondition", "broadcast"]
+- ["C10Foundation11NSCondition", "cond"]
+- ["C10Foundation11NSCondition", "deinit"]
+- !private ["C10Foundation11NSCondition", "floor"]
+- !private ["C10Foundation11NSCondition", "gettimeofday"]
+- ["C10Foundation11NSCondition", "init"]
+- ["C10Foundation11NSCondition", "lock"]
+- ["C10Foundation11NSCondition", "mutex"]
+- ["C10Foundation11NSCondition", "name"]
+- !private ["C10Foundation11NSCondition", "pthread_cond_broadcast"]
+- !private ["C10Foundation11NSCondition", "pthread_cond_destroy"]
+- !private ["C10Foundation11NSCondition", "pthread_cond_init"]
+- !private ["C10Foundation11NSCondition", "pthread_cond_signal"]
+- ["C10Foundation11NSCondition", "pthread_cond_t"]
+- !private ["C10Foundation11NSCondition", "pthread_cond_timedwait"]
+- !private ["C10Foundation11NSCondition", "pthread_cond_wait"]
+- !private ["C10Foundation11NSCondition", "pthread_mutex_destroy"]
+- !private ["C10Foundation11NSCondition", "pthread_mutex_init"]
+- !private ["C10Foundation11NSCondition", "pthread_mutex_lock"]
+- ["C10Foundation11NSCondition", "pthread_mutex_t"]
+- !private ["C10Foundation11NSCondition", "pthread_mutex_unlock"]
+- ["C10Foundation11NSCondition", "signal"]
+- !private ["C10Foundation11NSCondition", "timespec"]
+- !private ["C10Foundation11NSCondition", "timeval"]
+- ["C10Foundation11NSCondition", "unlock"]
+- ["C10Foundation11NSCondition", "wait"]
+- !private ["C10Foundation11NSCondition", "withUnsafeMutablePointer"]
+- !private ["C10Foundation11NSCondition", "withUnsafePointer"]
+- ["C10Foundation15NSConditionLock", "Bool"]
+- ["C10Foundation15NSConditionLock", "Date"]
+- ["C10Foundation15NSConditionLock", "Int"]
+- ["C10Foundation15NSConditionLock", "NSCondition"]
+- ["C10Foundation15NSConditionLock", "String"]
+- ["C10Foundation15NSConditionLock", "_cond"]
+- ["C10Foundation15NSConditionLock", "_thread"]
+- ["C10Foundation15NSConditionLock", "_value"]
+- ["C10Foundation15NSConditionLock", "condition"]
+- ["C10Foundation15NSConditionLock", "deinit"]
+- ["C10Foundation15NSConditionLock", "init"]
+- ["C10Foundation15NSConditionLock", "lock"]
+- ["C10Foundation15NSConditionLock", "name"]
+- !private ["C10Foundation15NSConditionLock", "pthread_self"]
+- ["C10Foundation15NSConditionLock", "pthread_t"]
+- ["C10Foundation15NSConditionLock", "try"]
+- ["C10Foundation15NSConditionLock", "tryLock"]
+- ["C10Foundation15NSConditionLock", "unlock"]
+- ["C10Foundation6NSLock", "Bool"]
+- ["C10Foundation6NSLock", "Date"]
+- !private ["C10Foundation6NSLock", "NSUnimplemented"]
+- ["C10Foundation6NSLock", "String"]
+- ["C10Foundation6NSLock", "UnsafeMutablePointer"]
+- ["C10Foundation6NSLock", "deinit"]
+- ["C10Foundation6NSLock", "init"]
+- ["C10Foundation6NSLock", "lock"]
+- ["C10Foundation6NSLock", "mutex"]
+- ["C10Foundation6NSLock", "name"]
+- !private ["C10Foundation6NSLock", "pthread_mutex_destroy"]
+- !private ["C10Foundation6NSLock", "pthread_mutex_init"]
+- !private ["C10Foundation6NSLock", "pthread_mutex_lock"]
+- ["C10Foundation6NSLock", "pthread_mutex_t"]
+- !private ["C10Foundation6NSLock", "pthread_mutex_trylock"]
+- !private ["C10Foundation6NSLock", "pthread_mutex_unlock"]
+- ["C10Foundation6NSLock", "synchronized"]
+- ["C10Foundation6NSLock", "try"]
+- ["C10Foundation6NSLock", "unlock"]
+- !private ["P10Foundation9NSLocking", "CFAbsoluteTimeGetCurrent"]
+- !private ["P10Foundation9NSLocking", "Date"]
+- !private ["P10Foundation9NSLocking", "Double"]
+- !private ["P10Foundation9NSLocking", "Int"]
+- !private ["P10Foundation9NSLocking", "Int32"]
+- ["P10Foundation9NSLocking", "NSCondition"]
+- !private ["P10Foundation9NSLocking", "NSUnimplemented"]
+- !private ["P10Foundation9NSLocking", "PTHREAD_MUTEX_RECURSIVE"]
+- ["P10Foundation9NSLocking", "UnsafeMutablePointer"]
+- !private ["P10Foundation9NSLocking", "_cond"]
+- !private ["P10Foundation9NSLocking", "_thread"]
+- !private ["P10Foundation9NSLocking", "_value"]
+- !private ["P10Foundation9NSLocking", "broadcast"]
+- !private ["P10Foundation9NSLocking", "cond"]
+- !private ["P10Foundation9NSLocking", "floor"]
+- !private ["P10Foundation9NSLocking", "gettimeofday"]
+- ["P10Foundation9NSLocking", "init"]
+- ["P10Foundation9NSLocking", "lock"]
+- !private ["P10Foundation9NSLocking", "mutex"]
+- !private ["P10Foundation9NSLocking", "pthread_cond_broadcast"]
+- !private ["P10Foundation9NSLocking", "pthread_cond_destroy"]
+- !private ["P10Foundation9NSLocking", "pthread_cond_init"]
+- !private ["P10Foundation9NSLocking", "pthread_cond_signal"]
+- !private ["P10Foundation9NSLocking", "pthread_cond_timedwait"]
+- !private ["P10Foundation9NSLocking", "pthread_cond_wait"]
+- !private ["P10Foundation9NSLocking", "pthread_mutex_destroy"]
+- !private ["P10Foundation9NSLocking", "pthread_mutex_init"]
+- !private ["P10Foundation9NSLocking", "pthread_mutex_lock"]
+- !private ["P10Foundation9NSLocking", "pthread_mutex_trylock"]
+- !private ["P10Foundation9NSLocking", "pthread_mutex_unlock"]
+- !private ["P10Foundation9NSLocking", "pthread_mutexattr_settype"]
+- !private ["P10Foundation9NSLocking", "pthread_mutexattr_t"]
+- !private ["P10Foundation9NSLocking", "pthread_self"]
+- !private ["P10Foundation9NSLocking", "timespec"]
+- !private ["P10Foundation9NSLocking", "timeval"]
+- ["P10Foundation9NSLocking", "unlock"]
+- !private ["P10Foundation9NSLocking", "wait"]
+- !private ["P10Foundation9NSLocking", "withUnsafeMutablePointer"]
+- !private ["P10Foundation9NSLocking", "withUnsafePointer"]
+- ["P10Foundation9NSLocking", ""]
+- ["C10Foundation8NSObject", "Bool"]
+- !private ["C10Foundation8NSObject", "CFAbsoluteTimeGetCurrent"]
+- ["C10Foundation8NSObject", "Date"]
+- !private ["C10Foundation8NSObject", "Double"]
+- ["C10Foundation8NSObject", "Int"]
+- !private ["C10Foundation8NSObject", "Int32"]
+- ["C10Foundation8NSObject", "NSCondition"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- !private ["C10Foundation8NSObject", "PTHREAD_MUTEX_RECURSIVE"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "UnsafeMutablePointer"]
+- ["C10Foundation8NSObject", "_cond"]
+- ["C10Foundation8NSObject", "_thread"]
+- ["C10Foundation8NSObject", "_value"]
+- ["C10Foundation8NSObject", "broadcast"]
+- ["C10Foundation8NSObject", "cond"]
+- ["C10Foundation8NSObject", "condition"]
+- !private ["C10Foundation8NSObject", "floor"]
+- !private ["C10Foundation8NSObject", "gettimeofday"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "lock"]
+- ["C10Foundation8NSObject", "mutex"]
+- ["C10Foundation8NSObject", "name"]
+- !private ["C10Foundation8NSObject", "pthread_cond_broadcast"]
+- !private ["C10Foundation8NSObject", "pthread_cond_destroy"]
+- !private ["C10Foundation8NSObject", "pthread_cond_init"]
+- !private ["C10Foundation8NSObject", "pthread_cond_signal"]
+- ["C10Foundation8NSObject", "pthread_cond_t"]
+- !private ["C10Foundation8NSObject", "pthread_cond_timedwait"]
+- !private ["C10Foundation8NSObject", "pthread_cond_wait"]
+- !private ["C10Foundation8NSObject", "pthread_mutex_destroy"]
+- !private ["C10Foundation8NSObject", "pthread_mutex_init"]
+- !private ["C10Foundation8NSObject", "pthread_mutex_lock"]
+- ["C10Foundation8NSObject", "pthread_mutex_t"]
+- !private ["C10Foundation8NSObject", "pthread_mutex_trylock"]
+- !private ["C10Foundation8NSObject", "pthread_mutex_unlock"]
+- !private ["C10Foundation8NSObject", "pthread_mutexattr_settype"]
+- !private ["C10Foundation8NSObject", "pthread_mutexattr_t"]
+- !private ["C10Foundation8NSObject", "pthread_self"]
+- ["C10Foundation8NSObject", "pthread_t"]
+- ["C10Foundation8NSObject", "signal"]
+- ["C10Foundation8NSObject", "synchronized"]
+- !private ["C10Foundation8NSObject", "timespec"]
+- !private ["C10Foundation8NSObject", "timeval"]
+- ["C10Foundation8NSObject", "try"]
+- ["C10Foundation8NSObject", "tryLock"]
+- ["C10Foundation8NSObject", "unlock"]
+- ["C10Foundation8NSObject", "wait"]
+- !private ["C10Foundation8NSObject", "withUnsafeMutablePointer"]
+- !private ["C10Foundation8NSObject", "withUnsafePointer"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "CFAbsoluteTimeGetCurrent"]
+- !private ["P10Foundation16NSObjectProtocol", "Date"]
+- !private ["P10Foundation16NSObjectProtocol", "Double"]
+- !private ["P10Foundation16NSObjectProtocol", "Int"]
+- !private ["P10Foundation16NSObjectProtocol", "Int32"]
+- ["P10Foundation16NSObjectProtocol", "NSCondition"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- !private ["P10Foundation16NSObjectProtocol", "PTHREAD_MUTEX_RECURSIVE"]
+- ["P10Foundation16NSObjectProtocol", "UnsafeMutablePointer"]
+- !private ["P10Foundation16NSObjectProtocol", "_cond"]
+- !private ["P10Foundation16NSObjectProtocol", "_thread"]
+- !private ["P10Foundation16NSObjectProtocol", "_value"]
+- !private ["P10Foundation16NSObjectProtocol", "broadcast"]
+- !private ["P10Foundation16NSObjectProtocol", "cond"]
+- !private ["P10Foundation16NSObjectProtocol", "floor"]
+- !private ["P10Foundation16NSObjectProtocol", "gettimeofday"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- ["P10Foundation16NSObjectProtocol", "lock"]
+- !private ["P10Foundation16NSObjectProtocol", "mutex"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_cond_broadcast"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_cond_destroy"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_cond_init"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_cond_signal"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_cond_timedwait"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_cond_wait"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_mutex_destroy"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_mutex_init"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_mutex_lock"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_mutex_trylock"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_mutex_unlock"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_mutexattr_settype"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_mutexattr_t"]
+- !private ["P10Foundation16NSObjectProtocol", "pthread_self"]
+- !private ["P10Foundation16NSObjectProtocol", "timespec"]
+- !private ["P10Foundation16NSObjectProtocol", "timeval"]
+- ["P10Foundation16NSObjectProtocol", "unlock"]
+- !private ["P10Foundation16NSObjectProtocol", "wait"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafeMutablePointer"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafePointer"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["C10Foundation15NSRecursiveLock", "Bool"]
+- ["C10Foundation15NSRecursiveLock", "Date"]
+- !private ["C10Foundation15NSRecursiveLock", "Int32"]
+- !private ["C10Foundation15NSRecursiveLock", "NSUnimplemented"]
+- !private ["C10Foundation15NSRecursiveLock", "PTHREAD_MUTEX_RECURSIVE"]
+- ["C10Foundation15NSRecursiveLock", "String"]
+- ["C10Foundation15NSRecursiveLock", "UnsafeMutablePointer"]
+- ["C10Foundation15NSRecursiveLock", "deinit"]
+- ["C10Foundation15NSRecursiveLock", "init"]
+- ["C10Foundation15NSRecursiveLock", "lock"]
+- ["C10Foundation15NSRecursiveLock", "mutex"]
+- ["C10Foundation15NSRecursiveLock", "name"]
+- !private ["C10Foundation15NSRecursiveLock", "pthread_mutex_destroy"]
+- !private ["C10Foundation15NSRecursiveLock", "pthread_mutex_init"]
+- !private ["C10Foundation15NSRecursiveLock", "pthread_mutex_lock"]
+- ["C10Foundation15NSRecursiveLock", "pthread_mutex_t"]
+- !private ["C10Foundation15NSRecursiveLock", "pthread_mutex_trylock"]
+- !private ["C10Foundation15NSRecursiveLock", "pthread_mutex_unlock"]
+- !private ["C10Foundation15NSRecursiveLock", "pthread_mutexattr_settype"]
+- !private ["C10Foundation15NSRecursiveLock", "pthread_mutexattr_t"]
+- ["C10Foundation15NSRecursiveLock", "try"]
+- ["C10Foundation15NSRecursiveLock", "unlock"]
+- !private ["C10Foundation15NSRecursiveLock", "withUnsafeMutablePointer"]
+- !private ["P10Foundation20ReferenceConvertible", "distantFuture"]
+- !private ["P10Foundation20ReferenceConvertible", "distantPast"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "deallocate"]
+- !private ["Ps10Strideable", "deinitialize"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "pointee"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "distantFuture"]
+- !private ["P10Foundation13_CFBridgeable", "distantPast"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "CFAbsoluteTimeGetCurrent"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "Int32"]
+- ["Ps9_Hashable", "NSCondition"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- !private ["Ps9_Hashable", "PTHREAD_MUTEX_RECURSIVE"]
+- ["Ps9_Hashable", "UnsafeMutablePointer"]
+- !private ["Ps9_Hashable", "_cond"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_thread"]
+- !private ["Ps9_Hashable", "_value"]
+- ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "broadcast"]
+- !private ["Ps9_Hashable", "cond"]
+- !private ["Ps9_Hashable", "deallocate"]
+- !private ["Ps9_Hashable", "deinitialize"]
+- !private ["Ps9_Hashable", "distantFuture"]
+- !private ["Ps9_Hashable", "distantPast"]
+- !private ["Ps9_Hashable", "floor"]
+- !private ["Ps9_Hashable", "gettimeofday"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "lock"]
+- !private ["Ps9_Hashable", "mutex"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "pthread_cond_broadcast"]
+- !private ["Ps9_Hashable", "pthread_cond_destroy"]
+- !private ["Ps9_Hashable", "pthread_cond_init"]
+- !private ["Ps9_Hashable", "pthread_cond_signal"]
+- !private ["Ps9_Hashable", "pthread_cond_timedwait"]
+- !private ["Ps9_Hashable", "pthread_cond_wait"]
+- !private ["Ps9_Hashable", "pthread_mutex_destroy"]
+- !private ["Ps9_Hashable", "pthread_mutex_init"]
+- !private ["Ps9_Hashable", "pthread_mutex_lock"]
+- !private ["Ps9_Hashable", "pthread_mutex_trylock"]
+- !private ["Ps9_Hashable", "pthread_mutex_unlock"]
+- !private ["Ps9_Hashable", "pthread_mutexattr_settype"]
+- !private ["Ps9_Hashable", "pthread_mutexattr_t"]
+- !private ["Ps9_Hashable", "pthread_self"]
+- !private ["Ps9_Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9_Hashable", "timespec"]
+- !private ["Ps9_Hashable", "timeval"]
+- ["Ps9_Hashable", "unlock"]
+- !private ["Ps9_Hashable", "wait"]
+- !private ["Ps9_Hashable", "withUnsafeMutablePointer"]
+- !private ["Ps9_Hashable", "withUnsafePointer"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["P10Foundation13_NSBridgeable", "distantFuture"]
+- !private ["P10Foundation13_NSBridgeable", "distantPast"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "distantFuture"]
+- !private ["P10Foundation17_ObjectBridgeable", "distantPast"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "distantFuture"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "distantPast"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "timeIntervalSinceReferenceDate"]
+- ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "deallocate"]
+- !private ["Ps8_Pointer", "deinitialize"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "deallocate"]
+- !private ["Ps11_Strideable", "deinitialize"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- !private ["VSC19pthread_mutexattr_t", "init"]
+- !private ["VSC8timespec", "init"]
+- !private ["VSC8timespec", "tv_nsec"]
+- !private ["VSC8timespec", "tv_sec"]
+- !private ["VSC7timeval", "init"]
+- !private ["VSC7timeval", "tv_sec"]
+- !private ["VSC7timeval", "tv_usec"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "V10Foundation7CGFloat"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C10Foundation11NSCondition"
+- "C10Foundation15NSConditionLock"
+- "C10Foundation6NSLock"
+- "P10Foundation9NSLocking"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "C10Foundation15NSRecursiveLock"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Sp"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- "Ps8_Pointer"
+- !private "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- !private "VSC19pthread_mutexattr_t"
+- !private "VSC8timespec"
+- !private "VSC7timeval"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "78d60196c0121d2e2d565e16078f44d7"

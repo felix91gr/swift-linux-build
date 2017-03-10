@@ -1,0 +1,73 @@
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_1adab"
+[1/2] Building C object CMakeFiles/cmTC_1adab.dir/CheckSymbolExists.c.o
+FAILED: /usr/bin/clang    -fno-stack-protector -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -Wcovered-switch-default -Wdelete-non-virtual-dtor -Werror=date-time -fcolor-diagnostics -ffunction-sections -fdata-sections -o CMakeFiles/cmTC_1adab.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:8:19: error: use of undeclared identifier 'wcslcat'
+  return ((int*)(&wcslcat))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dispatch_block_create exist failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_e0f04"
+[1/2] Building C object CMakeFiles/cmTC_e0f04.dir/CheckSymbolExists.c.o
+FAILED: /usr/bin/clang    -fno-stack-protector -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -Wcovered-switch-default -Wdelete-non-virtual-dtor -Werror=date-time -fcolor-diagnostics -ffunction-sections -fdata-sections -o CMakeFiles/cmTC_e0f04.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:2:10: fatal error: 'dispatch/dispatch.h' file not found
+#include <dispatch/dispatch.h>
+         ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dispatch/dispatch.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dispatch_block_create
+  return ((int*)(&dispatch_block_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files xpc/xpc.h exist failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_1f757"
+[1/2] Building C object CMakeFiles/cmTC_1f757.dir/CheckIncludeFiles.c.o
+FAILED: /usr/bin/clang    -fno-stack-protector -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -Wcovered-switch-default -Wdelete-non-virtual-dtor -Werror=date-time -fcolor-diagnostics -ffunction-sections -fdata-sections -o CMakeFiles/cmTC_1f757.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'xpc/xpc.h' file not found
+#include <xpc/xpc.h>
+         ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <xpc/xpc.h>
+
+
+int main(void){return 0;}
+

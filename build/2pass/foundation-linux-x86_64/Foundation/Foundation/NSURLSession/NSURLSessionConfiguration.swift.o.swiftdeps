@@ -1,0 +1,427 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLSessionConfiguration"
+provides-nominal:
+- "C10Foundation23URLSessionConfiguration"
+provides-member:
+- ["C10Foundation23URLSessionConfiguration", ""]
+depends-top-level:
+- "AnyClass"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "HTTPCookie"
+- "HTTPCookieStorage"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSCopying"
+- "NSObject"
+- !private "NSUnimplemented"
+- "NSZone"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "URLCache"
+- "URLCredentialStorage"
+- "URLRequest"
+- "URLSessionConfiguration"
+depends-member:
+- !private ["OC10Foundation10HTTPCookie12AcceptPolicy", "onlyFromMainDocumentDomain"]
+- ["Ps9AnyObject", "AcceptPolicy"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- !private ["Ps9AnyObject", "URLRequest"]
+- !private ["Ps9AnyObject", "URLSessionConfiguration"]
+- !private ["Ps9AnyObject", "allowsCellularAccess"]
+- !private ["Ps9AnyObject", "connectionProxyDictionary"]
+- ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "discretionary"]
+- !private ["Ps9AnyObject", "httpAdditionalHeaders"]
+- !private ["Ps9AnyObject", "httpCookieAcceptPolicy"]
+- !private ["Ps9AnyObject", "httpCookieStorage"]
+- !private ["Ps9AnyObject", "httpMaximumConnectionsPerHost"]
+- !private ["Ps9AnyObject", "httpShouldSetCookies"]
+- !private ["Ps9AnyObject", "httpShouldUsePipelining"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "networkServiceType"]
+- !private ["Ps9AnyObject", "protocolClasses"]
+- !private ["Ps9AnyObject", "requestCachePolicy"]
+- !private ["Ps9AnyObject", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps9AnyObject", "timeoutIntervalForRequest"]
+- !private ["Ps9AnyObject", "timeoutIntervalForResource"]
+- !private ["Ps9AnyObject", "urlCache"]
+- !private ["Ps9AnyObject", "urlCredentialStorage"]
+- ["Ps9AnyObject", ""]
+- !private ["OC10Foundation12NSURLRequest11CachePolicy", "useProtocolCachePolicy"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "AcceptPolicy"]
+- ["Ps28CustomDebugStringConvertible", "CachePolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "NetworkServiceType"]
+- !private ["Ps28CustomDebugStringConvertible", "URLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSessionConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "allowsCellularAccess"]
+- !private ["Ps28CustomDebugStringConvertible", "connectionProxyDictionary"]
+- ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "discretionary"]
+- !private ["Ps28CustomDebugStringConvertible", "httpAdditionalHeaders"]
+- !private ["Ps28CustomDebugStringConvertible", "httpCookieAcceptPolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "httpCookieStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "httpMaximumConnectionsPerHost"]
+- !private ["Ps28CustomDebugStringConvertible", "httpShouldSetCookies"]
+- !private ["Ps28CustomDebugStringConvertible", "httpShouldUsePipelining"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "networkServiceType"]
+- !private ["Ps28CustomDebugStringConvertible", "protocolClasses"]
+- !private ["Ps28CustomDebugStringConvertible", "requestCachePolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps28CustomDebugStringConvertible", "timeoutIntervalForRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "timeoutIntervalForResource"]
+- !private ["Ps28CustomDebugStringConvertible", "urlCache"]
+- !private ["Ps28CustomDebugStringConvertible", "urlCredentialStorage"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "CachePolicy"]
+- ["Ps17CustomReflectable", "NetworkServiceType"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "AcceptPolicy"]
+- ["Ps23CustomStringConvertible", "CachePolicy"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "NetworkServiceType"]
+- !private ["Ps23CustomStringConvertible", "URLRequest"]
+- !private ["Ps23CustomStringConvertible", "URLSessionConfiguration"]
+- !private ["Ps23CustomStringConvertible", "allowsCellularAccess"]
+- !private ["Ps23CustomStringConvertible", "connectionProxyDictionary"]
+- ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "discretionary"]
+- !private ["Ps23CustomStringConvertible", "httpAdditionalHeaders"]
+- !private ["Ps23CustomStringConvertible", "httpCookieAcceptPolicy"]
+- !private ["Ps23CustomStringConvertible", "httpCookieStorage"]
+- !private ["Ps23CustomStringConvertible", "httpMaximumConnectionsPerHost"]
+- !private ["Ps23CustomStringConvertible", "httpShouldSetCookies"]
+- !private ["Ps23CustomStringConvertible", "httpShouldUsePipelining"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "networkServiceType"]
+- !private ["Ps23CustomStringConvertible", "protocolClasses"]
+- !private ["Ps23CustomStringConvertible", "requestCachePolicy"]
+- !private ["Ps23CustomStringConvertible", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps23CustomStringConvertible", "timeoutIntervalForRequest"]
+- !private ["Ps23CustomStringConvertible", "timeoutIntervalForResource"]
+- !private ["Ps23CustomStringConvertible", "urlCache"]
+- !private ["Ps23CustomStringConvertible", "urlCredentialStorage"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "AcceptPolicy"]
+- ["Ps9Equatable", "CachePolicy"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "NetworkServiceType"]
+- !private ["Ps9Equatable", "URLRequest"]
+- !private ["Ps9Equatable", "URLSessionConfiguration"]
+- !private ["Ps9Equatable", "allowsCellularAccess"]
+- !private ["Ps9Equatable", "connectionProxyDictionary"]
+- ["Ps9Equatable", "copy"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "discretionary"]
+- !private ["Ps9Equatable", "httpAdditionalHeaders"]
+- !private ["Ps9Equatable", "httpCookieAcceptPolicy"]
+- !private ["Ps9Equatable", "httpCookieStorage"]
+- !private ["Ps9Equatable", "httpMaximumConnectionsPerHost"]
+- !private ["Ps9Equatable", "httpShouldSetCookies"]
+- !private ["Ps9Equatable", "httpShouldUsePipelining"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "networkServiceType"]
+- !private ["Ps9Equatable", "onlyFromMainDocumentDomain"]
+- !private ["Ps9Equatable", "protocolClasses"]
+- !private ["Ps9Equatable", "requestCachePolicy"]
+- !private ["Ps9Equatable", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps9Equatable", "timeoutIntervalForRequest"]
+- !private ["Ps9Equatable", "timeoutIntervalForResource"]
+- !private ["Ps9Equatable", "urlCache"]
+- !private ["Ps9Equatable", "urlCredentialStorage"]
+- !private ["Ps9Equatable", "useProtocolCachePolicy"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C10Foundation10HTTPCookie", "AcceptPolicy"]
+- ["Ps8Hashable", "AcceptPolicy"]
+- ["Ps8Hashable", "CachePolicy"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "NetworkServiceType"]
+- !private ["Ps8Hashable", "URLRequest"]
+- !private ["Ps8Hashable", "URLSessionConfiguration"]
+- !private ["Ps8Hashable", "allowsCellularAccess"]
+- !private ["Ps8Hashable", "connectionProxyDictionary"]
+- ["Ps8Hashable", "copy"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "discretionary"]
+- !private ["Ps8Hashable", "httpAdditionalHeaders"]
+- !private ["Ps8Hashable", "httpCookieAcceptPolicy"]
+- !private ["Ps8Hashable", "httpCookieStorage"]
+- !private ["Ps8Hashable", "httpMaximumConnectionsPerHost"]
+- !private ["Ps8Hashable", "httpShouldSetCookies"]
+- !private ["Ps8Hashable", "httpShouldUsePipelining"]
+- !private ["Ps8Hashable", "identifier"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "networkServiceType"]
+- !private ["Ps8Hashable", "onlyFromMainDocumentDomain"]
+- !private ["Ps8Hashable", "protocolClasses"]
+- !private ["Ps8Hashable", "requestCachePolicy"]
+- !private ["Ps8Hashable", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps8Hashable", "timeoutIntervalForRequest"]
+- !private ["Ps8Hashable", "timeoutIntervalForResource"]
+- !private ["Ps8Hashable", "urlCache"]
+- !private ["Ps8Hashable", "urlCredentialStorage"]
+- !private ["Ps8Hashable", "useProtocolCachePolicy"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation9NSCopying", "NSUnimplemented"]
+- !private ["P10Foundation9NSCopying", "URLRequest"]
+- !private ["P10Foundation9NSCopying", "URLSessionConfiguration"]
+- !private ["P10Foundation9NSCopying", "allowsCellularAccess"]
+- !private ["P10Foundation9NSCopying", "connectionProxyDictionary"]
+- ["P10Foundation9NSCopying", "copy"]
+- !private ["P10Foundation9NSCopying", "discretionary"]
+- !private ["P10Foundation9NSCopying", "httpAdditionalHeaders"]
+- !private ["P10Foundation9NSCopying", "httpCookieAcceptPolicy"]
+- !private ["P10Foundation9NSCopying", "httpCookieStorage"]
+- !private ["P10Foundation9NSCopying", "httpMaximumConnectionsPerHost"]
+- !private ["P10Foundation9NSCopying", "httpShouldSetCookies"]
+- !private ["P10Foundation9NSCopying", "httpShouldUsePipelining"]
+- !private ["P10Foundation9NSCopying", "identifier"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "networkServiceType"]
+- !private ["P10Foundation9NSCopying", "protocolClasses"]
+- !private ["P10Foundation9NSCopying", "requestCachePolicy"]
+- !private ["P10Foundation9NSCopying", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["P10Foundation9NSCopying", "timeoutIntervalForRequest"]
+- !private ["P10Foundation9NSCopying", "timeoutIntervalForResource"]
+- !private ["P10Foundation9NSCopying", "urlCache"]
+- !private ["P10Foundation9NSCopying", "urlCredentialStorage"]
+- ["P10Foundation9NSCopying", ""]
+- ["C10Foundation8NSObject", "AcceptPolicy"]
+- ["C10Foundation8NSObject", "AnyClass"]
+- ["C10Foundation8NSObject", "AnyHashable"]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "HTTPCookie"]
+- ["C10Foundation8NSObject", "HTTPCookieStorage"]
+- ["C10Foundation8NSObject", "Int"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "NSZone"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "TimeInterval"]
+- ["C10Foundation8NSObject", "URLCache"]
+- ["C10Foundation8NSObject", "URLCredentialStorage"]
+- ["C10Foundation8NSObject", "URLRequest"]
+- ["C10Foundation8NSObject", "URLSessionConfiguration"]
+- ["C10Foundation8NSObject", "allowsCellularAccess"]
+- ["C10Foundation8NSObject", "background"]
+- ["C10Foundation8NSObject", "connectionProxyDictionary"]
+- ["C10Foundation8NSObject", "copy"]
+- ["C10Foundation8NSObject", "default"]
+- ["C10Foundation8NSObject", "discretionary"]
+- ["C10Foundation8NSObject", "ephemeral"]
+- ["C10Foundation8NSObject", "httpAdditionalHeaders"]
+- ["C10Foundation8NSObject", "httpCookieAcceptPolicy"]
+- ["C10Foundation8NSObject", "httpCookieStorage"]
+- ["C10Foundation8NSObject", "httpMaximumConnectionsPerHost"]
+- ["C10Foundation8NSObject", "httpShouldSetCookies"]
+- ["C10Foundation8NSObject", "httpShouldUsePipelining"]
+- ["C10Foundation8NSObject", "identifier"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "networkServiceType"]
+- ["C10Foundation8NSObject", "protocolClasses"]
+- ["C10Foundation8NSObject", "requestCachePolicy"]
+- ["C10Foundation8NSObject", "sharedContainerIdentifier"]
+- ["C10Foundation8NSObject", "shouldUseExtendedBackgroundIdleMode"]
+- ["C10Foundation8NSObject", "timeoutIntervalForRequest"]
+- ["C10Foundation8NSObject", "timeoutIntervalForResource"]
+- ["C10Foundation8NSObject", "urlCache"]
+- ["C10Foundation8NSObject", "urlCredentialStorage"]
+- ["C10Foundation8NSObject", ""]
+- ["P10Foundation16NSObjectProtocol", "AcceptPolicy"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- !private ["P10Foundation16NSObjectProtocol", "URLRequest"]
+- !private ["P10Foundation16NSObjectProtocol", "URLSessionConfiguration"]
+- !private ["P10Foundation16NSObjectProtocol", "allowsCellularAccess"]
+- !private ["P10Foundation16NSObjectProtocol", "connectionProxyDictionary"]
+- ["P10Foundation16NSObjectProtocol", "copy"]
+- !private ["P10Foundation16NSObjectProtocol", "discretionary"]
+- !private ["P10Foundation16NSObjectProtocol", "httpAdditionalHeaders"]
+- !private ["P10Foundation16NSObjectProtocol", "httpCookieAcceptPolicy"]
+- !private ["P10Foundation16NSObjectProtocol", "httpCookieStorage"]
+- !private ["P10Foundation16NSObjectProtocol", "httpMaximumConnectionsPerHost"]
+- !private ["P10Foundation16NSObjectProtocol", "httpShouldSetCookies"]
+- !private ["P10Foundation16NSObjectProtocol", "httpShouldUsePipelining"]
+- !private ["P10Foundation16NSObjectProtocol", "identifier"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "networkServiceType"]
+- !private ["P10Foundation16NSObjectProtocol", "protocolClasses"]
+- !private ["P10Foundation16NSObjectProtocol", "requestCachePolicy"]
+- !private ["P10Foundation16NSObjectProtocol", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["P10Foundation16NSObjectProtocol", "timeoutIntervalForRequest"]
+- !private ["P10Foundation16NSObjectProtocol", "timeoutIntervalForResource"]
+- !private ["P10Foundation16NSObjectProtocol", "urlCache"]
+- !private ["P10Foundation16NSObjectProtocol", "urlCredentialStorage"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["OC10Foundation12NSURLRequest18NetworkServiceType", "default"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["Ps16RawRepresentable", "onlyFromMainDocumentDomain"]
+- !private ["Ps16RawRepresentable", "useProtocolCachePolicy"]
+- ["P10Foundation20ReferenceConvertible", "CachePolicy"]
+- ["P10Foundation20ReferenceConvertible", "NetworkServiceType"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V10Foundation10URLRequest", "CachePolicy"]
+- ["V10Foundation10URLRequest", "NetworkServiceType"]
+- ["C10Foundation23URLSessionConfiguration", "AnyClass"]
+- ["C10Foundation23URLSessionConfiguration", "AnyHashable"]
+- ["C10Foundation23URLSessionConfiguration", "Bool"]
+- ["C10Foundation23URLSessionConfiguration", "HTTPCookie"]
+- ["C10Foundation23URLSessionConfiguration", "HTTPCookieStorage"]
+- ["C10Foundation23URLSessionConfiguration", "Int"]
+- !private ["C10Foundation23URLSessionConfiguration", "NSUnimplemented"]
+- ["C10Foundation23URLSessionConfiguration", "NSZone"]
+- ["C10Foundation23URLSessionConfiguration", "String"]
+- ["C10Foundation23URLSessionConfiguration", "TimeInterval"]
+- ["C10Foundation23URLSessionConfiguration", "URLCache"]
+- ["C10Foundation23URLSessionConfiguration", "URLCredentialStorage"]
+- ["C10Foundation23URLSessionConfiguration", "URLRequest"]
+- ["C10Foundation23URLSessionConfiguration", "URLSessionConfiguration"]
+- ["C10Foundation23URLSessionConfiguration", "allowsCellularAccess"]
+- ["C10Foundation23URLSessionConfiguration", "background"]
+- ["C10Foundation23URLSessionConfiguration", "connectionProxyDictionary"]
+- ["C10Foundation23URLSessionConfiguration", "copy"]
+- ["C10Foundation23URLSessionConfiguration", "default"]
+- ["C10Foundation23URLSessionConfiguration", "deinit"]
+- ["C10Foundation23URLSessionConfiguration", "discretionary"]
+- ["C10Foundation23URLSessionConfiguration", "ephemeral"]
+- ["C10Foundation23URLSessionConfiguration", "httpAdditionalHeaders"]
+- ["C10Foundation23URLSessionConfiguration", "httpCookieAcceptPolicy"]
+- ["C10Foundation23URLSessionConfiguration", "httpCookieStorage"]
+- ["C10Foundation23URLSessionConfiguration", "httpMaximumConnectionsPerHost"]
+- ["C10Foundation23URLSessionConfiguration", "httpShouldSetCookies"]
+- ["C10Foundation23URLSessionConfiguration", "httpShouldUsePipelining"]
+- ["C10Foundation23URLSessionConfiguration", "identifier"]
+- ["C10Foundation23URLSessionConfiguration", "init"]
+- ["C10Foundation23URLSessionConfiguration", "networkServiceType"]
+- ["C10Foundation23URLSessionConfiguration", "protocolClasses"]
+- ["C10Foundation23URLSessionConfiguration", "requestCachePolicy"]
+- ["C10Foundation23URLSessionConfiguration", "sharedContainerIdentifier"]
+- ["C10Foundation23URLSessionConfiguration", "shouldUseExtendedBackgroundIdleMode"]
+- ["C10Foundation23URLSessionConfiguration", "timeoutIntervalForRequest"]
+- ["C10Foundation23URLSessionConfiguration", "timeoutIntervalForResource"]
+- ["C10Foundation23URLSessionConfiguration", "urlCache"]
+- ["C10Foundation23URLSessionConfiguration", "urlCredentialStorage"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "AcceptPolicy"]
+- ["Ps9_Hashable", "CachePolicy"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "NetworkServiceType"]
+- !private ["Ps9_Hashable", "URLRequest"]
+- !private ["Ps9_Hashable", "URLSessionConfiguration"]
+- !private ["Ps9_Hashable", "allowsCellularAccess"]
+- !private ["Ps9_Hashable", "connectionProxyDictionary"]
+- ["Ps9_Hashable", "copy"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "discretionary"]
+- !private ["Ps9_Hashable", "httpAdditionalHeaders"]
+- !private ["Ps9_Hashable", "httpCookieAcceptPolicy"]
+- !private ["Ps9_Hashable", "httpCookieStorage"]
+- !private ["Ps9_Hashable", "httpMaximumConnectionsPerHost"]
+- !private ["Ps9_Hashable", "httpShouldSetCookies"]
+- !private ["Ps9_Hashable", "httpShouldUsePipelining"]
+- !private ["Ps9_Hashable", "identifier"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "networkServiceType"]
+- !private ["Ps9_Hashable", "onlyFromMainDocumentDomain"]
+- !private ["Ps9_Hashable", "protocolClasses"]
+- !private ["Ps9_Hashable", "requestCachePolicy"]
+- !private ["Ps9_Hashable", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps9_Hashable", "timeoutIntervalForRequest"]
+- !private ["Ps9_Hashable", "timeoutIntervalForResource"]
+- !private ["Ps9_Hashable", "urlCache"]
+- !private ["Ps9_Hashable", "urlCredentialStorage"]
+- !private ["Ps9_Hashable", "useProtocolCachePolicy"]
+- ["Ps9_Hashable", ""]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- ["P10Foundation17_ObjectBridgeable", "CachePolicy"]
+- ["P10Foundation17_ObjectBridgeable", "NetworkServiceType"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- ["P10Foundation21_ObjectTypeBridgeable", "CachePolicy"]
+- ["P10Foundation21_ObjectTypeBridgeable", "NetworkServiceType"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- !private "OC10Foundation10HTTPCookie12AcceptPolicy"
+- "Ps9AnyObject"
+- !private "OC10Foundation12NSURLRequest11CachePolicy"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C10Foundation10HTTPCookie"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "P10Foundation9NSCopying"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "OC10Foundation12NSURLRequest18NetworkServiceType"
+- !private "Ps16RawRepresentable"
+- "P10Foundation20ReferenceConvertible"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V10Foundation10URLRequest"
+- "C10Foundation23URLSessionConfiguration"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "c7ed6877370bc4e2d8b63604319faad9"

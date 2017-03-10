@@ -1,0 +1,319 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SystemError"
+- "Error"
+- "ShellError"
+provides-nominal:
+- "O5POSIX11SystemError"
+- "O5POSIX5Error"
+- "O5POSIX10ShellError"
+provides-member:
+- ["O5POSIX11SystemError", ""]
+- ["O5POSIX5Error", ""]
+- ["O5POSIX10ShellError", ""]
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "*="
+- !private "<="
+- !private "=="
+- "CustomStringConvertible"
+- !private "EINVAL"
+- !private "ERANGE"
+- "Error"
+- "Int32"
+- !private "Int8"
+- "ShellError"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "SystemError"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- !private "libc"
+- !private "prettyArguments"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "EINVAL"]
+- !private ["Ps23CustomStringConvertible", "ERANGE"]
+- !private ["Ps23CustomStringConvertible", "Int8"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "_code"]
+- ["Ps23CustomStringConvertible", "_domain"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_userInfo"]
+- ["Ps23CustomStringConvertible", "chdir"]
+- ["Ps23CustomStringConvertible", "close"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "dirfd"]
+- ["Ps23CustomStringConvertible", "exitSignal"]
+- ["Ps23CustomStringConvertible", "exitStatus"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "fgetc"]
+- ["Ps23CustomStringConvertible", "fread"]
+- ["Ps23CustomStringConvertible", "getcwd"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "libc"]
+- ["Ps23CustomStringConvertible", "mkdir"]
+- ["Ps23CustomStringConvertible", "mkdtemp"]
+- ["Ps23CustomStringConvertible", "pipe"]
+- ["Ps23CustomStringConvertible", "popen"]
+- ["Ps23CustomStringConvertible", "posix_spawn"]
+- !private ["Ps23CustomStringConvertible", "prettyArguments"]
+- ["Ps23CustomStringConvertible", "read"]
+- ["Ps23CustomStringConvertible", "readdir"]
+- ["Ps23CustomStringConvertible", "realpath"]
+- ["Ps23CustomStringConvertible", "rename"]
+- ["Ps23CustomStringConvertible", "rmdir"]
+- ["Ps23CustomStringConvertible", "setenv"]
+- ["Ps23CustomStringConvertible", "stat"]
+- ["Ps23CustomStringConvertible", "symlink"]
+- ["Ps23CustomStringConvertible", "symlinkat"]
+- ["Ps23CustomStringConvertible", "unlink"]
+- ["Ps23CustomStringConvertible", "unsetenv"]
+- ["Ps23CustomStringConvertible", "usleep"]
+- ["Ps23CustomStringConvertible", "waitpid"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- ["O5POSIX5Error", "Int32"]
+- ["O5POSIX5Error", "String"]
+- ["O5POSIX5Error", "_code"]
+- ["O5POSIX5Error", "_domain"]
+- ["O5POSIX5Error", "_userInfo"]
+- ["O5POSIX5Error", "deinit"]
+- ["O5POSIX5Error", "description"]
+- ["O5POSIX5Error", "exitSignal"]
+- ["O5POSIX5Error", "exitStatus"]
+- !private ["O5POSIX5Error", "prettyArguments"]
+- !private ["Ps5Error", "EINVAL"]
+- !private ["Ps5Error", "ERANGE"]
+- !private ["Ps5Error", "Int8"]
+- !private ["Ps5Error", "String"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "chdir"]
+- ["Ps5Error", "close"]
+- ["Ps5Error", "description"]
+- ["Ps5Error", "dirfd"]
+- ["Ps5Error", "exitSignal"]
+- ["Ps5Error", "exitStatus"]
+- !private ["Ps5Error", "fatalError"]
+- ["Ps5Error", "fgetc"]
+- ["Ps5Error", "fread"]
+- ["Ps5Error", "getcwd"]
+- !private ["Ps5Error", "libc"]
+- ["Ps5Error", "mkdir"]
+- ["Ps5Error", "mkdtemp"]
+- ["Ps5Error", "pipe"]
+- ["Ps5Error", "popen"]
+- ["Ps5Error", "posix_spawn"]
+- !private ["Ps5Error", "prettyArguments"]
+- ["Ps5Error", "read"]
+- ["Ps5Error", "readdir"]
+- ["Ps5Error", "realpath"]
+- ["Ps5Error", "rename"]
+- ["Ps5Error", "rmdir"]
+- ["Ps5Error", "setenv"]
+- ["Ps5Error", "stat"]
+- ["Ps5Error", "symlink"]
+- ["Ps5Error", "symlinkat"]
+- ["Ps5Error", "unlink"]
+- ["Ps5Error", "unsetenv"]
+- ["Ps5Error", "usleep"]
+- ["Ps5Error", "waitpid"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- ["O5POSIX10ShellError", "String"]
+- ["O5POSIX10ShellError", "SystemError"]
+- ["O5POSIX10ShellError", "_code"]
+- ["O5POSIX10ShellError", "_domain"]
+- ["O5POSIX10ShellError", "_userInfo"]
+- ["O5POSIX10ShellError", "deinit"]
+- ["O5POSIX10ShellError", "popen"]
+- ["O5POSIX10ShellError", "system"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["O5POSIX11SystemError", "EINVAL"]
+- !private ["O5POSIX11SystemError", "ERANGE"]
+- ["O5POSIX11SystemError", "Int32"]
+- !private ["O5POSIX11SystemError", "Int8"]
+- ["O5POSIX11SystemError", "String"]
+- ["O5POSIX11SystemError", "_code"]
+- ["O5POSIX11SystemError", "_domain"]
+- ["O5POSIX11SystemError", "_userInfo"]
+- ["O5POSIX11SystemError", "chdir"]
+- ["O5POSIX11SystemError", "close"]
+- ["O5POSIX11SystemError", "deinit"]
+- ["O5POSIX11SystemError", "description"]
+- ["O5POSIX11SystemError", "dirfd"]
+- !private ["O5POSIX11SystemError", "fatalError"]
+- ["O5POSIX11SystemError", "fgetc"]
+- ["O5POSIX11SystemError", "fread"]
+- ["O5POSIX11SystemError", "getcwd"]
+- !private ["O5POSIX11SystemError", "libc"]
+- ["O5POSIX11SystemError", "mkdir"]
+- ["O5POSIX11SystemError", "mkdtemp"]
+- ["O5POSIX11SystemError", "pipe"]
+- ["O5POSIX11SystemError", "popen"]
+- ["O5POSIX11SystemError", "posix_spawn"]
+- ["O5POSIX11SystemError", "read"]
+- ["O5POSIX11SystemError", "readdir"]
+- ["O5POSIX11SystemError", "realpath"]
+- ["O5POSIX11SystemError", "rename"]
+- ["O5POSIX11SystemError", "rmdir"]
+- ["O5POSIX11SystemError", "setenv"]
+- ["O5POSIX11SystemError", "stat"]
+- ["O5POSIX11SystemError", "symlink"]
+- ["O5POSIX11SystemError", "symlinkat"]
+- ["O5POSIX11SystemError", "unlink"]
+- ["O5POSIX11SystemError", "unsetenv"]
+- ["O5POSIX11SystemError", "usleep"]
+- ["O5POSIX11SystemError", "waitpid"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- "O5POSIX5Error"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- "O5POSIX10ShellError"
+- !private "Vs12StaticString"
+- !private "SS"
+- "O5POSIX11SystemError"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "378ddccbd9cf4101ce02bd50038e51aa"

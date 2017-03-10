@@ -1,0 +1,221 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "stat"
+- "lstat"
+- "=="
+provides-nominal:
+- "OE5POSIXVSC4stat4Kind"
+provides-member:
+- ["VSC4stat", ""]
+- ["OE5POSIXVSC4stat4Kind", ""]
+- ["VSC4stat", "Kind"]
+- ["VSC4stat", "kind"]
+depends-top-level:
+- !private "&"
+- "=="
+- !private "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "S_IFBLK"
+- !private "S_IFCHR"
+- !private "S_IFDIR"
+- !private "S_IFLNK"
+- !private "S_IFMT"
+- !private "S_IFREG"
+- !private "S_IFSOCK"
+- "String"
+- !private "SystemError"
+- !private "errno"
+- "libc"
+- "lstat"
+- !private "mode_t"
+- "stat"
+- !private "~="
+depends-member:
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "stat"]
+- !private ["Ps9Equatable", "S_IFBLK"]
+- !private ["Ps9Equatable", "S_IFCHR"]
+- !private ["Ps9Equatable", "S_IFDIR"]
+- !private ["Ps9Equatable", "S_IFLNK"]
+- !private ["Ps9Equatable", "S_IFREG"]
+- !private ["Ps9Equatable", "S_IFSOCK"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "blockdev"]
+- !private ["Ps9Equatable", "chardev"]
+- !private ["Ps9Equatable", "directory"]
+- !private ["Ps9Equatable", "file"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "socket"]
+- !private ["Ps9Equatable", "symlink"]
+- !private ["Ps9Equatable", "unknown"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "stat"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps8Hashable", "S_IFBLK"]
+- !private ["Ps8Hashable", "S_IFCHR"]
+- !private ["Ps8Hashable", "S_IFDIR"]
+- !private ["Ps8Hashable", "S_IFLNK"]
+- !private ["Ps8Hashable", "S_IFREG"]
+- !private ["Ps8Hashable", "S_IFSOCK"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "blockdev"]
+- !private ["Ps8Hashable", "chardev"]
+- !private ["Ps8Hashable", "directory"]
+- !private ["Ps8Hashable", "file"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "socket"]
+- !private ["Ps8Hashable", "symlink"]
+- !private ["Ps8Hashable", "unknown"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["OE5POSIXVSC4stat4Kind", "=="]
+- !private ["OE5POSIXVSC4stat4Kind", "S_IFBLK"]
+- !private ["OE5POSIXVSC4stat4Kind", "S_IFCHR"]
+- !private ["OE5POSIXVSC4stat4Kind", "S_IFDIR"]
+- !private ["OE5POSIXVSC4stat4Kind", "S_IFLNK"]
+- !private ["OE5POSIXVSC4stat4Kind", "S_IFREG"]
+- !private ["OE5POSIXVSC4stat4Kind", "S_IFSOCK"]
+- ["OE5POSIXVSC4stat4Kind", "_toAnyHashable"]
+- ["OE5POSIXVSC4stat4Kind", "blockdev"]
+- ["OE5POSIXVSC4stat4Kind", "chardev"]
+- ["OE5POSIXVSC4stat4Kind", "deinit"]
+- ["OE5POSIXVSC4stat4Kind", "directory"]
+- ["OE5POSIXVSC4stat4Kind", "fifo"]
+- ["OE5POSIXVSC4stat4Kind", "file"]
+- ["OE5POSIXVSC4stat4Kind", "hashValue"]
+- !private ["OE5POSIXVSC4stat4Kind", "init"]
+- !private ["OE5POSIXVSC4stat4Kind", "mode_t"]
+- ["OE5POSIXVSC4stat4Kind", "socket"]
+- ["OE5POSIXVSC4stat4Kind", "symlink"]
+- ["OE5POSIXVSC4stat4Kind", "unknown"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["O5POSIX11SystemError", "deinit"]
+- !private ["O5POSIX11SystemError", "stat"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "S_IFBLK"]
+- !private ["Ps9_Hashable", "S_IFCHR"]
+- !private ["Ps9_Hashable", "S_IFDIR"]
+- !private ["Ps9_Hashable", "S_IFLNK"]
+- !private ["Ps9_Hashable", "S_IFREG"]
+- !private ["Ps9_Hashable", "S_IFSOCK"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "blockdev"]
+- !private ["Ps9_Hashable", "chardev"]
+- !private ["Ps9_Hashable", "directory"]
+- !private ["Ps9_Hashable", "file"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "socket"]
+- !private ["Ps9_Hashable", "symlink"]
+- !private ["Ps9_Hashable", "unknown"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["VSC4stat", "Kind"]
+- !private ["VSC4stat", "S_IFBLK"]
+- !private ["VSC4stat", "S_IFCHR"]
+- !private ["VSC4stat", "S_IFDIR"]
+- !private ["VSC4stat", "S_IFLNK"]
+- !private ["VSC4stat", "S_IFMT"]
+- !private ["VSC4stat", "S_IFREG"]
+- !private ["VSC4stat", "S_IFSOCK"]
+- !private ["VSC4stat", "init"]
+- ["VSC4stat", "kind"]
+- !private ["VSC4stat", "mode_t"]
+- !private ["VSC4stat", "st_mode"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "OE5POSIXVSC4stat4Kind"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "O5POSIX11SystemError"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "VSC4stat"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "4627ce9c5b87f976853b75d41486d4f9"

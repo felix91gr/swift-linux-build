@@ -1,0 +1,212 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLProtocolClient"
+- "URLProtocol"
+provides-nominal:
+- "P10Foundation17URLProtocolClient"
+- "C10Foundation11URLProtocol"
+provides-member:
+- ["P10Foundation17URLProtocolClient", ""]
+- ["C10Foundation11URLProtocol", ""]
+depends-top-level:
+- "AnyClass"
+- "AnyObject"
+- "Bool"
+- "CachedURLResponse"
+- "Data"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSMutableURLRequest"
+- "NSObject"
+- "NSObjectProtocol"
+- !private "NSUnimplemented"
+- "String"
+- !private "StringLiteralType"
+- "URLAuthenticationChallenge"
+- "URLCache"
+- "URLProtocol"
+- "URLProtocolClient"
+- "URLRequest"
+- "URLResponse"
+- "URLSessionTask"
+depends-member:
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- ["Ps9AnyObject", "StoragePolicy"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "StoragePolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "StoragePolicy"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "StoragePolicy"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "StoragePolicy"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["C10Foundation8NSObject", "AnyClass"]
+- ["C10Foundation8NSObject", "AnyObject"]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "CachedURLResponse"]
+- ["C10Foundation8NSObject", "NSMutableURLRequest"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "StoragePolicy"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "URLProtocolClient"]
+- ["C10Foundation8NSObject", "URLRequest"]
+- ["C10Foundation8NSObject", "URLSessionTask"]
+- ["C10Foundation8NSObject", "cachedResponse"]
+- ["C10Foundation8NSObject", "canInit"]
+- ["C10Foundation8NSObject", "canonicalRequest"]
+- ["C10Foundation8NSObject", "client"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "property"]
+- ["C10Foundation8NSObject", "registerClass"]
+- ["C10Foundation8NSObject", "removeProperty"]
+- ["C10Foundation8NSObject", "request"]
+- ["C10Foundation8NSObject", "requestIsCacheEquivalent"]
+- ["C10Foundation8NSObject", "setProperty"]
+- ["C10Foundation8NSObject", "startLoading"]
+- ["C10Foundation8NSObject", "stopLoading"]
+- ["C10Foundation8NSObject", "task"]
+- ["C10Foundation8NSObject", "unregisterClass"]
+- ["C10Foundation8NSObject", ""]
+- ["P10Foundation16NSObjectProtocol", "CachedURLResponse"]
+- ["P10Foundation16NSObjectProtocol", "Data"]
+- ["P10Foundation16NSObjectProtocol", "Error"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- ["P10Foundation16NSObjectProtocol", "StoragePolicy"]
+- ["P10Foundation16NSObjectProtocol", "URLAuthenticationChallenge"]
+- ["P10Foundation16NSObjectProtocol", "URLCache"]
+- ["P10Foundation16NSObjectProtocol", "URLProtocol"]
+- ["P10Foundation16NSObjectProtocol", "URLRequest"]
+- ["P10Foundation16NSObjectProtocol", "URLResponse"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- ["P10Foundation16NSObjectProtocol", "urlProtocol"]
+- ["P10Foundation16NSObjectProtocol", "urlProtocolDidFinishLoading"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["C10Foundation8URLCache", "StoragePolicy"]
+- ["C10Foundation11URLProtocol", "AnyClass"]
+- ["C10Foundation11URLProtocol", "AnyObject"]
+- ["C10Foundation11URLProtocol", "Bool"]
+- ["C10Foundation11URLProtocol", "CachedURLResponse"]
+- ["C10Foundation11URLProtocol", "NSMutableURLRequest"]
+- !private ["C10Foundation11URLProtocol", "NSUnimplemented"]
+- ["C10Foundation11URLProtocol", "String"]
+- ["C10Foundation11URLProtocol", "URLProtocolClient"]
+- ["C10Foundation11URLProtocol", "URLRequest"]
+- ["C10Foundation11URLProtocol", "URLSessionTask"]
+- ["C10Foundation11URLProtocol", "cachedResponse"]
+- ["C10Foundation11URLProtocol", "canInit"]
+- ["C10Foundation11URLProtocol", "canonicalRequest"]
+- ["C10Foundation11URLProtocol", "client"]
+- ["C10Foundation11URLProtocol", "deinit"]
+- ["C10Foundation11URLProtocol", "init"]
+- ["C10Foundation11URLProtocol", "property"]
+- ["C10Foundation11URLProtocol", "registerClass"]
+- ["C10Foundation11URLProtocol", "removeProperty"]
+- ["C10Foundation11URLProtocol", "request"]
+- ["C10Foundation11URLProtocol", "requestIsCacheEquivalent"]
+- ["C10Foundation11URLProtocol", "setProperty"]
+- ["C10Foundation11URLProtocol", "startLoading"]
+- ["C10Foundation11URLProtocol", "stopLoading"]
+- ["C10Foundation11URLProtocol", "task"]
+- ["C10Foundation11URLProtocol", "unregisterClass"]
+- ["P10Foundation17URLProtocolClient", "CachedURLResponse"]
+- ["P10Foundation17URLProtocolClient", "Data"]
+- ["P10Foundation17URLProtocolClient", "Error"]
+- ["P10Foundation17URLProtocolClient", "URLAuthenticationChallenge"]
+- ["P10Foundation17URLProtocolClient", "URLCache"]
+- ["P10Foundation17URLProtocolClient", "URLProtocol"]
+- ["P10Foundation17URLProtocolClient", "URLRequest"]
+- ["P10Foundation17URLProtocolClient", "URLResponse"]
+- ["P10Foundation17URLProtocolClient", "urlProtocol"]
+- ["P10Foundation17URLProtocolClient", "urlProtocolDidFinishLoading"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "StoragePolicy"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C10Foundation8URLCache"
+- "C10Foundation11URLProtocol"
+- "P10Foundation17URLProtocolClient"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "f1faac2840973ece3368e533196af841"

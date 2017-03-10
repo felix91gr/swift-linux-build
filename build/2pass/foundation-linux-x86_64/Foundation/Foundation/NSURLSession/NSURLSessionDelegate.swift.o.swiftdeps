@@ -1,0 +1,327 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLSessionDelegate"
+- "URLSessionTaskDelegate"
+- "URLSessionDataDelegate"
+- "URLSessionDownloadDelegate"
+- "URLSessionStreamDelegate"
+provides-nominal:
+- "OC10Foundation10URLSession24AuthChallengeDisposition"
+- "OC10Foundation10URLSession19ResponseDisposition"
+- "P10Foundation18URLSessionDelegate"
+- "P10Foundation22URLSessionTaskDelegate"
+- "P10Foundation22URLSessionDataDelegate"
+- "P10Foundation26URLSessionDownloadDelegate"
+- "P10Foundation24URLSessionStreamDelegate"
+provides-member:
+- ["C10Foundation10URLSession", ""]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", ""]
+- ["OC10Foundation10URLSession19ResponseDisposition", ""]
+- ["P10Foundation18URLSessionDelegate", ""]
+- ["P10Foundation22URLSessionTaskDelegate", ""]
+- ["P10Foundation22URLSessionDataDelegate", ""]
+- ["P10Foundation26URLSessionDownloadDelegate", ""]
+- ["P10Foundation24URLSessionStreamDelegate", ""]
+- ["C10Foundation10URLSession", "AuthChallengeDisposition"]
+- ["C10Foundation10URLSession", "ResponseDisposition"]
+- ["P10Foundation18URLSessionDelegate", "urlSession"]
+- ["P10Foundation18URLSessionDelegate", "urlSession"]
+- ["P10Foundation22URLSessionTaskDelegate", "urlSession"]
+- ["P10Foundation22URLSessionTaskDelegate", "urlSession"]
+- ["P10Foundation22URLSessionTaskDelegate", "urlSession"]
+- ["P10Foundation22URLSessionTaskDelegate", "urlSession"]
+- ["P10Foundation22URLSessionTaskDelegate", "urlSession"]
+- ["P10Foundation22URLSessionDataDelegate", "urlSession"]
+- ["P10Foundation22URLSessionDataDelegate", "urlSession"]
+- ["P10Foundation22URLSessionDataDelegate", "urlSession"]
+- ["P10Foundation22URLSessionDataDelegate", "urlSession"]
+- ["P10Foundation22URLSessionDataDelegate", "urlSession"]
+- ["P10Foundation26URLSessionDownloadDelegate", "urlSession"]
+- ["P10Foundation26URLSessionDownloadDelegate", "urlSession"]
+- ["P10Foundation24URLSessionStreamDelegate", "urlSession"]
+- ["P10Foundation24URLSessionStreamDelegate", "urlSession"]
+- ["P10Foundation24URLSessionStreamDelegate", "urlSession"]
+- ["P10Foundation24URLSessionStreamDelegate", "urlSession"]
+depends-top-level:
+- "=="
+- "CachedURLResponse"
+- "Data"
+- "Error"
+- "FloatLiteralType"
+- "HTTPURLResponse"
+- "InputStream"
+- "Int"
+- "Int64"
+- "IntegerLiteralType"
+- "NSObjectProtocol"
+- "OutputStream"
+- "URL"
+- "URLAuthenticationChallenge"
+- "URLCredential"
+- "URLRequest"
+- "URLResponse"
+- "URLSession"
+- "URLSessionDataDelegate"
+- "URLSessionDataTask"
+- "URLSessionDelegate"
+- "URLSessionDownloadDelegate"
+- "URLSessionDownloadTask"
+- "URLSessionStreamDelegate"
+- "URLSessionStreamTask"
+- "URLSessionTask"
+- "URLSessionTaskDelegate"
+- "Void"
+- !private "~="
+depends-member:
+- ["Ps9AnyObject", "AuthChallengeDisposition"]
+- ["Ps9AnyObject", "ResponseDisposition"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "RawValue"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "_toAnyHashable"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "cancelAuthenticationChallenge"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "deinit"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "hashValue"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "init"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "performDefaultHandling"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "rawValue"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "rejectProtectionSpace"]
+- ["OC10Foundation10URLSession24AuthChallengeDisposition", "useCredential"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "AuthChallengeDisposition"]
+- ["Ps28CustomDebugStringConvertible", "ResponseDisposition"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps23CustomStringConvertible", "AuthChallengeDisposition"]
+- ["Ps23CustomStringConvertible", "ResponseDisposition"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps9Equatable", "AuthChallengeDisposition"]
+- ["Ps9Equatable", "ResponseDisposition"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "performDefaultHandling"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps8Hashable", "AuthChallengeDisposition"]
+- ["Ps8Hashable", "ResponseDisposition"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "performDefaultHandling"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["C10Foundation8NSObject", "AuthChallengeDisposition"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "ResponseDisposition"]
+- ["P10Foundation16NSObjectProtocol", "AuthChallengeDisposition"]
+- ["P10Foundation16NSObjectProtocol", "CachedURLResponse"]
+- ["P10Foundation16NSObjectProtocol", "Data"]
+- ["P10Foundation16NSObjectProtocol", "Error"]
+- ["P10Foundation16NSObjectProtocol", "HTTPURLResponse"]
+- ["P10Foundation16NSObjectProtocol", "InputStream"]
+- ["P10Foundation16NSObjectProtocol", "Int64"]
+- ["P10Foundation16NSObjectProtocol", "OutputStream"]
+- ["P10Foundation16NSObjectProtocol", "ResponseDisposition"]
+- ["P10Foundation16NSObjectProtocol", "URL"]
+- ["P10Foundation16NSObjectProtocol", "URLAuthenticationChallenge"]
+- ["P10Foundation16NSObjectProtocol", "URLCredential"]
+- ["P10Foundation16NSObjectProtocol", "URLRequest"]
+- ["P10Foundation16NSObjectProtocol", "URLResponse"]
+- ["P10Foundation16NSObjectProtocol", "URLSession"]
+- ["P10Foundation16NSObjectProtocol", "URLSessionDataTask"]
+- ["P10Foundation16NSObjectProtocol", "URLSessionDownloadTask"]
+- ["P10Foundation16NSObjectProtocol", "URLSessionStreamTask"]
+- ["P10Foundation16NSObjectProtocol", "URLSessionTask"]
+- ["P10Foundation16NSObjectProtocol", "Void"]
+- ["P10Foundation16NSObjectProtocol", "urlSession"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "performDefaultHandling"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- ["OC10Foundation10URLSession19ResponseDisposition", "RawValue"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "_toAnyHashable"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "allow"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "becomeDownload"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "becomeStream"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "cancel"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "deinit"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "hashValue"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "init"]
+- ["OC10Foundation10URLSession19ResponseDisposition", "rawValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["C10Foundation10URLSession", "AuthChallengeDisposition"]
+- ["C10Foundation10URLSession", "Int"]
+- ["C10Foundation10URLSession", "ResponseDisposition"]
+- ["P10Foundation22URLSessionDataDelegate", "CachedURLResponse"]
+- ["P10Foundation22URLSessionDataDelegate", "Data"]
+- ["P10Foundation22URLSessionDataDelegate", "URLResponse"]
+- ["P10Foundation22URLSessionDataDelegate", "URLSession"]
+- ["P10Foundation22URLSessionDataDelegate", "URLSessionDataTask"]
+- ["P10Foundation22URLSessionDataDelegate", "URLSessionDownloadTask"]
+- ["P10Foundation22URLSessionDataDelegate", "URLSessionStreamTask"]
+- ["P10Foundation22URLSessionDataDelegate", "Void"]
+- ["P10Foundation22URLSessionDataDelegate", "urlSession"]
+- ["P10Foundation18URLSessionDelegate", "CachedURLResponse"]
+- ["P10Foundation18URLSessionDelegate", "Data"]
+- ["P10Foundation18URLSessionDelegate", "Error"]
+- ["P10Foundation18URLSessionDelegate", "HTTPURLResponse"]
+- ["P10Foundation18URLSessionDelegate", "InputStream"]
+- ["P10Foundation18URLSessionDelegate", "Int64"]
+- ["P10Foundation18URLSessionDelegate", "OutputStream"]
+- ["P10Foundation18URLSessionDelegate", "URL"]
+- ["P10Foundation18URLSessionDelegate", "URLAuthenticationChallenge"]
+- ["P10Foundation18URLSessionDelegate", "URLCredential"]
+- ["P10Foundation18URLSessionDelegate", "URLRequest"]
+- ["P10Foundation18URLSessionDelegate", "URLResponse"]
+- ["P10Foundation18URLSessionDelegate", "URLSession"]
+- ["P10Foundation18URLSessionDelegate", "URLSessionDataTask"]
+- ["P10Foundation18URLSessionDelegate", "URLSessionDownloadTask"]
+- ["P10Foundation18URLSessionDelegate", "URLSessionStreamTask"]
+- ["P10Foundation18URLSessionDelegate", "URLSessionTask"]
+- ["P10Foundation18URLSessionDelegate", "Void"]
+- ["P10Foundation18URLSessionDelegate", "urlSession"]
+- ["P10Foundation18URLSessionDelegate", ""]
+- ["P10Foundation26URLSessionDownloadDelegate", "Int64"]
+- ["P10Foundation26URLSessionDownloadDelegate", "URL"]
+- ["P10Foundation26URLSessionDownloadDelegate", "URLSession"]
+- ["P10Foundation26URLSessionDownloadDelegate", "URLSessionDownloadTask"]
+- ["P10Foundation26URLSessionDownloadDelegate", "urlSession"]
+- ["P10Foundation18URLSessionProtocol", "AuthChallengeDisposition"]
+- ["P10Foundation18URLSessionProtocol", "ResponseDisposition"]
+- ["P10Foundation24URLSessionStreamDelegate", "InputStream"]
+- ["P10Foundation24URLSessionStreamDelegate", "OutputStream"]
+- ["P10Foundation24URLSessionStreamDelegate", "URLSession"]
+- ["P10Foundation24URLSessionStreamDelegate", "URLSessionStreamTask"]
+- ["P10Foundation24URLSessionStreamDelegate", "urlSession"]
+- ["P10Foundation22URLSessionTaskDelegate", "CachedURLResponse"]
+- ["P10Foundation22URLSessionTaskDelegate", "Data"]
+- ["P10Foundation22URLSessionTaskDelegate", "Error"]
+- ["P10Foundation22URLSessionTaskDelegate", "HTTPURLResponse"]
+- ["P10Foundation22URLSessionTaskDelegate", "InputStream"]
+- ["P10Foundation22URLSessionTaskDelegate", "Int64"]
+- ["P10Foundation22URLSessionTaskDelegate", "OutputStream"]
+- ["P10Foundation22URLSessionTaskDelegate", "URL"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLAuthenticationChallenge"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLCredential"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLRequest"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLResponse"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLSession"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLSessionDataTask"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLSessionDownloadTask"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLSessionStreamTask"]
+- ["P10Foundation22URLSessionTaskDelegate", "URLSessionTask"]
+- ["P10Foundation22URLSessionTaskDelegate", "Void"]
+- ["P10Foundation22URLSessionTaskDelegate", "urlSession"]
+- ["P10Foundation22URLSessionTaskDelegate", ""]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "AuthChallengeDisposition"]
+- ["Ps9_Hashable", "ResponseDisposition"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "performDefaultHandling"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "OC10Foundation10URLSession24AuthChallengeDisposition"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "Ps16RawRepresentable"
+- "OC10Foundation10URLSession19ResponseDisposition"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "C10Foundation10URLSession"
+- "P10Foundation22URLSessionDataDelegate"
+- "P10Foundation18URLSessionDelegate"
+- "P10Foundation26URLSessionDownloadDelegate"
+- "P10Foundation18URLSessionProtocol"
+- "P10Foundation24URLSessionStreamDelegate"
+- "P10Foundation22URLSessionTaskDelegate"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "9e9c505937982d49cb7c97df287e82d6"

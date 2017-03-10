@@ -1,0 +1,884 @@
+The system is: Linux - 4.8.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_2fa74"
+[1/2] Building C object CMakeFiles/cmTC_2fa74.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_2fa74
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_28c84"
+[1/2] Building C object CMakeFiles/cmTC_28c84.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_28c84
+clang version 4.0.0 (https://github.com/apple/swift-clang.git 9772bf511a32353fad73e38fdfc501d5fccb50d2) (https://github.com/apple/swift-llvm.git a7c680da5182d29e2c6441d484a307b695902c64)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_28c84 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_28c84.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_28c84"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_28c84.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_28c84]
+  ignore line: [clang version 4.0.0 (https://github.com/apple/swift-clang.git 9772bf511a32353fad73e38fdfc501d5fccb50d2) (https://github.com/apple/swift-llvm.git a7c680da5182d29e2c6441d484a307b695902c64)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_28c84 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_28c84.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_28c84] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5.4.0] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../..]
+    arg [-L/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib] ==> dir [/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_28c84.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib] ==> [/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_30369"
+[1/2] Building C object CMakeFiles/cmTC_30369.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_30369
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_867d8"
+[1/2] Building C object CMakeFiles/cmTC_867d8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_867d8
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_6ffe6"
+[1/2] Building C object CMakeFiles/cmTC_6ffe6.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_6ffe6
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_964c7"
+[1/2] Building CXX object CMakeFiles/cmTC_964c7.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_964c7
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c8e8f"
+[1/2] Building CXX object CMakeFiles/cmTC_c8e8f.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_c8e8f
+clang version 4.0.0 (https://github.com/apple/swift-clang.git 9772bf511a32353fad73e38fdfc501d5fccb50d2) (https://github.com/apple/swift-llvm.git a7c680da5182d29e2c6441d484a307b695902c64)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c8e8f /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_c8e8f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_c8e8f"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_c8e8f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_c8e8f]
+  ignore line: [clang version 4.0.0 (https://github.com/apple/swift-clang.git 9772bf511a32353fad73e38fdfc501d5fccb50d2) (https://github.com/apple/swift-llvm.git a7c680da5182d29e2c6441d484a307b695902c64)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c8e8f /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_c8e8f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c8e8f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5.4.0] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../..]
+    arg [-L/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib] ==> dir [/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_c8e8f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/bin/../lib] ==> [/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_bf9f1"
+[1/2] Building CXX object CMakeFiles/cmTC_bf9f1.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_bf9f1
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_cce9e"
+[1/2] Building CXX object CMakeFiles/cmTC_cce9e.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_cce9e
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_9c390"
+[1/2] Building CXX object CMakeFiles/cmTC_9c390.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_9c390
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_b9b76"
+[1/2] Building C object CMakeFiles/cmTC_b9b76.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b9b76
+
+
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FPIC_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_17461"
+[1/2] Building CXX object CMakeFiles/cmTC_17461.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_17461
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FPIE_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_df050"
+[1/2] Building CXX object CMakeFiles/cmTC_df050.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_df050
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_BUILTIN_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_e34e3"
+[1/2] Building CXX object CMakeFiles/cmTC_e34e3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e34e3
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_3b0d9"
+[1/2] Building CXX object CMakeFiles/cmTC_3b0d9.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3b0d9
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FOMIT_FRAME_POINTER_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_50e44"
+[1/2] Building CXX object CMakeFiles/cmTC_50e44.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_50e44
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FUNWIND_TABLES_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_bb4f7"
+[1/2] Building CXX object CMakeFiles/cmTC_bb4f7.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bb4f7
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_STACK_PROTECTOR_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_3864c"
+[1/2] Building CXX object CMakeFiles/cmTC_3864c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3864c
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_SANITIZE_SAFE_STACK_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_7eaab"
+[1/2] Building CXX object CMakeFiles/cmTC_7eaab.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7eaab
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FVISIBILITY_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_8f797"
+[1/2] Building CXX object CMakeFiles/cmTC_8f797.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8f797
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FRTTI_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_0fa89"
+[1/2] Building CXX object CMakeFiles/cmTC_0fa89.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0fa89
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_RTTI_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_a83ed"
+[1/2] Building CXX object CMakeFiles/cmTC_a83ed.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a83ed
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_FUNCTION_SECTIONS_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_8eed0"
+[1/2] Building CXX object CMakeFiles/cmTC_8eed0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8eed0
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_STD_CXX11_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_4ee73"
+[1/2] Building CXX object CMakeFiles/cmTC_4ee73.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4ee73
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FTLS_MODEL_INITIAL_EXEC succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_2b5f8"
+[1/2] Building CXX object CMakeFiles/cmTC_2b5f8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2b5f8
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_LTO_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c0543"
+[1/2] Building CXX object CMakeFiles/cmTC_c0543.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c0543
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_MSSE3_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_41c0a"
+[1/2] Building CXX object CMakeFiles/cmTC_41c0a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_41c0a
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_SYSROOT_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_d3824"
+[1/2] Building CXX object CMakeFiles/cmTC_d3824.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d3824
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_e9ae4"
+[1/2] Building CXX object CMakeFiles/cmTC_e9ae4.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e9ae4
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_GLINE_TABLES_ONLY_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_2c927"
+[1/2] Building CXX object CMakeFiles/cmTC_2c927.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2c927
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_G_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_59576"
+[1/2] Building CXX object CMakeFiles/cmTC_59576.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_59576
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WALL_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_8e9e1"
+[1/2] Building CXX object CMakeFiles/cmTC_8e9e1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8e9e1
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WERROR_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_57c68"
+[1/2] Building CXX object CMakeFiles/cmTC_57c68.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_57c68
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WFRAME_LARGER_THAN_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_33332"
+[1/2] Building CXX object CMakeFiles/cmTC_33332.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_33332
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WGLOBAL_CONSTRUCTORS_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_f7932"
+[1/2] Building CXX object CMakeFiles/cmTC_f7932.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f7932
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WC99_EXTENSIONS_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_cac07"
+[1/2] Building CXX object CMakeFiles/cmTC_cac07.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_cac07
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WGNU_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_3e9d0"
+[1/2] Building CXX object CMakeFiles/cmTC_3e9d0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3e9d0
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WNON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_5caf6"
+[1/2] Building CXX object CMakeFiles/cmTC_5caf6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5caf6
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WVARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_444a8"
+[1/2] Building CXX object CMakeFiles/cmTC_444a8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_444a8
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WUNUSED_PARAMETER_FLAG succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_dc92e"
+[1/2] Building CXX object CMakeFiles/cmTC_dc92e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dc92e
+
+Source file was:
+int main() { return 0; }
+Determining if the __func__ exist passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_781b2"
+[1/2] Building C object CMakeFiles/cmTC_781b2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_781b2
+
+File /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __func__
+  return ((int*)(&__func__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function fopen exists in the c passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_07ffc"
+[1/2] Building C object CMakeFiles/cmTC_07ffc.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_07ffc
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c3f2d"
+[1/2] Building C object CMakeFiles/cmTC_c3f2d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c3f2d
+
+
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_89d9c"
+[1/2] Building C object CMakeFiles/cmTC_89d9c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_89d9c
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_f6dac"
+[1/2] Building C object CMakeFiles/cmTC_f6dac.dir/CheckFunctionExists.c.o
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f6dac
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_31e8a"
+[1/2] Building C object CMakeFiles/cmTC_31e8a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_31e8a
+
+
+Determining if the function __cxa_throw exists in the stdc++ passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_be64c"
+[1/2] Building C object CMakeFiles/cmTC_be64c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_be64c
+
+
+Determining if the include file rpc/xdr.h exists passed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_bcb7e"
+[1/2] Building C object CMakeFiles/cmTC_bcb7e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bcb7e
+
+
+Performing C++ SOURCE FILE Test COMPILER_RT_TARGET_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_1b91d"
+[1/2] Building CXX object CMakeFiles/cmTC_1b91d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_1b91d
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <Intrin.h> /* Workaround for PR19898. */
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test COMPILER_RT_TARGET_HAS_FCNTL_LCK succeeded with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_58446"
+[1/2] Building CXX object CMakeFiles/cmTC_58446.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_58446
+
+Source file was:
+
+#if defined(__linux__)
+#include <unistd.h>
+#endif
+#include <fcntl.h>
+int fd;
+int main() {
+ struct flock s_flock;
+
+ s_flock.l_type = F_WRLCK;
+ fcntl(fd, F_SETLKW, &s_flock);
+ return 0;
+}
+
+

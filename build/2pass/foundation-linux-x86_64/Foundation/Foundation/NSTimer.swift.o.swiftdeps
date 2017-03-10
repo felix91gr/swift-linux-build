@@ -1,0 +1,419 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "__NSFireTimer"
+- "Timer"
+provides-nominal:
+- "C10Foundation5Timer"
+provides-member:
+- ["C10Foundation5Timer", ""]
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CFRunLoopAddTimer"
+- !private "CFRunLoopGetCurrent"
+- "CFRunLoopTimer"
+- !private "CFRunLoopTimerContext"
+- !private "CFRunLoopTimerCreate"
+- !private "CFRunLoopTimerGetInterval"
+- !private "CFRunLoopTimerGetNextFireDate"
+- !private "CFRunLoopTimerGetTolerance"
+- !private "CFRunLoopTimerInvalidate"
+- !private "CFRunLoopTimerIsValid"
+- !private "CFRunLoopTimerSetNextFireDate"
+- !private "CFRunLoopTimerSetTolerance"
+- "Date"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NSObject"
+- !private "StringLiteralType"
+- "Swift"
+- "TimeInterval"
+- "Timer"
+- !private "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "Void"
+- "__NSFireTimer"
+- !private "kCFAllocatorSystemDefault"
+- !private "kCFRunLoopDefaultMode"
+- !private "withUnsafeMutablePointer"
+depends-member:
+- !private ["Ps9AnyObject", "CFRunLoopAddTimer"]
+- !private ["Ps9AnyObject", "CFRunLoopGetCurrent"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerContext"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerCreate"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerGetInterval"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerGetNextFireDate"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerGetTolerance"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerInvalidate"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerIsValid"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerSetNextFireDate"]
+- !private ["Ps9AnyObject", "CFRunLoopTimerSetTolerance"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "Timer"]
+- !private ["Ps9AnyObject", "UnsafeMutableRawPointer"]
+- !private ["Ps9AnyObject", "__NSFireTimer"]
+- !private ["Ps9AnyObject", "_fire"]
+- !private ["Ps9AnyObject", "_timer"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invalidate"]
+- !private ["Ps9AnyObject", "isValid"]
+- !private ["Ps9AnyObject", "kCFAllocatorSystemDefault"]
+- !private ["Ps9AnyObject", "kCFRunLoopDefaultMode"]
+- !private ["Ps9AnyObject", "timeInterval"]
+- !private ["Ps9AnyObject", "unretainedReference"]
+- !private ["Ps9AnyObject", "withRetainedReference"]
+- !private ["Ps9AnyObject", "withUnsafeMutablePointer"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["VSC21CFRunLoopTimerContext", "info"]
+- !private ["VSC21CFRunLoopTimerContext", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopAddTimer"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopGetCurrent"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerContext"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerCreate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerGetInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerGetNextFireDate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerGetTolerance"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerInvalidate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerIsValid"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerSetNextFireDate"]
+- !private ["Ps28CustomDebugStringConvertible", "CFRunLoopTimerSetTolerance"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "Timer"]
+- !private ["Ps28CustomDebugStringConvertible", "UnsafeMutableRawPointer"]
+- !private ["Ps28CustomDebugStringConvertible", "__NSFireTimer"]
+- !private ["Ps28CustomDebugStringConvertible", "_fire"]
+- !private ["Ps28CustomDebugStringConvertible", "_timer"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidate"]
+- !private ["Ps28CustomDebugStringConvertible", "isValid"]
+- !private ["Ps28CustomDebugStringConvertible", "kCFAllocatorSystemDefault"]
+- !private ["Ps28CustomDebugStringConvertible", "kCFRunLoopDefaultMode"]
+- !private ["Ps28CustomDebugStringConvertible", "timeInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "unretainedReference"]
+- !private ["Ps28CustomDebugStringConvertible", "withRetainedReference"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutablePointer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopAddTimer"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopGetCurrent"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerContext"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerCreate"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerGetInterval"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerGetNextFireDate"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerGetTolerance"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerInvalidate"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerIsValid"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerSetNextFireDate"]
+- !private ["Ps23CustomStringConvertible", "CFRunLoopTimerSetTolerance"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "Timer"]
+- !private ["Ps23CustomStringConvertible", "UnsafeMutableRawPointer"]
+- !private ["Ps23CustomStringConvertible", "__NSFireTimer"]
+- !private ["Ps23CustomStringConvertible", "_fire"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_timer"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invalidate"]
+- !private ["Ps23CustomStringConvertible", "isValid"]
+- !private ["Ps23CustomStringConvertible", "kCFAllocatorSystemDefault"]
+- !private ["Ps23CustomStringConvertible", "kCFRunLoopDefaultMode"]
+- !private ["Ps23CustomStringConvertible", "timeInterval"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "unretainedReference"]
+- !private ["Ps23CustomStringConvertible", "withRetainedReference"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutablePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation4Date", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9Equatable", "CFRunLoopAddTimer"]
+- !private ["Ps9Equatable", "CFRunLoopGetCurrent"]
+- !private ["Ps9Equatable", "CFRunLoopTimerContext"]
+- !private ["Ps9Equatable", "CFRunLoopTimerCreate"]
+- !private ["Ps9Equatable", "CFRunLoopTimerGetInterval"]
+- !private ["Ps9Equatable", "CFRunLoopTimerGetNextFireDate"]
+- !private ["Ps9Equatable", "CFRunLoopTimerGetTolerance"]
+- !private ["Ps9Equatable", "CFRunLoopTimerInvalidate"]
+- !private ["Ps9Equatable", "CFRunLoopTimerIsValid"]
+- !private ["Ps9Equatable", "CFRunLoopTimerSetNextFireDate"]
+- !private ["Ps9Equatable", "CFRunLoopTimerSetTolerance"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "Timer"]
+- !private ["Ps9Equatable", "UnsafeMutableRawPointer"]
+- !private ["Ps9Equatable", "__NSFireTimer"]
+- !private ["Ps9Equatable", "_fire"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_timer"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidate"]
+- !private ["Ps9Equatable", "isValid"]
+- !private ["Ps9Equatable", "kCFAllocatorSystemDefault"]
+- !private ["Ps9Equatable", "kCFRunLoopDefaultMode"]
+- !private ["Ps9Equatable", "timeInterval"]
+- !private ["Ps9Equatable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9Equatable", "unretainedReference"]
+- !private ["Ps9Equatable", "withRetainedReference"]
+- !private ["Ps9Equatable", "withUnsafeMutablePointer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CFRunLoopAddTimer"]
+- !private ["Ps8Hashable", "CFRunLoopGetCurrent"]
+- !private ["Ps8Hashable", "CFRunLoopTimerContext"]
+- !private ["Ps8Hashable", "CFRunLoopTimerCreate"]
+- !private ["Ps8Hashable", "CFRunLoopTimerGetInterval"]
+- !private ["Ps8Hashable", "CFRunLoopTimerGetNextFireDate"]
+- !private ["Ps8Hashable", "CFRunLoopTimerGetTolerance"]
+- !private ["Ps8Hashable", "CFRunLoopTimerInvalidate"]
+- !private ["Ps8Hashable", "CFRunLoopTimerIsValid"]
+- !private ["Ps8Hashable", "CFRunLoopTimerSetNextFireDate"]
+- !private ["Ps8Hashable", "CFRunLoopTimerSetTolerance"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "Timer"]
+- !private ["Ps8Hashable", "UnsafeMutableRawPointer"]
+- !private ["Ps8Hashable", "__NSFireTimer"]
+- !private ["Ps8Hashable", "_fire"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_timer"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidate"]
+- !private ["Ps8Hashable", "isValid"]
+- !private ["Ps8Hashable", "kCFAllocatorSystemDefault"]
+- !private ["Ps8Hashable", "kCFRunLoopDefaultMode"]
+- !private ["Ps8Hashable", "timeInterval"]
+- !private ["Ps8Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps8Hashable", "unretainedReference"]
+- !private ["Ps8Hashable", "withRetainedReference"]
+- !private ["Ps8Hashable", "withUnsafeMutablePointer"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["C10Foundation8NSObject", "Bool"]
+- !private ["C10Foundation8NSObject", "CFRunLoopAddTimer"]
+- !private ["C10Foundation8NSObject", "CFRunLoopGetCurrent"]
+- ["C10Foundation8NSObject", "CFRunLoopTimer"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerContext"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerCreate"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerGetInterval"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerGetNextFireDate"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerGetTolerance"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerInvalidate"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerIsValid"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerSetNextFireDate"]
+- !private ["C10Foundation8NSObject", "CFRunLoopTimerSetTolerance"]
+- ["C10Foundation8NSObject", "CFType"]
+- ["C10Foundation8NSObject", "Date"]
+- ["C10Foundation8NSObject", "Swift"]
+- ["C10Foundation8NSObject", "TimeInterval"]
+- ["C10Foundation8NSObject", "Timer"]
+- !private ["C10Foundation8NSObject", "UInt8"]
+- !private ["C10Foundation8NSObject", "UnsafeMutablePointer"]
+- !private ["C10Foundation8NSObject", "UnsafeMutableRawPointer"]
+- ["C10Foundation8NSObject", "Void"]
+- !private ["C10Foundation8NSObject", "__NSFireTimer"]
+- ["C10Foundation8NSObject", "_cfObject"]
+- ["C10Foundation8NSObject", "_fire"]
+- ["C10Foundation8NSObject", "_timer"]
+- ["C10Foundation8NSObject", "fire"]
+- ["C10Foundation8NSObject", "fireDate"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "invalidate"]
+- ["C10Foundation8NSObject", "isValid"]
+- !private ["C10Foundation8NSObject", "kCFAllocatorSystemDefault"]
+- !private ["C10Foundation8NSObject", "kCFRunLoopDefaultMode"]
+- ["C10Foundation8NSObject", "scheduledTimer"]
+- ["C10Foundation8NSObject", "timeInterval"]
+- ["C10Foundation8NSObject", "tolerance"]
+- !private ["C10Foundation8NSObject", "unretainedReference"]
+- ["C10Foundation8NSObject", "userInfo"]
+- !private ["C10Foundation8NSObject", "withRetainedReference"]
+- !private ["C10Foundation8NSObject", "withUnsafeMutablePointer"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopAddTimer"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopGetCurrent"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerContext"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerCreate"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerGetInterval"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerGetNextFireDate"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerGetTolerance"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerInvalidate"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerIsValid"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerSetNextFireDate"]
+- !private ["P10Foundation16NSObjectProtocol", "CFRunLoopTimerSetTolerance"]
+- !private ["P10Foundation16NSObjectProtocol", "Date"]
+- !private ["P10Foundation16NSObjectProtocol", "Timer"]
+- !private ["P10Foundation16NSObjectProtocol", "UnsafeMutableRawPointer"]
+- !private ["P10Foundation16NSObjectProtocol", "__NSFireTimer"]
+- !private ["P10Foundation16NSObjectProtocol", "_fire"]
+- !private ["P10Foundation16NSObjectProtocol", "_timer"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "invalidate"]
+- !private ["P10Foundation16NSObjectProtocol", "isValid"]
+- !private ["P10Foundation16NSObjectProtocol", "kCFAllocatorSystemDefault"]
+- !private ["P10Foundation16NSObjectProtocol", "kCFRunLoopDefaultMode"]
+- !private ["P10Foundation16NSObjectProtocol", "timeInterval"]
+- !private ["P10Foundation16NSObjectProtocol", "unretainedReference"]
+- !private ["P10Foundation16NSObjectProtocol", "withRetainedReference"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafeMutablePointer"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["C10Foundation5Timer", "Bool"]
+- !private ["C10Foundation5Timer", "CFRunLoopAddTimer"]
+- !private ["C10Foundation5Timer", "CFRunLoopGetCurrent"]
+- ["C10Foundation5Timer", "CFRunLoopTimer"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerContext"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerCreate"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerGetInterval"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerGetNextFireDate"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerGetTolerance"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerInvalidate"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerIsValid"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerSetNextFireDate"]
+- !private ["C10Foundation5Timer", "CFRunLoopTimerSetTolerance"]
+- ["C10Foundation5Timer", "CFType"]
+- ["C10Foundation5Timer", "Date"]
+- ["C10Foundation5Timer", "Swift"]
+- ["C10Foundation5Timer", "TimeInterval"]
+- ["C10Foundation5Timer", "Timer"]
+- !private ["C10Foundation5Timer", "UInt8"]
+- !private ["C10Foundation5Timer", "UnsafeMutablePointer"]
+- !private ["C10Foundation5Timer", "UnsafeMutableRawPointer"]
+- ["C10Foundation5Timer", "Void"]
+- !private ["C10Foundation5Timer", "__NSFireTimer"]
+- ["C10Foundation5Timer", "_cfObject"]
+- ["C10Foundation5Timer", "_fire"]
+- ["C10Foundation5Timer", "_timer"]
+- ["C10Foundation5Timer", "deinit"]
+- ["C10Foundation5Timer", "fire"]
+- ["C10Foundation5Timer", "fireDate"]
+- ["C10Foundation5Timer", "init"]
+- ["C10Foundation5Timer", "invalidate"]
+- ["C10Foundation5Timer", "isValid"]
+- !private ["C10Foundation5Timer", "kCFAllocatorSystemDefault"]
+- !private ["C10Foundation5Timer", "kCFRunLoopDefaultMode"]
+- ["C10Foundation5Timer", "scheduledTimer"]
+- ["C10Foundation5Timer", "timeInterval"]
+- ["C10Foundation5Timer", "tolerance"]
+- ["C10Foundation5Timer", "userInfo"]
+- !private ["C10Foundation5Timer", "withRetainedReference"]
+- !private ["C10Foundation5Timer", "withUnsafeMutablePointer"]
+- !private ["Sv", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "CFRunLoopAddTimer"]
+- !private ["Ps9_Hashable", "CFRunLoopGetCurrent"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerContext"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerCreate"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerGetInterval"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerGetNextFireDate"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerGetTolerance"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerInvalidate"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerIsValid"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerSetNextFireDate"]
+- !private ["Ps9_Hashable", "CFRunLoopTimerSetTolerance"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "Timer"]
+- !private ["Ps9_Hashable", "UnsafeMutableRawPointer"]
+- !private ["Ps9_Hashable", "__NSFireTimer"]
+- !private ["Ps9_Hashable", "_fire"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_timer"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidate"]
+- !private ["Ps9_Hashable", "isValid"]
+- !private ["Ps9_Hashable", "kCFAllocatorSystemDefault"]
+- !private ["Ps9_Hashable", "kCFRunLoopDefaultMode"]
+- !private ["Ps9_Hashable", "timeInterval"]
+- !private ["Ps9_Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9_Hashable", "unretainedReference"]
+- !private ["Ps9_Hashable", "withRetainedReference"]
+- !private ["Ps9_Hashable", "withUnsafeMutablePointer"]
+- ["Ps9_Hashable", ""]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "VSC21CFRunLoopTimerContext"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "C10Foundation5Timer"
+- !private "Sv"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "3ab9484e1e4087ddd33bc04d7b06d505"

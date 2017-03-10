@@ -1,0 +1,5 @@
+version: "Swift version 3.1-dev (LLVM a7c680da51, Clang 9772bf511a, Swift 493db43364)"
+options: "62b51dcc0213dd27d09c1ce45aef1ada"
+build_time: [542445911, 36913000]
+inputs:
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/TestSupportExecutable/main.swift": [9223372036854775807, 0]

@@ -1,0 +1,469 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Notification"
+- "=="
+provides-nominal:
+- "V10Foundation12Notification"
+provides-member:
+- ["V10Foundation12Notification", ""]
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "!=="
+- !private "+="
+- "=="
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CustomReflectable"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Int"
+- !private "IntegerLiteralType"
+- "Mirror"
+- "NSNotification"
+- "Notification"
+- "ReferenceConvertible"
+- "String"
+- !private "StringLiteralType"
+- "_ObjectTypeBridgeable"
+- !private "_SwiftValue"
+- !private "fatalError"
+depends-member:
+- ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "store"]
+- !private ["Ps9AnyObject", "userInfo"]
+- !private ["Sa", "append"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Comparable", "hash"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "rawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "Mirror"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "Notification"]
+- !private ["Ps28CustomDebugStringConvertible", "_SwiftValue"]
+- ["Ps28CustomDebugStringConvertible", "_bridgeToAnyObject"]
+- ["Ps28CustomDebugStringConvertible", "_bridgeToObjectiveC"]
+- ["Ps28CustomDebugStringConvertible", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps28CustomDebugStringConvertible", "_forceBridgeFromObjectiveC"]
+- ["Ps28CustomDebugStringConvertible", "_toAnyHashable"]
+- ["Ps28CustomDebugStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "class"]
+- ["Ps28CustomDebugStringConvertible", "customMirror"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "description"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "hash"]
+- ["Ps28CustomDebugStringConvertible", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "store"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hash"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Mirror"]
+- !private ["Ps17CustomReflectable", "NSNotification"]
+- !private ["Ps17CustomReflectable", "Notification"]
+- !private ["Ps17CustomReflectable", "_SwiftValue"]
+- ["Ps17CustomReflectable", "_bridgeToAnyObject"]
+- ["Ps17CustomReflectable", "_bridgeToObjectiveC"]
+- ["Ps17CustomReflectable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps17CustomReflectable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "_toAnyHashable"]
+- ["Ps17CustomReflectable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "class"]
+- ["Ps17CustomReflectable", "customMirror"]
+- ["Ps17CustomReflectable", "debugDescription"]
+- ["Ps17CustomReflectable", "description"]
+- !private ["Ps17CustomReflectable", "fatalError"]
+- !private ["Ps17CustomReflectable", "hash"]
+- ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "name"]
+- !private ["Ps17CustomReflectable", "object"]
+- !private ["Ps17CustomReflectable", "userInfo"]
+- ["Ps17CustomReflectable", ""]
+- !private ["Ps23CustomStringConvertible", "Mirror"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "Notification"]
+- !private ["Ps23CustomStringConvertible", "_SwiftValue"]
+- ["Ps23CustomStringConvertible", "_bridgeToAnyObject"]
+- ["Ps23CustomStringConvertible", "_bridgeToObjectiveC"]
+- ["Ps23CustomStringConvertible", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps23CustomStringConvertible", "_forceBridgeFromObjectiveC"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_toAnyHashable"]
+- ["Ps23CustomStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "customMirror"]
+- ["Ps23CustomStringConvertible", "debugDescription"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "hash"]
+- ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "store"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["OVs6Mirror12DisplayStyle", "class"]
+- !private ["Ps9Equatable", "Mirror"]
+- !private ["Ps9Equatable", "NSNotification"]
+- ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "Notification"]
+- !private ["Ps9Equatable", "_SwiftValue"]
+- ["Ps9Equatable", "_bridgeToAnyObject"]
+- ["Ps9Equatable", "_bridgeToObjectiveC"]
+- ["Ps9Equatable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps9Equatable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps9Equatable", "class"]
+- ["Ps9Equatable", "customMirror"]
+- ["Ps9Equatable", "debugDescription"]
+- ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "hash"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "store"]
+- !private ["Ps9Equatable", "userInfo"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hash"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "class"]
+- !private ["Ps26ExpressibleByStringLiteral", "hash"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hash"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Mirror"]
+- !private ["Ps8Hashable", "NSNotification"]
+- ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "Notification"]
+- !private ["Ps8Hashable", "_SwiftValue"]
+- ["Ps8Hashable", "_bridgeToAnyObject"]
+- ["Ps8Hashable", "_bridgeToObjectiveC"]
+- ["Ps8Hashable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps8Hashable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps8Hashable", "class"]
+- ["Ps8Hashable", "customMirror"]
+- ["Ps8Hashable", "debugDescription"]
+- ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "hash"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "store"]
+- !private ["Ps8Hashable", "userInfo"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "hash"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Vs6Mirror", "init"]
+- !private ["Ps10MirrorPath", "hash"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- ["P10Foundation8NSCoding", "Name"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation8NSCoding", "name"]
+- !private ["P10Foundation8NSCoding", "object"]
+- !private ["P10Foundation8NSCoding", "userInfo"]
+- ["P10Foundation9NSCopying", "Name"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "name"]
+- !private ["P10Foundation9NSCopying", "object"]
+- !private ["P10Foundation9NSCopying", "store"]
+- !private ["P10Foundation9NSCopying", "userInfo"]
+- ["C10Foundation14NSNotification", "Name"]
+- ["C10Foundation14NSNotification", "deinit"]
+- !private ["C10Foundation14NSNotification", "init"]
+- !private ["C10Foundation14NSNotification", "name"]
+- !private ["C10Foundation14NSNotification", "object"]
+- !private ["C10Foundation14NSNotification", "userInfo"]
+- ["C10Foundation8NSObject", "Name"]
+- !private ["C10Foundation8NSObject", "deinit"]
+- !private ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "name"]
+- !private ["C10Foundation8NSObject", "object"]
+- !private ["C10Foundation8NSObject", "store"]
+- !private ["C10Foundation8NSObject", "userInfo"]
+- ["P10Foundation16NSObjectProtocol", "Name"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "name"]
+- !private ["P10Foundation16NSObjectProtocol", "object"]
+- !private ["P10Foundation16NSObjectProtocol", "store"]
+- !private ["P10Foundation16NSObjectProtocol", "userInfo"]
+- !private ["VC10Foundation14NSNotification4Name", "deinit"]
+- !private ["VC10Foundation14NSNotification4Name", "rawValue"]
+- ["V10Foundation12Notification", "=="]
+- ["V10Foundation12Notification", "AnyHashable"]
+- ["V10Foundation12Notification", "Bool"]
+- ["V10Foundation12Notification", "Int"]
+- ["V10Foundation12Notification", "Mirror"]
+- ["V10Foundation12Notification", "NSNotification"]
+- ["V10Foundation12Notification", "Name"]
+- ["V10Foundation12Notification", "Notification"]
+- ["V10Foundation12Notification", "ReferenceType"]
+- ["V10Foundation12Notification", "String"]
+- ["V10Foundation12Notification", "_ObjectType"]
+- !private ["V10Foundation12Notification", "_SwiftValue"]
+- ["V10Foundation12Notification", "_bridgeToAnyObject"]
+- ["V10Foundation12Notification", "_bridgeToObjectiveC"]
+- ["V10Foundation12Notification", "_conditionallyBridgeFromObjectiveC"]
+- ["V10Foundation12Notification", "_forceBridgeFromObjectiveC"]
+- ["V10Foundation12Notification", "_getObjectiveCType"]
+- ["V10Foundation12Notification", "_toAnyHashable"]
+- ["V10Foundation12Notification", "_unconditionallyBridgeFromObjectiveC"]
+- ["V10Foundation12Notification", "customMirror"]
+- ["V10Foundation12Notification", "debugDescription"]
+- ["V10Foundation12Notification", "deinit"]
+- ["V10Foundation12Notification", "description"]
+- !private ["V10Foundation12Notification", "fatalError"]
+- ["V10Foundation12Notification", "hashValue"]
+- ["V10Foundation12Notification", "init"]
+- ["V10Foundation12Notification", "name"]
+- ["V10Foundation12Notification", "object"]
+- ["V10Foundation12Notification", "userInfo"]
+- !private ["Sq", "class"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["P10Foundation20ReferenceConvertible", "Mirror"]
+- !private ["P10Foundation20ReferenceConvertible", "NSNotification"]
+- !private ["P10Foundation20ReferenceConvertible", "Notification"]
+- !private ["P10Foundation20ReferenceConvertible", "_SwiftValue"]
+- ["P10Foundation20ReferenceConvertible", "_bridgeToAnyObject"]
+- ["P10Foundation20ReferenceConvertible", "_bridgeToObjectiveC"]
+- ["P10Foundation20ReferenceConvertible", "_conditionallyBridgeFromObjectiveC"]
+- ["P10Foundation20ReferenceConvertible", "_forceBridgeFromObjectiveC"]
+- ["P10Foundation20ReferenceConvertible", "_toAnyHashable"]
+- ["P10Foundation20ReferenceConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- ["P10Foundation20ReferenceConvertible", "customMirror"]
+- ["P10Foundation20ReferenceConvertible", "debugDescription"]
+- ["P10Foundation20ReferenceConvertible", "description"]
+- !private ["P10Foundation20ReferenceConvertible", "fatalError"]
+- ["P10Foundation20ReferenceConvertible", "hashValue"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "name"]
+- !private ["P10Foundation20ReferenceConvertible", "object"]
+- !private ["P10Foundation20ReferenceConvertible", "userInfo"]
+- ["P10Foundation20ReferenceConvertible", ""]
+- !private ["Ps8Sequence", "append"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "hash"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "hash"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "hash"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "append"]
+- !private ["P10Foundation13_CFBridgeable", "hash"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hash"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hash"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hash"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hash"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "hash"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "Mirror"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "Notification"]
+- !private ["Ps9_Hashable", "_SwiftValue"]
+- ["Ps9_Hashable", "_bridgeToAnyObject"]
+- ["Ps9_Hashable", "_bridgeToObjectiveC"]
+- ["Ps9_Hashable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps9_Hashable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps9_Hashable", "class"]
+- ["Ps9_Hashable", "customMirror"]
+- ["Ps9_Hashable", "debugDescription"]
+- ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "hash"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "store"]
+- !private ["Ps9_Hashable", "userInfo"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["P10Foundation13_NSBridgeable", "append"]
+- !private ["P10Foundation13_NSBridgeable", "hash"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "Mirror"]
+- !private ["P10Foundation17_ObjectBridgeable", "NSNotification"]
+- !private ["P10Foundation17_ObjectBridgeable", "Notification"]
+- !private ["P10Foundation17_ObjectBridgeable", "_SwiftValue"]
+- ["P10Foundation17_ObjectBridgeable", "_bridgeToAnyObject"]
+- ["P10Foundation17_ObjectBridgeable", "_bridgeToObjectiveC"]
+- ["P10Foundation17_ObjectBridgeable", "_conditionallyBridgeFromObjectiveC"]
+- ["P10Foundation17_ObjectBridgeable", "_forceBridgeFromObjectiveC"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation17_ObjectBridgeable", "_toAnyHashable"]
+- ["P10Foundation17_ObjectBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation17_ObjectBridgeable", "append"]
+- ["P10Foundation17_ObjectBridgeable", "customMirror"]
+- ["P10Foundation17_ObjectBridgeable", "debugDescription"]
+- ["P10Foundation17_ObjectBridgeable", "description"]
+- !private ["P10Foundation17_ObjectBridgeable", "fatalError"]
+- !private ["P10Foundation17_ObjectBridgeable", "hash"]
+- ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "name"]
+- !private ["P10Foundation17_ObjectBridgeable", "object"]
+- !private ["P10Foundation17_ObjectBridgeable", "userInfo"]
+- ["P10Foundation17_ObjectBridgeable", ""]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Mirror"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "NSNotification"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Notification"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_SwiftValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_bridgeToAnyObject"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_bridgeToObjectiveC"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_conditionallyBridgeFromObjectiveC"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_forceBridgeFromObjectiveC"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_toAnyHashable"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "append"]
+- ["P10Foundation21_ObjectTypeBridgeable", "customMirror"]
+- ["P10Foundation21_ObjectTypeBridgeable", "debugDescription"]
+- ["P10Foundation21_ObjectTypeBridgeable", "description"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "fatalError"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hash"]
+- ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "name"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "object"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "userInfo"]
+- ["P10Foundation21_ObjectTypeBridgeable", ""]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["C10Foundation11_SwiftValue", "store"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "OVs6Mirror12DisplayStyle"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Vs6Mirror"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation14NSNotification"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "VC10Foundation14NSNotification4Name"
+- "V10Foundation12Notification"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "C10Foundation11_SwiftValue"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "38ded50b30cd1bb45675d347197a9326"

@@ -1,0 +1,460 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "VC10Foundation10URLSession14_Configuration"
+provides-member:
+- ["C10Foundation10URLSession", ""]
+- ["VC10Foundation10URLSession14_Configuration", ""]
+- ["C10Foundation10URLSession", "_Configuration"]
+- ["VC10Foundation10URLSession14_Configuration", "init"]
+- ["VC10Foundation10URLSession14_Configuration", "configure"]
+- ["VC10Foundation10URLSession14_Configuration", "setCookies"]
+depends-top-level:
+- !private "=="
+- "AnyClass"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CachedURLResponse"
+- !private "CastingPrecedence"
+- "HTTPCookie"
+- "HTTPCookieStorage"
+- "Int"
+- !private "NSString"
+- "String"
+- "TimeInterval"
+- "URLCache"
+- "URLCredentialStorage"
+- "URLRequest"
+- "URLSession"
+- "URLSessionConfiguration"
+- !private "convertToStringString"
+- !private "getString"
+depends-member:
+- ["Ps9AnyObject", "AcceptPolicy"]
+- !private ["Ps9AnyObject", "allowsCellularAccess"]
+- !private ["Ps9AnyObject", "connectionProxyDictionary"]
+- !private ["Ps9AnyObject", "discretionary"]
+- !private ["Ps9AnyObject", "httpAdditionalHeaders"]
+- !private ["Ps9AnyObject", "httpCookieAcceptPolicy"]
+- !private ["Ps9AnyObject", "httpCookieStorage"]
+- !private ["Ps9AnyObject", "httpMaximumConnectionsPerHost"]
+- !private ["Ps9AnyObject", "httpShouldSetCookies"]
+- !private ["Ps9AnyObject", "httpShouldUsePipelining"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "networkServiceType"]
+- !private ["Ps9AnyObject", "protocolClasses"]
+- !private ["Ps9AnyObject", "requestCachePolicy"]
+- !private ["Ps9AnyObject", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps9AnyObject", "timeoutIntervalForRequest"]
+- !private ["Ps9AnyObject", "timeoutIntervalForResource"]
+- !private ["Ps9AnyObject", "urlCache"]
+- !private ["Ps9AnyObject", "urlCredentialStorage"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "AcceptPolicy"]
+- ["Ps28CustomDebugStringConvertible", "CachePolicy"]
+- ["Ps28CustomDebugStringConvertible", "NetworkServiceType"]
+- !private ["Ps28CustomDebugStringConvertible", "allowsCellularAccess"]
+- !private ["Ps28CustomDebugStringConvertible", "connectionProxyDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "discretionary"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "httpAdditionalHeaders"]
+- !private ["Ps28CustomDebugStringConvertible", "httpCookieAcceptPolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "httpCookieStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "httpMaximumConnectionsPerHost"]
+- !private ["Ps28CustomDebugStringConvertible", "httpShouldSetCookies"]
+- !private ["Ps28CustomDebugStringConvertible", "httpShouldUsePipelining"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "networkServiceType"]
+- !private ["Ps28CustomDebugStringConvertible", "protocolClasses"]
+- !private ["Ps28CustomDebugStringConvertible", "requestCachePolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "timeoutIntervalForRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "timeoutIntervalForResource"]
+- !private ["Ps28CustomDebugStringConvertible", "urlCache"]
+- !private ["Ps28CustomDebugStringConvertible", "urlCredentialStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "CachePolicy"]
+- ["Ps17CustomReflectable", "NetworkServiceType"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "setValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "value"]
+- ["Ps23CustomStringConvertible", "AcceptPolicy"]
+- ["Ps23CustomStringConvertible", "CachePolicy"]
+- ["Ps23CustomStringConvertible", "NetworkServiceType"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "allowsCellularAccess"]
+- !private ["Ps23CustomStringConvertible", "connectionProxyDictionary"]
+- !private ["Ps23CustomStringConvertible", "discretionary"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "httpAdditionalHeaders"]
+- !private ["Ps23CustomStringConvertible", "httpCookieAcceptPolicy"]
+- !private ["Ps23CustomStringConvertible", "httpCookieStorage"]
+- !private ["Ps23CustomStringConvertible", "httpMaximumConnectionsPerHost"]
+- !private ["Ps23CustomStringConvertible", "httpShouldSetCookies"]
+- !private ["Ps23CustomStringConvertible", "httpShouldUsePipelining"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "networkServiceType"]
+- !private ["Ps23CustomStringConvertible", "protocolClasses"]
+- !private ["Ps23CustomStringConvertible", "requestCachePolicy"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "timeoutIntervalForRequest"]
+- !private ["Ps23CustomStringConvertible", "timeoutIntervalForResource"]
+- !private ["Ps23CustomStringConvertible", "urlCache"]
+- !private ["Ps23CustomStringConvertible", "urlCredentialStorage"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Vs10Dictionary", "forEach"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps9Equatable", "AcceptPolicy"]
+- ["Ps9Equatable", "CachePolicy"]
+- ["Ps9Equatable", "NetworkServiceType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allowsCellularAccess"]
+- !private ["Ps9Equatable", "connectionProxyDictionary"]
+- !private ["Ps9Equatable", "discretionary"]
+- !private ["Ps9Equatable", "httpAdditionalHeaders"]
+- !private ["Ps9Equatable", "httpCookieAcceptPolicy"]
+- !private ["Ps9Equatable", "httpCookieStorage"]
+- !private ["Ps9Equatable", "httpMaximumConnectionsPerHost"]
+- !private ["Ps9Equatable", "httpShouldSetCookies"]
+- !private ["Ps9Equatable", "httpShouldUsePipelining"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "networkServiceType"]
+- !private ["Ps9Equatable", "protocolClasses"]
+- !private ["Ps9Equatable", "requestCachePolicy"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps9Equatable", "timeoutIntervalForRequest"]
+- !private ["Ps9Equatable", "timeoutIntervalForResource"]
+- !private ["Ps9Equatable", "urlCache"]
+- !private ["Ps9Equatable", "urlCredentialStorage"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "forEach"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "map"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C10Foundation10HTTPCookie", "AcceptPolicy"]
+- ["Ps8Hashable", "AcceptPolicy"]
+- ["Ps8Hashable", "CachePolicy"]
+- ["Ps8Hashable", "NetworkServiceType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allowsCellularAccess"]
+- !private ["Ps8Hashable", "connectionProxyDictionary"]
+- !private ["Ps8Hashable", "discretionary"]
+- !private ["Ps8Hashable", "httpAdditionalHeaders"]
+- !private ["Ps8Hashable", "httpCookieAcceptPolicy"]
+- !private ["Ps8Hashable", "httpCookieStorage"]
+- !private ["Ps8Hashable", "httpMaximumConnectionsPerHost"]
+- !private ["Ps8Hashable", "httpShouldSetCookies"]
+- !private ["Ps8Hashable", "httpShouldUsePipelining"]
+- !private ["Ps8Hashable", "identifier"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "networkServiceType"]
+- !private ["Ps8Hashable", "protocolClasses"]
+- !private ["Ps8Hashable", "requestCachePolicy"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps8Hashable", "timeoutIntervalForRequest"]
+- !private ["Ps8Hashable", "timeoutIntervalForResource"]
+- !private ["Ps8Hashable", "urlCache"]
+- !private ["Ps8Hashable", "urlCredentialStorage"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation9NSCopying", "allowsCellularAccess"]
+- !private ["P10Foundation9NSCopying", "connectionProxyDictionary"]
+- !private ["P10Foundation9NSCopying", "discretionary"]
+- !private ["P10Foundation9NSCopying", "httpAdditionalHeaders"]
+- !private ["P10Foundation9NSCopying", "httpCookieAcceptPolicy"]
+- !private ["P10Foundation9NSCopying", "httpCookieStorage"]
+- !private ["P10Foundation9NSCopying", "httpMaximumConnectionsPerHost"]
+- !private ["P10Foundation9NSCopying", "httpShouldSetCookies"]
+- !private ["P10Foundation9NSCopying", "httpShouldUsePipelining"]
+- !private ["P10Foundation9NSCopying", "identifier"]
+- !private ["P10Foundation9NSCopying", "networkServiceType"]
+- !private ["P10Foundation9NSCopying", "protocolClasses"]
+- !private ["P10Foundation9NSCopying", "requestCachePolicy"]
+- !private ["P10Foundation9NSCopying", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["P10Foundation9NSCopying", "timeoutIntervalForRequest"]
+- !private ["P10Foundation9NSCopying", "timeoutIntervalForResource"]
+- !private ["P10Foundation9NSCopying", "urlCache"]
+- !private ["P10Foundation9NSCopying", "urlCredentialStorage"]
+- ["C10Foundation8NSObject", "AcceptPolicy"]
+- ["C10Foundation8NSObject", "AnyClass"]
+- ["C10Foundation8NSObject", "AnyHashable"]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "HTTPCookie"]
+- ["C10Foundation8NSObject", "HTTPCookieStorage"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "TimeInterval"]
+- ["C10Foundation8NSObject", "URLCache"]
+- ["C10Foundation8NSObject", "URLCredentialStorage"]
+- ["C10Foundation8NSObject", "URLRequest"]
+- ["C10Foundation8NSObject", "_Configuration"]
+- !private ["C10Foundation8NSObject", "allowsCellularAccess"]
+- !private ["C10Foundation8NSObject", "connectionProxyDictionary"]
+- !private ["C10Foundation8NSObject", "discretionary"]
+- !private ["C10Foundation8NSObject", "httpAdditionalHeaders"]
+- !private ["C10Foundation8NSObject", "httpCookieAcceptPolicy"]
+- !private ["C10Foundation8NSObject", "httpCookieStorage"]
+- !private ["C10Foundation8NSObject", "httpMaximumConnectionsPerHost"]
+- !private ["C10Foundation8NSObject", "httpShouldSetCookies"]
+- !private ["C10Foundation8NSObject", "httpShouldUsePipelining"]
+- !private ["C10Foundation8NSObject", "identifier"]
+- !private ["C10Foundation8NSObject", "networkServiceType"]
+- !private ["C10Foundation8NSObject", "protocolClasses"]
+- !private ["C10Foundation8NSObject", "requestCachePolicy"]
+- !private ["C10Foundation8NSObject", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["C10Foundation8NSObject", "timeoutIntervalForRequest"]
+- !private ["C10Foundation8NSObject", "timeoutIntervalForResource"]
+- !private ["C10Foundation8NSObject", "urlCache"]
+- !private ["C10Foundation8NSObject", "urlCredentialStorage"]
+- ["P10Foundation16NSObjectProtocol", "AcceptPolicy"]
+- !private ["P10Foundation16NSObjectProtocol", "allowsCellularAccess"]
+- !private ["P10Foundation16NSObjectProtocol", "connectionProxyDictionary"]
+- !private ["P10Foundation16NSObjectProtocol", "discretionary"]
+- !private ["P10Foundation16NSObjectProtocol", "httpAdditionalHeaders"]
+- !private ["P10Foundation16NSObjectProtocol", "httpCookieAcceptPolicy"]
+- !private ["P10Foundation16NSObjectProtocol", "httpCookieStorage"]
+- !private ["P10Foundation16NSObjectProtocol", "httpMaximumConnectionsPerHost"]
+- !private ["P10Foundation16NSObjectProtocol", "httpShouldSetCookies"]
+- !private ["P10Foundation16NSObjectProtocol", "httpShouldUsePipelining"]
+- !private ["P10Foundation16NSObjectProtocol", "identifier"]
+- !private ["P10Foundation16NSObjectProtocol", "networkServiceType"]
+- !private ["P10Foundation16NSObjectProtocol", "protocolClasses"]
+- !private ["P10Foundation16NSObjectProtocol", "requestCachePolicy"]
+- !private ["P10Foundation16NSObjectProtocol", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["P10Foundation16NSObjectProtocol", "timeoutIntervalForRequest"]
+- !private ["P10Foundation16NSObjectProtocol", "timeoutIntervalForResource"]
+- !private ["P10Foundation16NSObjectProtocol", "urlCache"]
+- !private ["P10Foundation16NSObjectProtocol", "urlCredentialStorage"]
+- !private ["Sq", "map"]
+- ["P10Foundation20ReferenceConvertible", "CachePolicy"]
+- ["P10Foundation20ReferenceConvertible", "NetworkServiceType"]
+- !private ["P10Foundation20ReferenceConvertible", "setValue"]
+- !private ["P10Foundation20ReferenceConvertible", "value"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V10Foundation10URLRequest", "CachePolicy"]
+- ["V10Foundation10URLRequest", "NetworkServiceType"]
+- !private ["V10Foundation10URLRequest", "setValue"]
+- !private ["V10Foundation10URLRequest", "value"]
+- ["C10Foundation10URLSession", "AnyClass"]
+- ["C10Foundation10URLSession", "AnyHashable"]
+- ["C10Foundation10URLSession", "Bool"]
+- ["C10Foundation10URLSession", "HTTPCookie"]
+- ["C10Foundation10URLSession", "HTTPCookieStorage"]
+- ["C10Foundation10URLSession", "Int"]
+- ["C10Foundation10URLSession", "String"]
+- ["C10Foundation10URLSession", "TimeInterval"]
+- ["C10Foundation10URLSession", "URLCache"]
+- ["C10Foundation10URLSession", "URLCredentialStorage"]
+- ["C10Foundation10URLSession", "URLRequest"]
+- ["C10Foundation10URLSession", "_Configuration"]
+- !private ["C10Foundation23URLSessionConfiguration", "allowsCellularAccess"]
+- !private ["C10Foundation23URLSessionConfiguration", "connectionProxyDictionary"]
+- !private ["C10Foundation23URLSessionConfiguration", "discretionary"]
+- !private ["C10Foundation23URLSessionConfiguration", "httpAdditionalHeaders"]
+- !private ["C10Foundation23URLSessionConfiguration", "httpCookieAcceptPolicy"]
+- !private ["C10Foundation23URLSessionConfiguration", "httpCookieStorage"]
+- !private ["C10Foundation23URLSessionConfiguration", "httpMaximumConnectionsPerHost"]
+- !private ["C10Foundation23URLSessionConfiguration", "httpShouldSetCookies"]
+- !private ["C10Foundation23URLSessionConfiguration", "httpShouldUsePipelining"]
+- !private ["C10Foundation23URLSessionConfiguration", "identifier"]
+- !private ["C10Foundation23URLSessionConfiguration", "networkServiceType"]
+- !private ["C10Foundation23URLSessionConfiguration", "protocolClasses"]
+- !private ["C10Foundation23URLSessionConfiguration", "requestCachePolicy"]
+- !private ["C10Foundation23URLSessionConfiguration", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["C10Foundation23URLSessionConfiguration", "timeoutIntervalForRequest"]
+- !private ["C10Foundation23URLSessionConfiguration", "timeoutIntervalForResource"]
+- !private ["C10Foundation23URLSessionConfiguration", "urlCache"]
+- !private ["C10Foundation23URLSessionConfiguration", "urlCredentialStorage"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "forEach"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- ["VC10Foundation10URLSession14_Configuration", "AnyClass"]
+- ["VC10Foundation10URLSession14_Configuration", "AnyHashable"]
+- ["VC10Foundation10URLSession14_Configuration", "Bool"]
+- !private ["VC10Foundation10URLSession14_Configuration", "CachedURLResponse"]
+- ["VC10Foundation10URLSession14_Configuration", "HTTPCookie"]
+- ["VC10Foundation10URLSession14_Configuration", "HTTPCookieStorage"]
+- ["VC10Foundation10URLSession14_Configuration", "Int"]
+- ["VC10Foundation10URLSession14_Configuration", "String"]
+- ["VC10Foundation10URLSession14_Configuration", "TimeInterval"]
+- ["VC10Foundation10URLSession14_Configuration", "URLCache"]
+- ["VC10Foundation10URLSession14_Configuration", "URLCredentialStorage"]
+- ["VC10Foundation10URLSession14_Configuration", "URLRequest"]
+- ["VC10Foundation10URLSession14_Configuration", "URLSessionConfiguration"]
+- ["VC10Foundation10URLSession14_Configuration", "allowsCellularAccess"]
+- !private ["VC10Foundation10URLSession14_Configuration", "cachedResponse"]
+- ["VC10Foundation10URLSession14_Configuration", "configure"]
+- ["VC10Foundation10URLSession14_Configuration", "connectionProxyDictionary"]
+- !private ["VC10Foundation10URLSession14_Configuration", "convertToStringString"]
+- ["VC10Foundation10URLSession14_Configuration", "discretionary"]
+- ["VC10Foundation10URLSession14_Configuration", "httpAdditionalHeaders"]
+- ["VC10Foundation10URLSession14_Configuration", "httpCookieAcceptPolicy"]
+- ["VC10Foundation10URLSession14_Configuration", "httpCookieStorage"]
+- ["VC10Foundation10URLSession14_Configuration", "httpMaximumConnectionsPerHost"]
+- ["VC10Foundation10URLSession14_Configuration", "httpShouldSetCookies"]
+- ["VC10Foundation10URLSession14_Configuration", "httpShouldUsePipelining"]
+- ["VC10Foundation10URLSession14_Configuration", "identifier"]
+- ["VC10Foundation10URLSession14_Configuration", "init"]
+- ["VC10Foundation10URLSession14_Configuration", "networkServiceType"]
+- ["VC10Foundation10URLSession14_Configuration", "protocolClasses"]
+- ["VC10Foundation10URLSession14_Configuration", "requestCachePolicy"]
+- ["VC10Foundation10URLSession14_Configuration", "setCookies"]
+- ["VC10Foundation10URLSession14_Configuration", "shouldUseExtendedBackgroundIdleMode"]
+- ["VC10Foundation10URLSession14_Configuration", "timeoutIntervalForRequest"]
+- ["VC10Foundation10URLSession14_Configuration", "timeoutIntervalForResource"]
+- ["VC10Foundation10URLSession14_Configuration", "urlCache"]
+- ["VC10Foundation10URLSession14_Configuration", "urlCredentialStorage"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "AcceptPolicy"]
+- ["Ps9_Hashable", "CachePolicy"]
+- ["Ps9_Hashable", "NetworkServiceType"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allowsCellularAccess"]
+- !private ["Ps9_Hashable", "connectionProxyDictionary"]
+- !private ["Ps9_Hashable", "discretionary"]
+- !private ["Ps9_Hashable", "httpAdditionalHeaders"]
+- !private ["Ps9_Hashable", "httpCookieAcceptPolicy"]
+- !private ["Ps9_Hashable", "httpCookieStorage"]
+- !private ["Ps9_Hashable", "httpMaximumConnectionsPerHost"]
+- !private ["Ps9_Hashable", "httpShouldSetCookies"]
+- !private ["Ps9_Hashable", "httpShouldUsePipelining"]
+- !private ["Ps9_Hashable", "identifier"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "networkServiceType"]
+- !private ["Ps9_Hashable", "protocolClasses"]
+- !private ["Ps9_Hashable", "requestCachePolicy"]
+- !private ["Ps9_Hashable", "setValue"]
+- !private ["Ps9_Hashable", "shouldUseExtendedBackgroundIdleMode"]
+- !private ["Ps9_Hashable", "timeoutIntervalForRequest"]
+- !private ["Ps9_Hashable", "timeoutIntervalForResource"]
+- !private ["Ps9_Hashable", "urlCache"]
+- !private ["Ps9_Hashable", "urlCredentialStorage"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "forEach"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- ["P10Foundation17_ObjectBridgeable", "CachePolicy"]
+- ["P10Foundation17_ObjectBridgeable", "NetworkServiceType"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "forEach"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "setValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "value"]
+- ["P10Foundation21_ObjectTypeBridgeable", "CachePolicy"]
+- ["P10Foundation21_ObjectTypeBridgeable", "NetworkServiceType"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "forEach"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "setValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "value"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C10Foundation10HTTPCookie"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P10Foundation9NSCopying"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "Sq"
+- "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V10Foundation10URLRequest"
+- "C10Foundation10URLSession"
+- !private "C10Foundation23URLSessionConfiguration"
+- !private "P10Foundation13_CFBridgeable"
+- "VC10Foundation10URLSession14_Configuration"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "4124f41bee3815c906a842c1086ec3ab"

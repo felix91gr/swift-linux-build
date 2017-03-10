@@ -1,0 +1,628 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PropertyListSerialization"
+provides-nominal:
+- "C10Foundation25PropertyListSerialization"
+- "VC10Foundation25PropertyListSerialization17MutabilityOptions"
+- "OC10Foundation25PropertyListSerialization18PropertyListFormat"
+provides-member:
+- ["C10Foundation25PropertyListSerialization", ""]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", ""]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", ""]
+- ["C10Foundation25PropertyListSerialization", "MutabilityOptions"]
+- ["C10Foundation25PropertyListSerialization", "PropertyListFormat"]
+- ["C10Foundation25PropertyListSerialization", "ReadOptions"]
+- ["C10Foundation25PropertyListSerialization", "WriteOptions"]
+depends-top-level:
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CFData"
+- !private "CFError"
+- !private "CFIndex"
+- !private "CFOptionFlags"
+- !private "CFPropertyListCreateData"
+- !private "CFPropertyListCreateWithData"
+- !private "CFPropertyListCreateWithStream"
+- !private "CFPropertyListFormat"
+- !private "CFPropertyListIsValid"
+- "CFReadStream"
+- "Data"
+- "FloatLiteralType"
+- "InputStream"
+- "Int"
+- "IntegerLiteralType"
+- "NSObject"
+- "OptionSet"
+- "PropertyListSerialization"
+- "UInt"
+- !private "Unmanaged"
+- "UnsafeMutablePointer"
+- !private "_SwiftValue"
+- !private "kCFAllocatorSystemDefault"
+- !private "kCFPropertyListBinaryFormat_v1_0"
+- !private "unsafeBitCast"
+- !private "withUnsafeMutablePointer"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "CFIndex"]
+- !private ["Ps9AnyObject", "CFOptionFlags"]
+- !private ["Ps9AnyObject", "CFPropertyListCreateData"]
+- !private ["Ps9AnyObject", "CFPropertyListCreateWithData"]
+- !private ["Ps9AnyObject", "CFPropertyListCreateWithStream"]
+- !private ["Ps9AnyObject", "CFPropertyListFormat"]
+- !private ["Ps9AnyObject", "CFPropertyListIsValid"]
+- ["Ps9AnyObject", "MutabilityOptions"]
+- !private ["Ps9AnyObject", "NSObject"]
+- !private ["Ps9AnyObject", "PropertyListFormat"]
+- !private ["Ps9AnyObject", "UInt"]
+- !private ["Ps9AnyObject", "_SwiftValue"]
+- !private ["Ps9AnyObject", "_nsObject"]
+- !private ["Ps9AnyObject", "_stream"]
+- !private ["Ps9AnyObject", "_swiftObject"]
+- !private ["Ps9AnyObject", "fetch"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kCFAllocatorSystemDefault"]
+- !private ["Ps9AnyObject", "kCFPropertyListBinaryFormat_v1_0"]
+- !private ["Ps9AnyObject", "propertyList"]
+- !private ["Ps9AnyObject", "store"]
+- !private ["Ps9AnyObject", "unsafeBitCast"]
+- !private ["Ps9AnyObject", "withUnsafeMutablePointer"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "_cfObject"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo6CFData", "_swiftObject"]
+- !private ["CSo6CFData", "deinit"]
+- !private ["CSo7CFError", "_nsObject"]
+- !private ["CSo7CFError", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps10Collection", "_cfObject"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "CFIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "CFOptionFlags"]
+- !private ["Ps28CustomDebugStringConvertible", "CFPropertyListCreateData"]
+- !private ["Ps28CustomDebugStringConvertible", "CFPropertyListCreateWithData"]
+- !private ["Ps28CustomDebugStringConvertible", "CFPropertyListCreateWithStream"]
+- !private ["Ps28CustomDebugStringConvertible", "CFPropertyListFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "CFPropertyListIsValid"]
+- ["Ps28CustomDebugStringConvertible", "MutabilityOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "NSObject"]
+- !private ["Ps28CustomDebugStringConvertible", "PropertyListFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "UInt"]
+- !private ["Ps28CustomDebugStringConvertible", "_SwiftValue"]
+- !private ["Ps28CustomDebugStringConvertible", "_cfObject"]
+- !private ["Ps28CustomDebugStringConvertible", "_stream"]
+- !private ["Ps28CustomDebugStringConvertible", "fetch"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kCFAllocatorSystemDefault"]
+- !private ["Ps28CustomDebugStringConvertible", "kCFPropertyListBinaryFormat_v1_0"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "propertyList"]
+- !private ["Ps28CustomDebugStringConvertible", "store"]
+- !private ["Ps28CustomDebugStringConvertible", "unsafeBitCast"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutablePointer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps17CustomReflectable", "_cfObject"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps23CustomStringConvertible", "CFIndex"]
+- !private ["Ps23CustomStringConvertible", "CFOptionFlags"]
+- !private ["Ps23CustomStringConvertible", "CFPropertyListCreateData"]
+- !private ["Ps23CustomStringConvertible", "CFPropertyListCreateWithData"]
+- !private ["Ps23CustomStringConvertible", "CFPropertyListCreateWithStream"]
+- !private ["Ps23CustomStringConvertible", "CFPropertyListFormat"]
+- !private ["Ps23CustomStringConvertible", "CFPropertyListIsValid"]
+- ["Ps23CustomStringConvertible", "MutabilityOptions"]
+- !private ["Ps23CustomStringConvertible", "NSObject"]
+- !private ["Ps23CustomStringConvertible", "PropertyListFormat"]
+- !private ["Ps23CustomStringConvertible", "UInt"]
+- !private ["Ps23CustomStringConvertible", "_SwiftValue"]
+- !private ["Ps23CustomStringConvertible", "_cfObject"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_stream"]
+- !private ["Ps23CustomStringConvertible", "fetch"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kCFAllocatorSystemDefault"]
+- !private ["Ps23CustomStringConvertible", "kCFPropertyListBinaryFormat_v1_0"]
+- !private ["Ps23CustomStringConvertible", "propertyList"]
+- !private ["Ps23CustomStringConvertible", "store"]
+- !private ["Ps23CustomStringConvertible", "unsafeBitCast"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutablePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "_cfObject"]
+- !private ["V10Foundation4Data", "deinit"]
+- !private ["Ps9Equatable", "CFIndex"]
+- !private ["Ps9Equatable", "CFOptionFlags"]
+- !private ["Ps9Equatable", "CFPropertyListCreateData"]
+- !private ["Ps9Equatable", "CFPropertyListCreateWithData"]
+- !private ["Ps9Equatable", "CFPropertyListCreateWithStream"]
+- !private ["Ps9Equatable", "CFPropertyListFormat"]
+- !private ["Ps9Equatable", "CFPropertyListIsValid"]
+- ["Ps9Equatable", "MutabilityOptions"]
+- !private ["Ps9Equatable", "NSObject"]
+- !private ["Ps9Equatable", "PropertyListFormat"]
+- !private ["Ps9Equatable", "UInt"]
+- !private ["Ps9Equatable", "_SwiftValue"]
+- !private ["Ps9Equatable", "_cfObject"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_stream"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "fetch"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- !private ["Ps9Equatable", "kCFAllocatorSystemDefault"]
+- !private ["Ps9Equatable", "kCFPropertyListBinaryFormat_v1_0"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "propertyList"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "store"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- !private ["Ps9Equatable", "unsafeBitCast"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "withUnsafeMutablePointer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "_nsObject"]
+- ["Ps25ExpressibleByArrayLiteral", "MutabilityOptions"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "CFIndex"]
+- !private ["Ps8Hashable", "CFOptionFlags"]
+- !private ["Ps8Hashable", "CFPropertyListCreateData"]
+- !private ["Ps8Hashable", "CFPropertyListCreateWithData"]
+- !private ["Ps8Hashable", "CFPropertyListCreateWithStream"]
+- !private ["Ps8Hashable", "CFPropertyListFormat"]
+- !private ["Ps8Hashable", "CFPropertyListIsValid"]
+- ["Ps8Hashable", "MutabilityOptions"]
+- !private ["Ps8Hashable", "NSObject"]
+- !private ["Ps8Hashable", "PropertyListFormat"]
+- !private ["Ps8Hashable", "UInt"]
+- !private ["Ps8Hashable", "_SwiftValue"]
+- !private ["Ps8Hashable", "_cfObject"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_stream"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "fetch"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kCFAllocatorSystemDefault"]
+- !private ["Ps8Hashable", "kCFPropertyListBinaryFormat_v1_0"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "propertyList"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "store"]
+- !private ["Ps8Hashable", "unsafeBitCast"]
+- !private ["Ps8Hashable", "withUnsafeMutablePointer"]
+- ["Ps8Hashable", ""]
+- !private ["C10Foundation11InputStream", "_stream"]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "Element"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "MutabilityOptions"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "RawValue"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "UInt"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "contains"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "deinit"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "formIntersection"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "formSymmetricDifference"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "formUnion"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "init"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "insert"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "intersection"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "isDisjoint"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "isEmpty"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "isSubset"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "isSuperset"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "mutableContainers"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "mutableContainersAndLeaves"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "rawValue"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "remove"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "subtract"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "subtracting"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "symmetricDifference"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "union"]
+- ["VC10Foundation25PropertyListSerialization17MutabilityOptions", "update"]
+- !private ["Ps17MutableCollection", "_cfObject"]
+- !private ["P10Foundation9NSCopying", "fetch"]
+- !private ["P10Foundation9NSCopying", "store"]
+- !private ["C10Foundation7NSError", "deinit"]
+- ["C10Foundation8NSObject", "Bool"]
+- !private ["C10Foundation8NSObject", "CFData"]
+- !private ["C10Foundation8NSObject", "CFError"]
+- !private ["C10Foundation8NSObject", "CFIndex"]
+- !private ["C10Foundation8NSObject", "CFOptionFlags"]
+- !private ["C10Foundation8NSObject", "CFPropertyListCreateData"]
+- !private ["C10Foundation8NSObject", "CFPropertyListCreateWithData"]
+- !private ["C10Foundation8NSObject", "CFPropertyListCreateWithStream"]
+- !private ["C10Foundation8NSObject", "CFPropertyListFormat"]
+- !private ["C10Foundation8NSObject", "CFPropertyListIsValid"]
+- ["C10Foundation8NSObject", "CFReadStream"]
+- ["C10Foundation8NSObject", "Data"]
+- ["C10Foundation8NSObject", "InputStream"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "MutabilityOptions"]
+- !private ["C10Foundation8NSObject", "NSObject"]
+- ["C10Foundation8NSObject", "OptionSet"]
+- ["C10Foundation8NSObject", "PropertyListFormat"]
+- ["C10Foundation8NSObject", "ReadOptions"]
+- ["C10Foundation8NSObject", "UInt"]
+- !private ["C10Foundation8NSObject", "Unmanaged"]
+- ["C10Foundation8NSObject", "UnsafeMutablePointer"]
+- ["C10Foundation8NSObject", "WriteOptions"]
+- !private ["C10Foundation8NSObject", "_SwiftValue"]
+- !private ["C10Foundation8NSObject", "_stream"]
+- ["C10Foundation8NSObject", "data"]
+- !private ["C10Foundation8NSObject", "deinit"]
+- !private ["C10Foundation8NSObject", "fetch"]
+- ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "kCFAllocatorSystemDefault"]
+- !private ["C10Foundation8NSObject", "kCFPropertyListBinaryFormat_v1_0"]
+- ["C10Foundation8NSObject", "propertyList"]
+- !private ["C10Foundation8NSObject", "store"]
+- !private ["C10Foundation8NSObject", "unsafeBitCast"]
+- !private ["C10Foundation8NSObject", "withUnsafeMutablePointer"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "CFIndex"]
+- !private ["P10Foundation16NSObjectProtocol", "CFOptionFlags"]
+- !private ["P10Foundation16NSObjectProtocol", "CFPropertyListCreateData"]
+- !private ["P10Foundation16NSObjectProtocol", "CFPropertyListCreateWithData"]
+- !private ["P10Foundation16NSObjectProtocol", "CFPropertyListCreateWithStream"]
+- !private ["P10Foundation16NSObjectProtocol", "CFPropertyListFormat"]
+- !private ["P10Foundation16NSObjectProtocol", "CFPropertyListIsValid"]
+- ["P10Foundation16NSObjectProtocol", "MutabilityOptions"]
+- !private ["P10Foundation16NSObjectProtocol", "NSObject"]
+- !private ["P10Foundation16NSObjectProtocol", "PropertyListFormat"]
+- !private ["P10Foundation16NSObjectProtocol", "UInt"]
+- !private ["P10Foundation16NSObjectProtocol", "_SwiftValue"]
+- !private ["P10Foundation16NSObjectProtocol", "_stream"]
+- !private ["P10Foundation16NSObjectProtocol", "fetch"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "kCFAllocatorSystemDefault"]
+- !private ["P10Foundation16NSObjectProtocol", "kCFPropertyListBinaryFormat_v1_0"]
+- !private ["P10Foundation16NSObjectProtocol", "propertyList"]
+- !private ["P10Foundation16NSObjectProtocol", "store"]
+- !private ["P10Foundation16NSObjectProtocol", "unsafeBitCast"]
+- !private ["P10Foundation16NSObjectProtocol", "withUnsafeMutablePointer"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["Ps9OptionSet", "MutabilityOptions"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "RawValue"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "_toAnyHashable"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "binary"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "deinit"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "hashValue"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "init"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "openStep"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "rawValue"]
+- ["OC10Foundation25PropertyListSerialization18PropertyListFormat", "xml"]
+- ["C10Foundation25PropertyListSerialization", "Bool"]
+- !private ["C10Foundation25PropertyListSerialization", "CFData"]
+- !private ["C10Foundation25PropertyListSerialization", "CFError"]
+- !private ["C10Foundation25PropertyListSerialization", "CFIndex"]
+- !private ["C10Foundation25PropertyListSerialization", "CFOptionFlags"]
+- !private ["C10Foundation25PropertyListSerialization", "CFPropertyListCreateData"]
+- !private ["C10Foundation25PropertyListSerialization", "CFPropertyListCreateWithData"]
+- !private ["C10Foundation25PropertyListSerialization", "CFPropertyListCreateWithStream"]
+- !private ["C10Foundation25PropertyListSerialization", "CFPropertyListFormat"]
+- !private ["C10Foundation25PropertyListSerialization", "CFPropertyListIsValid"]
+- ["C10Foundation25PropertyListSerialization", "CFReadStream"]
+- ["C10Foundation25PropertyListSerialization", "Data"]
+- ["C10Foundation25PropertyListSerialization", "InputStream"]
+- ["C10Foundation25PropertyListSerialization", "Int"]
+- ["C10Foundation25PropertyListSerialization", "MutabilityOptions"]
+- !private ["C10Foundation25PropertyListSerialization", "NSObject"]
+- ["C10Foundation25PropertyListSerialization", "OptionSet"]
+- ["C10Foundation25PropertyListSerialization", "PropertyListFormat"]
+- ["C10Foundation25PropertyListSerialization", "ReadOptions"]
+- ["C10Foundation25PropertyListSerialization", "UInt"]
+- !private ["C10Foundation25PropertyListSerialization", "Unmanaged"]
+- ["C10Foundation25PropertyListSerialization", "UnsafeMutablePointer"]
+- ["C10Foundation25PropertyListSerialization", "WriteOptions"]
+- !private ["C10Foundation25PropertyListSerialization", "_SwiftValue"]
+- ["C10Foundation25PropertyListSerialization", "data"]
+- ["C10Foundation25PropertyListSerialization", "deinit"]
+- ["C10Foundation25PropertyListSerialization", "init"]
+- !private ["C10Foundation25PropertyListSerialization", "kCFAllocatorSystemDefault"]
+- !private ["C10Foundation25PropertyListSerialization", "kCFPropertyListBinaryFormat_v1_0"]
+- ["C10Foundation25PropertyListSerialization", "propertyList"]
+- !private ["C10Foundation25PropertyListSerialization", "unsafeBitCast"]
+- !private ["C10Foundation25PropertyListSerialization", "withUnsafeMutablePointer"]
+- !private ["Ps22RandomAccessCollection", "_cfObject"]
+- !private ["Ps26RangeReplaceableCollection", "_cfObject"]
+- ["Ps16RawRepresentable", "MutabilityOptions"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- !private ["P10Foundation20ReferenceConvertible", "_cfObject"]
+- !private ["Ps8Sequence", "_cfObject"]
+- ["Ps10SetAlgebra", "MutabilityOptions"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["C10Foundation6Stream", "_stream"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["Su", "init"]
+- !private ["Vs9Unmanaged", "takeRetainedValue"]
+- !private ["Vs9Unmanaged", "takeUnretainedValue"]
+- !private ["Sp", "pointee"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps23_BidirectionalIndexable", "_cfObject"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_cfObject"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "CFIndex"]
+- !private ["Ps9_Hashable", "CFOptionFlags"]
+- !private ["Ps9_Hashable", "CFPropertyListCreateData"]
+- !private ["Ps9_Hashable", "CFPropertyListCreateWithData"]
+- !private ["Ps9_Hashable", "CFPropertyListCreateWithStream"]
+- !private ["Ps9_Hashable", "CFPropertyListFormat"]
+- !private ["Ps9_Hashable", "CFPropertyListIsValid"]
+- ["Ps9_Hashable", "MutabilityOptions"]
+- !private ["Ps9_Hashable", "NSObject"]
+- !private ["Ps9_Hashable", "PropertyListFormat"]
+- !private ["Ps9_Hashable", "UInt"]
+- !private ["Ps9_Hashable", "_SwiftValue"]
+- !private ["Ps9_Hashable", "_cfObject"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_stream"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "fetch"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kCFAllocatorSystemDefault"]
+- !private ["Ps9_Hashable", "kCFPropertyListBinaryFormat_v1_0"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "propertyList"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "store"]
+- !private ["Ps9_Hashable", "unsafeBitCast"]
+- !private ["Ps9_Hashable", "withUnsafeMutablePointer"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "_cfObject"]
+- !private ["Ps14_IndexableBase", "_cfObject"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["Ps17_MutableIndexable", "_cfObject"]
+- !private ["P10Foundation13_NSBridgeable", "_cfObject"]
+- !private ["P10Foundation13_NSBridgeable", "_nsObject"]
+- !private ["P10Foundation13_NSBridgeable", "_swiftObject"]
+- !private ["P10Foundation17_ObjectBridgeable", "_cfObject"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_cfObject"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps22_RandomAccessIndexable", "_cfObject"]
+- !private ["Ps26_RangeReplaceableIndexable", "_cfObject"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- !private ["P10Foundation16_SwiftBridgeable", "_swiftObject"]
+- !private ["C10Foundation11_SwiftValue", "fetch"]
+- !private ["C10Foundation11_SwiftValue", "store"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "CSo6CFData"
+- !private "CSo7CFError"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "C10Foundation11InputStream"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "VC10Foundation25PropertyListSerialization17MutabilityOptions"
+- !private "Ps17MutableCollection"
+- !private "P10Foundation9NSCopying"
+- !private "C10Foundation7NSError"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "Ps9OptionSet"
+- "OC10Foundation25PropertyListSerialization18PropertyListFormat"
+- "C10Foundation25PropertyListSerialization"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "C10Foundation6Stream"
+- !private "Ps10Strideable"
+- !private "Su"
+- !private "Vs9Unmanaged"
+- !private "Sp"
+- !private "Ps15UnsignedInteger"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "P10Foundation16_SwiftBridgeable"
+- !private "C10Foundation11_SwiftValue"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "2e0f13048e24cc1641ed96eceffefc89"

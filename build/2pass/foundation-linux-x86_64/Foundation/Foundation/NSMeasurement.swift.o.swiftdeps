@@ -1,0 +1,308 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSMeasurement"
+provides-nominal:
+- "C10Foundation13NSMeasurement"
+provides-member:
+- ["C10Foundation13NSMeasurement", ""]
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Measurement"
+- "NSCoder"
+- "NSCopying"
+- "NSMeasurement"
+- "NSObject"
+- "NSSecureCoding"
+- !private "NSUnimplemented"
+- "NSZone"
+- !private "StringLiteralType"
+- "Unit"
+- "_StructTypeBridgeable"
+- !private "fatalError"
+depends-member:
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- !private ["Ps9AnyObject", "_StructType"]
+- ["Ps9AnyObject", "_bridgeToAny"]
+- ["Ps9AnyObject", "_bridgeToSwift"]
+- ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "doubleValue"]
+- ["Ps9AnyObject", "encode"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "supportsSecureCoding"]
+- !private ["Ps9AnyObject", "unit"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps10Comparable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- !private ["Ps28CustomDebugStringConvertible", "_StructType"]
+- ["Ps28CustomDebugStringConvertible", "_bridgeToAny"]
+- ["Ps28CustomDebugStringConvertible", "_bridgeToSwift"]
+- !private ["Ps28CustomDebugStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "doubleValue"]
+- ["Ps28CustomDebugStringConvertible", "encode"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "supportsSecureCoding"]
+- !private ["Ps28CustomDebugStringConvertible", "unit"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- !private ["Ps23CustomStringConvertible", "_StructType"]
+- ["Ps23CustomStringConvertible", "_bridgeToAny"]
+- ["Ps23CustomStringConvertible", "_bridgeToSwift"]
+- !private ["Ps23CustomStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "doubleValue"]
+- ["Ps23CustomStringConvertible", "encode"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "supportsSecureCoding"]
+- !private ["Ps23CustomStringConvertible", "unit"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- !private ["Ps9Equatable", "_StructType"]
+- ["Ps9Equatable", "_bridgeToAny"]
+- ["Ps9Equatable", "_bridgeToSwift"]
+- !private ["Ps9Equatable", "_unconditionallyBridgeFromObjectiveC"]
+- ["Ps9Equatable", "copy"]
+- !private ["Ps9Equatable", "doubleValue"]
+- ["Ps9Equatable", "encode"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "supportsSecureCoding"]
+- !private ["Ps9Equatable", "unit"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- !private ["Ps8Hashable", "_StructType"]
+- ["Ps8Hashable", "_bridgeToAny"]
+- ["Ps8Hashable", "_bridgeToSwift"]
+- !private ["Ps8Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- ["Ps8Hashable", "copy"]
+- !private ["Ps8Hashable", "doubleValue"]
+- ["Ps8Hashable", "encode"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "supportsSecureCoding"]
+- !private ["Ps8Hashable", "unit"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["V10Foundation11Measurement", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["V10Foundation11Measurement", "deinit"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation8NSCoding", "NSUnimplemented"]
+- !private ["P10Foundation8NSCoding", "_StructType"]
+- ["P10Foundation8NSCoding", "_bridgeToAny"]
+- ["P10Foundation8NSCoding", "_bridgeToSwift"]
+- ["P10Foundation8NSCoding", "copy"]
+- !private ["P10Foundation8NSCoding", "doubleValue"]
+- ["P10Foundation8NSCoding", "encode"]
+- !private ["P10Foundation8NSCoding", "fatalError"]
+- ["P10Foundation8NSCoding", "init"]
+- ["P10Foundation8NSCoding", "supportsSecureCoding"]
+- !private ["P10Foundation8NSCoding", "unit"]
+- ["P10Foundation8NSCoding", ""]
+- !private ["P10Foundation9NSCopying", "NSUnimplemented"]
+- !private ["P10Foundation9NSCopying", "_StructType"]
+- ["P10Foundation9NSCopying", "_bridgeToAny"]
+- ["P10Foundation9NSCopying", "_bridgeToSwift"]
+- ["P10Foundation9NSCopying", "copy"]
+- !private ["P10Foundation9NSCopying", "doubleValue"]
+- ["P10Foundation9NSCopying", "encode"]
+- !private ["P10Foundation9NSCopying", "fatalError"]
+- ["P10Foundation9NSCopying", "init"]
+- ["P10Foundation9NSCopying", "supportsSecureCoding"]
+- !private ["P10Foundation9NSCopying", "unit"]
+- ["P10Foundation9NSCopying", ""]
+- ["C10Foundation13NSMeasurement", "Bool"]
+- ["C10Foundation13NSMeasurement", "Double"]
+- ["C10Foundation13NSMeasurement", "Measurement"]
+- ["C10Foundation13NSMeasurement", "NSCoder"]
+- !private ["C10Foundation13NSMeasurement", "NSUnimplemented"]
+- ["C10Foundation13NSMeasurement", "NSZone"]
+- ["C10Foundation13NSMeasurement", "Unit"]
+- ["C10Foundation13NSMeasurement", "_StructType"]
+- ["C10Foundation13NSMeasurement", "_bridgeToAny"]
+- ["C10Foundation13NSMeasurement", "_bridgeToSwift"]
+- ["C10Foundation13NSMeasurement", "adding"]
+- ["C10Foundation13NSMeasurement", "canBeConverted"]
+- ["C10Foundation13NSMeasurement", "converting"]
+- ["C10Foundation13NSMeasurement", "copy"]
+- ["C10Foundation13NSMeasurement", "deinit"]
+- ["C10Foundation13NSMeasurement", "doubleValue"]
+- ["C10Foundation13NSMeasurement", "encode"]
+- !private ["C10Foundation13NSMeasurement", "fatalError"]
+- ["C10Foundation13NSMeasurement", "init"]
+- ["C10Foundation13NSMeasurement", "subtracting"]
+- ["C10Foundation13NSMeasurement", "supportsSecureCoding"]
+- ["C10Foundation13NSMeasurement", "unit"]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "Double"]
+- ["C10Foundation8NSObject", "Measurement"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "NSZone"]
+- ["C10Foundation8NSObject", "Unit"]
+- ["C10Foundation8NSObject", "_StructType"]
+- ["C10Foundation8NSObject", "_bridgeToAny"]
+- ["C10Foundation8NSObject", "_bridgeToSwift"]
+- ["C10Foundation8NSObject", "adding"]
+- ["C10Foundation8NSObject", "canBeConverted"]
+- ["C10Foundation8NSObject", "converting"]
+- ["C10Foundation8NSObject", "copy"]
+- ["C10Foundation8NSObject", "doubleValue"]
+- ["C10Foundation8NSObject", "encode"]
+- !private ["C10Foundation8NSObject", "fatalError"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "subtracting"]
+- ["C10Foundation8NSObject", "supportsSecureCoding"]
+- ["C10Foundation8NSObject", "unit"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- !private ["P10Foundation16NSObjectProtocol", "_StructType"]
+- ["P10Foundation16NSObjectProtocol", "_bridgeToAny"]
+- ["P10Foundation16NSObjectProtocol", "_bridgeToSwift"]
+- ["P10Foundation16NSObjectProtocol", "copy"]
+- !private ["P10Foundation16NSObjectProtocol", "doubleValue"]
+- ["P10Foundation16NSObjectProtocol", "encode"]
+- !private ["P10Foundation16NSObjectProtocol", "fatalError"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- ["P10Foundation16NSObjectProtocol", "supportsSecureCoding"]
+- !private ["P10Foundation16NSObjectProtocol", "unit"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["P10Foundation14NSSecureCoding", "NSUnimplemented"]
+- !private ["P10Foundation14NSSecureCoding", "_StructType"]
+- ["P10Foundation14NSSecureCoding", "_bridgeToAny"]
+- ["P10Foundation14NSSecureCoding", "_bridgeToSwift"]
+- ["P10Foundation14NSSecureCoding", "copy"]
+- !private ["P10Foundation14NSSecureCoding", "doubleValue"]
+- ["P10Foundation14NSSecureCoding", "encode"]
+- !private ["P10Foundation14NSSecureCoding", "fatalError"]
+- ["P10Foundation14NSSecureCoding", "init"]
+- ["P10Foundation14NSSecureCoding", "supportsSecureCoding"]
+- !private ["P10Foundation14NSSecureCoding", "unit"]
+- ["P10Foundation14NSSecureCoding", ""]
+- !private ["P10Foundation20ReferenceConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- !private ["Ps9_Hashable", "_StructType"]
+- ["Ps9_Hashable", "_bridgeToAny"]
+- ["Ps9_Hashable", "_bridgeToSwift"]
+- !private ["Ps9_Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- ["Ps9_Hashable", "copy"]
+- !private ["Ps9_Hashable", "doubleValue"]
+- ["Ps9_Hashable", "encode"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "supportsSecureCoding"]
+- !private ["Ps9_Hashable", "unit"]
+- ["Ps9_Hashable", ""]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation17_StructBridgeable", "NSUnimplemented"]
+- !private ["P10Foundation17_StructBridgeable", "_StructType"]
+- ["P10Foundation17_StructBridgeable", "_bridgeToAny"]
+- ["P10Foundation17_StructBridgeable", "_bridgeToSwift"]
+- ["P10Foundation17_StructBridgeable", "copy"]
+- !private ["P10Foundation17_StructBridgeable", "doubleValue"]
+- ["P10Foundation17_StructBridgeable", "encode"]
+- !private ["P10Foundation17_StructBridgeable", "fatalError"]
+- ["P10Foundation17_StructBridgeable", "init"]
+- ["P10Foundation17_StructBridgeable", "supportsSecureCoding"]
+- !private ["P10Foundation17_StructBridgeable", "unit"]
+- ["P10Foundation17_StructBridgeable", ""]
+- !private ["P10Foundation21_StructTypeBridgeable", "NSUnimplemented"]
+- !private ["P10Foundation21_StructTypeBridgeable", "_StructType"]
+- ["P10Foundation21_StructTypeBridgeable", "_bridgeToAny"]
+- ["P10Foundation21_StructTypeBridgeable", "_bridgeToSwift"]
+- ["P10Foundation21_StructTypeBridgeable", "copy"]
+- !private ["P10Foundation21_StructTypeBridgeable", "doubleValue"]
+- ["P10Foundation21_StructTypeBridgeable", "encode"]
+- !private ["P10Foundation21_StructTypeBridgeable", "fatalError"]
+- ["P10Foundation21_StructTypeBridgeable", "init"]
+- ["P10Foundation21_StructTypeBridgeable", "supportsSecureCoding"]
+- !private ["P10Foundation21_StructTypeBridgeable", "unit"]
+- ["P10Foundation21_StructTypeBridgeable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "V10Foundation11Measurement"
+- !private "Ps10MirrorPath"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation13NSMeasurement"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "P10Foundation14NSSecureCoding"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- "P10Foundation17_StructBridgeable"
+- "P10Foundation21_StructTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "18b14877d3406ec254a31d0e657fc88f"

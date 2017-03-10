@@ -1,0 +1,6 @@
+version: "Swift version 3.1-dev (LLVM a7c680da51, Clang 9772bf511a, Swift 493db43364)"
+options: "c227ebc1dbbc5f6914cd3f782bac0731"
+build_time: [542446121, 210924000]
+inputs:
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Workspace/PinsStore.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Sources/Workspace/Workspace.swift": [9223372036854775807, 0]

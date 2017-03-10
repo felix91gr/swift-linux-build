@@ -1,0 +1,521 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Xcode"
+- "+="
+provides-nominal:
+- "V9Xcodeproj5Xcode"
+- "CV9Xcodeproj5Xcode7Project"
+- "CV9Xcodeproj5Xcode9Reference"
+- "OCV9Xcodeproj5Xcode9Reference11RefPathBase"
+- "CV9Xcodeproj5Xcode13FileReference"
+- "CV9Xcodeproj5Xcode5Group"
+- "CV9Xcodeproj5Xcode6Target"
+- "OCV9Xcodeproj5Xcode6Target11ProductType"
+- "VCV9Xcodeproj5Xcode6Target16TargetDependency"
+- "CV9Xcodeproj5Xcode10BuildPhase"
+- "CV9Xcodeproj5Xcode17HeadersBuildPhase"
+- "CV9Xcodeproj5Xcode17SourcesBuildPhase"
+- "CV9Xcodeproj5Xcode20FrameworksBuildPhase"
+- "CV9Xcodeproj5Xcode19CopyFilesBuildPhase"
+- "CV9Xcodeproj5Xcode21ShellScriptBuildPhase"
+- "CV9Xcodeproj5Xcode9BuildFile"
+- "CV9Xcodeproj5Xcode18BuildSettingsTable"
+- "VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings"
+provides-member:
+- ["V9Xcodeproj5Xcode", ""]
+- ["CV9Xcodeproj5Xcode7Project", ""]
+- ["CV9Xcodeproj5Xcode9Reference", ""]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", ""]
+- ["CV9Xcodeproj5Xcode13FileReference", ""]
+- ["CV9Xcodeproj5Xcode5Group", ""]
+- ["CV9Xcodeproj5Xcode6Target", ""]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", ""]
+- ["VCV9Xcodeproj5Xcode6Target16TargetDependency", ""]
+- ["CV9Xcodeproj5Xcode10BuildPhase", ""]
+- ["CV9Xcodeproj5Xcode17HeadersBuildPhase", ""]
+- ["CV9Xcodeproj5Xcode17SourcesBuildPhase", ""]
+- ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", ""]
+- ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", ""]
+- ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", ""]
+- ["CV9Xcodeproj5Xcode9BuildFile", ""]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", ""]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", ""]
+depends-top-level:
+- !private "+"
+- "+="
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "Xcode"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "BuildFile"]
+- ["Ps9AnyObject", "BuildSettings"]
+- !private ["Ps9AnyObject", "BuildSettingsTable"]
+- !private ["Ps9AnyObject", "CopyFilesBuildPhase"]
+- !private ["Ps9AnyObject", "FileReference"]
+- !private ["Ps9AnyObject", "FrameworksBuildPhase"]
+- !private ["Ps9AnyObject", "Group"]
+- !private ["Ps9AnyObject", "HeadersBuildPhase"]
+- ["Ps9AnyObject", "ProductType"]
+- ["Ps9AnyObject", "Reference"]
+- !private ["Ps9AnyObject", "ShellScriptBuildPhase"]
+- !private ["Ps9AnyObject", "SourcesBuildPhase"]
+- !private ["Ps9AnyObject", "Target"]
+- !private ["Ps9AnyObject", "TargetDependency"]
+- !private ["Ps9AnyObject", "buildPhases"]
+- !private ["Ps9AnyObject", "buildSettings"]
+- !private ["Ps9AnyObject", "dependencies"]
+- !private ["Ps9AnyObject", "dstDir"]
+- !private ["Ps9AnyObject", "fileRef"]
+- !private ["Ps9AnyObject", "fileType"]
+- !private ["Ps9AnyObject", "files"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainGroup"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "pathBase"]
+- !private ["Ps9AnyObject", "productGroup"]
+- !private ["Ps9AnyObject", "productName"]
+- !private ["Ps9AnyObject", "productType"]
+- !private ["Ps9AnyObject", "projectDir"]
+- !private ["Ps9AnyObject", "script"]
+- !private ["Ps9AnyObject", "subitems"]
+- !private ["Ps9AnyObject", "targets"]
+- ["Ps9AnyObject", ""]
+- !private ["P7Utility12ArgumentKind", "_getBuiltinLogicValue"]
+- !private ["P7Utility12ArgumentKind", "hashValue"]
+- ["P7Utility12ArgumentKind", "init"]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["CV9Xcodeproj5Xcode9BuildFile", "FileReference"]
+- ["CV9Xcodeproj5Xcode9BuildFile", "deinit"]
+- ["CV9Xcodeproj5Xcode9BuildFile", "fileRef"]
+- ["CV9Xcodeproj5Xcode9BuildFile", "init"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "BuildFile"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "FileReference"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "addBuildFile"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "deinit"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "dstDir"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "files"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "init"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "script"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", ""]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "CLANG_ENABLE_OBJC_ARC"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "COMBINE_HIDPI_IMAGES"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "COPY_PHASE_STRIP"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "DEBUG_INFORMATION_FORMAT"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "DEFINES_MODULE"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "DYLIB_INSTALL_NAME_BASE"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "EMBEDDED_CONTENT_CONTAINS_SWIFT"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "ENABLE_NS_ASSERTIONS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "ENABLE_TESTABILITY"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "FRAMEWORK_SEARCH_PATHS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "GCC_OPTIMIZATION_LEVEL"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "HEADER_SEARCH_PATHS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "INFOPLIST_FILE"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "LD_RUNPATH_SEARCH_PATHS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "LIBRARY_SEARCH_PATHS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "MACOSX_DEPLOYMENT_TARGET"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "MODULEMAP_FILE"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "ONLY_ACTIVE_ARCH"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "OTHER_CFLAGS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "OTHER_LDFLAGS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "OTHER_SWIFT_FLAGS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "PRODUCT_BUNDLE_IDENTIFIER"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "PRODUCT_MODULE_NAME"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "PRODUCT_NAME"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "PROJECT_NAME"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SDKROOT"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SKIP_INSTALL"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SUPPORTED_PLATFORMS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SWIFT_ACTIVE_COMPILATION_CONDITIONS"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SWIFT_FORCE_DYNAMIC_LINK_STDLIB"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SWIFT_FORCE_STATIC_LINK_STDLIB"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SWIFT_OPTIMIZATION_LEVEL"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "SWIFT_VERSION"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "String"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "TARGET_NAME"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "USE_HEADERMAP"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "init"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "BuildSettings"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "FileReference"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "String"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "common"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "debug"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "deinit"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "init"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "release"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "xcconfigFileRef"]
+- ["P5Basic14ByteStreamable", "init"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Collection", "append"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "deinit"]
+- ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "dstDir"]
+- ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "groupDir"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["CV9Xcodeproj5Xcode13FileReference", "RefPathBase"]
+- ["CV9Xcodeproj5Xcode13FileReference", "String"]
+- ["CV9Xcodeproj5Xcode13FileReference", "deinit"]
+- ["CV9Xcodeproj5Xcode13FileReference", "fileType"]
+- ["CV9Xcodeproj5Xcode13FileReference", "init"]
+- ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "deinit"]
+- ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "init"]
+- ["CV9Xcodeproj5Xcode5Group", "FileReference"]
+- ["CV9Xcodeproj5Xcode5Group", "Group"]
+- ["CV9Xcodeproj5Xcode5Group", "RefPathBase"]
+- ["CV9Xcodeproj5Xcode5Group", "Reference"]
+- ["CV9Xcodeproj5Xcode5Group", "String"]
+- ["CV9Xcodeproj5Xcode5Group", "addFileReference"]
+- ["CV9Xcodeproj5Xcode5Group", "addGroup"]
+- ["CV9Xcodeproj5Xcode5Group", "deinit"]
+- ["CV9Xcodeproj5Xcode5Group", "init"]
+- ["CV9Xcodeproj5Xcode5Group", "subitems"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "groupDir"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "deinit"]
+- ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "init"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- ["Ps17MutableCollection", "init"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "RawValue"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "String"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "_toAnyHashable"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "application"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "asString"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "deinit"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "dynamicLibrary"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "executable"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "framework"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "hashValue"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "init"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "rawValue"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "staticArchive"]
+- ["OCV9Xcodeproj5Xcode6Target11ProductType", "unitTest"]
+- ["CV9Xcodeproj5Xcode7Project", "BuildSettingsTable"]
+- ["CV9Xcodeproj5Xcode7Project", "Group"]
+- ["CV9Xcodeproj5Xcode7Project", "String"]
+- ["CV9Xcodeproj5Xcode7Project", "Target"]
+- ["CV9Xcodeproj5Xcode7Project", "addTarget"]
+- ["CV9Xcodeproj5Xcode7Project", "buildSettings"]
+- ["CV9Xcodeproj5Xcode7Project", "deinit"]
+- ["CV9Xcodeproj5Xcode7Project", "init"]
+- ["CV9Xcodeproj5Xcode7Project", "mainGroup"]
+- ["CV9Xcodeproj5Xcode7Project", "productGroup"]
+- ["CV9Xcodeproj5Xcode7Project", "projectDir"]
+- ["CV9Xcodeproj5Xcode7Project", "targets"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "groupDir"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "RawValue"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "String"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "_toAnyHashable"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "asString"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "buildDir"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "deinit"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "groupDir"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "hashValue"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "init"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "projectDir"]
+- ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "rawValue"]
+- ["CV9Xcodeproj5Xcode9Reference", "FileReference"]
+- ["CV9Xcodeproj5Xcode9Reference", "Group"]
+- ["CV9Xcodeproj5Xcode9Reference", "RefPathBase"]
+- ["CV9Xcodeproj5Xcode9Reference", "Reference"]
+- ["CV9Xcodeproj5Xcode9Reference", "String"]
+- ["CV9Xcodeproj5Xcode9Reference", "addFileReference"]
+- ["CV9Xcodeproj5Xcode9Reference", "addGroup"]
+- ["CV9Xcodeproj5Xcode9Reference", "deinit"]
+- ["CV9Xcodeproj5Xcode9Reference", "fileType"]
+- ["CV9Xcodeproj5Xcode9Reference", "init"]
+- ["CV9Xcodeproj5Xcode9Reference", "name"]
+- ["CV9Xcodeproj5Xcode9Reference", "path"]
+- ["CV9Xcodeproj5Xcode9Reference", "pathBase"]
+- ["CV9Xcodeproj5Xcode9Reference", "subitems"]
+- ["CV9Xcodeproj5Xcode9Reference", ""]
+- !private ["Ps8Sequence", "append"]
+- ["Ps8Sequence", "init"]
+- ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "deinit"]
+- ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "init"]
+- ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "script"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "deinit"]
+- ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["CV9Xcodeproj5Xcode6Target", "BuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "BuildSettingsTable"]
+- ["CV9Xcodeproj5Xcode6Target", "CopyFilesBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "FileReference"]
+- ["CV9Xcodeproj5Xcode6Target", "FrameworksBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "HeadersBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "ProductType"]
+- ["CV9Xcodeproj5Xcode6Target", "ShellScriptBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "SourcesBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "String"]
+- ["CV9Xcodeproj5Xcode6Target", "Target"]
+- ["CV9Xcodeproj5Xcode6Target", "TargetDependency"]
+- ["CV9Xcodeproj5Xcode6Target", "addCopyFilesBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "addDependency"]
+- ["CV9Xcodeproj5Xcode6Target", "addFrameworksBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "addHeadersBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "addShellScriptBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "addSourcesBuildPhase"]
+- ["CV9Xcodeproj5Xcode6Target", "buildPhases"]
+- ["CV9Xcodeproj5Xcode6Target", "buildSettings"]
+- ["CV9Xcodeproj5Xcode6Target", "deinit"]
+- ["CV9Xcodeproj5Xcode6Target", "dependencies"]
+- ["CV9Xcodeproj5Xcode6Target", "init"]
+- ["CV9Xcodeproj5Xcode6Target", "name"]
+- ["CV9Xcodeproj5Xcode6Target", "productName"]
+- ["CV9Xcodeproj5Xcode6Target", "productReference"]
+- ["CV9Xcodeproj5Xcode6Target", "productType"]
+- ["VCV9Xcodeproj5Xcode6Target16TargetDependency", "Target"]
+- ["VCV9Xcodeproj5Xcode6Target16TargetDependency", "init"]
+- ["VCV9Xcodeproj5Xcode6Target16TargetDependency", "target"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["V9Xcodeproj5Xcode", "BuildFile"]
+- ["V9Xcodeproj5Xcode", "BuildPhase"]
+- ["V9Xcodeproj5Xcode", "BuildSettingsTable"]
+- ["V9Xcodeproj5Xcode", "CopyFilesBuildPhase"]
+- ["V9Xcodeproj5Xcode", "FileReference"]
+- ["V9Xcodeproj5Xcode", "FrameworksBuildPhase"]
+- ["V9Xcodeproj5Xcode", "Group"]
+- ["V9Xcodeproj5Xcode", "HeadersBuildPhase"]
+- ["V9Xcodeproj5Xcode", "Project"]
+- ["V9Xcodeproj5Xcode", "Reference"]
+- ["V9Xcodeproj5Xcode", "ShellScriptBuildPhase"]
+- ["V9Xcodeproj5Xcode", "SourcesBuildPhase"]
+- ["V9Xcodeproj5Xcode", "String"]
+- ["V9Xcodeproj5Xcode", "Target"]
+- ["V9Xcodeproj5Xcode", "init"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "append"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "groupDir"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "append"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["Ps17_MutableIndexable", "append"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "append"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "append"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "append"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P7Utility12ArgumentKind"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "CV9Xcodeproj5Xcode9BuildFile"
+- "CV9Xcodeproj5Xcode10BuildPhase"
+- "VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings"
+- "CV9Xcodeproj5Xcode18BuildSettingsTable"
+- "P5Basic14ByteStreamable"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "CV9Xcodeproj5Xcode19CopyFilesBuildPhase"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CV9Xcodeproj5Xcode13FileReference"
+- "CV9Xcodeproj5Xcode20FrameworksBuildPhase"
+- "CV9Xcodeproj5Xcode5Group"
+- "Ps8Hashable"
+- "CV9Xcodeproj5Xcode17HeadersBuildPhase"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "OCV9Xcodeproj5Xcode6Target11ProductType"
+- "CV9Xcodeproj5Xcode7Project"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- "OCV9Xcodeproj5Xcode9Reference11RefPathBase"
+- "CV9Xcodeproj5Xcode9Reference"
+- "Ps8Sequence"
+- "CV9Xcodeproj5Xcode21ShellScriptBuildPhase"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "CV9Xcodeproj5Xcode17SourcesBuildPhase"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "CV9Xcodeproj5Xcode6Target"
+- "VCV9Xcodeproj5Xcode6Target16TargetDependency"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "V9Xcodeproj5Xcode"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- "Ps17_MutableIndexable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageModel.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Utility.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageLoading.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageGraph.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/SourceControl.swiftmodule"
+interface-hash: "b5f64315f106537199250d6d3a95a754"

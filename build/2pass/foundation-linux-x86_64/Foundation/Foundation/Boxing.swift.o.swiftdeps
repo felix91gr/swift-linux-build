@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_MutableHandle"
+- "_MutableBoxing"
+- "_MutableUnmanagedWrapper"
+- "_SwiftNativeFoundationType"
+- "_MutablePairBoxing"
+provides-nominal:
+- "C10Foundation14_MutableHandle"
+- "P10Foundation14_MutableBoxing"
+- "O10Foundation24_MutableUnmanagedWrapper"
+- "P10Foundation26_SwiftNativeFoundationType"
+- "P10Foundation18_MutablePairBoxing"
+provides-member:
+- ["C10Foundation14_MutableHandle", ""]
+- ["P10Foundation14_MutableBoxing", ""]
+- ["O10Foundation24_MutableUnmanagedWrapper", ""]
+- ["P10Foundation26_SwiftNativeFoundationType", ""]
+- ["P10Foundation18_MutablePairBoxing", ""]
+- ["P10Foundation14_MutableBoxing", "_applyMutation"]
+- ["P10Foundation26_SwiftNativeFoundationType", "_mapUnmanaged"]
+- ["P10Foundation26_SwiftNativeFoundationType", "releaseWrappedObject"]
+- ["P10Foundation26_SwiftNativeFoundationType", "mutableCopy"]
+- ["P10Foundation26_SwiftNativeFoundationType", "hashValue"]
+- ["P10Foundation26_SwiftNativeFoundationType", "description"]
+- ["P10Foundation26_SwiftNativeFoundationType", "debugDescription"]
+- ["P10Foundation26_SwiftNativeFoundationType", "isEqual"]
+- ["P10Foundation18_MutablePairBoxing", "_mapUnmanaged"]
+- ["P10Foundation18_MutablePairBoxing", "_applyUnmanagedMutation"]
+depends-top-level:
+- !private "!"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Int"
+- "NSCopying"
+- "NSMutableCopying"
+- "NSObject"
+- "NSZone"
+- "ReferenceConvertible"
+- "String"
+- "Unmanaged"
+- "_MutableBoxing"
+- "_MutableHandle"
+- "_MutablePairBoxing"
+- "_MutableUnmanagedWrapper"
+- "_SwiftNativeFoundationType"
+- !private "_fixLifetime"
+- !private "_onFastPath"
+- !private "_unsafeReferenceCast"
+- !private "isKnownUniquelyReferenced"
+depends-member:
+- !private ["Ps9AnyObject", "_pointer"]
+- !private ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "debugDescription"]
+- !private ["Ps9AnyObject", "description"]
+- !private ["Ps9AnyObject", "hashValue"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEqual"]
+- !private ["Ps9AnyObject", "mutableCopy"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Ps28CustomDebugStringConvertible", "ReferenceType"]
+- ["Ps28CustomDebugStringConvertible", "_MutableHandle"]
+- ["Ps28CustomDebugStringConvertible", "_applyMutation"]
+- ["Ps28CustomDebugStringConvertible", "_handle"]
+- !private ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "description"]
+- !private ["Ps28CustomDebugStringConvertible", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "isEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "isKnownUniquelyReferenced"]
+- !private ["Ps28CustomDebugStringConvertible", "mutableCopy"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "ReferenceType"]
+- ["Ps23CustomStringConvertible", "_MutableHandle"]
+- ["Ps23CustomStringConvertible", "_applyMutation"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_handle"]
+- !private ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "debugDescription"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "isEqual"]
+- !private ["Ps23CustomStringConvertible", "isKnownUniquelyReferenced"]
+- !private ["Ps23CustomStringConvertible", "mutableCopy"]
+- ["Ps9Equatable", "ReferenceType"]
+- ["Ps9Equatable", "_MutableHandle"]
+- ["Ps9Equatable", "_applyMutation"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_handle"]
+- !private ["Ps9Equatable", "copy"]
+- !private ["Ps9Equatable", "debugDescription"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "isEqual"]
+- !private ["Ps9Equatable", "isKnownUniquelyReferenced"]
+- !private ["Ps9Equatable", "mutableCopy"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "ReferenceType"]
+- ["Ps8Hashable", "_MutableHandle"]
+- ["Ps8Hashable", "_applyMutation"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_handle"]
+- !private ["Ps8Hashable", "copy"]
+- !private ["Ps8Hashable", "debugDescription"]
+- !private ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "isEqual"]
+- !private ["Ps8Hashable", "isKnownUniquelyReferenced"]
+- !private ["Ps8Hashable", "mutableCopy"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P10Foundation9NSCopying", "copy"]
+- !private ["P10Foundation16NSMutableCopying", "mutableCopy"]
+- !private ["C10Foundation8NSObject", "copy"]
+- !private ["C10Foundation8NSObject", "debugDescription"]
+- !private ["C10Foundation8NSObject", "description"]
+- !private ["C10Foundation8NSObject", "hashValue"]
+- !private ["C10Foundation8NSObject", "isEqual"]
+- !private ["C10Foundation8NSObject", "mutableCopy"]
+- !private ["P10Foundation16NSObjectProtocol", "copy"]
+- !private ["P10Foundation16NSObjectProtocol", "debugDescription"]
+- !private ["P10Foundation16NSObjectProtocol", "description"]
+- !private ["P10Foundation16NSObjectProtocol", "hashValue"]
+- !private ["P10Foundation16NSObjectProtocol", "isEqual"]
+- !private ["P10Foundation16NSObjectProtocol", "mutableCopy"]
+- ["P10Foundation20ReferenceConvertible", "ReferenceType"]
+- ["P10Foundation20ReferenceConvertible", "_MutableHandle"]
+- ["P10Foundation20ReferenceConvertible", "_applyMutation"]
+- ["P10Foundation20ReferenceConvertible", "_handle"]
+- !private ["P10Foundation20ReferenceConvertible", "isKnownUniquelyReferenced"]
+- ["P10Foundation20ReferenceConvertible", ""]
+- !private ["Vs9Unmanaged", "_withUnsafeGuaranteedRef"]
+- !private ["Vs9Unmanaged", "passRetained"]
+- !private ["Vs9Unmanaged", "passUnretained"]
+- !private ["Vs9Unmanaged", "release"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "ReferenceType"]
+- ["Ps9_Hashable", "_MutableHandle"]
+- ["Ps9_Hashable", "_applyMutation"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_handle"]
+- !private ["Ps9_Hashable", "copy"]
+- !private ["Ps9_Hashable", "debugDescription"]
+- !private ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "isEqual"]
+- !private ["Ps9_Hashable", "isKnownUniquelyReferenced"]
+- !private ["Ps9_Hashable", "mutableCopy"]
+- ["P10Foundation14_MutableBoxing", "ReferenceType"]
+- ["P10Foundation14_MutableBoxing", "_MutableHandle"]
+- ["P10Foundation14_MutableBoxing", "_applyMutation"]
+- ["P10Foundation14_MutableBoxing", "_handle"]
+- !private ["P10Foundation14_MutableBoxing", "isKnownUniquelyReferenced"]
+- ["C10Foundation14_MutableHandle", "MutableType"]
+- ["C10Foundation14_MutableHandle", "_copiedReference"]
+- ["C10Foundation14_MutableHandle", "_pointer"]
+- ["C10Foundation14_MutableHandle", "_uncopiedReference"]
+- ["C10Foundation14_MutableHandle", "deinit"]
+- ["C10Foundation14_MutableHandle", "init"]
+- ["C10Foundation14_MutableHandle", "map"]
+- !private ["P10Foundation18_MutablePairBoxing", "Unmanaged"]
+- ["P10Foundation18_MutablePairBoxing", "WrappedSwiftNSType"]
+- ["P10Foundation18_MutablePairBoxing", "_SwiftNativeFoundationType"]
+- ["P10Foundation18_MutablePairBoxing", "_applyUnmanagedMutation"]
+- !private ["P10Foundation18_MutablePairBoxing", "_fixLifetime"]
+- ["P10Foundation18_MutablePairBoxing", "_mapUnmanaged"]
+- !private ["P10Foundation18_MutablePairBoxing", "_onFastPath"]
+- !private ["P10Foundation18_MutablePairBoxing", "_unsafeReferenceCast"]
+- ["P10Foundation18_MutablePairBoxing", "_wrapped"]
+- !private ["P10Foundation18_MutablePairBoxing", "isKnownUniquelyReferenced"]
+- ["O10Foundation24_MutableUnmanagedWrapper", "Immutable"]
+- ["O10Foundation24_MutableUnmanagedWrapper", "ImmutableType"]
+- ["O10Foundation24_MutableUnmanagedWrapper", "Mutable"]
+- ["O10Foundation24_MutableUnmanagedWrapper", "MutableType"]
+- ["O10Foundation24_MutableUnmanagedWrapper", "Unmanaged"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation26_SwiftNativeFoundationType", "AnyObject"]
+- ["P10Foundation26_SwiftNativeFoundationType", "Bool"]
+- ["P10Foundation26_SwiftNativeFoundationType", "ImmutableType"]
+- ["P10Foundation26_SwiftNativeFoundationType", "Int"]
+- ["P10Foundation26_SwiftNativeFoundationType", "MutableType"]
+- ["P10Foundation26_SwiftNativeFoundationType", "NSMutableCopying"]
+- ["P10Foundation26_SwiftNativeFoundationType", "NSObject"]
+- ["P10Foundation26_SwiftNativeFoundationType", "NSZone"]
+- ["P10Foundation26_SwiftNativeFoundationType", "String"]
+- ["P10Foundation26_SwiftNativeFoundationType", "Unmanaged"]
+- ["P10Foundation26_SwiftNativeFoundationType", "_MutableUnmanagedWrapper"]
+- ["P10Foundation26_SwiftNativeFoundationType", "__wrapped"]
+- !private ["P10Foundation26_SwiftNativeFoundationType", "_fixLifetime"]
+- ["P10Foundation26_SwiftNativeFoundationType", "_mapUnmanaged"]
+- !private ["P10Foundation26_SwiftNativeFoundationType", "_onFastPath"]
+- !private ["P10Foundation26_SwiftNativeFoundationType", "_unsafeReferenceCast"]
+- ["P10Foundation26_SwiftNativeFoundationType", "debugDescription"]
+- ["P10Foundation26_SwiftNativeFoundationType", "description"]
+- ["P10Foundation26_SwiftNativeFoundationType", "hashValue"]
+- ["P10Foundation26_SwiftNativeFoundationType", "init"]
+- ["P10Foundation26_SwiftNativeFoundationType", "isEqual"]
+- ["P10Foundation26_SwiftNativeFoundationType", "mutableCopy"]
+- ["P10Foundation26_SwiftNativeFoundationType", "releaseWrappedObject"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "P10Foundation9NSCopying"
+- !private "P10Foundation16NSMutableCopying"
+- !private "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- "P10Foundation20ReferenceConvertible"
+- !private "Vs9Unmanaged"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- "P10Foundation14_MutableBoxing"
+- "C10Foundation14_MutableHandle"
+- "P10Foundation18_MutablePairBoxing"
+- "O10Foundation24_MutableUnmanagedWrapper"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- "P10Foundation26_SwiftNativeFoundationType"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "5acbe890dd58aba51bcf4bbe3f2d9949"

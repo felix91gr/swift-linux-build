@@ -1,0 +1,2 @@
+src/posix/libpthread_workqueue_la-thread_rt.lo: \
+  /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/libpwq/src/posix/thread_rt.c

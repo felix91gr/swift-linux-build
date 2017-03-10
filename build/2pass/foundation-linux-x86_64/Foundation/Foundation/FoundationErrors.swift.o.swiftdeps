@@ -1,0 +1,564 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSFileNoSuchFileError"
+- "NSFileLockingError"
+- "NSFileReadUnknownError"
+- "NSFileReadNoPermissionError"
+- "NSFileReadInvalidFileNameError"
+- "NSFileReadCorruptFileError"
+- "NSFileReadNoSuchFileError"
+- "NSFileReadInapplicableStringEncodingError"
+- "NSFileReadUnsupportedSchemeError"
+- "NSFileReadTooLargeError"
+- "NSFileReadUnknownStringEncodingError"
+- "NSFileWriteUnknownError"
+- "NSFileWriteNoPermissionError"
+- "NSFileWriteInvalidFileNameError"
+- "NSFileWriteFileExistsError"
+- "NSFileWriteInapplicableStringEncodingError"
+- "NSFileWriteUnsupportedSchemeError"
+- "NSFileWriteOutOfSpaceError"
+- "NSFileWriteVolumeReadOnlyError"
+- "NSFileManagerUnmountUnknownError"
+- "NSFileManagerUnmountBusyError"
+- "NSKeyValueValidationError"
+- "NSFormattingError"
+- "NSUserCancelledError"
+- "NSFeatureUnsupportedError"
+- "NSExecutableNotLoadableError"
+- "NSExecutableArchitectureMismatchError"
+- "NSExecutableRuntimeMismatchError"
+- "NSExecutableLoadError"
+- "NSExecutableLinkError"
+- "NSPropertyListReadCorruptError"
+- "NSPropertyListReadUnknownVersionError"
+- "NSPropertyListReadStreamError"
+- "NSPropertyListWriteStreamError"
+- "NSPropertyListWriteInvalidError"
+- "NSXPCConnectionInterrupted"
+- "NSXPCConnectionInvalid"
+- "NSXPCConnectionReplyInvalid"
+- "NSUbiquitousFileUnavailableError"
+- "NSUbiquitousFileNotUploadedDueToQuotaError"
+- "NSUbiquitousFileUbiquityServerNotAvailable"
+- "NSUserActivityHandoffFailedError"
+- "NSUserActivityConnectionUnavailableError"
+- "NSUserActivityRemoteApplicationTimedOutError"
+- "NSUserActivityHandoffUserInfoTooLargeError"
+- "NSCoderReadCorruptError"
+- "NSCoderValueNotFoundError"
+- "_NSErrorWithErrno"
+provides-nominal:
+provides-member:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CocoaError"
+- !private "EACCES"
+- !private "EDQUOT"
+- !private "EEXIST"
+- !private "EFBIG"
+- !private "ENAMETOOLONG"
+- !private "ENOENT"
+- !private "ENOSPC"
+- !private "EPERM"
+- !private "EROFS"
+- "Int"
+- "Int32"
+- !private "NSCocoaErrorDomain"
+- "NSCoderReadCorruptError"
+- "NSCoderValueNotFoundError"
+- "NSError"
+- "NSExecutableArchitectureMismatchError"
+- "NSExecutableLinkError"
+- "NSExecutableLoadError"
+- "NSExecutableNotLoadableError"
+- "NSExecutableRuntimeMismatchError"
+- "NSFeatureUnsupportedError"
+- "NSFileLockingError"
+- "NSFileManagerUnmountBusyError"
+- "NSFileManagerUnmountUnknownError"
+- "NSFileNoSuchFileError"
+- !private "NSFilePathErrorKey"
+- "NSFileReadCorruptFileError"
+- "NSFileReadInapplicableStringEncodingError"
+- "NSFileReadInvalidFileNameError"
+- "NSFileReadNoPermissionError"
+- "NSFileReadNoSuchFileError"
+- "NSFileReadTooLargeError"
+- "NSFileReadUnknownError"
+- "NSFileReadUnknownStringEncodingError"
+- "NSFileReadUnsupportedSchemeError"
+- "NSFileWriteFileExistsError"
+- "NSFileWriteInapplicableStringEncodingError"
+- "NSFileWriteInvalidFileNameError"
+- "NSFileWriteNoPermissionError"
+- "NSFileWriteOutOfSpaceError"
+- "NSFileWriteUnknownError"
+- "NSFileWriteUnsupportedSchemeError"
+- "NSFileWriteVolumeReadOnlyError"
+- "NSFormattingError"
+- "NSKeyValueValidationError"
+- "NSPropertyListReadCorruptError"
+- "NSPropertyListReadStreamError"
+- "NSPropertyListReadUnknownVersionError"
+- "NSPropertyListWriteInvalidError"
+- "NSPropertyListWriteStreamError"
+- !private "NSURLErrorKey"
+- "NSUbiquitousFileNotUploadedDueToQuotaError"
+- "NSUbiquitousFileUbiquityServerNotAvailable"
+- "NSUbiquitousFileUnavailableError"
+- "NSUserActivityConnectionUnavailableError"
+- "NSUserActivityHandoffFailedError"
+- "NSUserActivityHandoffUserInfoTooLargeError"
+- "NSUserActivityRemoteApplicationTimedOutError"
+- "NSUserCancelledError"
+- "NSXPCConnectionInterrupted"
+- "NSXPCConnectionInvalid"
+- "NSXPCConnectionReplyInvalid"
+- "String"
+- "URL"
+- "_NSErrorWithErrno"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["V10Foundation10CocoaError", "Code"]
+- ["V10Foundation10CocoaError", "deinit"]
+- !private ["V10Foundation10CocoaError", "fileNoSuchFile"]
+- !private ["V10Foundation10CocoaError", "fileReadNoPermission"]
+- !private ["V10Foundation10CocoaError", "fileReadNoSuchFile"]
+- !private ["V10Foundation10CocoaError", "fileReadTooLarge"]
+- !private ["V10Foundation10CocoaError", "fileReadUnknown"]
+- !private ["V10Foundation10CocoaError", "fileWriteFileExists"]
+- !private ["V10Foundation10CocoaError", "fileWriteInvalidFileName"]
+- !private ["V10Foundation10CocoaError", "fileWriteNoPermission"]
+- !private ["V10Foundation10CocoaError", "fileWriteOutOfSpace"]
+- !private ["V10Foundation10CocoaError", "fileWriteUnknown"]
+- !private ["V10Foundation10CocoaError", "fileWriteVolumeReadOnly"]
+- !private ["VV10Foundation10CocoaError4Code", "coderReadCorrupt"]
+- !private ["VV10Foundation10CocoaError4Code", "coderValueNotFound"]
+- !private ["VV10Foundation10CocoaError4Code", "deinit"]
+- !private ["VV10Foundation10CocoaError4Code", "executableArchitectureMismatch"]
+- !private ["VV10Foundation10CocoaError4Code", "executableLink"]
+- !private ["VV10Foundation10CocoaError4Code", "executableLoad"]
+- !private ["VV10Foundation10CocoaError4Code", "executableNotLoadable"]
+- !private ["VV10Foundation10CocoaError4Code", "executableRuntimeMismatch"]
+- !private ["VV10Foundation10CocoaError4Code", "featureUnsupported"]
+- !private ["VV10Foundation10CocoaError4Code", "fileLocking"]
+- !private ["VV10Foundation10CocoaError4Code", "fileManagerUnmountBusy"]
+- !private ["VV10Foundation10CocoaError4Code", "fileManagerUnmountUnknown"]
+- !private ["VV10Foundation10CocoaError4Code", "fileNoSuchFile"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadCorruptFile"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadInapplicableStringEncoding"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadInvalidFileName"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadNoPermission"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadNoSuchFile"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadTooLarge"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadUnknown"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadUnknownStringEncoding"]
+- !private ["VV10Foundation10CocoaError4Code", "fileReadUnsupportedScheme"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteFileExists"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteInapplicableStringEncoding"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteInvalidFileName"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteNoPermission"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteOutOfSpace"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteUnknown"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteUnsupportedScheme"]
+- !private ["VV10Foundation10CocoaError4Code", "fileWriteVolumeReadOnly"]
+- !private ["VV10Foundation10CocoaError4Code", "formatting"]
+- !private ["VV10Foundation10CocoaError4Code", "keyValueValidation"]
+- !private ["VV10Foundation10CocoaError4Code", "propertyListReadCorrupt"]
+- !private ["VV10Foundation10CocoaError4Code", "propertyListReadStream"]
+- !private ["VV10Foundation10CocoaError4Code", "propertyListReadUnknownVersion"]
+- !private ["VV10Foundation10CocoaError4Code", "propertyListWriteInvalid"]
+- !private ["VV10Foundation10CocoaError4Code", "propertyListWriteStream"]
+- !private ["VV10Foundation10CocoaError4Code", "rawValue"]
+- !private ["VV10Foundation10CocoaError4Code", "ubiquitousFileNotUploadedDueToQuota"]
+- !private ["VV10Foundation10CocoaError4Code", "ubiquitousFileUbiquityServerNotAvailable"]
+- !private ["VV10Foundation10CocoaError4Code", "ubiquitousFileUnavailable"]
+- !private ["VV10Foundation10CocoaError4Code", "userActivityConnectionUnavailable"]
+- !private ["VV10Foundation10CocoaError4Code", "userActivityHandoffFailed"]
+- !private ["VV10Foundation10CocoaError4Code", "userActivityHandoffUserInfoTooLarge"]
+- !private ["VV10Foundation10CocoaError4Code", "userActivityRemoteApplicationTimedOut"]
+- !private ["VV10Foundation10CocoaError4Code", "userCancelled"]
+- !private ["VV10Foundation10CocoaError4Code", "xpcConnectionInterrupted"]
+- !private ["VV10Foundation10CocoaError4Code", "xpcConnectionInvalid"]
+- !private ["VV10Foundation10CocoaError4Code", "xpcConnectionReplyInvalid"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "_nsObject"]
+- !private ["Ps28CustomDebugStringConvertible", "_nsObject"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["P10Foundation13CustomNSError", "Code"]
+- !private ["P10Foundation13CustomNSError", "fileNoSuchFile"]
+- !private ["P10Foundation13CustomNSError", "fileReadNoPermission"]
+- !private ["P10Foundation13CustomNSError", "fileReadNoSuchFile"]
+- !private ["P10Foundation13CustomNSError", "fileReadTooLarge"]
+- !private ["P10Foundation13CustomNSError", "fileReadUnknown"]
+- !private ["P10Foundation13CustomNSError", "fileWriteFileExists"]
+- !private ["P10Foundation13CustomNSError", "fileWriteInvalidFileName"]
+- !private ["P10Foundation13CustomNSError", "fileWriteNoPermission"]
+- !private ["P10Foundation13CustomNSError", "fileWriteOutOfSpace"]
+- !private ["P10Foundation13CustomNSError", "fileWriteUnknown"]
+- !private ["P10Foundation13CustomNSError", "fileWriteVolumeReadOnly"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_nsObject"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_nsObject"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_nsObject"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Code"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_nsObject"]
+- !private ["Ps9Equatable", "coderReadCorrupt"]
+- !private ["Ps9Equatable", "coderValueNotFound"]
+- !private ["Ps9Equatable", "executableArchitectureMismatch"]
+- !private ["Ps9Equatable", "executableLink"]
+- !private ["Ps9Equatable", "executableLoad"]
+- !private ["Ps9Equatable", "executableNotLoadable"]
+- !private ["Ps9Equatable", "executableRuntimeMismatch"]
+- !private ["Ps9Equatable", "featureUnsupported"]
+- !private ["Ps9Equatable", "fileLocking"]
+- !private ["Ps9Equatable", "fileManagerUnmountBusy"]
+- !private ["Ps9Equatable", "fileManagerUnmountUnknown"]
+- !private ["Ps9Equatable", "fileNoSuchFile"]
+- !private ["Ps9Equatable", "fileReadCorruptFile"]
+- !private ["Ps9Equatable", "fileReadInapplicableStringEncoding"]
+- !private ["Ps9Equatable", "fileReadInvalidFileName"]
+- !private ["Ps9Equatable", "fileReadNoPermission"]
+- !private ["Ps9Equatable", "fileReadNoSuchFile"]
+- !private ["Ps9Equatable", "fileReadTooLarge"]
+- !private ["Ps9Equatable", "fileReadUnknown"]
+- !private ["Ps9Equatable", "fileReadUnknownStringEncoding"]
+- !private ["Ps9Equatable", "fileReadUnsupportedScheme"]
+- !private ["Ps9Equatable", "fileWriteFileExists"]
+- !private ["Ps9Equatable", "fileWriteInapplicableStringEncoding"]
+- !private ["Ps9Equatable", "fileWriteInvalidFileName"]
+- !private ["Ps9Equatable", "fileWriteNoPermission"]
+- !private ["Ps9Equatable", "fileWriteOutOfSpace"]
+- !private ["Ps9Equatable", "fileWriteUnknown"]
+- !private ["Ps9Equatable", "fileWriteUnsupportedScheme"]
+- !private ["Ps9Equatable", "fileWriteVolumeReadOnly"]
+- !private ["Ps9Equatable", "formatting"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyValueValidation"]
+- !private ["Ps9Equatable", "propertyListReadCorrupt"]
+- !private ["Ps9Equatable", "propertyListReadStream"]
+- !private ["Ps9Equatable", "propertyListReadUnknownVersion"]
+- !private ["Ps9Equatable", "propertyListWriteInvalid"]
+- !private ["Ps9Equatable", "propertyListWriteStream"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "ubiquitousFileNotUploadedDueToQuota"]
+- !private ["Ps9Equatable", "ubiquitousFileUbiquityServerNotAvailable"]
+- !private ["Ps9Equatable", "ubiquitousFileUnavailable"]
+- !private ["Ps9Equatable", "userActivityConnectionUnavailable"]
+- !private ["Ps9Equatable", "userActivityHandoffFailed"]
+- !private ["Ps9Equatable", "userActivityHandoffUserInfoTooLarge"]
+- !private ["Ps9Equatable", "userActivityRemoteApplicationTimedOut"]
+- !private ["Ps9Equatable", "userCancelled"]
+- !private ["Ps9Equatable", "xpcConnectionInterrupted"]
+- !private ["Ps9Equatable", "xpcConnectionInvalid"]
+- !private ["Ps9Equatable", "xpcConnectionReplyInvalid"]
+- !private ["Ps5Error", "Code"]
+- !private ["Ps5Error", "fileNoSuchFile"]
+- !private ["Ps5Error", "fileReadNoPermission"]
+- !private ["Ps5Error", "fileReadNoSuchFile"]
+- !private ["Ps5Error", "fileReadTooLarge"]
+- !private ["Ps5Error", "fileReadUnknown"]
+- !private ["Ps5Error", "fileWriteFileExists"]
+- !private ["Ps5Error", "fileWriteInvalidFileName"]
+- !private ["Ps5Error", "fileWriteNoPermission"]
+- !private ["Ps5Error", "fileWriteOutOfSpace"]
+- !private ["Ps5Error", "fileWriteUnknown"]
+- !private ["Ps5Error", "fileWriteVolumeReadOnly"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_nsObject"]
+- !private ["Ps26ExpressibleByStringLiteral", "_nsObject"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_nsObject"]
+- !private ["Ps8Hashable", "Code"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_nsObject"]
+- !private ["Ps8Hashable", "fileNoSuchFile"]
+- !private ["Ps8Hashable", "fileReadNoPermission"]
+- !private ["Ps8Hashable", "fileReadNoSuchFile"]
+- !private ["Ps8Hashable", "fileReadTooLarge"]
+- !private ["Ps8Hashable", "fileReadUnknown"]
+- !private ["Ps8Hashable", "fileWriteFileExists"]
+- !private ["Ps8Hashable", "fileWriteInvalidFileName"]
+- !private ["Ps8Hashable", "fileWriteNoPermission"]
+- !private ["Ps8Hashable", "fileWriteOutOfSpace"]
+- !private ["Ps8Hashable", "fileWriteUnknown"]
+- !private ["Ps8Hashable", "fileWriteVolumeReadOnly"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_nsObject"]
+- !private ["Ps10MirrorPath", "_nsObject"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["C10Foundation7NSError", "deinit"]
+- !private ["C10Foundation7NSError", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation14NSSecureCoding", "init"]
+- !private ["Ps16RawRepresentable", "coderReadCorrupt"]
+- !private ["Ps16RawRepresentable", "coderValueNotFound"]
+- !private ["Ps16RawRepresentable", "executableArchitectureMismatch"]
+- !private ["Ps16RawRepresentable", "executableLink"]
+- !private ["Ps16RawRepresentable", "executableLoad"]
+- !private ["Ps16RawRepresentable", "executableNotLoadable"]
+- !private ["Ps16RawRepresentable", "executableRuntimeMismatch"]
+- !private ["Ps16RawRepresentable", "featureUnsupported"]
+- !private ["Ps16RawRepresentable", "fileLocking"]
+- !private ["Ps16RawRepresentable", "fileManagerUnmountBusy"]
+- !private ["Ps16RawRepresentable", "fileManagerUnmountUnknown"]
+- !private ["Ps16RawRepresentable", "fileNoSuchFile"]
+- !private ["Ps16RawRepresentable", "fileReadCorruptFile"]
+- !private ["Ps16RawRepresentable", "fileReadInapplicableStringEncoding"]
+- !private ["Ps16RawRepresentable", "fileReadInvalidFileName"]
+- !private ["Ps16RawRepresentable", "fileReadNoPermission"]
+- !private ["Ps16RawRepresentable", "fileReadNoSuchFile"]
+- !private ["Ps16RawRepresentable", "fileReadTooLarge"]
+- !private ["Ps16RawRepresentable", "fileReadUnknown"]
+- !private ["Ps16RawRepresentable", "fileReadUnknownStringEncoding"]
+- !private ["Ps16RawRepresentable", "fileReadUnsupportedScheme"]
+- !private ["Ps16RawRepresentable", "fileWriteFileExists"]
+- !private ["Ps16RawRepresentable", "fileWriteInapplicableStringEncoding"]
+- !private ["Ps16RawRepresentable", "fileWriteInvalidFileName"]
+- !private ["Ps16RawRepresentable", "fileWriteNoPermission"]
+- !private ["Ps16RawRepresentable", "fileWriteOutOfSpace"]
+- !private ["Ps16RawRepresentable", "fileWriteUnknown"]
+- !private ["Ps16RawRepresentable", "fileWriteUnsupportedScheme"]
+- !private ["Ps16RawRepresentable", "fileWriteVolumeReadOnly"]
+- !private ["Ps16RawRepresentable", "formatting"]
+- !private ["Ps16RawRepresentable", "keyValueValidation"]
+- !private ["Ps16RawRepresentable", "propertyListReadCorrupt"]
+- !private ["Ps16RawRepresentable", "propertyListReadStream"]
+- !private ["Ps16RawRepresentable", "propertyListReadUnknownVersion"]
+- !private ["Ps16RawRepresentable", "propertyListWriteInvalid"]
+- !private ["Ps16RawRepresentable", "propertyListWriteStream"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "ubiquitousFileNotUploadedDueToQuota"]
+- !private ["Ps16RawRepresentable", "ubiquitousFileUbiquityServerNotAvailable"]
+- !private ["Ps16RawRepresentable", "ubiquitousFileUnavailable"]
+- !private ["Ps16RawRepresentable", "userActivityConnectionUnavailable"]
+- !private ["Ps16RawRepresentable", "userActivityHandoffFailed"]
+- !private ["Ps16RawRepresentable", "userActivityHandoffUserInfoTooLarge"]
+- !private ["Ps16RawRepresentable", "userActivityRemoteApplicationTimedOut"]
+- !private ["Ps16RawRepresentable", "userCancelled"]
+- !private ["Ps16RawRepresentable", "xpcConnectionInterrupted"]
+- !private ["Ps16RawRepresentable", "xpcConnectionInvalid"]
+- !private ["Ps16RawRepresentable", "xpcConnectionReplyInvalid"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "_nsObject"]
+- !private ["SS", "deinit"]
+- !private ["Ps16TextOutputStream", "_nsObject"]
+- !private ["Ps20TextOutputStreamable", "_nsObject"]
+- !private ["P10Foundation21_BridgedStoredNSError", "Code"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileNoSuchFile"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileReadNoPermission"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileReadNoSuchFile"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileReadTooLarge"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileReadUnknown"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileWriteFileExists"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileWriteInvalidFileName"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileWriteNoPermission"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileWriteOutOfSpace"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileWriteUnknown"]
+- !private ["P10Foundation21_BridgedStoredNSError", "fileWriteVolumeReadOnly"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "_nsObject"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "coderReadCorrupt"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "coderValueNotFound"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "executableArchitectureMismatch"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "executableLink"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "executableLoad"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "executableNotLoadable"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "executableRuntimeMismatch"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "featureUnsupported"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileLocking"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileManagerUnmountBusy"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileManagerUnmountUnknown"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileNoSuchFile"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadCorruptFile"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadInapplicableStringEncoding"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadInvalidFileName"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadNoPermission"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadNoSuchFile"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadTooLarge"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadUnknown"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadUnknownStringEncoding"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileReadUnsupportedScheme"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteFileExists"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteInapplicableStringEncoding"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteInvalidFileName"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteNoPermission"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteOutOfSpace"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteUnknown"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteUnsupportedScheme"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "fileWriteVolumeReadOnly"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "formatting"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "keyValueValidation"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "propertyListReadCorrupt"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "propertyListReadStream"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "propertyListReadUnknownVersion"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "propertyListWriteInvalid"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "propertyListWriteStream"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "rawValue"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "ubiquitousFileNotUploadedDueToQuota"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "ubiquitousFileUbiquityServerNotAvailable"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "ubiquitousFileUnavailable"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "userActivityConnectionUnavailable"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "userActivityHandoffFailed"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "userActivityHandoffUserInfoTooLarge"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "userActivityRemoteApplicationTimedOut"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "userCancelled"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "xpcConnectionInterrupted"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "xpcConnectionInvalid"]
+- !private ["P10Foundation18_ErrorCodeProtocol", "xpcConnectionReplyInvalid"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "_nsObject"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "_nsObject"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "_nsObject"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "_nsObject"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "_nsObject"]
+- !private ["Ps9_Hashable", "Code"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_nsObject"]
+- !private ["Ps9_Hashable", "fileNoSuchFile"]
+- !private ["Ps9_Hashable", "fileReadNoPermission"]
+- !private ["Ps9_Hashable", "fileReadNoSuchFile"]
+- !private ["Ps9_Hashable", "fileReadTooLarge"]
+- !private ["Ps9_Hashable", "fileReadUnknown"]
+- !private ["Ps9_Hashable", "fileWriteFileExists"]
+- !private ["Ps9_Hashable", "fileWriteInvalidFileName"]
+- !private ["Ps9_Hashable", "fileWriteNoPermission"]
+- !private ["Ps9_Hashable", "fileWriteOutOfSpace"]
+- !private ["Ps9_Hashable", "fileWriteUnknown"]
+- !private ["Ps9_Hashable", "fileWriteVolumeReadOnly"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "_nsObject"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "_nsObject"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_nsObject"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "Code"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileNoSuchFile"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileReadNoPermission"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileReadNoSuchFile"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileReadTooLarge"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileReadUnknown"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileWriteFileExists"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileWriteInvalidFileName"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileWriteNoPermission"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileWriteOutOfSpace"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileWriteUnknown"]
+- !private ["P10Foundation26_ObjectTypeBridgeableError", "fileWriteVolumeReadOnly"]
+- !private ["P10Foundation16__BridgedNSError", "Code"]
+- !private ["P10Foundation16__BridgedNSError", "fileNoSuchFile"]
+- !private ["P10Foundation16__BridgedNSError", "fileReadNoPermission"]
+- !private ["P10Foundation16__BridgedNSError", "fileReadNoSuchFile"]
+- !private ["P10Foundation16__BridgedNSError", "fileReadTooLarge"]
+- !private ["P10Foundation16__BridgedNSError", "fileReadUnknown"]
+- !private ["P10Foundation16__BridgedNSError", "fileWriteFileExists"]
+- !private ["P10Foundation16__BridgedNSError", "fileWriteInvalidFileName"]
+- !private ["P10Foundation16__BridgedNSError", "fileWriteNoPermission"]
+- !private ["P10Foundation16__BridgedNSError", "fileWriteOutOfSpace"]
+- !private ["P10Foundation16__BridgedNSError", "fileWriteUnknown"]
+- !private ["P10Foundation16__BridgedNSError", "fileWriteVolumeReadOnly"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sb"
+- "V10Foundation10CocoaError"
+- !private "VV10Foundation10CocoaError4Code"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "P10Foundation13CustomNSError"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P10Foundation8NSCoding"
+- !private "P10Foundation9NSCopying"
+- !private "C10Foundation7NSError"
+- !private "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation14NSSecureCoding"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P10Foundation21_BridgedStoredNSError"
+- !private "P10Foundation13_CFBridgeable"
+- !private "P10Foundation18_ErrorCodeProtocol"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "P10Foundation26_ObjectTypeBridgeableError"
+- !private "P10Foundation16__BridgedNSError"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "a04d87e2b25135588502697ee990d014"

@@ -1,0 +1,531 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PackagesDirectory"
+provides-nominal:
+- "C3Get17PackagesDirectory"
+provides-member:
+- ["C3Get17PackagesDirectory", ""]
+- ["V12PackageModel8Manifest", ""]
+- ["V12PackageModel8Manifest", "dependencies"]
+depends-top-level:
+- !private "=="
+- "AbsolutePath"
+- "AssignmentPrecedence"
+- !private "Dictionary"
+- !private "Error"
+- !private "ExtendedGraphemeClusterType"
+- "Fetchable"
+- "Fetcher"
+- !private "FloatLiteralType"
+- "Git"
+- !private "IntegerLiteralType"
+- "Manifest"
+- "ManifestLoader"
+- !private "Package"
+- "PackagesDirectory"
+- "Range"
+- !private "RawClone"
+- !private "RelativePath"
+- "String"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "UnicodeScalarType"
+- "Version"
+- !private "fatalError"
+- !private "localFileSystem"
+- !private "makeDirectories"
+- !private "rename"
+depends-member:
+- !private ["V5Basic12AbsolutePath", "appending"]
+- !private ["V5Basic12AbsolutePath", "asString"]
+- !private ["V5Basic12AbsolutePath", "basename"]
+- !private ["V5Basic12AbsolutePath", "init"]
+- !private ["V5Basic12AbsolutePath", "parentDirectory"]
+- !private ["Ps9AnyObject", "AbsolutePath"]
+- !private ["Ps9AnyObject", "Dictionary"]
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Git"]
+- !private ["Ps9AnyObject", "Package"]
+- !private ["Ps9AnyObject", "RawClone"]
+- !private ["Ps9AnyObject", "RelativePath"]
+- ["Ps9AnyObject", "Repo"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "Version"]
+- !private ["Ps9AnyObject", "availableRepositories"]
+- !private ["Ps9AnyObject", "clone"]
+- !private ["Ps9AnyObject", "createManifest"]
+- !private ["Ps9AnyObject", "dependencies"]
+- !private ["Ps9AnyObject", "extractPackageVersion"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "fetch"]
+- !private ["Ps9AnyObject", "finalName"]
+- ["Ps9AnyObject", "finalize"]
+- ["Ps9AnyObject", "find"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "load"]
+- !private ["Ps9AnyObject", "localFileSystem"]
+- !private ["Ps9AnyObject", "makeDirectories"]
+- !private ["Ps9AnyObject", "manifestLoader"]
+- !private ["Ps9AnyObject", "origin"]
+- !private ["Ps9AnyObject", "packagesPath"]
+- !private ["Ps9AnyObject", "path"]
+- ["Ps9AnyObject", "recursivelyFetch"]
+- !private ["Ps9AnyObject", "rename"]
+- !private ["Ps9AnyObject", "rootPath"]
+- !private ["Ps9AnyObject", "url"]
+- !private ["Ps9AnyObject", "versionRange"]
+- ["Ps9AnyObject", ""]
+- !private ["P7Utility12ArgumentKind", "_getBuiltinLogicValue"]
+- !private ["P7Utility12ArgumentKind", "characters"]
+- !private ["P7Utility12ArgumentKind", "components"]
+- !private ["P7Utility12ArgumentKind", "index"]
+- !private ["P7Utility12ArgumentKind", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "last"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "prefix"]
+- !private ["Ps23BidirectionalCollection", "rindex"]
+- !private ["Ps23BidirectionalCollection", "suffix"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P5Basic14ByteStreamable", "characters"]
+- !private ["P5Basic14ByteStreamable", "components"]
+- !private ["P5Basic14ByteStreamable", "index"]
+- !private ["P5Basic14ByteStreamable", "init"]
+- !private ["Vs9Character", "init"]
+- !private ["VSS13CharacterView", "prefix"]
+- !private ["VSS13CharacterView", "rindex"]
+- !private ["VSS13CharacterView", "suffix"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "last"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "prefix"]
+- !private ["Ps10Collection", "rindex"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "suffix"]
+- !private ["Ps10Comparable", "appending"]
+- !private ["Ps10Comparable", "asString"]
+- !private ["Ps10Comparable", "basename"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "components"]
+- !private ["Ps10Comparable", "index"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "parentDirectory"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "index"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "last"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "components"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "index"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "components"]
+- !private ["Ps17CustomReflectable", "index"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "last"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Error"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appending"]
+- !private ["Ps23CustomStringConvertible", "asString"]
+- !private ["Ps23CustomStringConvertible", "basename"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- !private ["Ps23CustomStringConvertible", "index"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "last"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "missingLocalFileURL"]
+- !private ["Ps23CustomStringConvertible", "nonRepoLocalFileURL"]
+- !private ["Ps23CustomStringConvertible", "parentDirectory"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["CC18PackageDescription7Package10Dependency", "url"]
+- !private ["CC18PackageDescription7Package10Dependency", "versionRange"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Error"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "appending"]
+- !private ["Ps9Equatable", "asString"]
+- !private ["Ps9Equatable", "basename"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "dependencies"]
+- !private ["Ps9Equatable", "index"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "noOrigin"]
+- !private ["Ps9Equatable", "package"]
+- !private ["Ps9Equatable", "parentDirectory"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "versionRange"]
+- !private ["O3Get5Error", "deinit"]
+- !private ["O3Get5Error", "missingLocalFileURL"]
+- !private ["O3Get5Error", "nonRepoLocalFileURL"]
+- !private ["OC12PackageModel7Package5Error", "noOrigin"]
+- !private ["Ps5Error", "missingLocalFileURL"]
+- !private ["Ps5Error", "noOrigin"]
+- !private ["Ps5Error", "nonRepoLocalFileURL"]
+- !private ["Ps25ExpressibleByArrayLiteral", "last"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "index"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "components"]
+- !private ["Ps26ExpressibleByStringLiteral", "index"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "components"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "index"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P3Get9Fetchable", "dependencies"]
+- !private ["P3Get9Fetchable", "finalName"]
+- !private ["P3Get9Fetchable", "init"]
+- !private ["P3Get9Fetchable", "package"]
+- !private ["P3Get9Fetchable", "path"]
+- !private ["P3Get7Fetcher", "AbsolutePath"]
+- !private ["P3Get7Fetcher", "Dictionary"]
+- !private ["P3Get7Fetcher", "Error"]
+- !private ["P3Get7Fetcher", "Git"]
+- !private ["P3Get7Fetcher", "Package"]
+- !private ["P3Get7Fetcher", "RawClone"]
+- !private ["P3Get7Fetcher", "RelativePath"]
+- !private ["P3Get7Fetcher", "String"]
+- !private ["P3Get7Fetcher", "URL"]
+- !private ["P3Get7Fetcher", "Version"]
+- !private ["P3Get7Fetcher", "availableRepositories"]
+- !private ["P3Get7Fetcher", "createManifest"]
+- !private ["P3Get7Fetcher", "extractPackageVersion"]
+- !private ["P3Get7Fetcher", "fatalError"]
+- ["P3Get7Fetcher", "fetch"]
+- ["P3Get7Fetcher", "finalize"]
+- ["P3Get7Fetcher", "find"]
+- !private ["P3Get7Fetcher", "localFileSystem"]
+- !private ["P3Get7Fetcher", "makeDirectories"]
+- !private ["P3Get7Fetcher", "manifestLoader"]
+- !private ["P3Get7Fetcher", "packagesPath"]
+- ["P3Get7Fetcher", "recursivelyFetch"]
+- !private ["P3Get7Fetcher", "rename"]
+- !private ["P3Get7Fetcher", "rootPath"]
+- ["P3Get7Fetcher", ""]
+- !private ["P5Basic10FileSystem", "exists"]
+- !private ["P5Basic10FileSystem", "getDirectoryContents"]
+- !private ["P5Basic10FileSystem", "isDirectory"]
+- ["C7Utility3Git", "Repo"]
+- !private ["C7Utility3Git", "clone"]
+- !private ["Ps8Hashable", "Error"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "appending"]
+- !private ["Ps8Hashable", "asString"]
+- !private ["Ps8Hashable", "basename"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "dependencies"]
+- !private ["Ps8Hashable", "index"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "package"]
+- !private ["Ps8Hashable", "parentDirectory"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "components"]
+- !private ["Ps25LosslessStringConvertible", "index"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["V12PackageModel8Manifest", "Range"]
+- ["V12PackageModel8Manifest", "String"]
+- ["V12PackageModel8Manifest", "Version"]
+- ["V12PackageModel8Manifest", "deinit"]
+- ["V12PackageModel8Manifest", "dependencies"]
+- !private ["V12PackageModel8Manifest", "package"]
+- !private ["C14PackageLoading14ManifestLoader", "load"]
+- !private ["P14PackageLoading22ManifestLoaderProtocol", "load"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "components"]
+- !private ["Ps10MirrorPath", "index"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "last"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["C12PackageModel7Package", "Error"]
+- !private ["C18PackageDescription7Package", "dependencies"]
+- ["C3Get17PackagesDirectory", "AbsolutePath"]
+- !private ["C3Get17PackagesDirectory", "Dictionary"]
+- !private ["C3Get17PackagesDirectory", "Error"]
+- ["C3Get17PackagesDirectory", "Fetchable"]
+- ["C3Get17PackagesDirectory", "Git"]
+- ["C3Get17PackagesDirectory", "Manifest"]
+- ["C3Get17PackagesDirectory", "ManifestLoader"]
+- !private ["C3Get17PackagesDirectory", "Package"]
+- !private ["C3Get17PackagesDirectory", "RawClone"]
+- !private ["C3Get17PackagesDirectory", "RelativePath"]
+- ["C3Get17PackagesDirectory", "String"]
+- ["C3Get17PackagesDirectory", "T"]
+- !private ["C3Get17PackagesDirectory", "URL"]
+- !private ["C3Get17PackagesDirectory", "Version"]
+- !private ["C3Get17PackagesDirectory", "availableRepositories"]
+- !private ["C3Get17PackagesDirectory", "availableRepositories.storage"]
+- !private ["C3Get17PackagesDirectory", "createManifest"]
+- ["C3Get17PackagesDirectory", "deinit"]
+- !private ["C3Get17PackagesDirectory", "extractPackageVersion"]
+- !private ["C3Get17PackagesDirectory", "fatalError"]
+- ["C3Get17PackagesDirectory", "fetch"]
+- ["C3Get17PackagesDirectory", "finalize"]
+- ["C3Get17PackagesDirectory", "find"]
+- ["C3Get17PackagesDirectory", "init"]
+- ["C3Get17PackagesDirectory", "loadManifests"]
+- !private ["C3Get17PackagesDirectory", "localFileSystem"]
+- !private ["C3Get17PackagesDirectory", "makeDirectories"]
+- ["C3Get17PackagesDirectory", "manifestLoader"]
+- ["C3Get17PackagesDirectory", "packagesPath"]
+- ["C3Get17PackagesDirectory", "recursivelyFetch"]
+- !private ["C3Get17PackagesDirectory", "rename"]
+- ["C3Get17PackagesDirectory", "rootPath"]
+- !private ["Ps22RandomAccessCollection", "last"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "last"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "prefix"]
+- !private ["Ps26RangeReplaceableCollection", "rindex"]
+- !private ["Ps26RangeReplaceableCollection", "suffix"]
+- !private ["C3Get8RawClone", "deinit"]
+- !private ["C3Get8RawClone", "finalName"]
+- !private ["C3Get8RawClone", "init"]
+- !private ["C3Get8RawClone", "path"]
+- !private ["V5Basic12RelativePath", "init"]
+- !private ["CC7Utility3Git4Repo", "fetch"]
+- !private ["CC7Utility3Git4Repo", "init"]
+- !private ["CC7Utility3Git4Repo", "origin"]
+- !private ["CC7Utility3Git4Repo", "path"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "last"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "prefix"]
+- !private ["Ps8Sequence", "rindex"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "suffix"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "characters"]
+- !private ["SS", "components"]
+- !private ["SS", "index"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "components"]
+- !private ["Ps16TextOutputStream", "index"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "components"]
+- !private ["Ps20TextOutputStreamable", "index"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V7Utility3URL", "scheme"]
+- !private ["V18PackageDescription7Version", "init"]
+- !private ["Ps14_ArrayProtocol", "last"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "last"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "prefix"]
+- !private ["Ps23_BidirectionalIndexable", "rindex"]
+- !private ["Ps23_BidirectionalIndexable", "suffix"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "characters"]
+- !private ["P10Foundation13_CFBridgeable", "components"]
+- !private ["P10Foundation13_CFBridgeable", "index"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "last"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "last"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "index"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "components"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "index"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "components"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "index"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "components"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "index"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "components"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "index"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "Error"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "appending"]
+- !private ["Ps9_Hashable", "asString"]
+- !private ["Ps9_Hashable", "basename"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "components"]
+- !private ["Ps9_Hashable", "dependencies"]
+- !private ["Ps9_Hashable", "index"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "package"]
+- !private ["Ps9_Hashable", "parentDirectory"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "last"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "prefix"]
+- !private ["Ps10_Indexable", "rindex"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "suffix"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "last"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "prefix"]
+- !private ["Ps14_IndexableBase", "rindex"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "suffix"]
+- !private ["Ps17_MutableIndexable", "last"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "characters"]
+- !private ["P10Foundation13_NSBridgeable", "components"]
+- !private ["P10Foundation13_NSBridgeable", "index"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "last"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "characters"]
+- !private ["P10Foundation17_ObjectBridgeable", "components"]
+- !private ["P10Foundation17_ObjectBridgeable", "index"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "last"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "characters"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "components"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "index"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "last"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "last"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "last"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "prefix"]
+- !private ["Ps26_RangeReplaceableIndexable", "rindex"]
+- !private ["Ps26_RangeReplaceableIndexable", "suffix"]
+depends-nominal:
+- !private "V5Basic12AbsolutePath"
+- "Ps9AnyObject"
+- !private "P7Utility12ArgumentKind"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "P5Basic14ByteStreamable"
+- !private "Vs9Character"
+- !private "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "CC18PackageDescription7Package10Dependency"
+- !private "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "O3Get5Error"
+- !private "OC12PackageModel7Package5Error"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P3Get9Fetchable"
+- "P3Get7Fetcher"
+- !private "P5Basic10FileSystem"
+- "C7Utility3Git"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "V12PackageModel8Manifest"
+- !private "C14PackageLoading14ManifestLoader"
+- !private "P14PackageLoading22ManifestLoaderProtocol"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "C12PackageModel7Package"
+- !private "C18PackageDescription7Package"
+- "C3Get17PackagesDirectory"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "C3Get8RawClone"
+- !private "V5Basic12RelativePath"
+- !private "CC7Utility3Git4Repo"
+- !private "Ps8Sequence"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "V7Utility3URL"
+- !private "V18PackageDescription7Version"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Utility.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageModel.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageLoading.swiftmodule"
+interface-hash: "d099b2813a97500d4a950aaa2cea97aa"

@@ -1,0 +1,590 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InMemoryGitRepositoryError"
+- "InMemoryGitRepository"
+- "InMemoryGitRepositoryProvider"
+- "=="
+provides-nominal:
+- "O13SourceControl26InMemoryGitRepositoryError"
+- "C13SourceControl21InMemoryGitRepository"
+- "C13SourceControl29InMemoryGitRepositoryProvider"
+provides-member:
+- ["O13SourceControl26InMemoryGitRepositoryError", ""]
+- ["C13SourceControl21InMemoryGitRepository", ""]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", ""]
+depends-top-level:
+- !private "!="
+- "=="
+- !private "??"
+- "AbsolutePath"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ByteString"
+- "FileSystem"
+- !private "FloatLiteralType"
+- "InMemoryFileSystem"
+- "InMemoryGitRepository"
+- "InMemoryGitRepositoryError"
+- "InMemoryGitRepositoryProvider"
+- !private "IntegerLiteralType"
+- !private "NSUUID"
+- "Repository"
+- "RepositoryProvider"
+- "RepositorySpecifier"
+- !private "RerootedFileSystemView"
+- "Revision"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "WorkingCheckout"
+- !private "fatalError"
+depends-member:
+- !private ["V5Basic12AbsolutePath", "appending"]
+- ["Ps9AnyObject", "AbsolutePath"]
+- !private ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "InMemoryFileSystem"]
+- ["Ps9AnyObject", "InMemoryGitRepository"]
+- !private ["Ps9AnyObject", "InMemoryGitRepositoryError"]
+- !private ["Ps9AnyObject", "NSUUID"]
+- ["Ps9AnyObject", "RepositorySpecifier"]
+- !private ["Ps9AnyObject", "RerootedFileSystemView"]
+- !private ["Ps9AnyObject", "Revision"]
+- !private ["Ps9AnyObject", "RevisionState"]
+- ["Ps9AnyObject", "checkout"]
+- !private ["Ps9AnyObject", "checkoutsMap"]
+- ["Ps9AnyObject", "cloneCheckout"]
+- !private ["Ps9AnyObject", "copy"]
+- ["Ps9AnyObject", "createDirectory"]
+- ["Ps9AnyObject", "exists"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "fetch"]
+- !private ["Ps9AnyObject", "fetchedMap"]
+- !private ["Ps9AnyObject", "fs"]
+- ["Ps9AnyObject", "getCurrentRevision"]
+- ["Ps9AnyObject", "getDirectoryContents"]
+- ["Ps9AnyObject", "hasUncommitedChanges"]
+- ["Ps9AnyObject", "hasUnpushedCommits"]
+- !private ["Ps9AnyObject", "head"]
+- !private ["Ps9AnyObject", "history"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "installHead"]
+- ["Ps9AnyObject", "isDirectory"]
+- !private ["Ps9AnyObject", "isDirty"]
+- ["Ps9AnyObject", "isFile"]
+- ["Ps9AnyObject", "isSymlink"]
+- ["Ps9AnyObject", "open"]
+- ["Ps9AnyObject", "openCheckout"]
+- ["Ps9AnyObject", "openFileView"]
+- !private ["Ps9AnyObject", "path"]
+- ["Ps9AnyObject", "readFileContents"]
+- ["Ps9AnyObject", "removeFileTree"]
+- ["Ps9AnyObject", "resolveRevision"]
+- !private ["Ps9AnyObject", "specifierMap"]
+- ["Ps9AnyObject", "tags"]
+- !private ["Ps9AnyObject", "tagsMap"]
+- !private ["Ps9AnyObject", "uuidString"]
+- ["Ps9AnyObject", "writeFileContents"]
+- ["Ps9AnyObject", ""]
+- !private ["P7Utility12ArgumentKind", "_getBuiltinLogicValue"]
+- !private ["P7Utility12ArgumentKind", "hashValue"]
+- !private ["P7Utility12ArgumentKind", "init"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P5Basic14ByteStreamable", "init"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "keys"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "appending"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "uuidString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "keys"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appending"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "uuidString"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "appending"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "tagAlreadyPresent"]
+- !private ["Ps9Equatable", "unknownRevision"]
+- !private ["Ps9Equatable", "unknownTag"]
+- !private ["Ps9Equatable", "uuidString"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "tagAlreadyPresent"]
+- !private ["Ps5Error", "unknownRevision"]
+- !private ["Ps5Error", "unknownTag"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P5Basic10FileSystem", "Array"]
+- !private ["P5Basic10FileSystem", "InMemoryFileSystem"]
+- !private ["P5Basic10FileSystem", "InMemoryGitRepository"]
+- !private ["P5Basic10FileSystem", "InMemoryGitRepositoryError"]
+- !private ["P5Basic10FileSystem", "NSUUID"]
+- !private ["P5Basic10FileSystem", "RerootedFileSystemView"]
+- !private ["P5Basic10FileSystem", "Revision"]
+- !private ["P5Basic10FileSystem", "RevisionState"]
+- ["P5Basic10FileSystem", "checkout"]
+- !private ["P5Basic10FileSystem", "copy"]
+- ["P5Basic10FileSystem", "createDirectory"]
+- ["P5Basic10FileSystem", "exists"]
+- !private ["P5Basic10FileSystem", "fatalError"]
+- ["P5Basic10FileSystem", "fetch"]
+- !private ["P5Basic10FileSystem", "fs"]
+- ["P5Basic10FileSystem", "getCurrentRevision"]
+- ["P5Basic10FileSystem", "getDirectoryContents"]
+- ["P5Basic10FileSystem", "hasUncommitedChanges"]
+- ["P5Basic10FileSystem", "hasUnpushedCommits"]
+- !private ["P5Basic10FileSystem", "head"]
+- !private ["P5Basic10FileSystem", "history"]
+- !private ["P5Basic10FileSystem", "init"]
+- !private ["P5Basic10FileSystem", "installHead"]
+- ["P5Basic10FileSystem", "isDirectory"]
+- !private ["P5Basic10FileSystem", "isDirty"]
+- ["P5Basic10FileSystem", "isFile"]
+- ["P5Basic10FileSystem", "isSymlink"]
+- ["P5Basic10FileSystem", "openFileView"]
+- !private ["P5Basic10FileSystem", "path"]
+- ["P5Basic10FileSystem", "readFileContents"]
+- ["P5Basic10FileSystem", "removeFileTree"]
+- ["P5Basic10FileSystem", "resolveRevision"]
+- ["P5Basic10FileSystem", "tags"]
+- !private ["P5Basic10FileSystem", "tagsMap"]
+- ["P5Basic10FileSystem", "writeFileContents"]
+- ["P5Basic10FileSystem", ""]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "appending"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "tagAlreadyPresent"]
+- !private ["Ps8Hashable", "unknownRevision"]
+- !private ["Ps8Hashable", "unknownTag"]
+- !private ["Ps8Hashable", "uuidString"]
+- ["Ps8Hashable", ""]
+- !private ["C5Basic18InMemoryFileSystem", "copy"]
+- !private ["C5Basic18InMemoryFileSystem", "createDirectory"]
+- !private ["C5Basic18InMemoryFileSystem", "exists"]
+- !private ["C5Basic18InMemoryFileSystem", "getDirectoryContents"]
+- !private ["C5Basic18InMemoryFileSystem", "init"]
+- !private ["C5Basic18InMemoryFileSystem", "isDirectory"]
+- !private ["C5Basic18InMemoryFileSystem", "isFile"]
+- !private ["C5Basic18InMemoryFileSystem", "isSymlink"]
+- !private ["C5Basic18InMemoryFileSystem", "readFileContents"]
+- !private ["C5Basic18InMemoryFileSystem", "removeFileTree"]
+- !private ["C5Basic18InMemoryFileSystem", "writeFileContents"]
+- ["C13SourceControl21InMemoryGitRepository", "AbsolutePath"]
+- !private ["C13SourceControl21InMemoryGitRepository", "Array"]
+- ["C13SourceControl21InMemoryGitRepository", "Bool"]
+- ["C13SourceControl21InMemoryGitRepository", "ByteString"]
+- ["C13SourceControl21InMemoryGitRepository", "FileSystem"]
+- ["C13SourceControl21InMemoryGitRepository", "InMemoryFileSystem"]
+- !private ["C13SourceControl21InMemoryGitRepository", "InMemoryGitRepository"]
+- !private ["C13SourceControl21InMemoryGitRepository", "InMemoryGitRepositoryError"]
+- !private ["C13SourceControl21InMemoryGitRepository", "NSUUID"]
+- !private ["C13SourceControl21InMemoryGitRepository", "RerootedFileSystemView"]
+- ["C13SourceControl21InMemoryGitRepository", "Revision"]
+- ["C13SourceControl21InMemoryGitRepository", "RevisionIdentifier"]
+- ["C13SourceControl21InMemoryGitRepository", "RevisionState"]
+- ["C13SourceControl21InMemoryGitRepository", "String"]
+- ["C13SourceControl21InMemoryGitRepository", "checkout"]
+- ["C13SourceControl21InMemoryGitRepository", "commit"]
+- !private ["C13SourceControl21InMemoryGitRepository", "copy"]
+- ["C13SourceControl21InMemoryGitRepository", "createDirectory"]
+- ["C13SourceControl21InMemoryGitRepository", "deinit"]
+- ["C13SourceControl21InMemoryGitRepository", "exists"]
+- !private ["C13SourceControl21InMemoryGitRepository", "fatalError"]
+- ["C13SourceControl21InMemoryGitRepository", "fetch"]
+- !private ["C13SourceControl21InMemoryGitRepository", "fs"]
+- ["C13SourceControl21InMemoryGitRepository", "getCurrentRevision"]
+- ["C13SourceControl21InMemoryGitRepository", "getDirectoryContents"]
+- ["C13SourceControl21InMemoryGitRepository", "hasUncommitedChanges"]
+- ["C13SourceControl21InMemoryGitRepository", "hasUnpushedCommits"]
+- !private ["C13SourceControl21InMemoryGitRepository", "head"]
+- !private ["C13SourceControl21InMemoryGitRepository", "history"]
+- ["C13SourceControl21InMemoryGitRepository", "init"]
+- !private ["C13SourceControl21InMemoryGitRepository", "installHead"]
+- ["C13SourceControl21InMemoryGitRepository", "isDirectory"]
+- !private ["C13SourceControl21InMemoryGitRepository", "isDirty"]
+- ["C13SourceControl21InMemoryGitRepository", "isFile"]
+- ["C13SourceControl21InMemoryGitRepository", "isSymlink"]
+- ["C13SourceControl21InMemoryGitRepository", "openFileView"]
+- !private ["C13SourceControl21InMemoryGitRepository", "path"]
+- ["C13SourceControl21InMemoryGitRepository", "readFileContents"]
+- ["C13SourceControl21InMemoryGitRepository", "removeFileTree"]
+- ["C13SourceControl21InMemoryGitRepository", "resolveRevision"]
+- ["C13SourceControl21InMemoryGitRepository", "tag"]
+- ["C13SourceControl21InMemoryGitRepository", "tags"]
+- !private ["C13SourceControl21InMemoryGitRepository", "tagsMap"]
+- ["C13SourceControl21InMemoryGitRepository", "writeFileContents"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "=="]
+- ["O13SourceControl26InMemoryGitRepositoryError", "_code"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "_domain"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "_toAnyHashable"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "_userInfo"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "deinit"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "hashValue"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "tagAlreadyPresent"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "unknownRevision"]
+- ["O13SourceControl26InMemoryGitRepositoryError", "unknownTag"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "AbsolutePath"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "Bool"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "InMemoryGitRepository"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "Repository"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "RepositorySpecifier"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "WorkingCheckout"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "add"]
+- !private ["C13SourceControl29InMemoryGitRepositoryProvider", "checkoutsMap"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "cloneCheckout"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "deinit"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "fetch"]
+- !private ["C13SourceControl29InMemoryGitRepositoryProvider", "fetchedMap"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "init"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "open"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "openCheckout"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "openRepo"]
+- ["C13SourceControl29InMemoryGitRepositoryProvider", "specifierMap"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation8NSCoding", "uuidString"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "uuidString"]
+- !private ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "uuidString"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "uuidString"]
+- !private ["P10Foundation14NSSecureCoding", "init"]
+- !private ["P10Foundation14NSSecureCoding", "uuidString"]
+- !private ["C10Foundation6NSUUID", "init"]
+- !private ["C10Foundation6NSUUID", "uuidString"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["P13SourceControl10Repository", "Array"]
+- !private ["P13SourceControl10Repository", "InMemoryFileSystem"]
+- !private ["P13SourceControl10Repository", "InMemoryGitRepository"]
+- !private ["P13SourceControl10Repository", "InMemoryGitRepositoryError"]
+- !private ["P13SourceControl10Repository", "NSUUID"]
+- !private ["P13SourceControl10Repository", "RerootedFileSystemView"]
+- !private ["P13SourceControl10Repository", "Revision"]
+- !private ["P13SourceControl10Repository", "RevisionState"]
+- ["P13SourceControl10Repository", "checkout"]
+- !private ["P13SourceControl10Repository", "copy"]
+- ["P13SourceControl10Repository", "createDirectory"]
+- ["P13SourceControl10Repository", "exists"]
+- !private ["P13SourceControl10Repository", "fatalError"]
+- ["P13SourceControl10Repository", "fetch"]
+- !private ["P13SourceControl10Repository", "fs"]
+- ["P13SourceControl10Repository", "getCurrentRevision"]
+- ["P13SourceControl10Repository", "getDirectoryContents"]
+- ["P13SourceControl10Repository", "hasUncommitedChanges"]
+- ["P13SourceControl10Repository", "hasUnpushedCommits"]
+- !private ["P13SourceControl10Repository", "head"]
+- !private ["P13SourceControl10Repository", "history"]
+- !private ["P13SourceControl10Repository", "init"]
+- !private ["P13SourceControl10Repository", "installHead"]
+- ["P13SourceControl10Repository", "isDirectory"]
+- !private ["P13SourceControl10Repository", "isDirty"]
+- ["P13SourceControl10Repository", "isFile"]
+- ["P13SourceControl10Repository", "isSymlink"]
+- ["P13SourceControl10Repository", "openFileView"]
+- !private ["P13SourceControl10Repository", "path"]
+- ["P13SourceControl10Repository", "readFileContents"]
+- ["P13SourceControl10Repository", "removeFileTree"]
+- ["P13SourceControl10Repository", "resolveRevision"]
+- ["P13SourceControl10Repository", "tags"]
+- !private ["P13SourceControl10Repository", "tagsMap"]
+- ["P13SourceControl10Repository", "writeFileContents"]
+- ["P13SourceControl10Repository", ""]
+- ["P13SourceControl18RepositoryProvider", "AbsolutePath"]
+- ["P13SourceControl18RepositoryProvider", "InMemoryGitRepository"]
+- ["P13SourceControl18RepositoryProvider", "RepositorySpecifier"]
+- !private ["P13SourceControl18RepositoryProvider", "checkoutsMap"]
+- ["P13SourceControl18RepositoryProvider", "cloneCheckout"]
+- ["P13SourceControl18RepositoryProvider", "fetch"]
+- !private ["P13SourceControl18RepositoryProvider", "fetchedMap"]
+- ["P13SourceControl18RepositoryProvider", "open"]
+- ["P13SourceControl18RepositoryProvider", "openCheckout"]
+- !private ["P13SourceControl18RepositoryProvider", "specifierMap"]
+- ["P13SourceControl18RepositoryProvider", ""]
+- ["V13SourceControl19RepositorySpecifier", "deinit"]
+- !private ["V5Basic22RerootedFileSystemView", "init"]
+- !private ["V13SourceControl8Revision", "identifier"]
+- !private ["V13SourceControl8Revision", "init"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "keys"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P13SourceControl15WorkingCheckout", "Array"]
+- !private ["P13SourceControl15WorkingCheckout", "InMemoryFileSystem"]
+- !private ["P13SourceControl15WorkingCheckout", "InMemoryGitRepository"]
+- !private ["P13SourceControl15WorkingCheckout", "InMemoryGitRepositoryError"]
+- !private ["P13SourceControl15WorkingCheckout", "NSUUID"]
+- !private ["P13SourceControl15WorkingCheckout", "RerootedFileSystemView"]
+- !private ["P13SourceControl15WorkingCheckout", "Revision"]
+- !private ["P13SourceControl15WorkingCheckout", "RevisionState"]
+- ["P13SourceControl15WorkingCheckout", "checkout"]
+- !private ["P13SourceControl15WorkingCheckout", "copy"]
+- ["P13SourceControl15WorkingCheckout", "createDirectory"]
+- ["P13SourceControl15WorkingCheckout", "exists"]
+- !private ["P13SourceControl15WorkingCheckout", "fatalError"]
+- ["P13SourceControl15WorkingCheckout", "fetch"]
+- !private ["P13SourceControl15WorkingCheckout", "fs"]
+- ["P13SourceControl15WorkingCheckout", "getCurrentRevision"]
+- ["P13SourceControl15WorkingCheckout", "getDirectoryContents"]
+- ["P13SourceControl15WorkingCheckout", "hasUncommitedChanges"]
+- ["P13SourceControl15WorkingCheckout", "hasUnpushedCommits"]
+- !private ["P13SourceControl15WorkingCheckout", "head"]
+- !private ["P13SourceControl15WorkingCheckout", "history"]
+- !private ["P13SourceControl15WorkingCheckout", "init"]
+- !private ["P13SourceControl15WorkingCheckout", "installHead"]
+- ["P13SourceControl15WorkingCheckout", "isDirectory"]
+- !private ["P13SourceControl15WorkingCheckout", "isDirty"]
+- ["P13SourceControl15WorkingCheckout", "isFile"]
+- ["P13SourceControl15WorkingCheckout", "isSymlink"]
+- ["P13SourceControl15WorkingCheckout", "openFileView"]
+- !private ["P13SourceControl15WorkingCheckout", "path"]
+- ["P13SourceControl15WorkingCheckout", "readFileContents"]
+- ["P13SourceControl15WorkingCheckout", "removeFileTree"]
+- ["P13SourceControl15WorkingCheckout", "resolveRevision"]
+- ["P13SourceControl15WorkingCheckout", "tags"]
+- !private ["P13SourceControl15WorkingCheckout", "tagsMap"]
+- ["P13SourceControl15WorkingCheckout", "writeFileContents"]
+- ["P13SourceControl15WorkingCheckout", ""]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "keys"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "uuidString"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "appending"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "tagAlreadyPresent"]
+- !private ["Ps9_Hashable", "unknownRevision"]
+- !private ["Ps9_Hashable", "unknownTag"]
+- !private ["Ps9_Hashable", "uuidString"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "keys"]
+- !private ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "keys"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["Ps17_MutableIndexable", "init"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "keys"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "keys"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "keys"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["P10Foundation17_StructBridgeable", "init"]
+- !private ["P10Foundation17_StructBridgeable", "uuidString"]
+- !private ["P10Foundation21_StructTypeBridgeable", "init"]
+- !private ["P10Foundation21_StructTypeBridgeable", "uuidString"]
+depends-nominal:
+- !private "V5Basic12AbsolutePath"
+- "Ps9AnyObject"
+- !private "P7Utility12ArgumentKind"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "P5Basic14ByteStreamable"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P5Basic10FileSystem"
+- "Ps8Hashable"
+- !private "C5Basic18InMemoryFileSystem"
+- "C13SourceControl21InMemoryGitRepository"
+- "O13SourceControl26InMemoryGitRepositoryError"
+- "C13SourceControl29InMemoryGitRepositoryProvider"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "P10Foundation8NSCoding"
+- !private "P10Foundation9NSCopying"
+- !private "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation14NSSecureCoding"
+- !private "C10Foundation6NSUUID"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "P13SourceControl10Repository"
+- "P13SourceControl18RepositoryProvider"
+- "V13SourceControl19RepositorySpecifier"
+- !private "V5Basic22RerootedFileSystemView"
+- !private "V13SourceControl8Revision"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P13SourceControl15WorkingCheckout"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "P10Foundation17_StructBridgeable"
+- !private "P10Foundation21_StructTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Utility.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+interface-hash: "abadea3c9c4447bce7c54d97e4608dce"

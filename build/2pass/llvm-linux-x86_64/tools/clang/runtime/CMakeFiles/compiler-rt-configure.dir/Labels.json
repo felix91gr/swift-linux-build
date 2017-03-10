@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/CMakeFiles/compiler-rt-configure"
+		},
+		{
+			"file" : "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/CMakeFiles/compiler-rt-configure.rule"
+		},
+		{
+			"file" : "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-stamps/compiler-rt-configure.rule"
+		},
+		{
+			"file" : "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-stamps/compiler-rt-update.rule"
+		},
+		{
+			"file" : "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-stamps/compiler-rt-patch.rule"
+		},
+		{
+			"file" : "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-stamps/compiler-rt-download.rule"
+		},
+		{
+			"file" : "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-stamps/compiler-rt-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"compiler-rt"
+		],
+		"name" : "compiler-rt-configure"
+	}
+}

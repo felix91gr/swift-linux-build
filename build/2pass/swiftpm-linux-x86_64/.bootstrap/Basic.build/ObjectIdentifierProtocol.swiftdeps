@@ -1,0 +1,84 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObjectIdentifierProtocol"
+- "=="
+provides-nominal:
+- "P5Basic24ObjectIdentifierProtocol"
+provides-member:
+- ["P5Basic24ObjectIdentifierProtocol", ""]
+- ["P5Basic24ObjectIdentifierProtocol", "hashValue"]
+- ["P5Basic24ObjectIdentifierProtocol", "=="]
+depends-top-level:
+- "=="
+- "Bool"
+- "Hashable"
+- "Int"
+- !private "ObjectIdentifier"
+- "ObjectIdentifierProtocol"
+depends-member:
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps9Equatable", "Bool"]
+- ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "ObjectIdentifier"]
+- ["Ps9Equatable", "Self"]
+- !private ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps8Hashable", "Bool"]
+- ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "ObjectIdentifier"]
+- ["Ps8Hashable", "Self"]
+- !private ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["Vs16ObjectIdentifier", "hashValue"]
+- !private ["Vs16ObjectIdentifier", "init"]
+- ["P5Basic24ObjectIdentifierProtocol", "=="]
+- ["P5Basic24ObjectIdentifierProtocol", "Bool"]
+- ["P5Basic24ObjectIdentifierProtocol", "Int"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "ObjectIdentifier"]
+- ["P5Basic24ObjectIdentifierProtocol", "Self"]
+- ["P5Basic24ObjectIdentifierProtocol", "hashValue"]
+- ["Ps9_Hashable", "Bool"]
+- ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "ObjectIdentifier"]
+- ["Ps9_Hashable", "Self"]
+- !private ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+depends-nominal:
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "Vs16ObjectIdentifier"
+- "P5Basic24ObjectIdentifierProtocol"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+interface-hash: "27d18e3ad90966a1e44ccf7960e6ac94"

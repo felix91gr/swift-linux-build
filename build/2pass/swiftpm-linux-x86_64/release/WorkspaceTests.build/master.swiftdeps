@@ -1,0 +1,7 @@
+version: "Swift version 3.1-dev (LLVM a7c680da51, Clang 9772bf511a, Swift 493db43364)"
+options: "1162f23ef4096cbc78693a92b195a3fa"
+build_time: [542446177, 877720000]
+inputs:
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/WorkspaceTests/PinsStoreTests.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/WorkspaceTests/XCTestManifests.swift": [9223372036854775807, 0]
+  "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swiftpm/Tests/WorkspaceTests/WorkspaceTests.swift": [9223372036854775807, 0]

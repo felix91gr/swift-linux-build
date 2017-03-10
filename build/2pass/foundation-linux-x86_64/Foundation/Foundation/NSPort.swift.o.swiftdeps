@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketNativeHandle"
+- "Port"
+- "PortDelegate"
+- "MessagePort"
+- "SocketPort"
+provides-nominal:
+- "C10Foundation4Port"
+- "P10Foundation12PortDelegate"
+- "C10Foundation11MessagePort"
+- "C10Foundation10SocketPort"
+provides-member:
+- ["C10Foundation4Port", ""]
+- ["P10Foundation12PortDelegate", ""]
+- ["C10Foundation11MessagePort", ""]
+- ["C10Foundation10SocketPort", ""]
+- ["C10Foundation4Port", "didBecomeInvalidNotification"]
+- ["P10Foundation12PortDelegate", "handle"]
+depends-top-level:
+- "Bool"
+- "Data"
+- "Date"
+- !private "FloatLiteralType"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "MessagePort"
+- "NSCoder"
+- "NSCoding"
+- "NSCopying"
+- "NSMutableArray"
+- "NSNotification"
+- "NSObject"
+- !private "NSUnimplemented"
+- "NSZone"
+- "Port"
+- "PortDelegate"
+- "PortMessage"
+- "RunLoop"
+- "RunLoopMode"
+- "SocketNativeHandle"
+- "SocketPort"
+- "String"
+- "StringLiteralType"
+- "UInt16"
+depends-member:
+- ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- ["Ps9AnyObject", "Name"]
+- ["Ps9AnyObject", "copy"]
+- ["Ps9AnyObject", "encode"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- ["Ps28CustomDebugStringConvertible", "copy"]
+- ["Ps28CustomDebugStringConvertible", "encode"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "Name"]
+- ["Ps23CustomStringConvertible", "copy"]
+- ["Ps23CustomStringConvertible", "encode"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "Name"]
+- ["Ps9Equatable", "copy"]
+- ["Ps9Equatable", "encode"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "Name"]
+- ["Ps8Hashable", "copy"]
+- ["Ps8Hashable", "encode"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["C10Foundation11MessagePort", "deinit"]
+- ["C10Foundation11MessagePort", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["P10Foundation8NSCoding", "NSNotification"]
+- !private ["P10Foundation8NSCoding", "NSUnimplemented"]
+- ["P10Foundation8NSCoding", "Name"]
+- ["P10Foundation8NSCoding", "copy"]
+- ["P10Foundation8NSCoding", "encode"]
+- ["P10Foundation8NSCoding", "init"]
+- ["P10Foundation8NSCoding", ""]
+- ["P10Foundation9NSCopying", "NSNotification"]
+- !private ["P10Foundation9NSCopying", "NSUnimplemented"]
+- ["P10Foundation9NSCopying", "Name"]
+- ["P10Foundation9NSCopying", "copy"]
+- ["P10Foundation9NSCopying", "encode"]
+- ["P10Foundation9NSCopying", "init"]
+- ["P10Foundation9NSCopying", ""]
+- ["C10Foundation14NSNotification", "Name"]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "Data"]
+- ["C10Foundation8NSObject", "Date"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "Int32"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- ["C10Foundation8NSObject", "NSMutableArray"]
+- ["C10Foundation8NSObject", "NSNotification"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "NSZone"]
+- ["C10Foundation8NSObject", "Name"]
+- ["C10Foundation8NSObject", "Port"]
+- ["C10Foundation8NSObject", "RunLoop"]
+- ["C10Foundation8NSObject", "RunLoopMode"]
+- ["C10Foundation8NSObject", "SocketNativeHandle"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "UInt16"]
+- ["C10Foundation8NSObject", "address"]
+- ["C10Foundation8NSObject", "copy"]
+- ["C10Foundation8NSObject", "didBecomeInvalidNotification"]
+- ["C10Foundation8NSObject", "encode"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "invalidate"]
+- ["C10Foundation8NSObject", "isValid"]
+- ["C10Foundation8NSObject", "protocol"]
+- ["C10Foundation8NSObject", "protocolFamily"]
+- ["C10Foundation8NSObject", "remove"]
+- ["C10Foundation8NSObject", "reservedSpaceLength"]
+- ["C10Foundation8NSObject", "schedule"]
+- ["C10Foundation8NSObject", "sendBeforeDate"]
+- ["C10Foundation8NSObject", "socket"]
+- ["C10Foundation8NSObject", "socketType"]
+- ["C10Foundation8NSObject", ""]
+- ["P10Foundation16NSObjectProtocol", "NSNotification"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- ["P10Foundation16NSObjectProtocol", "Name"]
+- ["P10Foundation16NSObjectProtocol", "copy"]
+- ["P10Foundation16NSObjectProtocol", "encode"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- ["VC10Foundation14NSNotification4Name", "deinit"]
+- ["VC10Foundation14NSNotification4Name", "init"]
+- ["C10Foundation4Port", "Bool"]
+- ["C10Foundation4Port", "Data"]
+- ["C10Foundation4Port", "Date"]
+- ["C10Foundation4Port", "Int"]
+- ["C10Foundation4Port", "Int32"]
+- ["C10Foundation4Port", "NSCoder"]
+- ["C10Foundation4Port", "NSMutableArray"]
+- ["C10Foundation4Port", "NSNotification"]
+- !private ["C10Foundation4Port", "NSUnimplemented"]
+- ["C10Foundation4Port", "NSZone"]
+- ["C10Foundation4Port", "Port"]
+- ["C10Foundation4Port", "RunLoop"]
+- ["C10Foundation4Port", "RunLoopMode"]
+- ["C10Foundation4Port", "SocketNativeHandle"]
+- ["C10Foundation4Port", "String"]
+- ["C10Foundation4Port", "UInt16"]
+- ["C10Foundation4Port", "address"]
+- ["C10Foundation4Port", "copy"]
+- ["C10Foundation4Port", "deinit"]
+- ["C10Foundation4Port", "didBecomeInvalidNotification"]
+- ["C10Foundation4Port", "encode"]
+- ["C10Foundation4Port", "init"]
+- ["C10Foundation4Port", "invalidate"]
+- ["C10Foundation4Port", "isValid"]
+- ["C10Foundation4Port", "protocol"]
+- ["C10Foundation4Port", "protocolFamily"]
+- ["C10Foundation4Port", "remove"]
+- ["C10Foundation4Port", "reservedSpaceLength"]
+- ["C10Foundation4Port", "schedule"]
+- ["C10Foundation4Port", "sendBeforeDate"]
+- ["C10Foundation4Port", "socket"]
+- ["C10Foundation4Port", "socketType"]
+- ["C10Foundation4Port", ""]
+- ["P10Foundation12PortDelegate", "PortMessage"]
+- ["P10Foundation12PortDelegate", "handle"]
+- ["P10Foundation12PortDelegate", "handlePortMessage"]
+- ["Ps16RawRepresentable", "init"]
+- ["C10Foundation10SocketPort", "Data"]
+- ["C10Foundation10SocketPort", "Int32"]
+- ["C10Foundation10SocketPort", "NSCoder"]
+- !private ["C10Foundation10SocketPort", "NSUnimplemented"]
+- ["C10Foundation10SocketPort", "SocketNativeHandle"]
+- ["C10Foundation10SocketPort", "String"]
+- ["C10Foundation10SocketPort", "UInt16"]
+- ["C10Foundation10SocketPort", "address"]
+- ["C10Foundation10SocketPort", "deinit"]
+- ["C10Foundation10SocketPort", "init"]
+- ["C10Foundation10SocketPort", "protocol"]
+- ["C10Foundation10SocketPort", "protocolFamily"]
+- ["C10Foundation10SocketPort", "socket"]
+- ["C10Foundation10SocketPort", "socketType"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "Name"]
+- ["Ps9_Hashable", "copy"]
+- ["Ps9_Hashable", "encode"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+- ["P10Foundation13_NSBridgeable", "init"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "C10Foundation11MessagePort"
+- "Ps10MirrorPath"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation14NSNotification"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "VC10Foundation14NSNotification4Name"
+- "C10Foundation4Port"
+- "P10Foundation12PortDelegate"
+- "Ps16RawRepresentable"
+- "C10Foundation10SocketPort"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P10Foundation13_CFBridgeable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "e3ae5470d14bba9aedf55117ca7e8afd"

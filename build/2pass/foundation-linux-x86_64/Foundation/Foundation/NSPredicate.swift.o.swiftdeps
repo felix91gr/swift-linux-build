@@ -1,0 +1,590 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSPredicate"
+provides-nominal:
+- "C10Foundation11NSPredicate"
+provides-member:
+- ["C10Foundation11NSPredicate", ""]
+- ["C10Foundation7NSArray", ""]
+- ["C10Foundation14NSMutableArray", ""]
+- ["C10Foundation5NSSet", ""]
+- ["C10Foundation12NSMutableSet", ""]
+- ["C10Foundation12NSOrderedSet", ""]
+- ["C10Foundation19NSMutableOrderedSet", ""]
+- ["C10Foundation11NSPredicate", "init"]
+- ["C10Foundation7NSArray", "filtered"]
+- ["C10Foundation14NSMutableArray", "filter"]
+- ["C10Foundation5NSSet", "filtered"]
+- ["C10Foundation12NSMutableSet", "filter"]
+- ["C10Foundation12NSOrderedSet", "filtered"]
+- ["C10Foundation19NSMutableOrderedSet", "filter"]
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- !private "==="
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CVaListPointer"
+- "CVarArg"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IndexSet"
+- !private "IntegerLiteralType"
+- "NSArray"
+- "NSCoder"
+- "NSCopying"
+- "NSMutableArray"
+- "NSMutableOrderedSet"
+- "NSMutableSet"
+- "NSObject"
+- "NSOrderedSet"
+- "NSPredicate"
+- "NSSecureCoding"
+- "NSSet"
+- !private "NSUnimplemented"
+- "NSZone"
+- "Set"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "preconditionFailure"
+depends-member:
+- !private ["Ps9AnyObject", "IndexSet"]
+- !private ["Ps9AnyObject", "NSOrderedSet"]
+- !private ["Ps9AnyObject", "NSPredicate"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- !private ["Ps9AnyObject", "Set"]
+- !private ["Ps9AnyObject", "allObjects"]
+- !private ["Ps9AnyObject", "allowsKeyedCoding"]
+- ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "decodeBool"]
+- ["Ps9AnyObject", "encode"]
+- !private ["Ps9AnyObject", "enumerated"]
+- !private ["Ps9AnyObject", "evaluate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kind"]
+- !private ["Ps9AnyObject", "preconditionFailure"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "removeObjects"]
+- ["Ps9AnyObject", "supportsSecureCoding"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "filter"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "insert"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Collection", "filter"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "insert"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexSet"]
+- !private ["Ps28CustomDebugStringConvertible", "NSOrderedSet"]
+- !private ["Ps28CustomDebugStringConvertible", "NSPredicate"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- !private ["Ps28CustomDebugStringConvertible", "Set"]
+- !private ["Ps28CustomDebugStringConvertible", "allObjects"]
+- !private ["Ps28CustomDebugStringConvertible", "allowsKeyedCoding"]
+- ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeBool"]
+- ["Ps28CustomDebugStringConvertible", "encode"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerated"]
+- !private ["Ps28CustomDebugStringConvertible", "evaluate"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insert"]
+- !private ["Ps28CustomDebugStringConvertible", "kind"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "preconditionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObjects"]
+- ["Ps28CustomDebugStringConvertible", "supportsSecureCoding"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IndexSet"]
+- !private ["Ps17CustomReflectable", "Set"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "allObjects"]
+- !private ["Ps17CustomReflectable", "enumerated"]
+- !private ["Ps17CustomReflectable", "filter"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "insert"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "remove"]
+- !private ["Ps17CustomReflectable", "removeObjects"]
+- !private ["Ps23CustomStringConvertible", "IndexSet"]
+- !private ["Ps23CustomStringConvertible", "NSOrderedSet"]
+- !private ["Ps23CustomStringConvertible", "NSPredicate"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- !private ["Ps23CustomStringConvertible", "Set"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "allObjects"]
+- !private ["Ps23CustomStringConvertible", "allowsKeyedCoding"]
+- ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "decodeBool"]
+- ["Ps23CustomStringConvertible", "encode"]
+- !private ["Ps23CustomStringConvertible", "enumerated"]
+- !private ["Ps23CustomStringConvertible", "evaluate"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insert"]
+- !private ["Ps23CustomStringConvertible", "kind"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "preconditionFailure"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "removeObjects"]
+- ["Ps23CustomStringConvertible", "supportsSecureCoding"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "IndexSet"]
+- !private ["Ps9Equatable", "NSOrderedSet"]
+- !private ["Ps9Equatable", "NSPredicate"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- !private ["Ps9Equatable", "Set"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allObjects"]
+- !private ["Ps9Equatable", "allowsKeyedCoding"]
+- ["Ps9Equatable", "copy"]
+- !private ["Ps9Equatable", "decodeBool"]
+- ["Ps9Equatable", "encode"]
+- !private ["Ps9Equatable", "enumerated"]
+- !private ["Ps9Equatable", "evaluate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insert"]
+- !private ["Ps9Equatable", "kind"]
+- !private ["Ps9Equatable", "preconditionFailure"]
+- !private ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "removeObjects"]
+- ["Ps9Equatable", "supportsSecureCoding"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexSet"]
+- !private ["Ps25ExpressibleByArrayLiteral", "NSOrderedSet"]
+- !private ["Ps25ExpressibleByArrayLiteral", "allObjects"]
+- !private ["Ps25ExpressibleByArrayLiteral", "enumerated"]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "insert"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeObjects"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "IndexSet"]
+- !private ["Ps8Hashable", "NSOrderedSet"]
+- !private ["Ps8Hashable", "NSPredicate"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- !private ["Ps8Hashable", "Set"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allObjects"]
+- !private ["Ps8Hashable", "allowsKeyedCoding"]
+- ["Ps8Hashable", "copy"]
+- !private ["Ps8Hashable", "decodeBool"]
+- ["Ps8Hashable", "encode"]
+- !private ["Ps8Hashable", "enumerated"]
+- !private ["Ps8Hashable", "evaluate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "insert"]
+- !private ["Ps8Hashable", "kind"]
+- !private ["Ps8Hashable", "preconditionFailure"]
+- !private ["Ps8Hashable", "remove"]
+- !private ["Ps8Hashable", "removeObjects"]
+- ["Ps8Hashable", "supportsSecureCoding"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation8IndexSet", "deinit"]
+- !private ["V10Foundation8IndexSet", "init"]
+- !private ["V10Foundation8IndexSet", "insert"]
+- !private ["VC10Foundation12NSEnumerator8Iterator", "deinit"]
+- !private ["VC10Foundation7NSArray8Iterator", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["C10Foundation7NSArray", "IndexSet"]
+- ["C10Foundation7NSArray", "NSPredicate"]
+- !private ["C10Foundation7NSArray", "allObjects"]
+- !private ["C10Foundation7NSArray", "enumerated"]
+- ["C10Foundation7NSArray", "filter"]
+- ["C10Foundation7NSArray", "filtered"]
+- !private ["C10Foundation7NSArray", "removeObjects"]
+- !private ["C10Foundation7NSCoder", "allowsKeyedCoding"]
+- !private ["C10Foundation7NSCoder", "decodeBool"]
+- !private ["C10Foundation7NSCoder", "encode"]
+- !private ["P10Foundation8NSCoding", "IndexSet"]
+- !private ["P10Foundation8NSCoding", "NSOrderedSet"]
+- !private ["P10Foundation8NSCoding", "NSPredicate"]
+- !private ["P10Foundation8NSCoding", "NSUnimplemented"]
+- !private ["P10Foundation8NSCoding", "Set"]
+- !private ["P10Foundation8NSCoding", "allObjects"]
+- ["P10Foundation8NSCoding", "copy"]
+- ["P10Foundation8NSCoding", "encode"]
+- !private ["P10Foundation8NSCoding", "enumerated"]
+- !private ["P10Foundation8NSCoding", "evaluate"]
+- ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation8NSCoding", "kind"]
+- !private ["P10Foundation8NSCoding", "preconditionFailure"]
+- !private ["P10Foundation8NSCoding", "remove"]
+- !private ["P10Foundation8NSCoding", "removeObjects"]
+- ["P10Foundation8NSCoding", "supportsSecureCoding"]
+- ["P10Foundation8NSCoding", ""]
+- !private ["P10Foundation9NSCopying", "IndexSet"]
+- !private ["P10Foundation9NSCopying", "NSOrderedSet"]
+- !private ["P10Foundation9NSCopying", "NSPredicate"]
+- !private ["P10Foundation9NSCopying", "NSUnimplemented"]
+- !private ["P10Foundation9NSCopying", "Set"]
+- !private ["P10Foundation9NSCopying", "allObjects"]
+- ["P10Foundation9NSCopying", "copy"]
+- ["P10Foundation9NSCopying", "encode"]
+- !private ["P10Foundation9NSCopying", "enumerated"]
+- !private ["P10Foundation9NSCopying", "evaluate"]
+- ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "kind"]
+- !private ["P10Foundation9NSCopying", "preconditionFailure"]
+- !private ["P10Foundation9NSCopying", "remove"]
+- !private ["P10Foundation9NSCopying", "removeObjects"]
+- ["P10Foundation9NSCopying", "supportsSecureCoding"]
+- ["P10Foundation9NSCopying", ""]
+- !private ["C10Foundation14NSMutableArray", "IndexSet"]
+- ["C10Foundation14NSMutableArray", "NSPredicate"]
+- !private ["C10Foundation14NSMutableArray", "deinit"]
+- !private ["C10Foundation14NSMutableArray", "enumerated"]
+- ["C10Foundation14NSMutableArray", "filter"]
+- !private ["C10Foundation14NSMutableArray", "removeObjects"]
+- !private ["P10Foundation16NSMutableCopying", "IndexSet"]
+- !private ["P10Foundation16NSMutableCopying", "NSOrderedSet"]
+- !private ["P10Foundation16NSMutableCopying", "Set"]
+- !private ["P10Foundation16NSMutableCopying", "allObjects"]
+- !private ["P10Foundation16NSMutableCopying", "enumerated"]
+- !private ["P10Foundation16NSMutableCopying", "init"]
+- !private ["P10Foundation16NSMutableCopying", "remove"]
+- !private ["P10Foundation16NSMutableCopying", "removeObjects"]
+- !private ["C10Foundation19NSMutableOrderedSet", "IndexSet"]
+- ["C10Foundation19NSMutableOrderedSet", "NSPredicate"]
+- !private ["C10Foundation19NSMutableOrderedSet", "deinit"]
+- !private ["C10Foundation19NSMutableOrderedSet", "enumerated"]
+- ["C10Foundation19NSMutableOrderedSet", "filter"]
+- !private ["C10Foundation19NSMutableOrderedSet", "removeObjects"]
+- ["C10Foundation12NSMutableSet", "NSPredicate"]
+- !private ["C10Foundation12NSMutableSet", "deinit"]
+- ["C10Foundation12NSMutableSet", "filter"]
+- !private ["C10Foundation12NSMutableSet", "remove"]
+- ["C10Foundation8NSObject", "AnyHashable"]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "CVaListPointer"]
+- ["C10Foundation8NSObject", "CVarArg"]
+- !private ["C10Foundation8NSObject", "IndexSet"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- ["C10Foundation8NSObject", "NSOrderedSet"]
+- ["C10Foundation8NSObject", "NSPredicate"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "NSZone"]
+- ["C10Foundation8NSObject", "PredicateKind"]
+- ["C10Foundation8NSObject", "Set"]
+- ["C10Foundation8NSObject", "String"]
+- !private ["C10Foundation8NSObject", "allObjects"]
+- ["C10Foundation8NSObject", "allowEvaluation"]
+- !private ["C10Foundation8NSObject", "allowsKeyedCoding"]
+- ["C10Foundation8NSObject", "copy"]
+- !private ["C10Foundation8NSObject", "decodeBool"]
+- ["C10Foundation8NSObject", "encode"]
+- !private ["C10Foundation8NSObject", "enumerated"]
+- ["C10Foundation8NSObject", "evaluate"]
+- ["C10Foundation8NSObject", "filter"]
+- ["C10Foundation8NSObject", "filtered"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "isEqual"]
+- ["C10Foundation8NSObject", "kind"]
+- !private ["C10Foundation8NSObject", "preconditionFailure"]
+- ["C10Foundation8NSObject", "predicateFormat"]
+- !private ["C10Foundation8NSObject", "remove"]
+- !private ["C10Foundation8NSObject", "removeObjects"]
+- ["C10Foundation8NSObject", "supportsSecureCoding"]
+- ["C10Foundation8NSObject", "withSubstitutionVariables"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "IndexSet"]
+- !private ["P10Foundation16NSObjectProtocol", "NSOrderedSet"]
+- !private ["P10Foundation16NSObjectProtocol", "NSPredicate"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- !private ["P10Foundation16NSObjectProtocol", "Set"]
+- !private ["P10Foundation16NSObjectProtocol", "allObjects"]
+- !private ["P10Foundation16NSObjectProtocol", "allowsKeyedCoding"]
+- ["P10Foundation16NSObjectProtocol", "copy"]
+- !private ["P10Foundation16NSObjectProtocol", "decodeBool"]
+- ["P10Foundation16NSObjectProtocol", "encode"]
+- !private ["P10Foundation16NSObjectProtocol", "enumerated"]
+- !private ["P10Foundation16NSObjectProtocol", "evaluate"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "kind"]
+- !private ["P10Foundation16NSObjectProtocol", "preconditionFailure"]
+- !private ["P10Foundation16NSObjectProtocol", "remove"]
+- !private ["P10Foundation16NSObjectProtocol", "removeObjects"]
+- ["P10Foundation16NSObjectProtocol", "supportsSecureCoding"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["C10Foundation12NSOrderedSet", "IndexSet"]
+- ["C10Foundation12NSOrderedSet", "NSOrderedSet"]
+- ["C10Foundation12NSOrderedSet", "NSPredicate"]
+- !private ["C10Foundation12NSOrderedSet", "allObjects"]
+- !private ["C10Foundation12NSOrderedSet", "enumerated"]
+- ["C10Foundation12NSOrderedSet", "filter"]
+- ["C10Foundation12NSOrderedSet", "filtered"]
+- !private ["C10Foundation12NSOrderedSet", "init"]
+- !private ["C10Foundation12NSOrderedSet", "removeObjects"]
+- ["C10Foundation11NSPredicate", "Bool"]
+- ["C10Foundation11NSPredicate", "CVaListPointer"]
+- ["C10Foundation11NSPredicate", "CVarArg"]
+- ["C10Foundation11NSPredicate", "NSCoder"]
+- !private ["C10Foundation11NSPredicate", "NSPredicate"]
+- !private ["C10Foundation11NSPredicate", "NSUnimplemented"]
+- ["C10Foundation11NSPredicate", "NSZone"]
+- ["C10Foundation11NSPredicate", "PredicateKind"]
+- ["C10Foundation11NSPredicate", "String"]
+- ["C10Foundation11NSPredicate", "allowEvaluation"]
+- ["C10Foundation11NSPredicate", "copy"]
+- ["C10Foundation11NSPredicate", "deinit"]
+- ["C10Foundation11NSPredicate", "encode"]
+- ["C10Foundation11NSPredicate", "evaluate"]
+- ["C10Foundation11NSPredicate", "init"]
+- ["C10Foundation11NSPredicate", "isEqual"]
+- !private ["C10Foundation11NSPredicate", "kind"]
+- !private ["C10Foundation11NSPredicate", "preconditionFailure"]
+- ["C10Foundation11NSPredicate", "predicateFormat"]
+- ["C10Foundation11NSPredicate", "supportsSecureCoding"]
+- ["C10Foundation11NSPredicate", "withSubstitutionVariables"]
+- !private ["P10Foundation14NSSecureCoding", "IndexSet"]
+- !private ["P10Foundation14NSSecureCoding", "NSOrderedSet"]
+- !private ["P10Foundation14NSSecureCoding", "NSPredicate"]
+- !private ["P10Foundation14NSSecureCoding", "NSUnimplemented"]
+- !private ["P10Foundation14NSSecureCoding", "Set"]
+- !private ["P10Foundation14NSSecureCoding", "allObjects"]
+- ["P10Foundation14NSSecureCoding", "copy"]
+- ["P10Foundation14NSSecureCoding", "encode"]
+- !private ["P10Foundation14NSSecureCoding", "enumerated"]
+- !private ["P10Foundation14NSSecureCoding", "evaluate"]
+- ["P10Foundation14NSSecureCoding", "init"]
+- !private ["P10Foundation14NSSecureCoding", "kind"]
+- !private ["P10Foundation14NSSecureCoding", "preconditionFailure"]
+- !private ["P10Foundation14NSSecureCoding", "remove"]
+- !private ["P10Foundation14NSSecureCoding", "removeObjects"]
+- ["P10Foundation14NSSecureCoding", "supportsSecureCoding"]
+- ["P10Foundation14NSSecureCoding", ""]
+- ["C10Foundation5NSSet", "AnyHashable"]
+- !private ["C10Foundation5NSSet", "Bool"]
+- ["C10Foundation5NSSet", "NSPredicate"]
+- ["C10Foundation5NSSet", "Set"]
+- !private ["C10Foundation5NSSet", "allObjects"]
+- ["C10Foundation5NSSet", "filter"]
+- ["C10Foundation5NSSet", "filtered"]
+- !private ["C10Foundation5NSSet", "remove"]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "insert"]
+- !private ["Ps8Sequence", "IndexSet"]
+- !private ["Ps8Sequence", "NSOrderedSet"]
+- !private ["Ps8Sequence", "Set"]
+- !private ["Ps8Sequence", "allObjects"]
+- !private ["Ps8Sequence", "enumerated"]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "insert"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "remove"]
+- !private ["Ps8Sequence", "removeObjects"]
+- !private ["Vs3Set", "init"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "insert"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "filter"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "insert"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "IndexSet"]
+- !private ["P10Foundation13_CFBridgeable", "Set"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "allObjects"]
+- !private ["P10Foundation13_CFBridgeable", "enumerated"]
+- !private ["P10Foundation13_CFBridgeable", "filter"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "remove"]
+- !private ["P10Foundation13_CFBridgeable", "removeObjects"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "IndexSet"]
+- !private ["Ps9_Hashable", "NSOrderedSet"]
+- !private ["Ps9_Hashable", "NSPredicate"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- !private ["Ps9_Hashable", "Set"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allObjects"]
+- !private ["Ps9_Hashable", "allowsKeyedCoding"]
+- ["Ps9_Hashable", "copy"]
+- !private ["Ps9_Hashable", "decodeBool"]
+- ["Ps9_Hashable", "encode"]
+- !private ["Ps9_Hashable", "enumerated"]
+- !private ["Ps9_Hashable", "evaluate"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "insert"]
+- !private ["Ps9_Hashable", "kind"]
+- !private ["Ps9_Hashable", "preconditionFailure"]
+- !private ["Ps9_Hashable", "remove"]
+- !private ["Ps9_Hashable", "removeObjects"]
+- ["Ps9_Hashable", "supportsSecureCoding"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "filter"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "insert"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps14_IndexableBase", "filter"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "insert"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps17_MutableIndexable", "filter"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "filter"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "filter"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "insert"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "filter"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "insert"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "filter"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "filter"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["P10Foundation17_StructBridgeable", "IndexSet"]
+- !private ["P10Foundation17_StructBridgeable", "Set"]
+- !private ["P10Foundation17_StructBridgeable", "allObjects"]
+- !private ["P10Foundation17_StructBridgeable", "enumerated"]
+- !private ["P10Foundation17_StructBridgeable", "remove"]
+- !private ["P10Foundation17_StructBridgeable", "removeObjects"]
+- !private ["P10Foundation21_StructTypeBridgeable", "IndexSet"]
+- !private ["P10Foundation21_StructTypeBridgeable", "Set"]
+- !private ["P10Foundation21_StructTypeBridgeable", "allObjects"]
+- !private ["P10Foundation21_StructTypeBridgeable", "enumerated"]
+- !private ["P10Foundation21_StructTypeBridgeable", "remove"]
+- !private ["P10Foundation21_StructTypeBridgeable", "removeObjects"]
+- !private ["P10Foundation16_SwiftBridgeable", "IndexSet"]
+- !private ["P10Foundation16_SwiftBridgeable", "Set"]
+- !private ["P10Foundation16_SwiftBridgeable", "allObjects"]
+- !private ["P10Foundation16_SwiftBridgeable", "enumerated"]
+- !private ["P10Foundation16_SwiftBridgeable", "remove"]
+- !private ["P10Foundation16_SwiftBridgeable", "removeObjects"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "V10Foundation8IndexSet"
+- !private "VC10Foundation12NSEnumerator8Iterator"
+- !private "VC10Foundation7NSArray8Iterator"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "C10Foundation7NSArray"
+- !private "C10Foundation7NSCoder"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation14NSMutableArray"
+- !private "P10Foundation16NSMutableCopying"
+- "C10Foundation19NSMutableOrderedSet"
+- "C10Foundation12NSMutableSet"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "C10Foundation12NSOrderedSet"
+- "C10Foundation11NSPredicate"
+- "P10Foundation14NSSecureCoding"
+- "C10Foundation5NSSet"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "P10Foundation17_StructBridgeable"
+- !private "P10Foundation21_StructTypeBridgeable"
+- !private "P10Foundation16_SwiftBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "144711ff4b110477f28c797c050d9a18"

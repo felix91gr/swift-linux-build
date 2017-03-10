@@ -1,0 +1,643 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextCheckingResult"
+- "_NSRegularExpressionTextCheckingResultResult"
+provides-nominal:
+- "C10Foundation18TextCheckingResult"
+- "VC10Foundation18TextCheckingResult12CheckingType"
+- "C10Foundation44_NSRegularExpressionTextCheckingResultResult"
+provides-member:
+- ["C10Foundation18TextCheckingResult", ""]
+- ["VC10Foundation18TextCheckingResult12CheckingType", ""]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", ""]
+- ["C10Foundation18TextCheckingResult", "CheckingType"]
+- ["C10Foundation18TextCheckingResult", "resultByAdjustingRangesWithOffset"]
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "<"
+- "<<"
+- !private "<="
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NSCoder"
+- "NSCoding"
+- "NSCopying"
+- !private "NSInvalidArgument"
+- !private "NSNotFound"
+- "NSObject"
+- "NSRange"
+- "NSRangePointer"
+- "NSRegularExpression"
+- !private "NSUnimplemented"
+- "NSZone"
+- "OptionSet"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TextCheckingResult"
+- "UInt64"
+- !private "UnicodeScalarType"
+- "_NSRegularExpressionTextCheckingResultResult"
+- !private "fatalError"
+- !private "kCFNotFound"
+- !private "||"
+depends-member:
+- ["Ps9AnyObject", "CheckingType"]
+- !private ["Ps9AnyObject", "NSInvalidArgument"]
+- !private ["Ps9AnyObject", "NSNotFound"]
+- ["Ps9AnyObject", "NSRange"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- !private ["Ps9AnyObject", "TextCheckingResult"]
+- !private ["Ps9AnyObject", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["Ps9AnyObject", "_ranges"]
+- !private ["Ps9AnyObject", "_regularExpression"]
+- ["Ps9AnyObject", "copy"]
+- ["Ps9AnyObject", "encode"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kCFNotFound"]
+- !private ["Ps9AnyObject", "numberOfRanges"]
+- !private ["Ps9AnyObject", "range"]
+- !private ["Ps9AnyObject", "regularExpression"]
+- !private ["Ps9AnyObject", "regularExpressionCheckingResultWithRanges"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "CheckingType"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "Element"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "RawValue"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "RegularExpression"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "UInt64"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "contains"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "deinit"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "formIntersection"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "formSymmetricDifference"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "formUnion"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "init"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "insert"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "intersection"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "isDisjoint"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "isEmpty"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "isSubset"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "isSuperset"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "rawValue"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "remove"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "subtract"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "subtracting"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "symmetricDifference"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "union"]
+- ["VC10Foundation18TextCheckingResult12CheckingType", "update"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "CheckingType"]
+- !private ["Ps28CustomDebugStringConvertible", "NSInvalidArgument"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotFound"]
+- ["Ps28CustomDebugStringConvertible", "NSRange"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- !private ["Ps28CustomDebugStringConvertible", "TextCheckingResult"]
+- !private ["Ps28CustomDebugStringConvertible", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["Ps28CustomDebugStringConvertible", "_ranges"]
+- !private ["Ps28CustomDebugStringConvertible", "_regularExpression"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "encode"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kCFNotFound"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfRanges"]
+- !private ["Ps28CustomDebugStringConvertible", "range"]
+- !private ["Ps28CustomDebugStringConvertible", "regularExpression"]
+- !private ["Ps28CustomDebugStringConvertible", "regularExpressionCheckingResultWithRanges"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscript"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "CheckingType"]
+- !private ["Ps23CustomStringConvertible", "NSInvalidArgument"]
+- !private ["Ps23CustomStringConvertible", "NSNotFound"]
+- ["Ps23CustomStringConvertible", "NSRange"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- !private ["Ps23CustomStringConvertible", "TextCheckingResult"]
+- !private ["Ps23CustomStringConvertible", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_ranges"]
+- !private ["Ps23CustomStringConvertible", "_regularExpression"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "encode"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kCFNotFound"]
+- !private ["Ps23CustomStringConvertible", "numberOfRanges"]
+- !private ["Ps23CustomStringConvertible", "range"]
+- !private ["Ps23CustomStringConvertible", "regularExpression"]
+- !private ["Ps23CustomStringConvertible", "regularExpressionCheckingResultWithRanges"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CheckingType"]
+- !private ["Ps9Equatable", "NSInvalidArgument"]
+- !private ["Ps9Equatable", "NSNotFound"]
+- ["Ps9Equatable", "NSRange"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- !private ["Ps9Equatable", "RegularExpression"]
+- !private ["Ps9Equatable", "TextCheckingResult"]
+- !private ["Ps9Equatable", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_ranges"]
+- !private ["Ps9Equatable", "_regularExpression"]
+- ["Ps9Equatable", "contains"]
+- ["Ps9Equatable", "copy"]
+- ["Ps9Equatable", "encode"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- !private ["Ps9Equatable", "kCFNotFound"]
+- !private ["Ps9Equatable", "numberOfRanges"]
+- !private ["Ps9Equatable", "range"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "regularExpression"]
+- !private ["Ps9Equatable", "regularExpressionCheckingResultWithRanges"]
+- ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "CheckingType"]
+- !private ["Ps25ExpressibleByArrayLiteral", "RegularExpression"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "CheckingType"]
+- !private ["Ps8Hashable", "NSInvalidArgument"]
+- !private ["Ps8Hashable", "NSNotFound"]
+- ["Ps8Hashable", "NSRange"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- !private ["Ps8Hashable", "TextCheckingResult"]
+- !private ["Ps8Hashable", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_ranges"]
+- !private ["Ps8Hashable", "_regularExpression"]
+- ["Ps8Hashable", "copy"]
+- ["Ps8Hashable", "encode"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kCFNotFound"]
+- !private ["Ps8Hashable", "numberOfRanges"]
+- !private ["Ps8Hashable", "range"]
+- !private ["Ps8Hashable", "regularExpression"]
+- !private ["Ps8Hashable", "regularExpressionCheckingResultWithRanges"]
+- !private ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "count"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- ["P10Foundation8NSCoding", "CheckingType"]
+- !private ["P10Foundation8NSCoding", "NSInvalidArgument"]
+- !private ["P10Foundation8NSCoding", "NSNotFound"]
+- ["P10Foundation8NSCoding", "NSRange"]
+- !private ["P10Foundation8NSCoding", "NSUnimplemented"]
+- !private ["P10Foundation8NSCoding", "TextCheckingResult"]
+- !private ["P10Foundation8NSCoding", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["P10Foundation8NSCoding", "_ranges"]
+- !private ["P10Foundation8NSCoding", "_regularExpression"]
+- ["P10Foundation8NSCoding", "copy"]
+- ["P10Foundation8NSCoding", "encode"]
+- !private ["P10Foundation8NSCoding", "fatalError"]
+- ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation8NSCoding", "kCFNotFound"]
+- !private ["P10Foundation8NSCoding", "numberOfRanges"]
+- !private ["P10Foundation8NSCoding", "range"]
+- !private ["P10Foundation8NSCoding", "regularExpression"]
+- !private ["P10Foundation8NSCoding", "regularExpressionCheckingResultWithRanges"]
+- ["P10Foundation8NSCoding", ""]
+- ["P10Foundation9NSCopying", "CheckingType"]
+- !private ["P10Foundation9NSCopying", "NSInvalidArgument"]
+- !private ["P10Foundation9NSCopying", "NSNotFound"]
+- ["P10Foundation9NSCopying", "NSRange"]
+- !private ["P10Foundation9NSCopying", "NSUnimplemented"]
+- !private ["P10Foundation9NSCopying", "TextCheckingResult"]
+- !private ["P10Foundation9NSCopying", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["P10Foundation9NSCopying", "_ranges"]
+- !private ["P10Foundation9NSCopying", "_regularExpression"]
+- ["P10Foundation9NSCopying", "copy"]
+- ["P10Foundation9NSCopying", "encode"]
+- !private ["P10Foundation9NSCopying", "fatalError"]
+- ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "kCFNotFound"]
+- !private ["P10Foundation9NSCopying", "numberOfRanges"]
+- !private ["P10Foundation9NSCopying", "range"]
+- !private ["P10Foundation9NSCopying", "regularExpression"]
+- !private ["P10Foundation9NSCopying", "regularExpressionCheckingResultWithRanges"]
+- ["P10Foundation9NSCopying", ""]
+- ["C10Foundation8NSObject", "CheckingType"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- !private ["C10Foundation8NSObject", "NSInvalidArgument"]
+- !private ["C10Foundation8NSObject", "NSNotFound"]
+- ["C10Foundation8NSObject", "NSRange"]
+- ["C10Foundation8NSObject", "NSRangePointer"]
+- ["C10Foundation8NSObject", "NSRegularExpression"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "NSZone"]
+- ["C10Foundation8NSObject", "OptionSet"]
+- ["C10Foundation8NSObject", "TextCheckingResult"]
+- ["C10Foundation8NSObject", "UInt64"]
+- !private ["C10Foundation8NSObject", "_NSRegularExpressionTextCheckingResultResult"]
+- ["C10Foundation8NSObject", "_ranges"]
+- ["C10Foundation8NSObject", "_regularExpression"]
+- ["C10Foundation8NSObject", "copy"]
+- ["C10Foundation8NSObject", "encode"]
+- !private ["C10Foundation8NSObject", "fatalError"]
+- ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "kCFNotFound"]
+- ["C10Foundation8NSObject", "numberOfRanges"]
+- ["C10Foundation8NSObject", "range"]
+- ["C10Foundation8NSObject", "regularExpression"]
+- ["C10Foundation8NSObject", "regularExpressionCheckingResultWithRanges"]
+- ["C10Foundation8NSObject", "resultByAdjustingRangesWithOffset"]
+- ["C10Foundation8NSObject", "resultType"]
+- ["C10Foundation8NSObject", ""]
+- ["P10Foundation16NSObjectProtocol", "CheckingType"]
+- !private ["P10Foundation16NSObjectProtocol", "NSInvalidArgument"]
+- !private ["P10Foundation16NSObjectProtocol", "NSNotFound"]
+- ["P10Foundation16NSObjectProtocol", "NSRange"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- !private ["P10Foundation16NSObjectProtocol", "TextCheckingResult"]
+- !private ["P10Foundation16NSObjectProtocol", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["P10Foundation16NSObjectProtocol", "_ranges"]
+- !private ["P10Foundation16NSObjectProtocol", "_regularExpression"]
+- ["P10Foundation16NSObjectProtocol", "copy"]
+- ["P10Foundation16NSObjectProtocol", "encode"]
+- !private ["P10Foundation16NSObjectProtocol", "fatalError"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "kCFNotFound"]
+- !private ["P10Foundation16NSObjectProtocol", "numberOfRanges"]
+- !private ["P10Foundation16NSObjectProtocol", "range"]
+- !private ["P10Foundation16NSObjectProtocol", "regularExpression"]
+- !private ["P10Foundation16NSObjectProtocol", "regularExpressionCheckingResultWithRanges"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["P10Foundation20NSSpecialValueCoding", "init"]
+- !private ["P10Foundation20NSSpecialValueCoding", "length"]
+- !private ["P10Foundation20NSSpecialValueCoding", "location"]
+- ["Ps9OptionSet", "CheckingType"]
+- !private ["Ps9OptionSet", "RegularExpression"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- ["Ps16RawRepresentable", "CheckingType"]
+- !private ["Ps16RawRepresentable", "RegularExpression"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Ps10SetAlgebra", "CheckingType"]
+- !private ["Ps10SetAlgebra", "RegularExpression"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "subscript"]
+- !private ["SS", "init"]
+- ["C10Foundation18TextCheckingResult", "CheckingType"]
+- ["C10Foundation18TextCheckingResult", "Int"]
+- ["C10Foundation18TextCheckingResult", "NSCoder"]
+- !private ["C10Foundation18TextCheckingResult", "NSInvalidArgument"]
+- !private ["C10Foundation18TextCheckingResult", "NSNotFound"]
+- ["C10Foundation18TextCheckingResult", "NSRange"]
+- ["C10Foundation18TextCheckingResult", "NSRangePointer"]
+- ["C10Foundation18TextCheckingResult", "NSRegularExpression"]
+- !private ["C10Foundation18TextCheckingResult", "NSUnimplemented"]
+- ["C10Foundation18TextCheckingResult", "NSZone"]
+- ["C10Foundation18TextCheckingResult", "OptionSet"]
+- ["C10Foundation18TextCheckingResult", "TextCheckingResult"]
+- ["C10Foundation18TextCheckingResult", "UInt64"]
+- !private ["C10Foundation18TextCheckingResult", "_NSRegularExpressionTextCheckingResultResult"]
+- ["C10Foundation18TextCheckingResult", "_ranges"]
+- ["C10Foundation18TextCheckingResult", "_regularExpression"]
+- ["C10Foundation18TextCheckingResult", "copy"]
+- ["C10Foundation18TextCheckingResult", "deinit"]
+- ["C10Foundation18TextCheckingResult", "encode"]
+- !private ["C10Foundation18TextCheckingResult", "fatalError"]
+- ["C10Foundation18TextCheckingResult", "init"]
+- !private ["C10Foundation18TextCheckingResult", "kCFNotFound"]
+- ["C10Foundation18TextCheckingResult", "numberOfRanges"]
+- ["C10Foundation18TextCheckingResult", "range"]
+- ["C10Foundation18TextCheckingResult", "regularExpression"]
+- ["C10Foundation18TextCheckingResult", "regularExpressionCheckingResultWithRanges"]
+- ["C10Foundation18TextCheckingResult", "resultByAdjustingRangesWithOffset"]
+- ["C10Foundation18TextCheckingResult", "resultType"]
+- ["C10Foundation18TextCheckingResult", ""]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Sp", "subscript"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "append"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "CheckingType"]
+- !private ["Ps9_Hashable", "NSInvalidArgument"]
+- !private ["Ps9_Hashable", "NSNotFound"]
+- ["Ps9_Hashable", "NSRange"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- !private ["Ps9_Hashable", "TextCheckingResult"]
+- !private ["Ps9_Hashable", "_NSRegularExpressionTextCheckingResultResult"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_ranges"]
+- !private ["Ps9_Hashable", "_regularExpression"]
+- ["Ps9_Hashable", "copy"]
+- ["Ps9_Hashable", "encode"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kCFNotFound"]
+- !private ["Ps9_Hashable", "numberOfRanges"]
+- !private ["Ps9_Hashable", "range"]
+- !private ["Ps9_Hashable", "regularExpression"]
+- !private ["Ps9_Hashable", "regularExpressionCheckingResultWithRanges"]
+- !private ["Ps9_Hashable", "subscript"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "count"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "append"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["V10Foundation8_NSRange", "deinit"]
+- !private ["V10Foundation8_NSRange", "init"]
+- !private ["V10Foundation8_NSRange", "length"]
+- !private ["V10Foundation8_NSRange", "location"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "CheckingType"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "Int"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "NSCoder"]
+- !private ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "NSNotFound"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "NSRange"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "NSRangePointer"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "NSRegularExpression"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "_ranges"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "_regularExpression"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "deinit"]
+- !private ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "fatalError"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "init"]
+- !private ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "kCFNotFound"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "numberOfRanges"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "range"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "regularExpression"]
+- ["C10Foundation44_NSRegularExpressionTextCheckingResultResult", "resultType"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "append"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "append"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps8_Pointer", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps11_Strideable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- "VC10Foundation18TextCheckingResult12CheckingType"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "P10Foundation8NSCoding"
+- "P10Foundation9NSCopying"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation20NSSpecialValueCoding"
+- "Ps9OptionSet"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- "C10Foundation18TextCheckingResult"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Sp"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "P10Foundation13_CFBridgeable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "P10Foundation13_NSBridgeable"
+- !private "V10Foundation8_NSRange"
+- "C10Foundation44_NSRegularExpressionTextCheckingResultResult"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps8_Pointer"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "619d15b904aaa5d8f496b1e2c02006e2"

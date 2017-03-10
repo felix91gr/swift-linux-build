@@ -1,0 +1,691 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateInterval"
+- "=="
+- "<"
+provides-nominal:
+- "V10Foundation12DateInterval"
+provides-member:
+- ["V10Foundation12DateInterval", ""]
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CFHashBytes"
+- !private "CFIndex"
+- "Comparable"
+- "ComparisonResult"
+- "CustomDebugStringConvertible"
+- "CustomReflectable"
+- "CustomStringConvertible"
+- "Date"
+- "DateInterval"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- "Mirror"
+- "NSDateInterval"
+- "ReferenceConvertible"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- !private "UInt"
+- !private "UInt8"
+- !private "UnsafeMutablePointer"
+- "_ObjectTypeBridgeable"
+- !private "fatalError"
+- !private "precondition"
+- !private "unsafeBitCast"
+- !private "withUnsafeMutablePointer"
+- !private "||"
+depends-member:
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "startDate"]
+- !private ["Sa", "append"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["V10Foundation7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Comparable", "CFHashBytes"]
+- !private ["Ps10Comparable", "CFIndex"]
+- !private ["Ps10Comparable", "Date"]
+- !private ["Ps10Comparable", "DateInterval"]
+- !private ["Ps10Comparable", "Int"]
+- !private ["Ps10Comparable", "MemoryLayout"]
+- !private ["Ps10Comparable", "Mirror"]
+- !private ["Ps10Comparable", "NSDateInterval"]
+- !private ["Ps10Comparable", "UInt"]
+- !private ["Ps10Comparable", "UnsafeMutablePointer"]
+- ["Ps10Comparable", "_bridgeToAnyObject"]
+- ["Ps10Comparable", "_bridgeToObjectiveC"]
+- ["Ps10Comparable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps10Comparable", "_forceBridgeFromObjectiveC"]
+- ["Ps10Comparable", "_toAnyHashable"]
+- ["Ps10Comparable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps10Comparable", "compare"]
+- !private ["Ps10Comparable", "contains"]
+- ["Ps10Comparable", "customMirror"]
+- ["Ps10Comparable", "debugDescription"]
+- ["Ps10Comparable", "description"]
+- !private ["Ps10Comparable", "duration"]
+- !private ["Ps10Comparable", "end"]
+- !private ["Ps10Comparable", "fatalError"]
+- ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "intersects"]
+- !private ["Ps10Comparable", "precondition"]
+- !private ["Ps10Comparable", "start"]
+- !private ["Ps10Comparable", "timeIntervalSince"]
+- !private ["Ps10Comparable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps10Comparable", "unsafeBitCast"]
+- !private ["Ps10Comparable", "withUnsafeMutablePointer"]
+- ["Ps10Comparable", ""]
+- !private ["O10Foundation16ComparisonResult", "deinit"]
+- !private ["O10Foundation16ComparisonResult", "orderedAscending"]
+- !private ["O10Foundation16ComparisonResult", "orderedDescending"]
+- !private ["O10Foundation16ComparisonResult", "orderedSame"]
+- !private ["Ps28CustomDebugStringConvertible", "CFHashBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "CFIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "DateInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "MemoryLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "Mirror"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDateInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "UInt"]
+- !private ["Ps28CustomDebugStringConvertible", "UnsafeMutablePointer"]
+- ["Ps28CustomDebugStringConvertible", "_bridgeToAnyObject"]
+- ["Ps28CustomDebugStringConvertible", "_bridgeToObjectiveC"]
+- ["Ps28CustomDebugStringConvertible", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps28CustomDebugStringConvertible", "_forceBridgeFromObjectiveC"]
+- ["Ps28CustomDebugStringConvertible", "_toAnyHashable"]
+- ["Ps28CustomDebugStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "compare"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- ["Ps28CustomDebugStringConvertible", "customMirror"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "description"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "end"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "intersects"]
+- !private ["Ps28CustomDebugStringConvertible", "precondition"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "startDate"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSince"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "unsafeBitCast"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutablePointer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "compare"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSince"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps17CustomReflectable", "CFHashBytes"]
+- !private ["Ps17CustomReflectable", "CFIndex"]
+- !private ["Ps17CustomReflectable", "Date"]
+- !private ["Ps17CustomReflectable", "DateInterval"]
+- !private ["Ps17CustomReflectable", "DisplayStyle"]
+- !private ["Ps17CustomReflectable", "Int"]
+- !private ["Ps17CustomReflectable", "MemoryLayout"]
+- !private ["Ps17CustomReflectable", "Mirror"]
+- !private ["Ps17CustomReflectable", "NSDateInterval"]
+- !private ["Ps17CustomReflectable", "UInt"]
+- !private ["Ps17CustomReflectable", "UnsafeMutablePointer"]
+- ["Ps17CustomReflectable", "_bridgeToAnyObject"]
+- ["Ps17CustomReflectable", "_bridgeToObjectiveC"]
+- ["Ps17CustomReflectable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps17CustomReflectable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "_toAnyHashable"]
+- ["Ps17CustomReflectable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "compare"]
+- !private ["Ps17CustomReflectable", "contains"]
+- ["Ps17CustomReflectable", "customMirror"]
+- ["Ps17CustomReflectable", "debugDescription"]
+- ["Ps17CustomReflectable", "description"]
+- !private ["Ps17CustomReflectable", "duration"]
+- !private ["Ps17CustomReflectable", "end"]
+- !private ["Ps17CustomReflectable", "fatalError"]
+- ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "intersects"]
+- !private ["Ps17CustomReflectable", "precondition"]
+- !private ["Ps17CustomReflectable", "start"]
+- !private ["Ps17CustomReflectable", "timeIntervalSince"]
+- !private ["Ps17CustomReflectable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps17CustomReflectable", "unsafeBitCast"]
+- !private ["Ps17CustomReflectable", "withUnsafeMutablePointer"]
+- ["Ps17CustomReflectable", ""]
+- !private ["Ps23CustomStringConvertible", "CFHashBytes"]
+- !private ["Ps23CustomStringConvertible", "CFIndex"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "DateInterval"]
+- !private ["Ps23CustomStringConvertible", "DisplayStyle"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "MemoryLayout"]
+- !private ["Ps23CustomStringConvertible", "Mirror"]
+- !private ["Ps23CustomStringConvertible", "NSDateInterval"]
+- !private ["Ps23CustomStringConvertible", "UInt"]
+- !private ["Ps23CustomStringConvertible", "UnsafeMutablePointer"]
+- ["Ps23CustomStringConvertible", "_bridgeToAnyObject"]
+- ["Ps23CustomStringConvertible", "_bridgeToObjectiveC"]
+- ["Ps23CustomStringConvertible", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps23CustomStringConvertible", "_forceBridgeFromObjectiveC"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_toAnyHashable"]
+- ["Ps23CustomStringConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "compare"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- ["Ps23CustomStringConvertible", "customMirror"]
+- ["Ps23CustomStringConvertible", "debugDescription"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "end"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "intersects"]
+- !private ["Ps23CustomStringConvertible", "precondition"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "startDate"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSince"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "unsafeBitCast"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutablePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "compare"]
+- !private ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation4Date", "timeIntervalSince"]
+- !private ["V10Foundation4Date", "timeIntervalSinceReferenceDate"]
+- ["V10Foundation12DateInterval", "<"]
+- ["V10Foundation12DateInterval", "=="]
+- ["V10Foundation12DateInterval", "Bool"]
+- !private ["V10Foundation12DateInterval", "CFHashBytes"]
+- !private ["V10Foundation12DateInterval", "CFIndex"]
+- ["V10Foundation12DateInterval", "ComparisonResult"]
+- ["V10Foundation12DateInterval", "Date"]
+- ["V10Foundation12DateInterval", "DateInterval"]
+- ["V10Foundation12DateInterval", "Int"]
+- !private ["V10Foundation12DateInterval", "MemoryLayout"]
+- ["V10Foundation12DateInterval", "Mirror"]
+- ["V10Foundation12DateInterval", "NSDateInterval"]
+- ["V10Foundation12DateInterval", "ReferenceType"]
+- ["V10Foundation12DateInterval", "String"]
+- ["V10Foundation12DateInterval", "TimeInterval"]
+- !private ["V10Foundation12DateInterval", "UInt"]
+- !private ["V10Foundation12DateInterval", "UInt8"]
+- !private ["V10Foundation12DateInterval", "UnsafeMutablePointer"]
+- ["V10Foundation12DateInterval", "_ObjectType"]
+- ["V10Foundation12DateInterval", "_bridgeToAnyObject"]
+- ["V10Foundation12DateInterval", "_bridgeToObjectiveC"]
+- ["V10Foundation12DateInterval", "_conditionallyBridgeFromObjectiveC"]
+- ["V10Foundation12DateInterval", "_forceBridgeFromObjectiveC"]
+- ["V10Foundation12DateInterval", "_getObjectiveCType"]
+- ["V10Foundation12DateInterval", "_isBridgedToObjectiveC"]
+- ["V10Foundation12DateInterval", "_toAnyHashable"]
+- ["V10Foundation12DateInterval", "_unconditionallyBridgeFromObjectiveC"]
+- ["V10Foundation12DateInterval", "compare"]
+- ["V10Foundation12DateInterval", "contains"]
+- ["V10Foundation12DateInterval", "customMirror"]
+- ["V10Foundation12DateInterval", "debugDescription"]
+- ["V10Foundation12DateInterval", "deinit"]
+- ["V10Foundation12DateInterval", "description"]
+- ["V10Foundation12DateInterval", "duration"]
+- ["V10Foundation12DateInterval", "end"]
+- !private ["V10Foundation12DateInterval", "fatalError"]
+- ["V10Foundation12DateInterval", "hashValue"]
+- ["V10Foundation12DateInterval", "init"]
+- ["V10Foundation12DateInterval", "intersection"]
+- ["V10Foundation12DateInterval", "intersects"]
+- !private ["V10Foundation12DateInterval", "precondition"]
+- ["V10Foundation12DateInterval", "start"]
+- !private ["V10Foundation12DateInterval", "unsafeBitCast"]
+- !private ["V10Foundation12DateInterval", "withUnsafeMutablePointer"]
+- !private ["OVs6Mirror12DisplayStyle", "struct"]
+- !private ["Ps9Equatable", "CFHashBytes"]
+- !private ["Ps9Equatable", "CFIndex"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "DateInterval"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "MemoryLayout"]
+- !private ["Ps9Equatable", "Mirror"]
+- !private ["Ps9Equatable", "NSDateInterval"]
+- !private ["Ps9Equatable", "UInt"]
+- !private ["Ps9Equatable", "UnsafeMutablePointer"]
+- ["Ps9Equatable", "_bridgeToAnyObject"]
+- ["Ps9Equatable", "_bridgeToObjectiveC"]
+- ["Ps9Equatable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps9Equatable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps9Equatable", "compare"]
+- !private ["Ps9Equatable", "contains"]
+- ["Ps9Equatable", "customMirror"]
+- ["Ps9Equatable", "debugDescription"]
+- ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "end"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "intersects"]
+- !private ["Ps9Equatable", "orderedAscending"]
+- !private ["Ps9Equatable", "orderedDescending"]
+- !private ["Ps9Equatable", "orderedSame"]
+- !private ["Ps9Equatable", "precondition"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "startDate"]
+- !private ["Ps9Equatable", "struct"]
+- !private ["Ps9Equatable", "timeIntervalSince"]
+- !private ["Ps9Equatable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9Equatable", "unsafeBitCast"]
+- !private ["Ps9Equatable", "withUnsafeMutablePointer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CFHashBytes"]
+- !private ["Ps8Hashable", "CFIndex"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "DateInterval"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "MemoryLayout"]
+- !private ["Ps8Hashable", "Mirror"]
+- !private ["Ps8Hashable", "NSDateInterval"]
+- !private ["Ps8Hashable", "UInt"]
+- !private ["Ps8Hashable", "UnsafeMutablePointer"]
+- ["Ps8Hashable", "_bridgeToAnyObject"]
+- ["Ps8Hashable", "_bridgeToObjectiveC"]
+- ["Ps8Hashable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps8Hashable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps8Hashable", "compare"]
+- !private ["Ps8Hashable", "contains"]
+- ["Ps8Hashable", "customMirror"]
+- ["Ps8Hashable", "debugDescription"]
+- ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "end"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "intersects"]
+- !private ["Ps8Hashable", "orderedAscending"]
+- !private ["Ps8Hashable", "orderedDescending"]
+- !private ["Ps8Hashable", "orderedSame"]
+- !private ["Ps8Hashable", "precondition"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "startDate"]
+- !private ["Ps8Hashable", "struct"]
+- !private ["Ps8Hashable", "timeIntervalSince"]
+- !private ["Ps8Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps8Hashable", "unsafeBitCast"]
+- !private ["Ps8Hashable", "withUnsafeMutablePointer"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Vs6Mirror", "DisplayStyle"]
+- !private ["Vs6Mirror", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["P10Foundation8NSCoding", "duration"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation8NSCoding", "startDate"]
+- !private ["P10Foundation9NSCopying", "duration"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "startDate"]
+- ["C10Foundation14NSDateInterval", "deinit"]
+- !private ["C10Foundation14NSDateInterval", "duration"]
+- !private ["C10Foundation14NSDateInterval", "init"]
+- !private ["C10Foundation14NSDateInterval", "startDate"]
+- !private ["C10Foundation8NSObject", "duration"]
+- !private ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "startDate"]
+- !private ["P10Foundation16NSObjectProtocol", "duration"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "startDate"]
+- !private ["P10Foundation14NSSecureCoding", "duration"]
+- !private ["P10Foundation14NSSecureCoding", "init"]
+- !private ["P10Foundation14NSSecureCoding", "startDate"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps16RawRepresentable", "orderedAscending"]
+- !private ["Ps16RawRepresentable", "orderedDescending"]
+- !private ["Ps16RawRepresentable", "orderedSame"]
+- !private ["P10Foundation20ReferenceConvertible", "CFHashBytes"]
+- !private ["P10Foundation20ReferenceConvertible", "CFIndex"]
+- !private ["P10Foundation20ReferenceConvertible", "Date"]
+- !private ["P10Foundation20ReferenceConvertible", "DateInterval"]
+- !private ["P10Foundation20ReferenceConvertible", "Int"]
+- !private ["P10Foundation20ReferenceConvertible", "MemoryLayout"]
+- !private ["P10Foundation20ReferenceConvertible", "Mirror"]
+- !private ["P10Foundation20ReferenceConvertible", "NSDateInterval"]
+- !private ["P10Foundation20ReferenceConvertible", "UInt"]
+- !private ["P10Foundation20ReferenceConvertible", "UnsafeMutablePointer"]
+- ["P10Foundation20ReferenceConvertible", "_bridgeToAnyObject"]
+- ["P10Foundation20ReferenceConvertible", "_bridgeToObjectiveC"]
+- ["P10Foundation20ReferenceConvertible", "_conditionallyBridgeFromObjectiveC"]
+- ["P10Foundation20ReferenceConvertible", "_forceBridgeFromObjectiveC"]
+- ["P10Foundation20ReferenceConvertible", "_toAnyHashable"]
+- ["P10Foundation20ReferenceConvertible", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation20ReferenceConvertible", "compare"]
+- !private ["P10Foundation20ReferenceConvertible", "contains"]
+- ["P10Foundation20ReferenceConvertible", "customMirror"]
+- ["P10Foundation20ReferenceConvertible", "debugDescription"]
+- ["P10Foundation20ReferenceConvertible", "description"]
+- !private ["P10Foundation20ReferenceConvertible", "duration"]
+- !private ["P10Foundation20ReferenceConvertible", "end"]
+- !private ["P10Foundation20ReferenceConvertible", "fatalError"]
+- ["P10Foundation20ReferenceConvertible", "hashValue"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "intersects"]
+- !private ["P10Foundation20ReferenceConvertible", "precondition"]
+- !private ["P10Foundation20ReferenceConvertible", "start"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSince"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation20ReferenceConvertible", "unsafeBitCast"]
+- !private ["P10Foundation20ReferenceConvertible", "withUnsafeMutablePointer"]
+- ["P10Foundation20ReferenceConvertible", ""]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "append"]
+- !private ["P10Foundation13_CFBridgeable", "compare"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "timeIntervalSince"]
+- !private ["P10Foundation13_CFBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "CFHashBytes"]
+- !private ["Ps9_Hashable", "CFIndex"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "DateInterval"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "MemoryLayout"]
+- !private ["Ps9_Hashable", "Mirror"]
+- !private ["Ps9_Hashable", "NSDateInterval"]
+- !private ["Ps9_Hashable", "UInt"]
+- !private ["Ps9_Hashable", "UnsafeMutablePointer"]
+- ["Ps9_Hashable", "_bridgeToAnyObject"]
+- ["Ps9_Hashable", "_bridgeToObjectiveC"]
+- ["Ps9_Hashable", "_conditionallyBridgeFromObjectiveC"]
+- ["Ps9_Hashable", "_forceBridgeFromObjectiveC"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["Ps9_Hashable", "compare"]
+- !private ["Ps9_Hashable", "contains"]
+- ["Ps9_Hashable", "customMirror"]
+- ["Ps9_Hashable", "debugDescription"]
+- ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "duration"]
+- !private ["Ps9_Hashable", "end"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "intersects"]
+- !private ["Ps9_Hashable", "orderedAscending"]
+- !private ["Ps9_Hashable", "orderedDescending"]
+- !private ["Ps9_Hashable", "orderedSame"]
+- !private ["Ps9_Hashable", "precondition"]
+- !private ["Ps9_Hashable", "start"]
+- !private ["Ps9_Hashable", "startDate"]
+- !private ["Ps9_Hashable", "struct"]
+- !private ["Ps9_Hashable", "timeIntervalSince"]
+- !private ["Ps9_Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9_Hashable", "unsafeBitCast"]
+- !private ["Ps9_Hashable", "withUnsafeMutablePointer"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["P10Foundation13_NSBridgeable", "append"]
+- !private ["P10Foundation13_NSBridgeable", "compare"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "timeIntervalSince"]
+- !private ["P10Foundation13_NSBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation17_ObjectBridgeable", "CFHashBytes"]
+- !private ["P10Foundation17_ObjectBridgeable", "CFIndex"]
+- !private ["P10Foundation17_ObjectBridgeable", "Date"]
+- !private ["P10Foundation17_ObjectBridgeable", "DateInterval"]
+- !private ["P10Foundation17_ObjectBridgeable", "Int"]
+- !private ["P10Foundation17_ObjectBridgeable", "MemoryLayout"]
+- !private ["P10Foundation17_ObjectBridgeable", "Mirror"]
+- !private ["P10Foundation17_ObjectBridgeable", "NSDateInterval"]
+- !private ["P10Foundation17_ObjectBridgeable", "UInt"]
+- !private ["P10Foundation17_ObjectBridgeable", "UnsafeMutablePointer"]
+- ["P10Foundation17_ObjectBridgeable", "_bridgeToAnyObject"]
+- ["P10Foundation17_ObjectBridgeable", "_bridgeToObjectiveC"]
+- ["P10Foundation17_ObjectBridgeable", "_conditionallyBridgeFromObjectiveC"]
+- ["P10Foundation17_ObjectBridgeable", "_forceBridgeFromObjectiveC"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation17_ObjectBridgeable", "_toAnyHashable"]
+- ["P10Foundation17_ObjectBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation17_ObjectBridgeable", "append"]
+- !private ["P10Foundation17_ObjectBridgeable", "compare"]
+- !private ["P10Foundation17_ObjectBridgeable", "contains"]
+- ["P10Foundation17_ObjectBridgeable", "customMirror"]
+- ["P10Foundation17_ObjectBridgeable", "debugDescription"]
+- ["P10Foundation17_ObjectBridgeable", "description"]
+- !private ["P10Foundation17_ObjectBridgeable", "duration"]
+- !private ["P10Foundation17_ObjectBridgeable", "end"]
+- !private ["P10Foundation17_ObjectBridgeable", "fatalError"]
+- ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "intersects"]
+- !private ["P10Foundation17_ObjectBridgeable", "precondition"]
+- !private ["P10Foundation17_ObjectBridgeable", "start"]
+- !private ["P10Foundation17_ObjectBridgeable", "timeIntervalSince"]
+- !private ["P10Foundation17_ObjectBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation17_ObjectBridgeable", "unsafeBitCast"]
+- !private ["P10Foundation17_ObjectBridgeable", "withUnsafeMutablePointer"]
+- ["P10Foundation17_ObjectBridgeable", ""]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "CFHashBytes"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "CFIndex"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Date"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "DateInterval"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Int"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "MemoryLayout"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Mirror"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "NSDateInterval"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "UInt"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "UnsafeMutablePointer"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_bridgeToAnyObject"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_bridgeToObjectiveC"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_conditionallyBridgeFromObjectiveC"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_forceBridgeFromObjectiveC"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_toAnyHashable"]
+- ["P10Foundation21_ObjectTypeBridgeable", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "append"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "compare"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "contains"]
+- ["P10Foundation21_ObjectTypeBridgeable", "customMirror"]
+- ["P10Foundation21_ObjectTypeBridgeable", "debugDescription"]
+- ["P10Foundation21_ObjectTypeBridgeable", "description"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "duration"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "end"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "fatalError"]
+- ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "intersects"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "precondition"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "start"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "timeIntervalSince"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "timeIntervalSinceReferenceDate"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "unsafeBitCast"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "withUnsafeMutablePointer"]
+- ["P10Foundation21_ObjectTypeBridgeable", ""]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["P10Foundation17_StructBridgeable", "duration"]
+- !private ["P10Foundation17_StructBridgeable", "init"]
+- !private ["P10Foundation17_StructBridgeable", "startDate"]
+- !private ["P10Foundation21_StructTypeBridgeable", "duration"]
+- !private ["P10Foundation21_StructTypeBridgeable", "init"]
+- !private ["P10Foundation21_StructTypeBridgeable", "startDate"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "V10Foundation7CGFloat"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "O10Foundation16ComparisonResult"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- "V10Foundation12DateInterval"
+- !private "OVs6Mirror12DisplayStyle"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- !private "Vs6Mirror"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "P10Foundation8NSCoding"
+- !private "P10Foundation9NSCopying"
+- "C10Foundation14NSDateInterval"
+- !private "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation14NSSecureCoding"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "P10Foundation17_StructBridgeable"
+- !private "P10Foundation21_StructTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "d11d775f31f461cef228f70e44a18a25"

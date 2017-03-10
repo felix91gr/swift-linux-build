@@ -1,0 +1,778 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLSessionTransferSizeUnknown"
+- "URLSession"
+- "URLSessionProtocol"
+- "_MissingURLSession"
+provides-nominal:
+- "C10Foundation10URLSession"
+- "OC10Foundation10URLSession14_TaskBehaviour"
+- "P10Foundation18URLSessionProtocol"
+- "C10Foundation18_MissingURLSession"
+provides-member:
+- ["C10Foundation10URLSession", ""]
+- ["OC10Foundation10URLSession14_TaskBehaviour", ""]
+- ["P10Foundation18URLSessionProtocol", ""]
+- ["C10Foundation18_MissingURLSession", ""]
+- ["C10Foundation10URLSession", "dataTask"]
+- ["C10Foundation10URLSession", "dataTask"]
+- ["C10Foundation10URLSession", "uploadTask"]
+- ["C10Foundation10URLSession", "uploadTask"]
+- ["C10Foundation10URLSession", "downloadTask"]
+- ["C10Foundation10URLSession", "downloadTask"]
+- ["C10Foundation10URLSession", "downloadTask"]
+- ["C10Foundation10URLSession", "_TaskBehaviour"]
+- ["C10Foundation10URLSession", "behaviour"]
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "??"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- "DispatchQueue"
+- "Error"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- "Int64"
+- "IntegerLiteralType"
+- "NSObject"
+- !private "NSUnimplemented"
+- "OperationQueue"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- "URLRequest"
+- "URLResponse"
+- "URLSession"
+- "URLSessionConfiguration"
+- "URLSessionDataTask"
+- "URLSessionDelegate"
+- "URLSessionDownloadTask"
+- "URLSessionProtocol"
+- "URLSessionStreamTask"
+- "URLSessionTask"
+- "URLSessionTaskDelegate"
+- "URLSessionTransferSizeUnknown"
+- "URLSessionUploadTask"
+- !private "UnicodeScalarType"
+- "Void"
+- "_EasyHandle"
+- "_MissingURLSession"
+- !private "createDispatchData"
+- !private "fatalError"
+- !private "initializeLibcurl"
+- !private "nextSessionIdentifier"
+- !private "sessionCounter"
+depends-member:
+- !private ["Ps9AnyObject", "Attributes"]
+- !private ["Ps9AnyObject", "Data"]
+- ["Ps9AnyObject", "DataTaskCompletion"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- ["Ps9AnyObject", "DownloadTaskCompletion"]
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- !private ["Ps9AnyObject", "OperationQueue"]
+- ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "URLSessionDataTask"]
+- !private ["Ps9AnyObject", "URLSessionDownloadTask"]
+- !private ["Ps9AnyObject", "URLSessionUploadTask"]
+- !private ["Ps9AnyObject", "_Behaviour"]
+- !private ["Ps9AnyObject", "_Body"]
+- !private ["Ps9AnyObject", "_Configuration"]
+- !private ["Ps9AnyObject", "_MultiHandle"]
+- !private ["Ps9AnyObject", "_Request"]
+- ["Ps9AnyObject", "_TaskBehaviour"]
+- ["Ps9AnyObject", "_TaskRegistry"]
+- !private ["Ps9AnyObject", "_configuration"]
+- ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "addOperation"]
+- !private ["Ps9AnyObject", "async"]
+- ["Ps9AnyObject", "behaviour"]
+- !private ["Ps9AnyObject", "configuration"]
+- !private ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "createConfiguredRequest"]
+- !private ["Ps9AnyObject", "createDispatchData"]
+- !private ["Ps9AnyObject", "createNextTaskIdentifier"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "delegateQueue"]
+- !private ["Ps9AnyObject", "downloadTask"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initializeLibcurl"]
+- !private ["Ps9AnyObject", "invalidated"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "multiHandle"]
+- !private ["Ps9AnyObject", "nextSessionIdentifier"]
+- !private ["Ps9AnyObject", "nextTaskIdentifier"]
+- !private ["Ps9AnyObject", "notify"]
+- ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "taskAttributesIsolation"]
+- !private ["Ps9AnyObject", "taskRegistry"]
+- !private ["Ps9AnyObject", "uploadTask"]
+- !private ["Ps9AnyObject", "workQueue"]
+- ["Ps9AnyObject", ""]
+- !private ["VC8Dispatch13DispatchQueue10Attributes", "concurrent"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "init"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Data"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- !private ["Ps28CustomDebugStringConvertible", "OperationQueue"]
+- ["Ps28CustomDebugStringConvertible", "URLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSessionDataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSessionDownloadTask"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSessionUploadTask"]
+- !private ["Ps28CustomDebugStringConvertible", "_Body"]
+- !private ["Ps28CustomDebugStringConvertible", "_Configuration"]
+- !private ["Ps28CustomDebugStringConvertible", "_MultiHandle"]
+- !private ["Ps28CustomDebugStringConvertible", "_Request"]
+- ["Ps28CustomDebugStringConvertible", "_TaskBehaviour"]
+- ["Ps28CustomDebugStringConvertible", "_TaskRegistry"]
+- !private ["Ps28CustomDebugStringConvertible", "_configuration"]
+- ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "addOperation"]
+- ["Ps28CustomDebugStringConvertible", "behaviour"]
+- !private ["Ps28CustomDebugStringConvertible", "configuration"]
+- !private ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "createConfiguredRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "createDispatchData"]
+- !private ["Ps28CustomDebugStringConvertible", "createNextTaskIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "delegateQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadTask"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initializeLibcurl"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidated"]
+- !private ["Ps28CustomDebugStringConvertible", "multiHandle"]
+- !private ["Ps28CustomDebugStringConvertible", "nextSessionIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "nextTaskIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "none"]
+- ["Ps28CustomDebugStringConvertible", "remove"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "taskAttributesIsolation"]
+- !private ["Ps28CustomDebugStringConvertible", "taskRegistry"]
+- !private ["Ps28CustomDebugStringConvertible", "uploadTask"]
+- !private ["Ps28CustomDebugStringConvertible", "workQueue"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "none"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "Data"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- !private ["Ps23CustomStringConvertible", "OperationQueue"]
+- ["Ps23CustomStringConvertible", "URLSession"]
+- !private ["Ps23CustomStringConvertible", "URLSessionDataTask"]
+- !private ["Ps23CustomStringConvertible", "URLSessionDownloadTask"]
+- !private ["Ps23CustomStringConvertible", "URLSessionUploadTask"]
+- !private ["Ps23CustomStringConvertible", "_Body"]
+- !private ["Ps23CustomStringConvertible", "_Configuration"]
+- !private ["Ps23CustomStringConvertible", "_MultiHandle"]
+- !private ["Ps23CustomStringConvertible", "_Request"]
+- ["Ps23CustomStringConvertible", "_TaskBehaviour"]
+- ["Ps23CustomStringConvertible", "_TaskRegistry"]
+- !private ["Ps23CustomStringConvertible", "_configuration"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "addOperation"]
+- ["Ps23CustomStringConvertible", "behaviour"]
+- !private ["Ps23CustomStringConvertible", "configuration"]
+- !private ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "createConfiguredRequest"]
+- !private ["Ps23CustomStringConvertible", "createDispatchData"]
+- !private ["Ps23CustomStringConvertible", "createNextTaskIdentifier"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "delegateQueue"]
+- !private ["Ps23CustomStringConvertible", "downloadTask"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initializeLibcurl"]
+- !private ["Ps23CustomStringConvertible", "invalidated"]
+- !private ["Ps23CustomStringConvertible", "multiHandle"]
+- !private ["Ps23CustomStringConvertible", "nextSessionIdentifier"]
+- !private ["Ps23CustomStringConvertible", "nextTaskIdentifier"]
+- ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "taskAttributesIsolation"]
+- !private ["Ps23CustomStringConvertible", "taskRegistry"]
+- !private ["Ps23CustomStringConvertible", "uploadTask"]
+- !private ["Ps23CustomStringConvertible", "workQueue"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "deinit"]
+- !private ["V10Foundation4Data", "init"]
+- !private ["C8Dispatch14DispatchObject", "Attributes"]
+- !private ["C8Dispatch14DispatchObject", "async"]
+- !private ["C8Dispatch13DispatchQueue", "Attributes"]
+- !private ["C8Dispatch13DispatchQueue", "async"]
+- !private ["C8Dispatch13DispatchQueue", "init"]
+- !private ["Ps9Equatable", "Data"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- !private ["Ps9Equatable", "OperationQueue"]
+- ["Ps9Equatable", "URLSession"]
+- !private ["Ps9Equatable", "URLSessionDataTask"]
+- !private ["Ps9Equatable", "URLSessionDownloadTask"]
+- !private ["Ps9Equatable", "URLSessionUploadTask"]
+- !private ["Ps9Equatable", "_Body"]
+- !private ["Ps9Equatable", "_Configuration"]
+- !private ["Ps9Equatable", "_MultiHandle"]
+- !private ["Ps9Equatable", "_Request"]
+- ["Ps9Equatable", "_TaskBehaviour"]
+- ["Ps9Equatable", "_TaskRegistry"]
+- !private ["Ps9Equatable", "_configuration"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "addOperation"]
+- ["Ps9Equatable", "behaviour"]
+- !private ["Ps9Equatable", "concurrent"]
+- !private ["Ps9Equatable", "configuration"]
+- !private ["Ps9Equatable", "copy"]
+- !private ["Ps9Equatable", "createConfiguredRequest"]
+- !private ["Ps9Equatable", "createDispatchData"]
+- !private ["Ps9Equatable", "createNextTaskIdentifier"]
+- !private ["Ps9Equatable", "dataTask"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "delegateQueue"]
+- !private ["Ps9Equatable", "downloadTask"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initializeLibcurl"]
+- !private ["Ps9Equatable", "invalidated"]
+- !private ["Ps9Equatable", "multiHandle"]
+- !private ["Ps9Equatable", "nextSessionIdentifier"]
+- !private ["Ps9Equatable", "nextTaskIdentifier"]
+- ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "taskAttributesIsolation"]
+- !private ["Ps9Equatable", "taskRegistry"]
+- !private ["Ps9Equatable", "uploadTask"]
+- !private ["Ps9Equatable", "workQueue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "concurrent"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "none"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Data"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- !private ["Ps8Hashable", "OperationQueue"]
+- ["Ps8Hashable", "URLSession"]
+- !private ["Ps8Hashable", "URLSessionDataTask"]
+- !private ["Ps8Hashable", "URLSessionDownloadTask"]
+- !private ["Ps8Hashable", "URLSessionUploadTask"]
+- !private ["Ps8Hashable", "_Body"]
+- !private ["Ps8Hashable", "_Configuration"]
+- !private ["Ps8Hashable", "_MultiHandle"]
+- !private ["Ps8Hashable", "_Request"]
+- ["Ps8Hashable", "_TaskBehaviour"]
+- ["Ps8Hashable", "_TaskRegistry"]
+- !private ["Ps8Hashable", "_configuration"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "addOperation"]
+- ["Ps8Hashable", "behaviour"]
+- !private ["Ps8Hashable", "configuration"]
+- !private ["Ps8Hashable", "copy"]
+- !private ["Ps8Hashable", "createConfiguredRequest"]
+- !private ["Ps8Hashable", "createDispatchData"]
+- !private ["Ps8Hashable", "createNextTaskIdentifier"]
+- !private ["Ps8Hashable", "dataTask"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "delegateQueue"]
+- !private ["Ps8Hashable", "downloadTask"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initializeLibcurl"]
+- !private ["Ps8Hashable", "invalidated"]
+- !private ["Ps8Hashable", "multiHandle"]
+- !private ["Ps8Hashable", "nextSessionIdentifier"]
+- !private ["Ps8Hashable", "nextTaskIdentifier"]
+- ["Ps8Hashable", "remove"]
+- !private ["Ps8Hashable", "taskAttributesIsolation"]
+- !private ["Ps8Hashable", "taskRegistry"]
+- !private ["Ps8Hashable", "uploadTask"]
+- !private ["Ps8Hashable", "workQueue"]
+- ["Ps8Hashable", ""]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int32", "init"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["P10Foundation9NSCopying", "_Body"]
+- !private ["P10Foundation9NSCopying", "copy"]
+- !private ["P10Foundation9NSCopying", "init"]
+- ["C10Foundation8NSObject", "Data"]
+- ["C10Foundation8NSObject", "DispatchQueue"]
+- ["C10Foundation8NSObject", "Error"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "Int32"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "OperationQueue"]
+- ["C10Foundation8NSObject", "String"]
+- ["C10Foundation8NSObject", "URL"]
+- ["C10Foundation8NSObject", "URLRequest"]
+- ["C10Foundation8NSObject", "URLResponse"]
+- ["C10Foundation8NSObject", "URLSession"]
+- ["C10Foundation8NSObject", "URLSessionConfiguration"]
+- ["C10Foundation8NSObject", "URLSessionDataTask"]
+- ["C10Foundation8NSObject", "URLSessionDelegate"]
+- ["C10Foundation8NSObject", "URLSessionDownloadTask"]
+- ["C10Foundation8NSObject", "URLSessionStreamTask"]
+- ["C10Foundation8NSObject", "URLSessionTask"]
+- ["C10Foundation8NSObject", "URLSessionTaskDelegate"]
+- ["C10Foundation8NSObject", "URLSessionUploadTask"]
+- ["C10Foundation8NSObject", "Void"]
+- !private ["C10Foundation8NSObject", "_Body"]
+- ["C10Foundation8NSObject", "_Configuration"]
+- ["C10Foundation8NSObject", "_EasyHandle"]
+- ["C10Foundation8NSObject", "_MultiHandle"]
+- ["C10Foundation8NSObject", "_Request"]
+- ["C10Foundation8NSObject", "_TaskBehaviour"]
+- ["C10Foundation8NSObject", "_TaskRegistry"]
+- ["C10Foundation8NSObject", "_configuration"]
+- ["C10Foundation8NSObject", "add"]
+- !private ["C10Foundation8NSObject", "addOperation"]
+- ["C10Foundation8NSObject", "behaviour"]
+- ["C10Foundation8NSObject", "configuration"]
+- !private ["C10Foundation8NSObject", "copy"]
+- !private ["C10Foundation8NSObject", "createConfiguredRequest"]
+- !private ["C10Foundation8NSObject", "createDispatchData"]
+- !private ["C10Foundation8NSObject", "createNextTaskIdentifier"]
+- ["C10Foundation8NSObject", "dataTask"]
+- ["C10Foundation8NSObject", "delegate"]
+- ["C10Foundation8NSObject", "delegateQueue"]
+- ["C10Foundation8NSObject", "downloadTask"]
+- !private ["C10Foundation8NSObject", "fatalError"]
+- ["C10Foundation8NSObject", "finishTasksAndInvalidate"]
+- ["C10Foundation8NSObject", "flush"]
+- ["C10Foundation8NSObject", "getAllTasks"]
+- ["C10Foundation8NSObject", "getTasksWithCompletionHandler"]
+- ["C10Foundation8NSObject", "identifier"]
+- ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "initializeLibcurl"]
+- ["C10Foundation8NSObject", "invalidateAndCancel"]
+- ["C10Foundation8NSObject", "invalidated"]
+- ["C10Foundation8NSObject", "multiHandle"]
+- !private ["C10Foundation8NSObject", "nextSessionIdentifier"]
+- ["C10Foundation8NSObject", "nextTaskIdentifier"]
+- ["C10Foundation8NSObject", "remove"]
+- ["C10Foundation8NSObject", "reset"]
+- ["C10Foundation8NSObject", "sessionDescription"]
+- ["C10Foundation8NSObject", "shared"]
+- ["C10Foundation8NSObject", "streamTask"]
+- ["C10Foundation8NSObject", "taskAttributesIsolation"]
+- ["C10Foundation8NSObject", "taskRegistry"]
+- ["C10Foundation8NSObject", "uploadTask"]
+- ["C10Foundation8NSObject", "workQueue"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "Data"]
+- !private ["P10Foundation16NSObjectProtocol", "DispatchQueue"]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- !private ["P10Foundation16NSObjectProtocol", "OperationQueue"]
+- ["P10Foundation16NSObjectProtocol", "URLSession"]
+- !private ["P10Foundation16NSObjectProtocol", "URLSessionDataTask"]
+- !private ["P10Foundation16NSObjectProtocol", "URLSessionDownloadTask"]
+- !private ["P10Foundation16NSObjectProtocol", "URLSessionUploadTask"]
+- !private ["P10Foundation16NSObjectProtocol", "_Body"]
+- !private ["P10Foundation16NSObjectProtocol", "_Configuration"]
+- !private ["P10Foundation16NSObjectProtocol", "_MultiHandle"]
+- !private ["P10Foundation16NSObjectProtocol", "_Request"]
+- ["P10Foundation16NSObjectProtocol", "_TaskBehaviour"]
+- ["P10Foundation16NSObjectProtocol", "_TaskRegistry"]
+- !private ["P10Foundation16NSObjectProtocol", "_configuration"]
+- ["P10Foundation16NSObjectProtocol", "add"]
+- !private ["P10Foundation16NSObjectProtocol", "addOperation"]
+- ["P10Foundation16NSObjectProtocol", "behaviour"]
+- !private ["P10Foundation16NSObjectProtocol", "configuration"]
+- !private ["P10Foundation16NSObjectProtocol", "copy"]
+- !private ["P10Foundation16NSObjectProtocol", "createConfiguredRequest"]
+- !private ["P10Foundation16NSObjectProtocol", "createDispatchData"]
+- !private ["P10Foundation16NSObjectProtocol", "createNextTaskIdentifier"]
+- !private ["P10Foundation16NSObjectProtocol", "dataTask"]
+- !private ["P10Foundation16NSObjectProtocol", "delegate"]
+- !private ["P10Foundation16NSObjectProtocol", "delegateQueue"]
+- !private ["P10Foundation16NSObjectProtocol", "downloadTask"]
+- !private ["P10Foundation16NSObjectProtocol", "fatalError"]
+- !private ["P10Foundation16NSObjectProtocol", "identifier"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "initializeLibcurl"]
+- !private ["P10Foundation16NSObjectProtocol", "invalidated"]
+- !private ["P10Foundation16NSObjectProtocol", "multiHandle"]
+- !private ["P10Foundation16NSObjectProtocol", "nextSessionIdentifier"]
+- !private ["P10Foundation16NSObjectProtocol", "nextTaskIdentifier"]
+- ["P10Foundation16NSObjectProtocol", "remove"]
+- !private ["P10Foundation16NSObjectProtocol", "taskAttributesIsolation"]
+- !private ["P10Foundation16NSObjectProtocol", "taskRegistry"]
+- !private ["P10Foundation16NSObjectProtocol", "uploadTask"]
+- !private ["P10Foundation16NSObjectProtocol", "urlSession"]
+- !private ["P10Foundation16NSObjectProtocol", "workQueue"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["C10Foundation14OperationQueue", "addOperation"]
+- !private ["C10Foundation14OperationQueue", "init"]
+- !private ["Ps9OptionSet", "concurrent"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps16RawRepresentable", "concurrent"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps10SetAlgebra", "concurrent"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V10Foundation10URLRequest", "init"]
+- ["C10Foundation10URLSession", "Data"]
+- ["C10Foundation10URLSession", "DispatchQueue"]
+- ["C10Foundation10URLSession", "Error"]
+- ["C10Foundation10URLSession", "Int"]
+- ["C10Foundation10URLSession", "Int32"]
+- !private ["C10Foundation10URLSession", "NSUnimplemented"]
+- ["C10Foundation10URLSession", "OperationQueue"]
+- ["C10Foundation10URLSession", "String"]
+- ["C10Foundation10URLSession", "URL"]
+- ["C10Foundation10URLSession", "URLRequest"]
+- ["C10Foundation10URLSession", "URLResponse"]
+- ["C10Foundation10URLSession", "URLSession"]
+- ["C10Foundation10URLSession", "URLSessionConfiguration"]
+- ["C10Foundation10URLSession", "URLSessionDataTask"]
+- ["C10Foundation10URLSession", "URLSessionDelegate"]
+- ["C10Foundation10URLSession", "URLSessionDownloadTask"]
+- ["C10Foundation10URLSession", "URLSessionStreamTask"]
+- ["C10Foundation10URLSession", "URLSessionTask"]
+- ["C10Foundation10URLSession", "URLSessionTaskDelegate"]
+- ["C10Foundation10URLSession", "URLSessionUploadTask"]
+- ["C10Foundation10URLSession", "Void"]
+- ["C10Foundation10URLSession", "_Configuration"]
+- ["C10Foundation10URLSession", "_EasyHandle"]
+- ["C10Foundation10URLSession", "_MultiHandle"]
+- ["C10Foundation10URLSession", "_Request"]
+- ["C10Foundation10URLSession", "_TaskBehaviour"]
+- ["C10Foundation10URLSession", "_TaskRegistry"]
+- !private ["C10Foundation10URLSession", "_configuration"]
+- ["C10Foundation10URLSession", "add"]
+- ["C10Foundation10URLSession", "behaviour"]
+- ["C10Foundation10URLSession", "configuration"]
+- !private ["C10Foundation10URLSession", "createConfiguredRequest"]
+- !private ["C10Foundation10URLSession", "createDispatchData"]
+- !private ["C10Foundation10URLSession", "createNextTaskIdentifier"]
+- ["C10Foundation10URLSession", "dataTask"]
+- ["C10Foundation10URLSession", "deinit"]
+- ["C10Foundation10URLSession", "delegate"]
+- ["C10Foundation10URLSession", "delegateQueue"]
+- ["C10Foundation10URLSession", "downloadTask"]
+- !private ["C10Foundation10URLSession", "fatalError"]
+- ["C10Foundation10URLSession", "finishTasksAndInvalidate"]
+- ["C10Foundation10URLSession", "flush"]
+- ["C10Foundation10URLSession", "getAllTasks"]
+- ["C10Foundation10URLSession", "getTasksWithCompletionHandler"]
+- !private ["C10Foundation10URLSession", "identifier"]
+- ["C10Foundation10URLSession", "init"]
+- !private ["C10Foundation10URLSession", "initializeLibcurl"]
+- ["C10Foundation10URLSession", "invalidateAndCancel"]
+- !private ["C10Foundation10URLSession", "invalidated"]
+- !private ["C10Foundation10URLSession", "multiHandle"]
+- !private ["C10Foundation10URLSession", "nextSessionIdentifier"]
+- !private ["C10Foundation10URLSession", "nextTaskIdentifier"]
+- ["C10Foundation10URLSession", "remove"]
+- ["C10Foundation10URLSession", "reset"]
+- ["C10Foundation10URLSession", "sessionDescription"]
+- ["C10Foundation10URLSession", "shared"]
+- ["C10Foundation10URLSession", "streamTask"]
+- ["C10Foundation10URLSession", "taskAttributesIsolation"]
+- ["C10Foundation10URLSession", "taskRegistry"]
+- ["C10Foundation10URLSession", "uploadTask"]
+- ["C10Foundation10URLSession", "workQueue"]
+- !private ["C10Foundation23URLSessionConfiguration", "copy"]
+- !private ["C10Foundation23URLSessionConfiguration", "deinit"]
+- !private ["C10Foundation18URLSessionDataTask", "init"]
+- !private ["P10Foundation18URLSessionDelegate", "urlSession"]
+- !private ["C10Foundation22URLSessionDownloadTask", "init"]
+- !private ["P10Foundation18URLSessionProtocol", "Data"]
+- !private ["P10Foundation18URLSessionProtocol", "DispatchQueue"]
+- !private ["P10Foundation18URLSessionProtocol", "NSUnimplemented"]
+- !private ["P10Foundation18URLSessionProtocol", "OperationQueue"]
+- ["P10Foundation18URLSessionProtocol", "URLSession"]
+- !private ["P10Foundation18URLSessionProtocol", "URLSessionDataTask"]
+- !private ["P10Foundation18URLSessionProtocol", "URLSessionDownloadTask"]
+- ["P10Foundation18URLSessionProtocol", "URLSessionTask"]
+- !private ["P10Foundation18URLSessionProtocol", "URLSessionUploadTask"]
+- !private ["P10Foundation18URLSessionProtocol", "_Configuration"]
+- ["P10Foundation18URLSessionProtocol", "_EasyHandle"]
+- !private ["P10Foundation18URLSessionProtocol", "_MultiHandle"]
+- !private ["P10Foundation18URLSessionProtocol", "_Request"]
+- ["P10Foundation18URLSessionProtocol", "_TaskBehaviour"]
+- ["P10Foundation18URLSessionProtocol", "_TaskRegistry"]
+- !private ["P10Foundation18URLSessionProtocol", "_configuration"]
+- ["P10Foundation18URLSessionProtocol", "add"]
+- ["P10Foundation18URLSessionProtocol", "behaviour"]
+- !private ["P10Foundation18URLSessionProtocol", "configuration"]
+- !private ["P10Foundation18URLSessionProtocol", "createConfiguredRequest"]
+- !private ["P10Foundation18URLSessionProtocol", "createDispatchData"]
+- !private ["P10Foundation18URLSessionProtocol", "createNextTaskIdentifier"]
+- !private ["P10Foundation18URLSessionProtocol", "dataTask"]
+- !private ["P10Foundation18URLSessionProtocol", "delegate"]
+- !private ["P10Foundation18URLSessionProtocol", "delegateQueue"]
+- !private ["P10Foundation18URLSessionProtocol", "downloadTask"]
+- !private ["P10Foundation18URLSessionProtocol", "fatalError"]
+- !private ["P10Foundation18URLSessionProtocol", "identifier"]
+- !private ["P10Foundation18URLSessionProtocol", "initializeLibcurl"]
+- !private ["P10Foundation18URLSessionProtocol", "invalidated"]
+- !private ["P10Foundation18URLSessionProtocol", "multiHandle"]
+- !private ["P10Foundation18URLSessionProtocol", "nextSessionIdentifier"]
+- !private ["P10Foundation18URLSessionProtocol", "nextTaskIdentifier"]
+- ["P10Foundation18URLSessionProtocol", "remove"]
+- !private ["P10Foundation18URLSessionProtocol", "taskAttributesIsolation"]
+- !private ["P10Foundation18URLSessionProtocol", "taskRegistry"]
+- !private ["P10Foundation18URLSessionProtocol", "uploadTask"]
+- !private ["P10Foundation18URLSessionProtocol", "workQueue"]
+- ["P10Foundation18URLSessionProtocol", ""]
+- !private ["C10Foundation14URLSessionTask", "_Body"]
+- !private ["C10Foundation14URLSessionTask", "init"]
+- !private ["C10Foundation20URLSessionUploadTask", "init"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "callDelegate"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "dataCompletionHandler"]
+- ["OCC10Foundation10URLSession13_TaskRegistry10_Behaviour", "downloadCompletionHandler"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- ["P10Foundation13_BitShiftable", "init"]
+- !private ["OC10Foundation14URLSessionTask5_Body", "data"]
+- !private ["OC10Foundation14URLSessionTask5_Body", "file"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["VC10Foundation10URLSession14_Configuration", "configure"]
+- !private ["VC10Foundation10URLSession14_Configuration", "init"]
+- !private ["P10Foundation19_EasyHandleDelegate", "_Body"]
+- !private ["P10Foundation19_EasyHandleDelegate", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "Data"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- !private ["Ps9_Hashable", "OperationQueue"]
+- ["Ps9_Hashable", "URLSession"]
+- !private ["Ps9_Hashable", "URLSessionDataTask"]
+- !private ["Ps9_Hashable", "URLSessionDownloadTask"]
+- !private ["Ps9_Hashable", "URLSessionUploadTask"]
+- !private ["Ps9_Hashable", "_Body"]
+- !private ["Ps9_Hashable", "_Configuration"]
+- !private ["Ps9_Hashable", "_MultiHandle"]
+- !private ["Ps9_Hashable", "_Request"]
+- ["Ps9_Hashable", "_TaskBehaviour"]
+- ["Ps9_Hashable", "_TaskRegistry"]
+- !private ["Ps9_Hashable", "_configuration"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "addOperation"]
+- ["Ps9_Hashable", "behaviour"]
+- !private ["Ps9_Hashable", "configuration"]
+- !private ["Ps9_Hashable", "copy"]
+- !private ["Ps9_Hashable", "createConfiguredRequest"]
+- !private ["Ps9_Hashable", "createDispatchData"]
+- !private ["Ps9_Hashable", "createNextTaskIdentifier"]
+- !private ["Ps9_Hashable", "dataTask"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "delegateQueue"]
+- !private ["Ps9_Hashable", "downloadTask"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "identifier"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initializeLibcurl"]
+- !private ["Ps9_Hashable", "invalidated"]
+- !private ["Ps9_Hashable", "multiHandle"]
+- !private ["Ps9_Hashable", "nextSessionIdentifier"]
+- !private ["Ps9_Hashable", "nextTaskIdentifier"]
+- ["Ps9_Hashable", "remove"]
+- !private ["Ps9_Hashable", "taskAttributesIsolation"]
+- !private ["Ps9_Hashable", "taskRegistry"]
+- !private ["Ps9_Hashable", "uploadTask"]
+- !private ["Ps9_Hashable", "workQueue"]
+- ["Ps9_Hashable", ""]
+- ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "init"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["P10Foundation12_IntegerLike", "init"]
+- ["C10Foundation18_MissingURLSession", "URLSession"]
+- ["C10Foundation18_MissingURLSession", "URLSessionTask"]
+- ["C10Foundation18_MissingURLSession", "_EasyHandle"]
+- ["C10Foundation18_MissingURLSession", "add"]
+- ["C10Foundation18_MissingURLSession", "behaviour"]
+- ["C10Foundation18_MissingURLSession", "deinit"]
+- !private ["C10Foundation18_MissingURLSession", "fatalError"]
+- ["C10Foundation18_MissingURLSession", "init"]
+- ["C10Foundation18_MissingURLSession", "remove"]
+- !private ["CC10Foundation10URLSession12_MultiHandle", "add"]
+- !private ["CC10Foundation10URLSession12_MultiHandle", "init"]
+- !private ["CC10Foundation10URLSession12_MultiHandle", "remove"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "init"]
+- ["OC10Foundation10URLSession14_TaskBehaviour", "URLSession"]
+- ["OC10Foundation10URLSession14_TaskBehaviour", "URLSessionTaskDelegate"]
+- ["OC10Foundation10URLSession14_TaskBehaviour", "dataCompletionHandler"]
+- ["OC10Foundation10URLSession14_TaskBehaviour", "downloadCompletionHandler"]
+- ["OC10Foundation10URLSession14_TaskBehaviour", "noDelegate"]
+- ["OC10Foundation10URLSession14_TaskBehaviour", "taskDelegate"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "DataTaskCompletion"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "DownloadTaskCompletion"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "_Behaviour"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "add"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "behaviour"]
+- ["CC10Foundation10URLSession13_TaskRegistry", "init"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "isEmpty"]
+- !private ["CC10Foundation10URLSession13_TaskRegistry", "notify"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "VC8Dispatch13DispatchQueue10Attributes"
+- !private "Ps23BidirectionalCollection"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- !private "C8Dispatch14DispatchObject"
+- !private "C8Dispatch13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Vs5Int32"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "P10Foundation9NSCopying"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "C10Foundation14OperationQueue"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "V10Foundation10URLRequest"
+- "C10Foundation10URLSession"
+- !private "C10Foundation23URLSessionConfiguration"
+- !private "C10Foundation18URLSessionDataTask"
+- !private "P10Foundation18URLSessionDelegate"
+- !private "C10Foundation22URLSessionDownloadTask"
+- "P10Foundation18URLSessionProtocol"
+- !private "C10Foundation14URLSessionTask"
+- !private "C10Foundation20URLSessionUploadTask"
+- "OCC10Foundation10URLSession13_TaskRegistry10_Behaviour"
+- !private "Ps23_BidirectionalIndexable"
+- "P10Foundation13_BitShiftable"
+- !private "OC10Foundation14URLSessionTask5_Body"
+- !private "P10Foundation13_CFBridgeable"
+- !private "VC10Foundation10URLSession14_Configuration"
+- !private "P10Foundation19_EasyHandleDelegate"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "P10Foundation12_IntegerLike"
+- "C10Foundation18_MissingURLSession"
+- !private "CC10Foundation10URLSession12_MultiHandle"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "OC10Foundation10URLSession14_TaskBehaviour"
+- "CC10Foundation10URLSession13_TaskRegistry"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "dae528be15affd0914be6cfee9901c72"

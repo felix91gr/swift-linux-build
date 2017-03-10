@@ -1,0 +1,611 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PropertyList"
+provides-nominal:
+- "O9Xcodeproj12PropertyList"
+provides-member:
+- ["CV9Xcodeproj5Xcode7Project", ""]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", ""]
+- ["O9Xcodeproj12PropertyList", ""]
+- ["CV9Xcodeproj5Xcode7Project", "generatePlist"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "asPropertyList"]
+depends-top-level:
+- !private "+"
+- !private "+="
+- !private "-="
+- !private "..<"
+- !private "<"
+- "=="
+- !private "==="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "CustomStringConvertible"
+- !private "Dictionary"
+- !private "Equatable"
+- "FloatLiteralType"
+- !private "Hashable"
+- !private "Indentation"
+- "Int"
+- "IntegerLiteralType"
+- !private "Mirror"
+- !private "ObjectIdentifier"
+- "PropertyList"
+- "PropertyListSerializable"
+- !private "PropertyListSerializer"
+- "String"
+- !private "StringLiteralType"
+- !private "UInt8"
+- !private "UnicodeScalar"
+- !private "UnicodeScalarType"
+- "Xcode"
+- !private "combineBuildSettingsPropertyLists"
+- !private "escape"
+- !private "generatePlistRepresentation"
+- !private "makeBuildPhaseDict"
+- !private "makeReferenceDict"
+- !private "precondition"
+- !private "preconditionFailure"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "ObjectIdentifier"]
+- !private ["Ps9AnyObject", "PropertyList"]
+- !private ["Ps9AnyObject", "PropertyListSerializer"]
+- !private ["Ps9AnyObject", "SerializedObjectRef"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "baseSettings"]
+- !private ["Ps9AnyObject", "buildPhases"]
+- !private ["Ps9AnyObject", "buildSettings"]
+- !private ["Ps9AnyObject", "combineBuildSettingsPropertyLists"]
+- !private ["Ps9AnyObject", "common"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "dependencies"]
+- !private ["Ps9AnyObject", "fileRef"]
+- !private ["Ps9AnyObject", "fileType"]
+- !private ["Ps9AnyObject", "files"]
+- !private ["Ps9AnyObject", "id"]
+- !private ["Ps9AnyObject", "idsToDicts"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainGroup"]
+- !private ["Ps9AnyObject", "makeBuildPhaseDict"]
+- !private ["Ps9AnyObject", "makeReferenceDict"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "objsToIds"]
+- !private ["Ps9AnyObject", "overlaySettings"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "pathBase"]
+- !private ["Ps9AnyObject", "precondition"]
+- !private ["Ps9AnyObject", "productGroup"]
+- !private ["Ps9AnyObject", "productName"]
+- !private ["Ps9AnyObject", "productReference"]
+- !private ["Ps9AnyObject", "productType"]
+- !private ["Ps9AnyObject", "projectDir"]
+- !private ["Ps9AnyObject", "release"]
+- !private ["Ps9AnyObject", "script"]
+- ["Ps9AnyObject", "serialize"]
+- !private ["Ps9AnyObject", "subitems"]
+- !private ["Ps9AnyObject", "target"]
+- !private ["Ps9AnyObject", "targets"]
+- !private ["Ps9AnyObject", "xcconfigFileRef"]
+- !private ["Ps9AnyObject", ""]
+- !private ["P7Utility12ArgumentKind", "_getBuiltinLogicValue"]
+- !private ["P7Utility12ArgumentKind", "init"]
+- !private ["P7Utility12ArgumentKind", "utf8"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CV9Xcodeproj5Xcode9BuildFile", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode9BuildFile", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode9BuildFile", "String"]
+- ["CV9Xcodeproj5Xcode9BuildFile", "deinit"]
+- !private ["CV9Xcodeproj5Xcode9BuildFile", "fileRef"]
+- ["CV9Xcodeproj5Xcode9BuildFile", "serialize"]
+- !private ["CV9Xcodeproj5Xcode10BuildPhase", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode10BuildPhase", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode10BuildPhase", "String"]
+- !private ["CV9Xcodeproj5Xcode10BuildPhase", "files"]
+- !private ["CV9Xcodeproj5Xcode10BuildPhase", "makeBuildPhaseDict"]
+- !private ["CV9Xcodeproj5Xcode10BuildPhase", "script"]
+- ["CV9Xcodeproj5Xcode10BuildPhase", "serialize"]
+- !private ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "Mirror"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "PropertyList"]
+- !private ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "String"]
+- ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "asPropertyList"]
+- !private ["VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings", "preconditionFailure"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "BuildSettings"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "PropertyListSerializable"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "String"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "Xcode"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "combineBuildSettingsPropertyLists"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "common"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "debug"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "deinit"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "release"]
+- ["CV9Xcodeproj5Xcode18BuildSettingsTable", "serialize"]
+- !private ["CV9Xcodeproj5Xcode18BuildSettingsTable", "xcconfigFileRef"]
+- !private ["P5Basic14ByteStreamable", "init"]
+- !private ["P5Basic14ByteStreamable", "utf8"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "endIndex"]
+- !private ["Ps10Collection", "index"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "sorted"]
+- !private ["Ps10Collection", "startIndex"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "utf8"]
+- !private ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "deinit"]
+- !private ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "makeBuildPhaseDict"]
+- ["CV9Xcodeproj5Xcode19CopyFilesBuildPhase", "serialize"]
+- !private ["Ps28CustomDebugStringConvertible", "array"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "dictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "endIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "index"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "sorted"]
+- !private ["Ps28CustomDebugStringConvertible", "startIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "endIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "index"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "startIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf8"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "array"]
+- !private ["Ps17CustomReflectable", "children"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "dictionary"]
+- !private ["Ps17CustomReflectable", "endIndex"]
+- !private ["Ps17CustomReflectable", "identifier"]
+- !private ["Ps17CustomReflectable", "index"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "sorted"]
+- !private ["Ps17CustomReflectable", "startIndex"]
+- !private ["Ps17CustomReflectable", "string"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "utf8"]
+- !private ["Ps23CustomStringConvertible", "Indentation"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "array"]
+- !private ["Ps23CustomStringConvertible", "children"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "decrease"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "dictionary"]
+- !private ["Ps23CustomStringConvertible", "endIndex"]
+- !private ["Ps23CustomStringConvertible", "generatePlistRepresentation"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "increase"]
+- !private ["Ps23CustomStringConvertible", "index"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "level"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "precondition"]
+- !private ["Ps23CustomStringConvertible", "sorted"]
+- !private ["Ps23CustomStringConvertible", "startIndex"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "count"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "sorted"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "ObjectIdentifier"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "asString"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "utf8"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "count"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "sorted"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "array"]
+- !private ["Ps23ExpressibleByNilLiteral", "dictionary"]
+- !private ["Ps23ExpressibleByNilLiteral", "identifier"]
+- !private ["Ps23ExpressibleByNilLiteral", "string"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf8"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf8"]
+- !private ["CV9Xcodeproj5Xcode13FileReference", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode13FileReference", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode13FileReference", "String"]
+- ["CV9Xcodeproj5Xcode13FileReference", "deinit"]
+- !private ["CV9Xcodeproj5Xcode13FileReference", "fileType"]
+- !private ["CV9Xcodeproj5Xcode13FileReference", "makeReferenceDict"]
+- !private ["CV9Xcodeproj5Xcode13FileReference", "name"]
+- !private ["CV9Xcodeproj5Xcode13FileReference", "path"]
+- ["CV9Xcodeproj5Xcode13FileReference", "serialize"]
+- !private ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "deinit"]
+- !private ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "makeBuildPhaseDict"]
+- ["CV9Xcodeproj5Xcode20FrameworksBuildPhase", "serialize"]
+- !private ["CV9Xcodeproj5Xcode5Group", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode5Group", "PropertyListSerializable"]
+- !private ["CV9Xcodeproj5Xcode5Group", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode5Group", "String"]
+- ["CV9Xcodeproj5Xcode5Group", "deinit"]
+- !private ["CV9Xcodeproj5Xcode5Group", "makeReferenceDict"]
+- ["CV9Xcodeproj5Xcode5Group", "serialize"]
+- !private ["CV9Xcodeproj5Xcode5Group", "subitems"]
+- !private ["Ps8Hashable", "ObjectIdentifier"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "asString"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "utf8"]
+- ["Ps8Hashable", ""]
+- !private ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "deinit"]
+- !private ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "makeBuildPhaseDict"]
+- ["CV9Xcodeproj5Xcode17HeadersBuildPhase", "serialize"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "utf8"]
+- !private ["Vs6Mirror", "children"]
+- !private ["Vs6Mirror", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "utf8"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Vs16ObjectIdentifier", "hashValue"]
+- !private ["Vs16ObjectIdentifier", "init"]
+- !private ["Sq", "array"]
+- !private ["Sq", "dictionary"]
+- !private ["Sq", "identifier"]
+- !private ["Sq", "string"]
+- !private ["OCV9Xcodeproj5Xcode6Target11ProductType", "asString"]
+- ["CV9Xcodeproj5Xcode7Project", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode7Project", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode7Project", "String"]
+- !private ["CV9Xcodeproj5Xcode7Project", "buildSettings"]
+- ["CV9Xcodeproj5Xcode7Project", "deinit"]
+- ["CV9Xcodeproj5Xcode7Project", "generatePlist"]
+- !private ["CV9Xcodeproj5Xcode7Project", "mainGroup"]
+- !private ["CV9Xcodeproj5Xcode7Project", "productGroup"]
+- !private ["CV9Xcodeproj5Xcode7Project", "projectDir"]
+- ["CV9Xcodeproj5Xcode7Project", "serialize"]
+- !private ["CV9Xcodeproj5Xcode7Project", "targets"]
+- !private ["O9Xcodeproj12PropertyList", "Indentation"]
+- ["O9Xcodeproj12PropertyList", "PropertyList"]
+- ["O9Xcodeproj12PropertyList", "String"]
+- ["O9Xcodeproj12PropertyList", "array"]
+- ["O9Xcodeproj12PropertyList", "deinit"]
+- ["O9Xcodeproj12PropertyList", "description"]
+- ["O9Xcodeproj12PropertyList", "dictionary"]
+- !private ["O9Xcodeproj12PropertyList", "generatePlistRepresentation"]
+- ["O9Xcodeproj12PropertyList", "identifier"]
+- ["O9Xcodeproj12PropertyList", "string"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps16RawRepresentable", "asString"]
+- !private ["OCV9Xcodeproj5Xcode9Reference11RefPathBase", "asString"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "PropertyListSerializable"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "String"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "fileType"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "makeReferenceDict"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "name"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "path"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "pathBase"]
+- ["CV9Xcodeproj5Xcode9Reference", "serialize"]
+- !private ["CV9Xcodeproj5Xcode9Reference", "subitems"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "endIndex"]
+- !private ["Ps8Sequence", "index"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "sorted"]
+- !private ["Ps8Sequence", "startIndex"]
+- !private ["Ps8Sequence", "subscript"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "=="]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "Bool"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "Int"]
+- !private ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "ObjectIdentifier"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "PropertyListSerializable"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "SerializedObjectRef"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "_toAnyHashable"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "deinit"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "hashValue"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "init"]
+- ["VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef", "object"]
+- !private ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "deinit"]
+- !private ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "makeBuildPhaseDict"]
+- !private ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "script"]
+- ["CV9Xcodeproj5Xcode21ShellScriptBuildPhase", "serialize"]
+- !private ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "String"]
+- ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "deinit"]
+- !private ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "makeBuildPhaseDict"]
+- ["CV9Xcodeproj5Xcode17SourcesBuildPhase", "serialize"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["CV9Xcodeproj5Xcode6Target", "PropertyList"]
+- !private ["CV9Xcodeproj5Xcode6Target", "PropertyListSerializable"]
+- !private ["CV9Xcodeproj5Xcode6Target", "PropertyListSerializer"]
+- !private ["CV9Xcodeproj5Xcode6Target", "String"]
+- !private ["CV9Xcodeproj5Xcode6Target", "Xcode"]
+- !private ["CV9Xcodeproj5Xcode6Target", "buildPhases"]
+- !private ["CV9Xcodeproj5Xcode6Target", "buildSettings"]
+- ["CV9Xcodeproj5Xcode6Target", "deinit"]
+- !private ["CV9Xcodeproj5Xcode6Target", "dependencies"]
+- !private ["CV9Xcodeproj5Xcode6Target", "name"]
+- !private ["CV9Xcodeproj5Xcode6Target", "productName"]
+- !private ["CV9Xcodeproj5Xcode6Target", "productReference"]
+- !private ["CV9Xcodeproj5Xcode6Target", "productType"]
+- ["CV9Xcodeproj5Xcode6Target", "serialize"]
+- !private ["VCV9Xcodeproj5Xcode6Target16TargetDependency", "target"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "utf8"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "utf8"]
+- !private ["Vs5UInt8", "init"]
+- !private ["VSS8UTF8View", "endIndex"]
+- !private ["VSS8UTF8View", "index"]
+- !private ["VSS8UTF8View", "startIndex"]
+- !private ["VSS8UTF8View", "subscript"]
+- !private ["Sc", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- ["V9Xcodeproj5Xcode", "BuildFile"]
+- !private ["V9Xcodeproj5Xcode", "BuildPhase"]
+- ["V9Xcodeproj5Xcode", "BuildSettingsTable"]
+- ["V9Xcodeproj5Xcode", "CopyFilesBuildPhase"]
+- ["V9Xcodeproj5Xcode", "FileReference"]
+- ["V9Xcodeproj5Xcode", "FrameworksBuildPhase"]
+- ["V9Xcodeproj5Xcode", "Group"]
+- ["V9Xcodeproj5Xcode", "HeadersBuildPhase"]
+- ["V9Xcodeproj5Xcode", "Project"]
+- !private ["V9Xcodeproj5Xcode", "Reference"]
+- ["V9Xcodeproj5Xcode", "ShellScriptBuildPhase"]
+- ["V9Xcodeproj5Xcode", "SourcesBuildPhase"]
+- ["V9Xcodeproj5Xcode", "Target"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "sorted"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["P10Foundation13_CFBridgeable", "utf8"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf8"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "utf8"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf8"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "utf8"]
+- !private ["Ps9_Hashable", "ObjectIdentifier"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "asString"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "utf8"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "endIndex"]
+- !private ["Ps10_Indexable", "index"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "sorted"]
+- !private ["Ps10_Indexable", "startIndex"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "endIndex"]
+- !private ["Ps14_IndexableBase", "index"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "sorted"]
+- !private ["Ps14_IndexableBase", "startIndex"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "sorted"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "utf8"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "sorted"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "utf8"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "sorted"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "utf8"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps14_StringElement", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P7Utility12ArgumentKind"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "CV9Xcodeproj5Xcode9BuildFile"
+- "CV9Xcodeproj5Xcode10BuildPhase"
+- "VCV9Xcodeproj5Xcode18BuildSettingsTable13BuildSettings"
+- "CV9Xcodeproj5Xcode18BuildSettingsTable"
+- !private "P5Basic14ByteStreamable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "CV9Xcodeproj5Xcode19CopyFilesBuildPhase"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CV9Xcodeproj5Xcode13FileReference"
+- "CV9Xcodeproj5Xcode20FrameworksBuildPhase"
+- "CV9Xcodeproj5Xcode5Group"
+- "Ps8Hashable"
+- "CV9Xcodeproj5Xcode17HeadersBuildPhase"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Vs6Mirror"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Vs16ObjectIdentifier"
+- !private "Sq"
+- !private "OCV9Xcodeproj5Xcode6Target11ProductType"
+- "CV9Xcodeproj5Xcode7Project"
+- "O9Xcodeproj12PropertyList"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "OCV9Xcodeproj5Xcode9Reference11RefPathBase"
+- "CV9Xcodeproj5Xcode9Reference"
+- !private "Ps8Sequence"
+- "VC9XcodeprojP33_5DB35884A09C41A16B2108C25D729BCC22PropertyListSerializer19SerializedObjectRef"
+- "CV9Xcodeproj5Xcode21ShellScriptBuildPhase"
+- "CV9Xcodeproj5Xcode17SourcesBuildPhase"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- "CV9Xcodeproj5Xcode6Target"
+- !private "VCV9Xcodeproj5Xcode6Target16TargetDependency"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Vs5UInt8"
+- !private "VSS8UTF8View"
+- !private "Sc"
+- !private "Ps15UnsignedInteger"
+- "V9Xcodeproj5Xcode"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageModel.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Utility.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageLoading.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageGraph.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/SourceControl.swiftmodule"
+interface-hash: "2d3fe24dbb0871b85a8b4097a3625a52"

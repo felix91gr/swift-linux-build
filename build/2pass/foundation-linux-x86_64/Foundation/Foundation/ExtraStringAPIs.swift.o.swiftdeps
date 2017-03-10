@@ -1,0 +1,270 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "VVSS9UTF16View5Index"
+- "VSS9UTF16View"
+- "VVSS9UTF16View7Indices"
+provides-member:
+- ["VVSS9UTF16View5Index", ""]
+- ["VSS9UTF16View", ""]
+- ["VVSS9UTF16View7Indices", ""]
+depends-top-level:
+- !private ">="
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "RandomAccessCollection"
+- "Strideable"
+- "String"
+- !private "StringLiteralType"
+- !private "_precondition"
+depends-member:
+- ["Ps23BidirectionalCollection", "Index"]
+- ["Ps23BidirectionalCollection", "indices"]
+- ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "advanced"]
+- !private ["Ps17BitwiseOperations", "distance"]
+- !private ["Ps7CVarArg", "advanced"]
+- !private ["Ps7CVarArg", "distance"]
+- ["Ps10Collection", "Index"]
+- ["Ps10Collection", "indices"]
+- ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "String"]
+- ["Ps10Comparable", "UTF16View"]
+- !private ["Ps10Comparable", "_offset"]
+- !private ["Ps10Comparable", "_precondition"]
+- ["Ps10Comparable", "_step"]
+- ["Ps10Comparable", "advanced"]
+- ["Ps10Comparable", "distance"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "UTF16View"]
+- ["Ps28CustomDebugStringConvertible", "indices"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "Index"]
+- ["Ps29CustomPlaygroundQuickLookable", "UTF16View"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "advanced"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "distance"]
+- ["Ps29CustomPlaygroundQuickLookable", "indices"]
+- ["Ps29CustomPlaygroundQuickLookable", "subscript"]
+- ["Ps17CustomReflectable", "Index"]
+- ["Ps17CustomReflectable", "UTF16View"]
+- !private ["Ps17CustomReflectable", "advanced"]
+- !private ["Ps17CustomReflectable", "distance"]
+- ["Ps17CustomReflectable", "indices"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "UTF16View"]
+- !private ["Ps23CustomStringConvertible", "advanced"]
+- !private ["Ps23CustomStringConvertible", "distance"]
+- ["Ps23CustomStringConvertible", "indices"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps9Equatable", "String"]
+- ["Ps9Equatable", "UTF16View"]
+- !private ["Ps9Equatable", "_offset"]
+- !private ["Ps9Equatable", "_precondition"]
+- ["Ps9Equatable", "_step"]
+- ["Ps9Equatable", "advanced"]
+- ["Ps9Equatable", "distance"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "UTF16View"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "advanced"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "distance"]
+- ["Ps26ExpressibleByStringLiteral", "UTF16View"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "UTF16View"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "UTF16View"]
+- !private ["Ps8Hashable", "advanced"]
+- !private ["Ps8Hashable", "distance"]
+- ["VVSS9UTF16View5Index", "Int"]
+- ["VVSS9UTF16View5Index", "Stride"]
+- ["VVSS9UTF16View5Index", "String"]
+- ["VVSS9UTF16View5Index", "_DisabledRangeIndex"]
+- !private ["VVSS9UTF16View5Index", "_offset"]
+- !private ["VVSS9UTF16View5Index", "_precondition"]
+- ["VVSS9UTF16View5Index", "_step"]
+- ["VVSS9UTF16View5Index", "advanced"]
+- ["VVSS9UTF16View5Index", "deinit"]
+- ["VVSS9UTF16View5Index", "distance"]
+- ["VVSS9UTF16View5Index", "init"]
+- ["VVSS9UTF16View7Indices", "Indices"]
+- ["VVSS9UTF16View7Indices", "SubSequence"]
+- ["VVSS9UTF16View7Indices", "deinit"]
+- ["VVSS9UTF16View7Indices", "indices"]
+- ["VVSS9UTF16View7Indices", "subscript"]
+- !private ["Si", "advanced"]
+- !private ["Si", "distance"]
+- !private ["Ps7Integer", "advanced"]
+- !private ["Ps7Integer", "distance"]
+- !private ["Ps17IntegerArithmetic", "advanced"]
+- !private ["Ps17IntegerArithmetic", "distance"]
+- ["Ps25LosslessStringConvertible", "UTF16View"]
+- ["Ps10MirrorPath", "UTF16View"]
+- !private ["Ps10MirrorPath", "advanced"]
+- !private ["Ps10MirrorPath", "distance"]
+- ["Ps22RandomAccessCollection", "Index"]
+- ["Ps22RandomAccessCollection", "indices"]
+- ["Ps22RandomAccessCollection", "subscript"]
+- ["Ps22RandomAccessCollection", ""]
+- ["Ps8Sequence", "Index"]
+- ["Ps8Sequence", "indices"]
+- ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "advanced"]
+- !private ["Ps13SignedInteger", "distance"]
+- !private ["Ps12SignedNumber", "advanced"]
+- !private ["Ps12SignedNumber", "distance"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "String"]
+- !private ["Ps10Strideable", "_offset"]
+- !private ["Ps10Strideable", "_precondition"]
+- ["Ps10Strideable", "_step"]
+- ["Ps10Strideable", "advanced"]
+- ["Ps10Strideable", "distance"]
+- !private ["Ps10Strideable", "init"]
+- ["Ps10Strideable", ""]
+- ["SS", "UTF16View"]
+- ["Ps16TextOutputStream", "UTF16View"]
+- ["Ps20TextOutputStreamable", "UTF16View"]
+- ["VSS9UTF16View", "Index"]
+- ["VSS9UTF16View", "Indices"]
+- ["VSS9UTF16View", "SubSequence"]
+- ["VSS9UTF16View", "deinit"]
+- ["VSS9UTF16View", "indices"]
+- ["VSS9UTF16View", "subscript"]
+- ["Ps23_BidirectionalIndexable", "Index"]
+- ["Ps23_BidirectionalIndexable", "indices"]
+- ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["P10Foundation13_BitShiftable", "advanced"]
+- !private ["P10Foundation13_BitShiftable", "distance"]
+- ["P10Foundation13_CFBridgeable", "UTF16View"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "UTF16View"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "advanced"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "distance"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "UTF16View"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "UTF16View"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "UTF16View"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "UTF16View"]
+- ["Ps9_Hashable", "UTF16View"]
+- !private ["Ps9_Hashable", "advanced"]
+- !private ["Ps9_Hashable", "distance"]
+- !private ["Ps14_Incrementable", "advanced"]
+- !private ["Ps14_Incrementable", "distance"]
+- ["Ps10_Indexable", "Index"]
+- ["Ps10_Indexable", "indices"]
+- ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "Index"]
+- ["Ps14_IndexableBase", "indices"]
+- ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "advanced"]
+- !private ["Ps8_Integer", "distance"]
+- !private ["Ps18_IntegerArithmetic", "advanced"]
+- !private ["Ps18_IntegerArithmetic", "distance"]
+- !private ["P10Foundation12_IntegerLike", "advanced"]
+- !private ["P10Foundation12_IntegerLike", "distance"]
+- ["P10Foundation13_NSBridgeable", "UTF16View"]
+- ["P10Foundation17_ObjectBridgeable", "UTF16View"]
+- !private ["P10Foundation17_ObjectBridgeable", "advanced"]
+- !private ["P10Foundation17_ObjectBridgeable", "distance"]
+- ["P10Foundation21_ObjectTypeBridgeable", "UTF16View"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "advanced"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "distance"]
+- ["Ps22_RandomAccessIndexable", "Index"]
+- ["Ps22_RandomAccessIndexable", "indices"]
+- ["Ps22_RandomAccessIndexable", "subscript"]
+- ["Ps22_RandomAccessIndexable", ""]
+- !private ["Ps14_SignedInteger", "advanced"]
+- !private ["Ps14_SignedInteger", "distance"]
+- !private ["Ps11_Strideable", "String"]
+- !private ["Ps11_Strideable", "_offset"]
+- !private ["Ps11_Strideable", "_precondition"]
+- ["Ps11_Strideable", "_step"]
+- ["Ps11_Strideable", "advanced"]
+- ["Ps11_Strideable", "distance"]
+- !private ["Ps11_Strideable", "init"]
+- ["Ps11_Strideable", ""]
+depends-nominal:
+- "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "VVSS9UTF16View5Index"
+- "VVSS9UTF16View7Indices"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps22RandomAccessCollection"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "VSS9UTF16View"
+- "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- "Ps22_RandomAccessIndexable"
+- !private "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "bd5d7c513bd892dcfcaea32b17d41795"

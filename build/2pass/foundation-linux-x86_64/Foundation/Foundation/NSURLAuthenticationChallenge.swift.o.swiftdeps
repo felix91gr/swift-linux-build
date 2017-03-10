@@ -1,0 +1,206 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLAuthenticationChallengeSender"
+- "URLAuthenticationChallenge"
+provides-nominal:
+- "P10Foundation32URLAuthenticationChallengeSender"
+- "C10Foundation26URLAuthenticationChallenge"
+provides-member:
+- ["P10Foundation32URLAuthenticationChallengeSender", ""]
+- ["C10Foundation26URLAuthenticationChallenge", ""]
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "NSError"
+- "NSObject"
+- "NSObjectProtocol"
+- "NSSecureCoding"
+- !private "NSUnimplemented"
+- !private "StringLiteralType"
+- "URLAuthenticationChallenge"
+- "URLAuthenticationChallengeSender"
+- "URLCredential"
+- "URLProtectionSpace"
+- "URLResponse"
+depends-member:
+- !private ["Ps9AnyObject", "NSUnimplemented"]
+- ["Ps9AnyObject", "encode"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "supportsSecureCoding"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUnimplemented"]
+- ["Ps28CustomDebugStringConvertible", "encode"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "supportsSecureCoding"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSUnimplemented"]
+- ["Ps23CustomStringConvertible", "encode"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "supportsSecureCoding"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSUnimplemented"]
+- ["Ps9Equatable", "encode"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "supportsSecureCoding"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSUnimplemented"]
+- ["Ps8Hashable", "encode"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "supportsSecureCoding"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation8NSCoding", "NSUnimplemented"]
+- ["P10Foundation8NSCoding", "encode"]
+- ["P10Foundation8NSCoding", "init"]
+- ["P10Foundation8NSCoding", "supportsSecureCoding"]
+- ["P10Foundation8NSCoding", ""]
+- ["C10Foundation8NSObject", "Bool"]
+- ["C10Foundation8NSObject", "Int"]
+- ["C10Foundation8NSObject", "NSCoder"]
+- ["C10Foundation8NSObject", "NSError"]
+- !private ["C10Foundation8NSObject", "NSUnimplemented"]
+- ["C10Foundation8NSObject", "URLAuthenticationChallenge"]
+- ["C10Foundation8NSObject", "URLAuthenticationChallengeSender"]
+- ["C10Foundation8NSObject", "URLCredential"]
+- ["C10Foundation8NSObject", "URLProtectionSpace"]
+- ["C10Foundation8NSObject", "URLResponse"]
+- ["C10Foundation8NSObject", "encode"]
+- ["C10Foundation8NSObject", "error"]
+- ["C10Foundation8NSObject", "failureResponse"]
+- ["C10Foundation8NSObject", "init"]
+- ["C10Foundation8NSObject", "previousFailureCount"]
+- ["C10Foundation8NSObject", "proposedCredential"]
+- ["C10Foundation8NSObject", "protectionSpace"]
+- ["C10Foundation8NSObject", "sender"]
+- ["C10Foundation8NSObject", "supportsSecureCoding"]
+- ["C10Foundation8NSObject", ""]
+- !private ["P10Foundation16NSObjectProtocol", "NSUnimplemented"]
+- ["P10Foundation16NSObjectProtocol", "URLAuthenticationChallenge"]
+- ["P10Foundation16NSObjectProtocol", "URLCredential"]
+- ["P10Foundation16NSObjectProtocol", "cancel"]
+- ["P10Foundation16NSObjectProtocol", "continueWithoutCredential"]
+- ["P10Foundation16NSObjectProtocol", "encode"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- ["P10Foundation16NSObjectProtocol", "performDefaultHandling"]
+- ["P10Foundation16NSObjectProtocol", "rejectProtectionSpaceAndContinue"]
+- ["P10Foundation16NSObjectProtocol", "supportsSecureCoding"]
+- ["P10Foundation16NSObjectProtocol", "use"]
+- ["P10Foundation16NSObjectProtocol", ""]
+- !private ["P10Foundation14NSSecureCoding", "NSUnimplemented"]
+- ["P10Foundation14NSSecureCoding", "encode"]
+- ["P10Foundation14NSSecureCoding", "init"]
+- ["P10Foundation14NSSecureCoding", "supportsSecureCoding"]
+- ["P10Foundation14NSSecureCoding", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["C10Foundation26URLAuthenticationChallenge", "Bool"]
+- ["C10Foundation26URLAuthenticationChallenge", "Int"]
+- ["C10Foundation26URLAuthenticationChallenge", "NSCoder"]
+- ["C10Foundation26URLAuthenticationChallenge", "NSError"]
+- !private ["C10Foundation26URLAuthenticationChallenge", "NSUnimplemented"]
+- ["C10Foundation26URLAuthenticationChallenge", "URLAuthenticationChallenge"]
+- ["C10Foundation26URLAuthenticationChallenge", "URLAuthenticationChallengeSender"]
+- ["C10Foundation26URLAuthenticationChallenge", "URLCredential"]
+- ["C10Foundation26URLAuthenticationChallenge", "URLProtectionSpace"]
+- ["C10Foundation26URLAuthenticationChallenge", "URLResponse"]
+- ["C10Foundation26URLAuthenticationChallenge", "deinit"]
+- ["C10Foundation26URLAuthenticationChallenge", "encode"]
+- ["C10Foundation26URLAuthenticationChallenge", "error"]
+- ["C10Foundation26URLAuthenticationChallenge", "failureResponse"]
+- ["C10Foundation26URLAuthenticationChallenge", "init"]
+- ["C10Foundation26URLAuthenticationChallenge", "previousFailureCount"]
+- ["C10Foundation26URLAuthenticationChallenge", "proposedCredential"]
+- ["C10Foundation26URLAuthenticationChallenge", "protectionSpace"]
+- ["C10Foundation26URLAuthenticationChallenge", "sender"]
+- ["C10Foundation26URLAuthenticationChallenge", "supportsSecureCoding"]
+- ["P10Foundation32URLAuthenticationChallengeSender", "URLAuthenticationChallenge"]
+- ["P10Foundation32URLAuthenticationChallengeSender", "URLCredential"]
+- ["P10Foundation32URLAuthenticationChallengeSender", "cancel"]
+- ["P10Foundation32URLAuthenticationChallengeSender", "continueWithoutCredential"]
+- ["P10Foundation32URLAuthenticationChallengeSender", "performDefaultHandling"]
+- ["P10Foundation32URLAuthenticationChallengeSender", "rejectProtectionSpaceAndContinue"]
+- ["P10Foundation32URLAuthenticationChallengeSender", "use"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "NSUnimplemented"]
+- ["Ps9_Hashable", "encode"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "supportsSecureCoding"]
+- ["Ps9_Hashable", ""]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "P10Foundation8NSCoding"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- "P10Foundation14NSSecureCoding"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C10Foundation26URLAuthenticationChallenge"
+- "P10Foundation32URLAuthenticationChallengeSender"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+interface-hash: "e52a72d390ce804ac20b8dfe4336937d"

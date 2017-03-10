@@ -1,0 +1,555 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RepositoryManagerDelegate"
+- "RepositoryManager"
+provides-nominal:
+- "P13SourceControl25RepositoryManagerDelegate"
+- "C13SourceControl17RepositoryManager"
+- "CC13SourceControl17RepositoryManager16RepositoryHandle"
+- "OCC13SourceControl17RepositoryManager16RepositoryHandle6Status"
+provides-member:
+- ["P13SourceControl25RepositoryManagerDelegate", ""]
+- ["C13SourceControl17RepositoryManager", ""]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", ""]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", ""]
+depends-top-level:
+- !private "!"
+- "=="
+- "AbsolutePath"
+- "AnyError"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Condition"
+- "CustomStringConvertible"
+- !private "Dictionary"
+- "DispatchQueue"
+- "FileSystem"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "JSON"
+- "OperationQueue"
+- "RelativePath"
+- "Repository"
+- "RepositoryManager"
+- "RepositoryManagerDelegate"
+- "RepositoryProvider"
+- "RepositorySpecifier"
+- "Result"
+- "String"
+- "StringLiteralType"
+- !private "Swift"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- !private "localFileSystem"
+- !private "precondition"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["V5Basic12AbsolutePath", "appending"]
+- !private ["Ps9AnyObject", "Condition"]
+- ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "LookupResult"]
+- !private ["Ps9AnyObject", "OperationQueue"]
+- !private ["Ps9AnyObject", "PersistenceError"]
+- !private ["Ps9AnyObject", "RelativePath"]
+- ["Ps9AnyObject", "RepositoryHandle"]
+- !private ["Ps9AnyObject", "RepositoryManager"]
+- !private ["Ps9AnyObject", "RepositorySpecifier"]
+- !private ["Ps9AnyObject", "Result"]
+- !private ["Ps9AnyObject", "Status"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "addOperation"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "cloneCheckout"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "description"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "fileSystem"]
+- !private ["Ps9AnyObject", "getHandle"]
+- !private ["Ps9AnyObject", "global"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "localFileSystem"]
+- !private ["Ps9AnyObject", "lookup"]
+- !private ["Ps9AnyObject", "manager"]
+- !private ["Ps9AnyObject", "maxConcurrentOperationCount"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "needsFetch"]
+- !private ["Ps9AnyObject", "open"]
+- !private ["Ps9AnyObject", "operationQueue"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "precondition"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "provider"]
+- !private ["Ps9AnyObject", "repositories"]
+- !private ["Ps9AnyObject", "repository"]
+- !private ["Ps9AnyObject", "restoreState"]
+- !private ["Ps9AnyObject", "saveState"]
+- !private ["Ps9AnyObject", "schemaVersion"]
+- !private ["Ps9AnyObject", "serialQueue"]
+- !private ["Ps9AnyObject", "statePath"]
+- !private ["Ps9AnyObject", "status"]
+- !private ["Ps9AnyObject", "subpath"]
+- !private ["Ps9AnyObject", "sync"]
+- !private ["Ps9AnyObject", "toJSON"]
+- ["Ps9AnyObject", ""]
+- !private ["P7Utility12ArgumentKind", "_getBuiltinLogicValue"]
+- !private ["P7Utility12ArgumentKind", "hashValue"]
+- ["P7Utility12ArgumentKind", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P5Basic14ByteStreamable", "array"]
+- !private ["P5Basic14ByteStreamable", "dictionary"]
+- ["P5Basic14ByteStreamable", "init"]
+- !private ["P5Basic14ByteStreamable", "int"]
+- !private ["P5Basic14ByteStreamable", "string"]
+- !private ["P5Basic14ByteStreamable", "toBytes"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "appending"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["V5Basic9Condition", "init"]
+- !private ["V5Basic9Condition", "signal"]
+- !private ["V5Basic9Condition", "wait"]
+- !private ["V5Basic9Condition", "whileLocked"]
+- !private ["Ps28CustomDebugStringConvertible", "addOperation"]
+- !private ["Ps28CustomDebugStringConvertible", "array"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "int"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "maxConcurrentOperationCount"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "array"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "int"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "RelativePath"]
+- !private ["Ps23CustomStringConvertible", "RepositorySpecifier"]
+- !private ["Ps23CustomStringConvertible", "Status"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addOperation"]
+- !private ["Ps23CustomStringConvertible", "appending"]
+- !private ["Ps23CustomStringConvertible", "array"]
+- !private ["Ps23CustomStringConvertible", "asString"]
+- !private ["Ps23CustomStringConvertible", "dematerialize"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "dictionary"]
+- !private ["Ps23CustomStringConvertible", "fileSystemIdentifier"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "int"]
+- !private ["Ps23CustomStringConvertible", "manager"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "maxConcurrentOperationCount"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "needsFetch"]
+- !private ["Ps23CustomStringConvertible", "open"]
+- !private ["Ps23CustomStringConvertible", "precondition"]
+- !private ["Ps23CustomStringConvertible", "repository"]
+- !private ["Ps23CustomStringConvertible", "serialQueue"]
+- !private ["Ps23CustomStringConvertible", "status"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subpath"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "toBytes"]
+- !private ["Ps23CustomStringConvertible", "toJSON"]
+- !private ["Ps23CustomStringConvertible", "url"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "map"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["C8Dispatch14DispatchObject", "async"]
+- !private ["C8Dispatch14DispatchObject", "global"]
+- !private ["C8Dispatch14DispatchObject", "sync"]
+- !private ["C8Dispatch13DispatchQueue", "async"]
+- !private ["C8Dispatch13DispatchQueue", "global"]
+- ["C8Dispatch13DispatchQueue", "init"]
+- !private ["C8Dispatch13DispatchQueue", "sync"]
+- !private ["Ps9Equatable", "_code"]
+- !private ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "addOperation"]
+- !private ["Ps9Equatable", "appending"]
+- !private ["Ps9Equatable", "array"]
+- !private ["Ps9Equatable", "asString"]
+- !private ["Ps9Equatable", "available"]
+- !private ["Ps9Equatable", "dictionary"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "fileSystemIdentifier"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "int"]
+- !private ["Ps9Equatable", "invalidVersion"]
+- !private ["Ps9Equatable", "maxConcurrentOperationCount"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "pending"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "toBytes"]
+- !private ["Ps9Equatable", "unexpectedData"]
+- ["Ps9Equatable", "uninitialized"]
+- !private ["Ps9Equatable", "url"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "_code"]
+- !private ["Ps5Error", "_domain"]
+- !private ["Ps5Error", "_toAnyHashable"]
+- !private ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "invalidVersion"]
+- !private ["Ps5Error", "unexpectedData"]
+- !private ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "map"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "array"]
+- !private ["Ps23ExpressibleByNilLiteral", "int"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P5Basic10FileSystem", "exists"]
+- !private ["P5Basic10FileSystem", "readFileContents"]
+- !private ["P5Basic10FileSystem", "removeFileTree"]
+- !private ["P5Basic10FileSystem", "writeFileContents"]
+- !private ["Ps8Hashable", "_code"]
+- !private ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "addOperation"]
+- !private ["Ps8Hashable", "appending"]
+- !private ["Ps8Hashable", "asString"]
+- !private ["Ps8Hashable", "available"]
+- !private ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "fileSystemIdentifier"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidVersion"]
+- !private ["Ps8Hashable", "maxConcurrentOperationCount"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "pending"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "unexpectedData"]
+- ["Ps8Hashable", "uninitialized"]
+- !private ["Ps8Hashable", "url"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["O5Basic4JSON", "array"]
+- !private ["O5Basic4JSON", "dictionary"]
+- !private ["O5Basic4JSON", "init"]
+- !private ["O5Basic4JSON", "int"]
+- !private ["O5Basic4JSON", "string"]
+- !private ["O5Basic4JSON", "toBytes"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["C10Foundation8NSObject", "addOperation"]
+- !private ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "maxConcurrentOperationCount"]
+- !private ["C10Foundation8NSObject", "name"]
+- !private ["P10Foundation16NSObjectProtocol", "addOperation"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "maxConcurrentOperationCount"]
+- !private ["P10Foundation16NSObjectProtocol", "name"]
+- !private ["C10Foundation14OperationQueue", "addOperation"]
+- !private ["C10Foundation14OperationQueue", "init"]
+- !private ["C10Foundation14OperationQueue", "maxConcurrentOperationCount"]
+- !private ["C10Foundation14OperationQueue", "name"]
+- !private ["Sq", "array"]
+- !private ["Sq", "int"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "available"]
+- !private ["Ps16RawRepresentable", "error"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "pending"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "uninitialized"]
+- ["Ps16RawRepresentable", ""]
+- !private ["V5Basic12RelativePath", "asString"]
+- !private ["V5Basic12RelativePath", "init"]
+- !private ["P13SourceControl10Repository", "fetch"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "AbsolutePath"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "Bool"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "DispatchQueue"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "JSON"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "RelativePath"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "Repository"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "RepositoryManager"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "RepositorySpecifier"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "Status"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "String"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "cloneCheckout"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "deinit"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "description"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "init"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "manager"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "needsFetch"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "open"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "precondition"]
+- ["CC13SourceControl17RepositoryManager16RepositoryHandle", "repository"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "serialQueue"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "status"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "subpath"]
+- !private ["CC13SourceControl17RepositoryManager16RepositoryHandle", "toJSON"]
+- ["C13SourceControl17RepositoryManager", "AbsolutePath"]
+- ["C13SourceControl17RepositoryManager", "AnyError"]
+- ["C13SourceControl17RepositoryManager", "Bool"]
+- !private ["C13SourceControl17RepositoryManager", "Condition"]
+- ["C13SourceControl17RepositoryManager", "DispatchQueue"]
+- ["C13SourceControl17RepositoryManager", "FileSystem"]
+- !private ["C13SourceControl17RepositoryManager", "JSON"]
+- ["C13SourceControl17RepositoryManager", "LookupCompletion"]
+- ["C13SourceControl17RepositoryManager", "LookupResult"]
+- ["C13SourceControl17RepositoryManager", "OperationQueue"]
+- !private ["C13SourceControl17RepositoryManager", "PersistenceError"]
+- ["C13SourceControl17RepositoryManager", "RelativePath"]
+- ["C13SourceControl17RepositoryManager", "Repository"]
+- ["C13SourceControl17RepositoryManager", "RepositoryHandle"]
+- ["C13SourceControl17RepositoryManager", "RepositoryManager"]
+- ["C13SourceControl17RepositoryManager", "RepositoryManagerDelegate"]
+- ["C13SourceControl17RepositoryManager", "RepositoryProvider"]
+- ["C13SourceControl17RepositoryManager", "RepositorySpecifier"]
+- ["C13SourceControl17RepositoryManager", "Result"]
+- ["C13SourceControl17RepositoryManager", "String"]
+- !private ["C13SourceControl17RepositoryManager", "Swift"]
+- !private ["C13SourceControl17RepositoryManager", "cloneCheckout"]
+- ["C13SourceControl17RepositoryManager", "deinit"]
+- !private ["C13SourceControl17RepositoryManager", "delegate"]
+- !private ["C13SourceControl17RepositoryManager", "fatalError"]
+- !private ["C13SourceControl17RepositoryManager", "fileSystem"]
+- !private ["C13SourceControl17RepositoryManager", "getHandle"]
+- ["C13SourceControl17RepositoryManager", "init"]
+- !private ["C13SourceControl17RepositoryManager", "localFileSystem"]
+- ["C13SourceControl17RepositoryManager", "lookup"]
+- ["C13SourceControl17RepositoryManager", "lookupSynchronously"]
+- !private ["C13SourceControl17RepositoryManager", "open"]
+- !private ["C13SourceControl17RepositoryManager", "operationQueue"]
+- ["C13SourceControl17RepositoryManager", "path"]
+- !private ["C13SourceControl17RepositoryManager", "precondition"]
+- !private ["C13SourceControl17RepositoryManager", "print"]
+- ["C13SourceControl17RepositoryManager", "provider"]
+- ["C13SourceControl17RepositoryManager", "remove"]
+- !private ["C13SourceControl17RepositoryManager", "repositories"]
+- ["C13SourceControl17RepositoryManager", "reset"]
+- !private ["C13SourceControl17RepositoryManager", "restoreState"]
+- !private ["C13SourceControl17RepositoryManager", "saveState"]
+- !private ["C13SourceControl17RepositoryManager", "schemaVersion"]
+- !private ["C13SourceControl17RepositoryManager", "serialQueue"]
+- ["C13SourceControl17RepositoryManager", "statePath"]
+- ["P13SourceControl25RepositoryManagerDelegate", "AbsolutePath"]
+- ["P13SourceControl25RepositoryManagerDelegate", "RepositoryManager"]
+- ["P13SourceControl25RepositoryManagerDelegate", "fetching"]
+- !private ["P13SourceControl18RepositoryProvider", "cloneCheckout"]
+- !private ["P13SourceControl18RepositoryProvider", "fetch"]
+- !private ["P13SourceControl18RepositoryProvider", "open"]
+- !private ["V13SourceControl19RepositorySpecifier", "fileSystemIdentifier"]
+- !private ["V13SourceControl19RepositorySpecifier", "init"]
+- !private ["V13SourceControl19RepositorySpecifier", "url"]
+- !private ["O5Basic6Result", "dematerialize"]
+- !private ["O5Basic6Result", "init"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "RawValue"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "_toAnyHashable"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "available"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "deinit"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "error"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "hashValue"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "init"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "pending"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "rawValue"]
+- ["OCC13SourceControl17RepositoryManager16RepositoryHandle6Status", "uninitialized"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_code"]
+- !private ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "addOperation"]
+- !private ["Ps9_Hashable", "appending"]
+- !private ["Ps9_Hashable", "asString"]
+- !private ["Ps9_Hashable", "available"]
+- !private ["Ps9_Hashable", "error"]
+- !private ["Ps9_Hashable", "fileSystemIdentifier"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidVersion"]
+- !private ["Ps9_Hashable", "maxConcurrentOperationCount"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "pending"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "unexpectedData"]
+- ["Ps9_Hashable", "uninitialized"]
+- !private ["Ps9_Hashable", "url"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "V5Basic12AbsolutePath"
+- "Ps9AnyObject"
+- "P7Utility12ArgumentKind"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "P5Basic14ByteStreamable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "V5Basic9Condition"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "C8Dispatch14DispatchObject"
+- "C8Dispatch13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P5Basic10FileSystem"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "O5Basic4JSON"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- !private "C10Foundation14OperationQueue"
+- !private "Sq"
+- "Ps16RawRepresentable"
+- !private "V5Basic12RelativePath"
+- !private "P13SourceControl10Repository"
+- "CC13SourceControl17RepositoryManager16RepositoryHandle"
+- "C13SourceControl17RepositoryManager"
+- "P13SourceControl25RepositoryManagerDelegate"
+- !private "P13SourceControl18RepositoryProvider"
+- !private "V13SourceControl19RepositorySpecifier"
+- !private "O5Basic6Result"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "OCC13SourceControl17RepositoryManager16RepositoryHandle6Status"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Utility.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+interface-hash: "7145f6be7bd4ffd56f7bc30a021ee181"

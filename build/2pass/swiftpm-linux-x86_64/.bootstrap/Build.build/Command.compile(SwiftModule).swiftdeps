@@ -1,0 +1,191 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V5Build7Command", ""]
+- ["V5Build7Command", "compile"]
+depends-top-level:
+- !private "+"
+- !private "+="
+- "AbsolutePath"
+- !private "Array"
+- "Command"
+- "Configuration"
+- "String"
+- !private "StringLiteralType"
+- "SwiftModule"
+- !private "SwiftcTool"
+depends-member:
+- !private ["V5Basic12AbsolutePath", "asString"]
+- !private ["Ps9AnyObject", "XccFlags"]
+- !private ["Ps9AnyObject", "moduleCacheArgs"]
+- !private ["Ps9AnyObject", "pkgConfigSwiftcArgs"]
+- !private ["Ps9AnyObject", "targetName"]
+- !private ["P7Utility12ArgumentKind", "init"]
+- !private ["P5Build9Buildable", "XccFlags"]
+- !private ["P5Build9Buildable", "moduleCacheArgs"]
+- !private ["P5Build9Buildable", "pkgConfigSwiftcArgs"]
+- !private ["P5Build9Buildable", "targetName"]
+- !private ["P5Basic14ByteStreamable", "init"]
+- !private ["P5Build19ClangModuleCachable", "XccFlags"]
+- !private ["P5Build19ClangModuleCachable", "moduleCacheArgs"]
+- !private ["P5Build19ClangModuleCachable", "pkgConfigSwiftcArgs"]
+- !private ["P5Build19ClangModuleCachable", "targetName"]
+- ["V5Build7Command", "AbsolutePath"]
+- ["V5Build7Command", "Command"]
+- ["V5Build7Command", "Configuration"]
+- ["V5Build7Command", "String"]
+- ["V5Build7Command", "SwiftModule"]
+- !private ["V5Build7Command", "SwiftcTool"]
+- ["V5Build7Command", "compile"]
+- !private ["V5Build7Command", "init"]
+- !private ["Ps10Comparable", "asString"]
+- !private ["Ps10Comparable", "init"]
+- ["O5Build13Configuration", "debug"]
+- ["O5Build13Configuration", "release"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "XccFlags"]
+- !private ["Ps23CustomStringConvertible", "asString"]
+- ["Ps23CustomStringConvertible", "debug"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "moduleCacheArgs"]
+- !private ["Ps23CustomStringConvertible", "pkgConfigSwiftcArgs"]
+- ["Ps23CustomStringConvertible", "release"]
+- !private ["Ps23CustomStringConvertible", "targetName"]
+- !private ["Ps9Equatable", "XccFlags"]
+- !private ["Ps9Equatable", "asString"]
+- ["Ps9Equatable", "debug"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "moduleCacheArgs"]
+- !private ["Ps9Equatable", "pkgConfigSwiftcArgs"]
+- ["Ps9Equatable", "release"]
+- !private ["Ps9Equatable", "targetName"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "XccFlags"]
+- !private ["Ps8Hashable", "asString"]
+- ["Ps8Hashable", "debug"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "moduleCacheArgs"]
+- !private ["Ps8Hashable", "pkgConfigSwiftcArgs"]
+- ["Ps8Hashable", "release"]
+- !private ["Ps8Hashable", "targetName"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["C12PackageModel6Module", "XccFlags"]
+- !private ["C12PackageModel6Module", "moduleCacheArgs"]
+- !private ["C12PackageModel6Module", "pkgConfigSwiftcArgs"]
+- !private ["C12PackageModel6Module", "targetName"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "XccFlags"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "moduleCacheArgs"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "pkgConfigSwiftcArgs"]
+- !private ["P5Basic24ObjectIdentifierProtocol", "targetName"]
+- ["Ps16RawRepresentable", "debug"]
+- ["Ps16RawRepresentable", "release"]
+- !private ["SS", "init"]
+- !private ["C12PackageModel11SwiftModule", "XccFlags"]
+- !private ["C12PackageModel11SwiftModule", "deinit"]
+- !private ["C12PackageModel11SwiftModule", "moduleCacheArgs"]
+- !private ["C12PackageModel11SwiftModule", "pkgConfigSwiftcArgs"]
+- !private ["C12PackageModel11SwiftModule", "targetName"]
+- !private ["V5Build10SwiftcTool", "deinit"]
+- !private ["V5Build10SwiftcTool", "init"]
+- !private ["V5Build10SwiftcTool", "numThreads"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P5Build12ToolProtocol", "init"]
+- !private ["P5Build12ToolProtocol", "numThreads"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "XccFlags"]
+- !private ["Ps9_Hashable", "asString"]
+- ["Ps9_Hashable", "debug"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "moduleCacheArgs"]
+- !private ["Ps9_Hashable", "pkgConfigSwiftcArgs"]
+- ["Ps9_Hashable", "release"]
+- !private ["Ps9_Hashable", "targetName"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- !private "V5Basic12AbsolutePath"
+- !private "Ps9AnyObject"
+- !private "P7Utility12ArgumentKind"
+- !private "P5Build9Buildable"
+- !private "P5Basic14ByteStreamable"
+- !private "P5Build19ClangModuleCachable"
+- "V5Build7Command"
+- !private "Ps10Comparable"
+- "O5Build13Configuration"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "C12PackageModel6Module"
+- !private "P5Basic24ObjectIdentifierProtocol"
+- "Ps16RawRepresentable"
+- !private "SS"
+- !private "C12PackageModel11SwiftModule"
+- !private "V5Build10SwiftcTool"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P5Build12ToolProtocol"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/Visibility.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdbool.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStdint.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/UnicodeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/SwiftStddef.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/LibcShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeStubs.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RuntimeShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/RefCount.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/HeapObject.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/GlobalObjects.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/FoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/CoreFoundationShims.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/AssertionReporting.h"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/swift-corelibs-libdispatch/dispatch/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/shims/module.modulemap"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Basic.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/foundation-linux-x86_64/Foundation/Foundation.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/libdispatch-linux-x86_64/src/swift/Dispatch.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swift-linux-x86_64/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/POSIX.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/libc.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageModel.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageDescription.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/Utility.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageLoading.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/PackageGraph.swiftmodule"
+- "/home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/swiftpm-linux-x86_64/.bootstrap/modules/SourceControl.swiftmodule"
+interface-hash: "9d1386397e3fac30afc4019c89089196"

@@ -1,0 +1,12 @@
+Performing C SOURCE FILE Test HAVE_FLAG_ADDRESS_SANITIZER failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/cmark-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_b565b"
+[1/2] Building C object CMakeFiles/cmTC_b565b.dir/src.c.o
+FAILED: /usr/bin/clang    -DHAVE_FLAG_ADDRESS_SANITIZER -Werror -faddress-sanitizer   -faddress-sanitizer -o CMakeFiles/cmTC_b565b.dir/src.c.o   -c src.c
+clang: error: unknown argument: '-faddress-sanitizer'
+clang: error: unknown argument: '-faddress-sanitizer'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main(void) { return 0; }

@@ -1,0 +1,230 @@
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FFREESTANDING_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_1d8a3"
+[1/2] Building CXX object CMakeFiles/cmTC_1d8a3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_1d8a3
+FAILED: : && /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++   -DCOMPILER_RT_HAS_FFREESTANDING_FLAG   CMakeFiles/cmTC_1d8a3.dir/src.cxx.o  -o cmTC_1d8a3   && :
+/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+clang-4.0: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_GR_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_ebfe5"
+[1/2] Building CXX object CMakeFiles/cmTC_ebfe5.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_GR_FLAG   /GR -o CMakeFiles/cmTC_ebfe5.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/GR'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_GS_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_ad89f"
+[1/2] Building CXX object CMakeFiles/cmTC_ad89f.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_GS_FLAG   /GS -o CMakeFiles/cmTC_ad89f.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/GS'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_MT_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_2e6f7"
+[1/2] Building CXX object CMakeFiles/cmTC_2e6f7.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_MT_FLAG   /MT -o CMakeFiles/cmTC_2e6f7.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/MT'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_Oy_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_85497"
+[1/2] Building CXX object CMakeFiles/cmTC_85497.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_Oy_FLAG   /Oy -o CMakeFiles/cmTC_85497.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/Oy'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_Zi_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_ec7f0"
+[1/2] Building CXX object CMakeFiles/cmTC_ec7f0.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_Zi_FLAG   /Zi -o CMakeFiles/cmTC_ec7f0.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/Zi'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_W4_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_3ad47"
+[1/2] Building CXX object CMakeFiles/cmTC_3ad47.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_W4_FLAG   /W4 -o CMakeFiles/cmTC_3ad47.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/W4'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WX_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_a2c4b"
+[1/2] Building CXX object CMakeFiles/cmTC_a2c4b.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_WX_FLAG   /WX -o CMakeFiles/cmTC_a2c4b.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/WX'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4146_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_75f49"
+[1/2] Building CXX object CMakeFiles/cmTC_75f49.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_WD4146_FLAG   /wd4146 -o CMakeFiles/cmTC_75f49.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/wd4146'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4291_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_78e7d"
+[1/2] Building CXX object CMakeFiles/cmTC_78e7d.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_WD4291_FLAG   /wd4291 -o CMakeFiles/cmTC_78e7d.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/wd4291'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4221_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_ab893"
+[1/2] Building CXX object CMakeFiles/cmTC_ab893.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_WD4221_FLAG   /wd4221 -o CMakeFiles/cmTC_ab893.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/wd4221'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4391_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c576e"
+[1/2] Building CXX object CMakeFiles/cmTC_c576e.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_WD4391_FLAG   /wd4391 -o CMakeFiles/cmTC_c576e.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/wd4391'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4722_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_4d99d"
+[1/2] Building CXX object CMakeFiles/cmTC_4d99d.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_WD4722_FLAG   /wd4722 -o CMakeFiles/cmTC_4d99d.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/wd4722'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4800_FLAG failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_23ba8"
+[1/2] Building CXX object CMakeFiles/cmTC_23ba8.dir/src.cxx.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang++     -DCOMPILER_RT_HAS_WD4800_FLAG   /wd4800 -o CMakeFiles/cmTC_23ba8.dir/src.cxx.o -c src.cxx
+clang-4.0: error: no such file or directory: '/wd4800'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }
+Determining if the __i686__ exist failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_73736"
+[1/2] Building C object CMakeFiles/cmTC_73736.dir/CheckSymbolExists.c.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang    -m32 -o CMakeFiles/cmTC_73736.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:7:19: error: use of undeclared identifier '__i686__'
+  return ((int*)(&__i686__))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i686__
+  return ((int*)(&__i686__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __i386__ exist failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_df80b"
+[1/2] Building C object CMakeFiles/cmTC_df80b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_df80b
+FAILED: : && /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang  -m32   CMakeFiles/cmTC_df80b.dir/CheckSymbolExists.c.o  -o cmTC_df80b   && :
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find crtbegin.o: No such file or directory
+/usr/bin/ld: cannot find -lgcc
+/usr/bin/ld: cannot find -lgcc_s
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find -lgcc
+/usr/bin/ld: cannot find -lgcc_s
+/usr/bin/ld: cannot find crtend.o: No such file or directory
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+clang-4.0: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+File /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386__
+  return ((int*)(&__i386__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file tirpc/rpc/xdr.h exists failed with the following output:
+Change Dir: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/tools/clang/runtime/compiler-rt-bins/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c860b"
+[1/2] Building C object CMakeFiles/cmTC_c860b.dir/CheckIncludeFile.c.o
+FAILED: /home/felix/Desktop/NativeSetup/swift-linuxSetup/native_install/build/2pass/llvm-linux-x86_64/./bin/clang    -Wall -Wno-unused-parameter -o CMakeFiles/cmTC_c860b.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'tirpc/rpc/xdr.h' file not found
+#include <tirpc/rpc/xdr.h>
+         ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
